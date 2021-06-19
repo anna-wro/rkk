@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest && npm run check-formatting && npm run lint",
+    "test:watch": "jest --watch",
     "check-formatting": "prettier --check './src/**/*.{ts,tsx}'",
     "fix-formatting": "prettier --write './src/**/*.{ts,tsx}'",
     "lint": "next lint"
@@ -17,6 +18,9 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@testing-library/dom": "^7.26.6",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.1.2",
     "@types/node": "^14.14.6",
     "@types/react": "^16.9.56",
     "autoprefixer": "^10.2.6",
@@ -24,6 +28,7 @@
     "eslint": "7.29.0",
     "eslint-config-next": "11.0.0",
     "husky": "^4.3.6",
+    "jest": "^26.6.3",
     "lint-staged": "^11.0.0",
     "postcss": "^8.3.5",
     "prettier": "^2.3.1",
