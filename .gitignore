@@ -18,6 +18,8 @@
 # misc
 .DS_Store
 *.pem
+.eslintcache
+package-lock.json
 
 # debug
 npm-debug.log*

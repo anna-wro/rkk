@@ -1,0 +1,12 @@
+/* custom styles go here */
+
+.box {
+  @apply p-6;
+  @apply mt-6;
+  @apply text-left;
+  @apply border;
+  @apply w-96;
+  @apply rounded-xl;
+  @apply hover:text-blue-600;
+  @apply focus:text-blue-600;
+}
