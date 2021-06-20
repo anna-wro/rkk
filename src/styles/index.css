@@ -7,6 +7,6 @@
   @apply border;
   @apply w-96;
   @apply rounded-xl;
-  @apply hover:text-blue-600;
-  @apply focus:text-blue-600;
+  @apply hover:text-red-600;
+  @apply focus:text-red-600;
 }
