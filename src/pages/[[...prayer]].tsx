@@ -7,7 +7,6 @@ import path from 'path';
 export default function Home({ prayers }) {
   const router = useRouter();
   const { prayer } = router.query;
-  console.log(prayers[0]);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
