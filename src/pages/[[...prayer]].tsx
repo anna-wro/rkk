@@ -7,8 +7,7 @@ import path from 'path';
 export default function Home({ prayers }) {
   const router = useRouter();
   const { prayer } = router.query;
-
-  console.log({ prayer });
+  console.log(prayers[0]);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
@@ -32,17 +31,18 @@ export async function getStaticPaths() {
   };
 }
 
-const DATA_PATH = path.join(process.cwd(), 'src/data');
-const dataFilePaths = fs
-  .readdirSync(DATA_PATH)
-  .filter(path => /\.json?$/.test(path));
-
 export function getStaticProps() {
+  const DATA_PATH = path.join(process.cwd(), 'src/data');
+  const dataFilePaths = fs
+    .readdirSync(DATA_PATH)
+    .filter(path => /\.json?$/.test(path));
+
   const prayers = dataFilePaths.map(filePath => {
+    const [type, day, week] = filePath.replace('.json', '').split('_');
     const source = fs.readFileSync(path.join(DATA_PATH, filePath));
     const obj = JSON.parse(source.toString());
-    console.log({ obj });
-    return obj;
+
+    return { ...obj, type, day, week };
   });
   return { props: { prayers } };
 }
