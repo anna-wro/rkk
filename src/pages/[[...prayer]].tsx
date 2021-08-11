@@ -8,6 +8,7 @@ import getPrayerSlug from 'utils/getPrayerSlug';
 export default function Home({ prayers }) {
   const router = useRouter();
   const { prayer } = router.query;
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
