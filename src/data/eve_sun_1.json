@@ -1,667 +1,646 @@
 {
-  "time": 1625327109295,
+  "time": 1628709916793,
   "blocks": [
     {
-      "id": "yNEdt5xvyE",
       "type": "header",
-      "data": { "text": "Wigilia | Niedziela pierwszego tygodnia", "level": 1 }
-    },
-    {
-      "id": "nMECTr__pn",
-      "type": "paragraph",
-      "data": { "text": "K. † Boże, wejrzyj ku wspomożeniu memu." }
-    },
-    {
-      "id": "OXzYs2SG1L",
-      "type": "paragraph",
       "data": {
-        "text": "<b>W. Panie, pośpiesz ku ratunkowi memu.<br>Chwała Ojcu i Synowi, i Duchowi Świętemu.<br>Jak była na początku, teraz i zawsze,<br>i na wieki wieków. Amen. Alleluja.<br></b>"
+        "text": "Wigilia | Niedziela&nbsp;pierwszego tygodnia",
+        "level": 1
       }
     },
     {
-      "id": "mZZ2sOy1aX",
-      "type": "header",
-      "data": { "text": "HYMN", "level": 2 }
+      "type": "paragraph",
+      "data": {
+        "text": "K. † Boże, wejrzyj ku wspomożeniu memu."
+      }
     },
     {
-      "id": "2Zh8d7ClBU",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>W. Panie, pośpiesz ku ratunkowi memu.<br>Chwała Ojcu i Synowi, i Duchowi Świętemu.<br>Jak była na początku, teraz i zawsze,<br>i na wieki wieków. Amen. Alleluja.</b>"
+      }
+    },
+    {
+      "type": "header",
+      "data": {
+        "text": "HYMN",
+        "level": 2
+      }
+    },
+    {
       "type": "list",
       "data": {
         "style": "ordered",
         "items": [
-          "Boże, Stwórco wszystkich rzeczy,<br>Który władasz przestworzami,<br>Jasnym blaskiem dnie ozdabiasz,<br>Darem snu napełniasz noce.",
+          "Boże, Stwórco wszystkich rzeczy,<br>Który władasz przestworzami,<br>Jasnym blaskiem dnie ozdabiasz,<br>Darem snu napełniasz noce",
           "Niech spoczynek nam przywróci<br>Sprawność znużonego ciała,<br>Myśl odświeży, a sumienie<br>Łaską skruchy niech ukoi.",
           "Kiedy dzień dobiega kresu<br>I wieczorny mrok zapada,<br>Hymn śpiewamy Ci wdzięczności,<br>Ty zaś grzesznych broń od złego.",
           "Ciebie dusza niech wysławia,<br>Ciebie głos niech pieśnią chwali,<br>Trzeźwy umysł Cię wywyższa<br>I miłuje serce czyste.",
-          "Gdy głęboki cień pochłonie <br>Promień światła słonecznego, <br>Niech mu nie ulegnie wiara,<br>Lecz rozbłyśnie wśród ciemności.",
+          "Gdy głęboki cień pochłonie<br>Promień światła słonecznego,<br>Niech mu nie ulegnie wiara,<br>Lecz rozbłyśnie wśród ciemności.",
           "Spraw to, miłosierny Ojcze,<br>Ty, co razem z Twoim Synem<br>Oraz Duchem równym Obu<br>Jesteś Królem wszystkich wieków. Amen."
         ]
       }
     },
     {
-      "id": "QgJw17l4DK",
       "type": "header",
-      "data": { "text": "PSALMODIA", "level": 2 }
+      "data": {
+        "text": "PSALMODIA",
+        "level": 2
+      }
     },
     {
-      "id": "g1JKJipEq2",
       "type": "header",
-      "data": { "text": "Psalm 23", "level": 3 }
+      "data": {
+        "text": "Psalm 23",
+        "level": 3
+      }
     },
     {
-      "id": "wJpd-aE4nZ",
       "type": "paragraph",
       "data": {
         "text": "<mark class=\"cdx-marker\">1 ant. Prowadź nas, Panie, * do źródeł wód życia.</mark>"
       }
     },
     {
-      "id": "zRSicokGPq",
       "type": "paragraph",
       "data": {
-        "text": "Pan jest moim pasterzem, niczego mi nie braknie, *<br>pozwala mi leżeć na zielonych pastwiskach.<br>"
+        "text": "Pan jest moim pasterzem, niczego mi nie braknie, *<br>pozwala mi leżeć na zielonych pastwiskach."
       }
     },
     {
-      "id": "yTQeOL5Wi2",
       "type": "paragraph",
       "data": {
-        "text": "Prowadzi mnie nad wody, gdzie odpocząć mogę, *<br>orzeźwia moją duszę.<br>"
+        "text": "Prowadzi mnie nad wody, gdzie odpocząć mogę, *<br>orzeźwia moją duszę."
       }
     },
     {
-      "id": "KGEa8O68ng",
       "type": "paragraph",
       "data": {
-        "text": "Wiedzie mnie po ścieżkach właściwych *<br>przez wzgląd na swoją chwałę.<br>"
+        "text": "Wiedzie mnie po ścieżkach właściwych *<br>przez wzgląd na swoją chwałę."
       }
     },
     {
-      "id": "oXug9Oj-Vm",
       "type": "paragraph",
       "data": {
-        "text": "Chociażbym przechodził przez ciemną dolinę, *<br>zła się nie ulęknę, bo Ty jesteś ze mną.<br>"
+        "text": "Chociażbym przechodził przez ciemną dolinę, *<br>zła się nie ulęknę, bo Ty jesteś ze mną."
       }
     },
     {
-      "id": "DfvCLlWhMZ",
       "type": "paragraph",
       "data": {
-        "text": "Kij Twój i laska pasterska *<br>są moją pociechą.<br>"
+        "text": "Kij Twój i laska pasterska *<br>są moją pociechą."
       }
     },
     {
-      "id": "coVtUKpbbO",
       "type": "paragraph",
       "data": {
-        "text": "Stół dla mnie zastawiasz *<br>na oczach moich wrogów,<br>"
+        "text": "Stół dla mnie zastawiasz *<br>na oczach moich wrogów,"
       }
     },
     {
-      "id": "K_leHzmUYE",
       "type": "paragraph",
       "data": {
-        "text": "Namaszczasz mi głowę olejkiem, *<br>kielich mój pełny po brzegi.<br>"
+        "text": "Namaszczasz mi głowę olejkiem, *<br>kielich mój pełny po brzegi."
       }
     },
     {
-      "id": "HmkRvF6dhu",
       "type": "paragraph",
       "data": {
-        "text": "Dobroć i łaska pójdą w ślad za mną *<br>przez wszystkie dni życia.<br>"
+        "text": "Dobroć i łaska pójdą w ślad za mną *<br>przez wszystkie dni życia."
       }
     },
     {
-      "id": "zhxBVjf2D7",
       "type": "paragraph",
       "data": {
-        "text": "I zamieszkam w domu Pana *<br>po najdłuższe czasy.<br>"
+        "text": "I zamieszkam w domu Pana *<br>po najdłuższe czasy."
       }
     },
     {
-      "id": "qr87o-GaNB",
-      "type": "paragraph",
-      "data": { "text": "Chwała Ojcu i Synowi, *<br>i Duchowi Świętemu.<br>" }
-    },
-    {
-      "id": "iVKK0Rv-pT",
       "type": "paragraph",
       "data": {
-        "text": "Jak była na początku, teraz i zawsze, *<br>i na wieki wieków. Amen.<br>"
+        "text": "Chwała Ojcu i Synowi, *<br>i Duchowi Świętemu."
       }
     },
     {
-      "id": "w4g9I1XBTo",
+      "type": "paragraph",
+      "data": {
+        "text": "Jak była na początku, teraz i zawsze, *<br>i na wieki wieków. Amen."
+      }
+    },
+    {
       "type": "paragraph",
       "data": {
         "text": "<mark class=\"cdx-marker\">Ant. Prowadź nas, Panie, / do źródeł wód życia.</mark>"
       }
     },
     {
-      "id": "atn8Dyddyq",
       "type": "header",
-      "data": { "text": "Psalm 138", "level": 3 }
+      "data": {
+        "text": "Psalm 138",
+        "level": 3
+      }
     },
     {
-      "id": "jUSfuyPs3E",
       "type": "paragraph",
       "data": {
         "text": "<mark class=\"cdx-marker\">2 ant. Wobec aniołów będę śpiewał Panu, * będę wielbił Jego imię święte.</mark>"
       }
     },
     {
-      "id": "L-JX0T7qDC",
       "type": "paragraph",
       "data": {
-        "text": "Będę Cię sławił z całego serca, Panie, * <br>bo usłyszałeś słowa ust moich.<br>"
+        "text": "Będę Cię sławił z całego serca, Panie, *<br>bo usłyszałeś słowa ust moich."
       }
     },
     {
-      "id": "4QIVvlexKq",
       "type": "paragraph",
       "data": {
-        "text": "Będę psalm Ci śpiewał wobec aniołów, *\n<br>pokłon Ci oddam w Twoim świętym przybytku."
+        "text": "Będę psalm Ci śpiewał wobec aniołów, *<br>pokłon Ci oddam w Twoim świętym przybytku."
       }
     },
     {
-      "id": "WHGr6hsAbu",
       "type": "paragraph",
       "data": {
-        "text": "I będę sławił Twe imię †\n<br>za łaskę i wierność Twoją, *\n<br>bo ponad wszystko wywyższyłeś Twe imię i obietnicę."
+        "text": "I będę sławił Twe imię †<br>za łaskę i wierność Twoją, *<br>bo ponad wszystko wywyższyłeś Twe imię i obietnicę."
       }
     },
     {
-      "id": "aqgo7b-qDF",
       "type": "paragraph",
       "data": {
-        "text": "Wysłuchałeś mnie, kiedy Cię wzywałem, *\n<br>pomnożyłeś moc mojej duszy."
+        "text": "Wysłuchałeś mnie, kiedy Cię wzywałem, *<br>pomnożyłeś moc mojej duszy."
       }
     },
     {
-      "id": "F4q-puMlS_",
       "type": "paragraph",
       "data": {
-        "text": "Wszyscy królowie ziemi będą dziękować Tobie, Panie, *\n<br>gdy usłyszą słowa ust Twoich.\n"
+        "text": "Wszyscy królowie ziemi będą dziękować Tobie, Panie, *<br>gdy usłyszą słowa ust Twoich."
       }
     },
     {
-      "id": "yJXik6C70f",
       "type": "paragraph",
       "data": {
-        "text": "I będą opiewać drogi Pana: *\n<br>\"Zaprawdę, chwała Pana jest wielka!\"\n"
+        "text": "I będą opiewać drogi Pana: *<br>\"Zaprawdę, chwała Pana jest wielka!\""
       }
     },
     {
-      "id": "QcSmACmdPc",
       "type": "paragraph",
       "data": {
-        "text": "Zaprawdę, Pan jest wzniosły, †\n<br>patrzy łaskawie na pokornego, *\n<br>pyszałka zaś dostrzega z daleka.\n"
+        "text": "Zaprawdę, Pan jest wzniosły, †<br>patrzy łaskawie na pokornego, *<br>pyszałka zaś dostrzega z daleka."
       }
     },
     {
-      "id": "KqMkf5wX_9",
       "type": "paragraph",
       "data": {
-        "text": "Gdy chodzę wśród utrapienia, Ty podtrzymujesz me życie, †\n<br>wyciągasz swoją rękę przeciw gniewowi mych wrogów, *\n<br>wybawia mnie Twoja prawica.\n"
+        "text": "Gdy chodzę wśród utrapienia, Ty podtrzymujesz me życie, †<br>wyciągasz swoją rękę przeciw gniewowi mych wrogów, *<br>wybawia mnie Twoja prawica."
       }
     },
     {
-      "id": "YxriI2cAvk",
       "type": "paragraph",
       "data": {
-        "text": "Pan za mnie wszystkiego dokona. †\n<br>Panie, Twa łaska trwa na wieki, *\n<br>nie porzucaj dzieła rąk swoich!\n"
+        "text": "Pan za mnie wszystkiego dokona. †<br>Panie, Twa łaska trwa na wieki, *<br>nie porzucaj dzieła rąk swoich!"
       }
     },
     {
-      "id": "oWdP6-wFCi",
-      "type": "paragraph",
-      "data": { "text": "Chwała Ojcu i Synowi, *<br>i Duchowi Świętemu.<br>" }
-    },
-    {
-      "id": "OewOue2jfy",
       "type": "paragraph",
       "data": {
-        "text": "Jak była na początku, teraz i zawsze, *<br>i na wieki wieków. Amen.<br>"
+        "text": "Chwała Ojcu i Synowi, *<br>i Duchowi Świętemu."
       }
     },
     {
-      "id": "7ntlaGVHfB",
       "type": "paragraph",
       "data": {
-        "text": "<mark class=\"cdx-marker\">Ant. Wobec aniołów będę śpiewał Panu, / będę wielbił Jego imię święte.</mark>"
+        "text": "Jak była na początku, teraz i zawsze, *<br>i na wieki wieków. Amen."
       }
     },
     {
-      "id": "MKa4WnfiLi",
+      "type": "paragraph",
+      "data": {
+        "text": "<mark class=\"cdx-marker\">Ant. Wobec aniołów będę śpiewał Panu, / będę wielbił Jego imię święte.</mark>"
+      }
+    },
+    {
       "type": "header",
-      "data": { "text": "Psalm 24", "level": 3 }
+      "data": {
+        "text": "Psalm 24",
+        "level": 3
+      }
     },
     {
-      "id": "OjiH0foaTm",
       "type": "paragraph",
       "data": {
         "text": "<mark class=\"cdx-marker\">3 ant. Człowiek rąk nieskalanych i czystego serca * wstąpi na górę Pana.</mark>"
       }
     },
     {
-      "id": "ToCE_xne1h",
       "type": "paragraph",
       "data": {
-        "text": "Do Pana należy ziemia i wszystko, co ją napełnia, *\n<br>świat cały i jego mieszkańcy.\n"
+        "text": "Do Pana należy ziemia i wszystko, co ją napełnia, *<br>świat cały i jego mieszkańcy."
       }
     },
     {
-      "id": "4be7i0whw_",
       "type": "paragraph",
       "data": {
-        "text": "Albowiem On go na morzach osadził *\n<br>i utwierdził ponad rzekami.\n"
+        "text": "Albowiem On go na morzach osadził *<br>i utwierdził ponad rzekami."
       }
     },
     {
-      "id": "TWdpuCcoyR",
       "type": "paragraph",
       "data": {
-        "text": "Kto wstąpi na górę Pana, *\n<br>kto stanie w Jego świętym miejscu?\n"
+        "text": "Kto wstąpi na górę Pana, *<br>kto stanie w Jego świętym miejscu?"
       }
     },
     {
-      "id": "rPT2RJhhYf",
       "type": "paragraph",
       "data": {
-        "text": "Człowiek rąk nieskalanych i czystego serca, †\n<br>którego dusza nie lgnęła do marności *\n<br>i nie przysięgał kłamliwie.\n"
+        "text": "Człowiek rąk nieskalanych i czystego serca, †<br>którego dusza nie lgnęła do marności *<br>i nie przysięgał kłamliwie."
       }
     },
     {
-      "id": "srtRgn2Atc",
       "type": "paragraph",
       "data": {
-        "text": "On otrzyma błogosławieństwo od Pana, *\n<br>i zapłatę od Boga, swego Zbawcy.\n"
+        "text": "On otrzyma błogosławieństwo od Pana, *<br>i zapłatę od Boga, swego Zbawcy."
       }
     },
     {
-      "id": "FU2TzQu1eM",
       "type": "paragraph",
       "data": {
-        "text": "Oto pokolenie tych, którzy Go szukają, *\n<br>którzy szukają oblicza Boga Jakuba.\n"
+        "text": "Oto pokolenie tych, którzy Go szukają, *<br>którzy szukają oblicza Boga Jakuba."
       }
     },
     {
-      "id": "HDLVepfial",
       "type": "paragraph",
       "data": {
-        "text": "Bramy, podnieście swe szczyty, †\n<br>unieście się, odwieczne podwoje, *\n<br>aby mógł wkroczyć Król chwały!\n"
+        "text": "Bramy, podnieście swe szczyty, †<br>unieście się, odwieczne podwoje, *<br>aby mógł wkroczyć Król chwały!"
       }
     },
     {
-      "id": "atRjbnS_9g",
       "type": "paragraph",
       "data": {
-        "text": "\"Któż jest tym Królem chwały?\" †\n<br>Pan dzielny i potężny, *\n<br>Pan potężny w boju.\n"
+        "text": "\"Któż jest tym Królem chwały?\" †<br>Pan dzielny i potężny, *<br>Pan potężny w boju."
       }
     },
     {
-      "id": "8cPnfdBF8t",
       "type": "paragraph",
       "data": {
-        "text": "Bramy, podnieście swe szczyty, †\n<br>unieście się, odwieczne podwoje, *\n<br>aby mógł wkroczyć Król chwały!\n"
+        "text": "Bramy, podnieście swe szczyty, †<br>unieście się, odwieczne podwoje, *<br>aby mógł wkroczyć Król chwały!"
       }
     },
     {
-      "id": "4-5fQEJuLj",
       "type": "paragraph",
       "data": {
-        "text": "\"Kto jest tym Królem chwały?\" *\n<br>Pan Zastępów, On jest Królem chwały.\n"
+        "text": "\"Kto jest tym Królem chwały?\" *<br>Pan Zastępów, On jest Królem chwały."
       }
     },
     {
-      "id": "k26dW7veo9",
-      "type": "paragraph",
-      "data": { "text": "Chwała Ojcu i Synowi, *<br>i Duchowi Świętemu.<br>" }
-    },
-    {
-      "id": "tMHNcaNdHz",
       "type": "paragraph",
       "data": {
-        "text": "Jak była na początku, teraz i zawsze, *<br>i na wieki wieków. Amen.<br>"
+        "text": "Chwała Ojcu i Synowi, *<br>i Duchowi Świętemu."
       }
     },
     {
-      "id": "FCqRwZuISy",
       "type": "paragraph",
       "data": {
-        "text": "<mark class=\"cdx-marker\">Ant. Człowiek rąk nieskalanych i czystego serca / wstąpi na górę Pana.\n</mark>"
+        "text": "Jak była na początku, teraz i zawsze, *<br>i na wieki wieków. Amen."
       }
     },
     {
-      "id": "DQaw2KCWwb",
+      "type": "paragraph",
+      "data": {
+        "text": "<mark class=\"cdx-marker\">Ant. Człowiek rąk nieskalanych i czystego serca / wstąpi na górę Pana.</mark>"
+      }
+    },
+    {
       "type": "header",
-      "data": { "text": "Pieśń (Hbr 5, 5. 7-9)", "level": 3 }
+      "data": {
+        "text": "Pieśń (Hbr 5, 5. 7-9)",
+        "level": 3
+      }
     },
     {
-      "id": "I37_Xxi7NJ",
       "type": "paragraph",
       "data": {
         "text": "<mark class=\"cdx-marker\">4 ant. Chrystus stał się sprawcą wiecznego zbawienia * dla wszystkich, którzy Go słuchają, / alleluja.</mark>"
       }
     },
     {
-      "id": "zd74CCtkG0",
       "type": "paragraph",
       "data": {
-        "text": "Chrystus nie sam siebie okrył sławą *\n<br>przez to, że stał się Arcykapłanem.\n"
+        "text": "Chrystus nie sam siebie okrył sławą *<br>przez to, że stał się Arcykapłanem."
       }
     },
     {
-      "id": "HQYai22o0N",
       "type": "paragraph",
       "data": {
-        "text": "Ale uczynił to Ten, który powiedział do Niego: *\n<br>\"Ty jesteś moim Synem, Jam Cię dziś zrodził\".\n"
+        "text": "Ale uczynił to Ten, który powiedział do Niego: *<br>\"Ty jesteś moim Synem, Jam Cię dziś zrodził\"."
       }
     },
     {
-      "id": "amk9ZXhIS8",
       "type": "paragraph",
       "data": {
-        "text": "Za dni ciała swego, *\n<br>z głośnym wołaniem i płaczem\n"
+        "text": "Za dni ciała swego, *<br>z głośnym wołaniem i płaczem"
       }
     },
     {
-      "id": "tBH9QIfXrZ",
       "type": "paragraph",
       "data": {
-        "text": "Zanosił On gorące prośby i błagania †\n<br>do Tego, który mógł Go wybawić od śmierci *\n<br>i został wysłuchany dzięki swej uległości.\n"
+        "text": "Zanosił On gorące prośby i błagania †<br>do Tego, który mógł Go wybawić od śmierci *<br>i został wysłuchany dzięki swej uległości."
       }
     },
     {
-      "id": "KWBDbDT3OQ",
       "type": "paragraph",
       "data": {
-        "text": "A chociaż był Synem, *\n<br>nauczył się posłuszeństwa przez to, co wycierpiał.\n"
+        "text": "A chociaż był Synem, *<br>nauczył się posłuszeństwa przez to, co wycierpiał."
       }
     },
     {
-      "id": "YlgrbUir1N",
       "type": "paragraph",
       "data": {
-        "text": "A gdy wszystko wykonał, †\n<br>stał się sprawcą wiecznego zbawienia *\n<br>dla wszystkich, którzy Go słuchają.\n"
+        "text": "A gdy wszystko wykonał, †<br>stał się sprawcą wiecznego zbawienia *<br>dla wszystkich, którzy Go słuchają."
       }
     },
     {
-      "id": "Z3_rlLv460",
-      "type": "paragraph",
-      "data": { "text": "Chwała Ojcu i Synowi, *<br>i Duchowi Świętemu.<br>" }
-    },
-    {
-      "id": "-7v-FANtI1",
       "type": "paragraph",
       "data": {
-        "text": "Jak była na początku, teraz i zawsze, *<br>i na wieki wieków. Amen.<br>"
+        "text": "Chwała Ojcu i Synowi, *<br>i Duchowi Świętemu."
       }
     },
     {
-      "id": "0UevNP1R3r",
       "type": "paragraph",
       "data": {
-        "text": "<mark class=\"cdx-marker\">Ant. Chrystus stał się sprawcą wiecznego zbawienia / dla wszystkich, którzy Go słuchają, / alleluja.\n</mark>"
+        "text": "Jak była na początku, teraz i zawsze, *<br>i na wieki wieków. Amen."
       }
     },
     {
-      "id": "16HNbq2mKs",
+      "type": "paragraph",
+      "data": {
+        "text": "<mark class=\"cdx-marker\">Ant. Chrystus stał się sprawcą wiecznego zbawienia / dla wszystkich, którzy Go słuchają, / alleluja.</mark>"
+      }
+    },
+    {
       "type": "header",
-      "data": { "text": "CZYTANIE | Rz 11, 33-36", "level": 2 }
-    },
-    {
-      "id": "53g90HouVE",
-      "type": "paragraph",
       "data": {
-        "text": "O głębokości bogactw, mądrości i wiedzy Boga! Jakże niezbadane są Jego wyroki&nbsp;i nie do wyśledzenia Jego drogi! Kto bowiem poznał myśl Pana albo kto był Jego&nbsp;doradcą? Lub kto Go pierwszy obdarował, aby nawzajem otrzymać odpłatę?&nbsp;Albowiem z Niego i przez Niego, i dla Niego jest wszystko. Jemu chwała na wieki.&nbsp;Amen."
+        "text": "CZYTANIE",
+        "level": 2
       }
     },
     {
-      "id": "iusikXxij7",
       "type": "header",
-      "data": { "text": "RESPONSORIUM", "level": 2 }
-    },
-    {
-      "id": "xpHLZ55ooE",
-      "type": "paragraph",
-      "data": { "text": "K. Jak są wielkie i wspaniałe * Dzieła Twoje, Panie." }
-    },
-    {
-      "id": "k8bDrVq39e",
-      "type": "paragraph",
       "data": {
-        "text": "<b>W. Jak są wielkie i wspaniałe / Dzieła Twoje, Panie.</b>"
+        "text": "Rz 11, 33-36",
+        "level": 3
       }
     },
     {
-      "id": "o4pCvpkh0m",
-      "type": "paragraph",
-      "data": { "text": "K. Wszystkie w mądrości uczyniłeś." }
-    },
-    {
-      "id": "EYpqDapYxX",
-      "type": "paragraph",
-      "data": { "text": "<b>W. Dzieła Twoje, Panie.</b>" }
-    },
-    {
-      "id": "SnFqZH8A6C",
-      "type": "paragraph",
-      "data": { "text": "K. Chwała Ojcu i Synowi, i Duchowi Świętemu." }
-    },
-    {
-      "id": "wzyjJbSoWK",
       "type": "paragraph",
       "data": {
-        "text": "<b>W. Jak są wielkie i wspaniałe / Dzieła Twoje, Panie.</b>"
+        "text": "O głębokości bogactw, mądrości i wiedzy Boga! Jakże niezbadane są Jego wyroki i nie do wyśledzenia Jego drogi! Kto bowiem poznał myśl Pana albo kto był Jego doradcą? Lub kto Go pierwszy obdarował, aby nawzajem otrzymać odpłatę? Albowiem z Niego i przez Niego, i dla Niego jest wszystko. Jemu chwała na wieki. Amen."
       }
     },
     {
-      "id": "SBtXCeWBsc",
       "type": "header",
-      "data": { "text": "PIEŚŃ MARYI | Łk 1, 46-55", "level": 2 }
+      "data": {
+        "text": "RESPONSORIUM",
+        "level": 2
+      }
     },
     {
-      "id": "1_MVC0lbZM",
+      "type": "paragraph",
+      "data": {
+        "text": "K. W ręce Twoje, Panie, * Powierzam ducha mojego."
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "<b>W. W ręce Twoje, Panie, / Powierzam ducha mojego.</b>"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "K. Ty nas odkupiłeś, Panie, Boże wierny."
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "<b>W. Powierzam ducha mojego.</b>"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "K. Chwała Ojcu i Synowi, i Duchowi Świętemu."
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "<b>W. W ręce Twoje, Panie, / Powierzam ducha mojego.</b>"
+      }
+    },
+    {
+      "type": "header",
+      "data": {
+        "text": "PIEŚŃ MARYI",
+        "level": 2
+      }
+    },
+    {
+      "type": "header",
+      "data": {
+        "text": "Łk 1, 46-55",
+        "level": 3
+      }
+    },
+    {
       "type": "paragraph",
       "data": {
         "text": "<mark class=\"cdx-marker\">Ant. Chrystus nasz Zbawiciel, * Syn Boga wiecznego i Maryi † niech będzie przez nas uwielbiony na wieki. Amen.</mark>"
       }
     },
     {
-      "id": "70T_ycYGg1",
       "type": "paragraph",
       "data": {
-        "text": "† Wielbi dusza moja Pana *<br>i raduje się duch mój w Bogu, Zbawicielu moim.<br>"
+        "text": "† Wielbi dusza moja Pana *<br>i raduje się duch mój w Bogu, Zbawicielu moim."
       }
     },
     {
-      "id": "HsgPOJ_6SS",
       "type": "paragraph",
       "data": {
-        "text": "Bo wejrzał na uniżenie swojej Służebnicy. *<br>Oto bowiem odtąd błogosławić mnie będą wszystkie pokolenia.<br>"
+        "text": "Bo wejrzał na uniżenie swojej Służebnicy. *<br>Oto bowiem odtąd błogosławić mnie będą wszystkie pokolenia."
       }
     },
     {
-      "id": "XTDKZKv5nk",
       "type": "paragraph",
       "data": {
-        "text": "Gdyż wielkie rzeczy uczynił mi Wszechmocny, *<br>a Jego imię jest święte.<br>"
+        "text": "Gdyż wielkie rzeczy uczynił mi Wszechmocny, *<br>a Jego imię jest święte."
       }
     },
     {
-      "id": "t26kg9Fo7h",
       "type": "paragraph",
       "data": {
-        "text": "Jego miłosierdzie z pokolenia na pokolenie *<br>nad tymi, którzy się Go boją.<br>"
+        "text": "Jego miłosierdzie z pokolenia na pokolenie *<br>nad tymi, którzy się Go boją."
       }
     },
     {
-      "id": "IAbwhYfacm",
       "type": "paragraph",
       "data": {
-        "text": "Okazał moc swego ramienia, *<br>rozproszył pyszniących się zamysłami serc swoich.<br>"
+        "text": "Okazał moc swego ramienia, *<br>rozproszył pyszniących się zamysłami serc swoich."
       }
     },
     {
-      "id": "7dpRKmY0P5",
       "type": "paragraph",
       "data": {
-        "text": "Strącił władców z tronu, *<br>a wywyższył pokornych.<br>"
+        "text": "Strącił władców z tronu, *<br>a wywyższył pokornych."
       }
     },
     {
-      "id": "1PC7hzga11",
       "type": "paragraph",
       "data": {
-        "text": "Głodnych nasycił dobrami, *<br>a bogatych z niczym odprawił.<br>"
+        "text": "Głodnych nasycił dobrami, *<br>a bogatych z niczym odprawił."
       }
     },
     {
-      "id": "zI2QtnCOFU",
       "type": "paragraph",
       "data": {
-        "text": "Ujął się za swoim sługą, Izraelem, *<br>pomny na swe miłosierdzie,<br>"
+        "text": "Ujął się za swoim sługą, Izraelem, *<br>pomny na swe miłosierdzie,"
       }
     },
     {
-      "id": "gLFSVp6HSb",
       "type": "paragraph",
       "data": {
-        "text": "Jak obiecał naszym ojcom, *<br>Abrahamowi i jego potomstwu na wieki.<br>"
+        "text": "Jak obiecał naszym ojcom, *<br>Abrahamowi i jego potomstwu na wieki."
       }
     },
     {
-      "id": "J0ttDaeYwL",
-      "type": "paragraph",
-      "data": { "text": "Chwała Ojcu i Synowi, *<br>i Duchowi Świętemu.<br>" }
-    },
-    {
-      "id": "bIVeM2MXsN",
       "type": "paragraph",
       "data": {
-        "text": "Jak była na początku, teraz i zawsze, *<br>i na wieki wieków. Amen.<br>"
+        "text": "Chwała Ojcu i Synowi, *<br>i Duchowi Świętemu."
       }
     },
     {
-      "id": "Oad65BgO4v",
+      "type": "paragraph",
+      "data": {
+        "text": "Jak była na początku, teraz i zawsze, *<br>i na wieki wieków. Amen."
+      }
+    },
+    {
       "type": "paragraph",
       "data": {
         "text": "<mark class=\"cdx-marker\">Ant. Chrystus nasz Zbawiciel, * Syn Boga wiecznego i Maryi † niech będzie przez nas uwielbiony na wieki. Amen.</mark>"
       }
     },
     {
-      "id": "gFSxKiJoho",
       "type": "header",
-      "data": { "text": "PROŚBY", "level": 2 }
+      "data": {
+        "text": "PROŚBY",
+        "level": 2
+      }
     },
     {
-      "id": "aKmfLEliC2",
       "type": "paragraph",
       "data": {
         "text": "Oddając chwałę jedynemu Bogu, Ojcu, Synowi i Duchowi Świętemu, zanośmy do&nbsp;Niego pokorne prośby: <b>Otaczaj opieką swój lud, o Panie!</b>"
       }
     },
     {
-      "id": "S5tW5dqXOR",
       "type": "paragraph",
       "data": {
-        "text": "Wszechmogący Boże, spraw, niechaj zakwitnie sprawiedliwość na naszej ziemi,&nbsp;<b>- a Twój lud niech zazna dobrodziejstwa pokoju.</b>"
+        "text": "Wszechmogący Boże, spraw, niechaj zakwitnie sprawiedliwość na naszej ziemi,&nbsp;<b>– a Twój lud niech zazna dobrodziejstwa pokoju.</b>"
       }
     },
     {
-      "id": "L-v_-_Qw61",
       "type": "paragraph",
       "data": {
-        "text": "Wprowadź wszystkie narody do swego Królestwa, <b>- aby wszyscy ludzie zostali zbawieni.</b>"
+        "text": "Wprowadź wszystkie narody do swego Królestwa, <b>– aby wszyscy ludzie&nbsp;zostali zbawieni.</b>"
       }
     },
     {
-      "id": "c5EnRyNWr9",
       "type": "paragraph",
       "data": {
-        "text": "Przynieś ulgę chorym, bądź przy konających, <b>- a nas umocnij swoim&nbsp;miłosierdziem.</b>"
+        "text": "Przynieś ulgę chorym, bądź przy konających, <b>– a nas umocnij swoim&nbsp;miłosierdziem.</b>"
       }
     },
     {
-      "id": "tZQHUgP7sN",
       "type": "paragraph",
       "data": {
-        "text": "Sam bądź nagrodą dla tych, którzy nam dobrze czynią, <b>- niech cieszą się&nbsp;Twoim błogosławieństwem.</b>"
+        "text": "Sam bądź nagrodą dla tych, którzy nam dobrze czynią, <b>– niech cieszą się&nbsp;Twoim błogosławieństwem.</b>"
       }
     },
     {
-      "id": "abfVN1olwF",
       "type": "paragraph",
       "data": {
-        "text": "Zapisz umarłych do księgi życia, <b>- aby przez całą wieczność Ciebie wielbili.</b>"
+        "text": "Zapisz umarłych do księgi życia, – aby przez całą wieczność Ciebie wielbili."
       }
     },
     {
-      "id": "PrLZyuoPfl",
       "type": "paragraph",
-      "data": { "text": "K. Kyrie eleison." }
+      "data": {
+        "text": "K. Kyrie eleison."
+      }
     },
     {
-      "id": "fTvZjQjAyX",
       "type": "paragraph",
-      "data": { "text": "<b>W. Chryste eleison, Kyrie eleison.</b>" }
+      "data": {
+        "text": "<b>W. Chryste eleison, Kyrie eleison.</b>"
+      }
     },
     {
-      "id": "of-c_egKgM",
       "type": "paragraph",
       "data": {
         "text": "K. Ojcze nasz, któryś jest w niebie,<br>święć się imię Twoje;<br>przyjdź królestwo Twoje;<br>bądź wola Twoja jako w niebie, tak i na ziemi.<br>Chleba naszego powszedniego daj nam dzisiaj;<br>i odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom;<br>i nie wystawiaj nas na próbę<br>"
       }
     },
     {
-      "id": "OUqgYFIg9u",
       "type": "paragraph",
       "data": {
-        "text": "<b>W. ale nas zbaw ode złego.<br>Albowiem Twoje jest Królestwo i moc,<br>i chwała na wieki wieków. Amen.<br></b>"
+        "text": "<b>W. ale nas zbaw ode złego.<br>Albowiem Twoje jest Królestwo i moc,<br>i chwała na wieki wieków. Amen.</b><br>"
       }
     },
     {
-      "id": "Q3I8M3hOg1",
       "type": "header",
-      "data": { "text": "MODLITWA", "level": 2 }
-    },
-    {
-      "id": "aXWujUV72u",
-      "type": "paragraph",
       "data": {
-        "text": "Boże, Ojcze wszechmogący, Ty co tydzień dajesz nam przeżywać Paschę Tygodnia.&nbsp;Rozraduj nas Twoim słowem i sakramentami. Prosimy Cię: niech twoje dary wydają&nbsp;w nas owoce w życiu doczesnym i wiecznym, abyśmy upodabniali się do twojego&nbsp;Syna, który zmartwychwstał po upływie szabatu. Prosimy przez tegoż Twojego Syna,&nbsp;który z Tobą żyje i króluje we wspólnocie Ducha Świętego, Bóg, przez wszystkie&nbsp;wieki wieków."
+        "text": "MODLITWA",
+        "level": 2
       }
     },
     {
-      "id": "UddhdKTcNs",
-      "type": "paragraph",
-      "data": { "text": "<b>W. Amen.</b>" }
-    },
-    {
-      "id": "k576y0stJD",
       "type": "paragraph",
       "data": {
-        "text": "K. Niech nas Pan błogosławi, broni od wszelkiego zła i doprowadzi do życia&nbsp;wiecznego."
+        "text": "Boże, Ojcze wszechmogący, Ty co tydzień dajesz nam przeżywać Paschę Tygodnia. Rozraduj nas Twoim słowem i sakramentami. Prosimy Cię: niech twoje dary wydają w nas owoce w życiu doczesnym i wiecznym, abyśmy upodabniali się do twojego Syna, który zmartwychwstał po upływie szabatu. Prosimy przez tegoż Twojego Syna, który z Tobą żyje i króluje we wspólnocie Ducha Świętego, Bóg, przez wszystkie wieki wieków."
       }
     },
     {
-      "id": "r8BpV8vk89",
       "type": "paragraph",
-      "data": { "text": "<b>W. Amen.</b>" }
+      "data": {
+        "text": "<b>W. Amen.</b>"
+      }
     },
     {
-      "id": "ryeUBtgf2h",
       "type": "paragraph",
-      "data": { "text": "K. Pomoc Boża niech będzie zawsze z nami." }
+      "data": {
+        "text": "K. Niech nas Pan błogosławi, broni od wszelkiego zła i doprowadzi do życia&nbsp;wiecznego. "
+      }
     },
     {
-      "id": "th_mp60wYC",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>W. Amen.</b>"
+      }
+    },
+    {
+      "type": "paragraph",
+      "data": {
+        "text": "K. Pomoc Boża niech będzie zawsze z nami."
+      }
+    },
+    {
       "type": "paragraph",
       "data": {
         "text": "<b>W. I z naszymi braćmi i siostrami nieobecnymi. Amen.</b>"
       }
     }
   ],
-  "version": "2.22.1"
+  "version": "2.17.0"
 }
