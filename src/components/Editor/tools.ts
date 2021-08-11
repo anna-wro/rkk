@@ -4,8 +4,8 @@ import List from '@editorjs/list';
 
 export const EDITOR_JS_TOOLS = {
   paragraph: Paragraph,
-  list: Paragraph,
-  header: Paragraph,
+  list: List,
+  header: Header,
 };
 
 export default EDITOR_JS_TOOLS;
