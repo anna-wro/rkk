@@ -29,7 +29,7 @@ export function getStaticProps() {
   const prayers = dataFilePaths.map(filePath => {
     const source = fs.readFileSync(path.join(DATA_PATH, filePath));
     const obj = JSON.parse(source.toString());
-    return obj.blocks;
+    return obj;
   });
   return { props: { prayers } };
 }
