@@ -3,12 +3,11 @@ import Head from 'next/head';
 import PrayersList from 'components/Prayers/PrayersList';
 import fs from 'fs';
 import path from 'path';
+import getPrayerSlug from 'utils/getPrayerSlug';
 
 export default function Home({ prayers }) {
   const router = useRouter();
   const { prayer } = router.query;
-  console.log(prayers[0]);
-
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
@@ -38,11 +37,11 @@ export function getStaticProps() {
     .filter(path => /\.json?$/.test(path));
 
   const prayers = dataFilePaths.map(filePath => {
-    const [type, day, week] = filePath.replace('.json', '').split('_');
+    const slug = getPrayerSlug({ filePath });
     const source = fs.readFileSync(path.join(DATA_PATH, filePath));
     const obj = JSON.parse(source.toString());
 
-    return { ...obj, type, day, week };
+    return { ...obj, slug };
   });
   return { props: { prayers } };
 }
