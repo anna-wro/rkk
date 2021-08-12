@@ -1,14 +1,15 @@
-import Prayer from 'components/Prayers/Prayer';
+import Link from 'next/link';
 
 export default function PrayersList({ prayers }) {
   return (
     <div className="mt-8">
       {prayers.map((prayer, index) => (
-        <div key={index}>{prayer.blocks[0].data.text}</div>
+        <Link key={index} href={prayer.slug} passHref>
+          <div className="hover:underline cursor-pointer">
+            {prayer.blocks[0].data.text}
+          </div>
+        </Link>
       ))}
-
-      {/* TODO: display prayer on a separate page */}
-      {/* <Prayer prayer={prayers[0]} /> */}
     </div>
   );
 }

@@ -10,3 +10,7 @@
   @apply hover:text-red-600;
   @apply focus:text-red-600;
 }
+
+.codex-editor--narrow .codex-editor__redactor {
+  margin-right: 0; /* TODO check WTF is going on with the lib */
+}
