@@ -48,6 +48,7 @@ export function getStaticProps() {
     .readdirSync(DATA_PATH)
     .filter(path => /\.json?$/.test(path));
 
+  // TODO: sort in a chronological order
   const prayers = dataFilePaths.map(filePath => {
     const slug = getPrayerSlug({ filePath });
     const source = fs.readFileSync(path.join(DATA_PATH, filePath));
