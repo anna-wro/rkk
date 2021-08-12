@@ -26,5 +26,5 @@ export default function getPrayerSlug({
   const mappedDay = DAYS[day];
   const mappedType = PRAYERS[type];
 
-  return `${mappedDay}-${mappedType}-${week}`;
+  return `${mappedDay}-${week}-${mappedType}`;
 }
