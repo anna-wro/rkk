@@ -32,3 +32,12 @@ h1.ce-header {
 .ce-block .cdx-list {
   @apply pl-4;
 }
+
+.ce-block .cdx-list--unordered {
+  @apply pl-0;
+  list-style-type: none;
+}
+
+.ce-block .cdx-list--unordered li:nth-child(2n) {
+  @apply pl-12;
+}
