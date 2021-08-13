@@ -39,5 +39,5 @@ h1.ce-header {
 }
 
 .ce-block .cdx-list--unordered li:nth-child(2n) {
-  @apply pl-12;
+  @apply pl-6;
 }
