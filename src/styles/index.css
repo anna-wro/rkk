@@ -20,3 +20,14 @@
 .codex-editor__redactor {
   padding-bottom: 0 !important;
 }
+
+.codex-editor {
+  @apply text-left;
+}
+h1.ce-header {
+  @apply font-bold text-lg my-2;
+}
+
+.ce-header {
+  @apply font-semibold;
+}
