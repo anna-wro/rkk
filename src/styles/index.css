@@ -21,13 +21,14 @@
   padding-bottom: 0 !important;
 }
 
-.codex-editor {
-  @apply text-left;
-}
 h1.ce-header {
   @apply font-bold text-lg my-2;
 }
 
 .ce-header {
-  @apply font-semibold;
+  @apply font-bold;
+}
+
+.ce-block .cdx-list {
+  @apply pl-4;
 }
