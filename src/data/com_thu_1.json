@@ -273,33 +273,16 @@
       }
     },
     {
-      "type": "paragraph",
+      "type": "list",
       "data": {
-        "text": "\u2020 Teraz, o Panie, pozw\u00f3l odej\u015b\u0107 s\u0142udze swemu w pokoju, *<br>wed\u0142ug s\u0142owa Twojego,<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Bo moje oczy ujrza\u0142y Twoje zbawienie, *<br>kt\u00f3re\u015b przygotowa\u0142 wobec wszystkich narod\u00f3w:<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "\u015awiat\u0142o na o\u015bwiecenie pogan *<br>i chwa\u0142\u0119 ludu Twego, Izraela.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Chwa\u0142a Ojcu i Synowi, *<br>i Duchowi \u015awi\u0119temu.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Jak by\u0142a na pocz\u0105tku, teraz i zawsze, *<br>i na wieki wiek\u00f3w. Amen.<br>"
+        "style": "unordered",
+        "items": [
+          "\u2020 Teraz, o Panie, pozw\u00f3l odej\u015b\u0107 s\u0142udze swemu w pokoju, *<br>wed\u0142ug s\u0142owa Twojego,<br>",
+          "Bo moje oczy ujrza\u0142y Twoje zbawienie, *<br>kt\u00f3re\u015b przygotowa\u0142 wobec wszystkich narod\u00f3w:<br>",
+          "\u015awiat\u0142o na o\u015bwiecenie pogan *<br>i chwa\u0142\u0119 ludu Twego, Izraela.<br>",
+          "Chwa\u0142a Ojcu i Synowi, *<br>i Duchowi \u015awi\u0119temu.<br>",
+          "Jak by\u0142a na pocz\u0105tku, teraz i zawsze, *<br>i na wieki wiek\u00f3w. Amen.<br>"
+        ]
       }
     },
     {
