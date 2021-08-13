@@ -43,7 +43,7 @@
     {
       "type": "paragraph",
       "data": {
-        "text": "K. Niech si\u0119 zmi\u0142uje nad nami B\u00f3g wszechmog\u0105cy *<br>i odpu\u015bciwszy nam grzechy, *<br>doprowadzi nas do \u017cycia wiecznego."
+        "text": "K. Niech si\u0119 zmi\u0142uje nad nami B\u00f3g wszechmog\u0105cy&nbsp;*<br>i odpu\u015bciwszy nam grzechy,&nbsp;*<br>doprowadzi nas do \u017cycia wiecznego."
       }
     },
     {
@@ -91,17 +91,17 @@
       "data": {
         "style": "unordered",
         "items": [
-          "Kiedy Ci\u0119 wzywam, odpowiedz mi, Bo\u017ce, *<br>kt\u00f3ry wymierzasz mi sprawiedliwo\u015b\u0107.<br>",
-          "Ty\u015b mnie wyd\u017awign\u0105\u0142 z utrapienia, *<br>zmi\u0142uj si\u0119 nade mn\u0105 i wys\u0142uchaj moj\u0105 modlitw\u0119.<br>",
-          "Jak d\u0142ugo b\u0119d\u0105 oci\u0119\u017ca\u0142e wasze serca, m\u0119\u017cowie? *<br>Czemu kochacie marno\u015b\u0107 i szukacie k\u0142amstwa?<br>",
-          "Wiedzcie, \u017ce godnym podziwu czyni Pan swego wiernego, *<br>Pan mnie wys\u0142ucha, gdy b\u0119d\u0119 Go wzywa\u0142.<br>",
-          "Zadr\u017cyjcie i ju\u017c nie grzeszcie, *<br>rozwa\u017ccie na waszych \u0142o\u017cach i zamilknijcie.<br>",
-          "Z\u0142\u00f3\u017ccie nale\u017cne ofiary *<br>i miejcie nadziej\u0119 w Panu.<br>",
-          "Wielu powiada: \"Kt\u00f3\u017c nam szcz\u0119\u015bcie uka\u017ce?\" *<br>Wznie\u015b ponad nami, Panie, \u015bwiat\u0142o\u015b\u0107 Twojego oblicza!<br>",
-          "Wi\u0119cej wla\u0142e\u015b rado\u015bci w moje serce *<br>ni\u017c w czasie obfitych plon\u00f3w pszenicy i wina.<br>",
-          "Spokojnie zasypiam, kiedy si\u0119 po\u0142o\u017c\u0119, \u2020<br>bo tylko Ty jeden, Panie, *<br>pozwalasz mi \u017cy\u0107 bezpiecznie.<br>",
-          "Chwa\u0142a Ojcu i Synowi, *<br>i Duchowi \u015awi\u0119temu.<br>",
-          "Jak by\u0142a na pocz\u0105tku, teraz i zawsze, *<br>i na wieki wiek\u00f3w. Amen.<br>"
+          "Kiedy Ci\u0119 wzywam, odpowiedz mi, Bo\u017ce,&nbsp;*<br>kt\u00f3ry wymierzasz mi sprawiedliwo\u015b\u0107.<br>",
+          "Ty\u015b mnie wyd\u017awign\u0105\u0142 z utrapienia,&nbsp;*<br>zmi\u0142uj si\u0119 nade mn\u0105 i wys\u0142uchaj moj\u0105 modlitw\u0119.<br>",
+          "Jak d\u0142ugo b\u0119d\u0105 oci\u0119\u017ca\u0142e wasze serca, m\u0119\u017cowie?&nbsp;*<br>Czemu kochacie marno\u015b\u0107 i szukacie k\u0142amstwa?<br>",
+          "Wiedzcie, \u017ce godnym podziwu czyni Pan swego wiernego,&nbsp;*<br>Pan mnie wys\u0142ucha, gdy b\u0119d\u0119 Go wzywa\u0142.<br>",
+          "Zadr\u017cyjcie i ju\u017c nie grzeszcie,&nbsp;*<br>rozwa\u017ccie na waszych \u0142o\u017cach i zamilknijcie.<br>",
+          "Z\u0142\u00f3\u017ccie nale\u017cne ofiary&nbsp;*<br>i miejcie nadziej\u0119 w Panu.<br>",
+          "Wielu powiada: \"Kt\u00f3\u017c nam szcz\u0119\u015bcie uka\u017ce?\"&nbsp;*<br>Wznie\u015b ponad nami, Panie, \u015bwiat\u0142o\u015b\u0107 Twojego oblicza!<br>",
+          "Wi\u0119cej wla\u0142e\u015b rado\u015bci w moje serce&nbsp;*<br>ni\u017c w czasie obfitych plon\u00f3w pszenicy i wina.<br>",
+          "Spokojnie zasypiam, kiedy si\u0119 po\u0142o\u017c\u0119, \u2020<br>bo tylko Ty jeden, Panie,&nbsp;*<br>pozwalasz mi \u017cy\u0107 bezpiecznie.<br>",
+          "Chwa\u0142a Ojcu i Synowi,&nbsp;*<br>i Duchowi \u015awi\u0119temu.<br>",
+          "Jak by\u0142a na pocz\u0105tku, teraz i zawsze,&nbsp;*<br>i na wieki wiek\u00f3w. Amen.<br>"
         ]
       }
     },
@@ -117,11 +117,11 @@
       "data": {
         "style": "unordered",
         "items": [
-          "B\u0142ogos\u0142awcie Pana, wszyscy s\u0142udzy Pa\u0144scy, *<br>kt\u00f3rzy przebywacie noc\u0105 w Jego domu.<br>",
-          "Wznie\u015bcie wasze r\u0119ce ku Miejscu \u015awi\u0119temu *<br>i b\u0142ogos\u0142awcie Pana.<br>",
-          "Niech Ci\u0119 Pan b\u0142ogos\u0142awi ze Syjonu, *<br>Ten, kt\u00f3ry stworzy\u0142 niebo i ziemi\u0119.<br>",
-          "Chwa\u0142a Ojcu i Synowi, *<br>i Duchowi \u015awi\u0119temu.<br>",
-          "Jak by\u0142a na pocz\u0105tku, teraz i zawsze, *<br>i na wieki wiek\u00f3w. Amen.<br>"
+          "B\u0142ogos\u0142awcie Pana, wszyscy s\u0142udzy Pa\u0144scy,&nbsp;*<br>kt\u00f3rzy przebywacie noc\u0105 w Jego domu.<br>",
+          "Wznie\u015bcie wasze r\u0119ce ku Miejscu \u015awi\u0119temu&nbsp;*<br>i b\u0142ogos\u0142awcie Pana.<br>",
+          "Niech Ci\u0119 Pan b\u0142ogos\u0142awi ze Syjonu,&nbsp;*<br>Ten, kt\u00f3ry stworzy\u0142 niebo i ziemi\u0119.<br>",
+          "Chwa\u0142a Ojcu i Synowi,&nbsp;*<br>i Duchowi \u015awi\u0119temu.<br>",
+          "Jak by\u0142a na pocz\u0105tku, teraz i zawsze,&nbsp;*<br>i na wieki wiek\u00f3w. Amen.<br>"
         ]
       }
     },
@@ -155,7 +155,7 @@
     {
       "type": "paragraph",
       "data": {
-        "text": "K. Strze\u017c nas, Panie, jak \u017arenicy oka. * Ukryj nas w cieniu Twych skrzyde\u0142."
+        "text": "K. Strze\u017c nas, Panie, jak \u017arenicy oka.&nbsp;* Ukryj nas w cieniu Twych skrzyde\u0142."
       }
     },
     {
@@ -205,7 +205,7 @@
     {
       "type": "paragraph",
       "data": {
-        "text": "<mark class=\"cdx-marker\">Ant. Panie, Dobry Pasterzu, * Ty, kt\u00f3ry zawsze czuwasz, / nie opuszczaj swojego&nbsp;ludu.</mark>"
+        "text": "<mark class=\"cdx-marker\">Ant. Panie, Dobry Pasterzu,&nbsp;* Ty, kt\u00f3ry zawsze czuwasz, / nie opuszczaj swojego&nbsp;ludu.</mark>"
       }
     },
     {
@@ -213,24 +213,24 @@
       "data": {
         "style": "unordered",
         "items": [
-          "\u2020 Teraz, o Panie, pozw\u00f3l odej\u015b\u0107 s\u0142udze swemu w pokoju, *<br>wed\u0142ug s\u0142owa Twojego,<br>",
-          "Bo moje oczy ujrza\u0142y Twoje zbawienie, *<br>kt\u00f3re\u015b przygotowa\u0142 wobec wszystkich narod\u00f3w:<br>",
-          "\u015awiat\u0142o na o\u015bwiecenie pogan *<br>i chwa\u0142\u0119 ludu Twego, Izraela.<br>",
-          "Chwa\u0142a Ojcu i Synowi, *<br>i Duchowi \u015awi\u0119temu.<br>",
-          "Jak by\u0142a na pocz\u0105tku, teraz i zawsze, *<br>i na wieki wiek\u00f3w. Amen.<br>"
+          "\u2020 Teraz, o Panie, pozw\u00f3l odej\u015b\u0107 s\u0142udze swemu w pokoju,&nbsp;*<br>wed\u0142ug s\u0142owa Twojego,<br>",
+          "Bo moje oczy ujrza\u0142y Twoje zbawienie,&nbsp;*<br>kt\u00f3re\u015b przygotowa\u0142 wobec wszystkich narod\u00f3w:<br>",
+          "\u015awiat\u0142o na o\u015bwiecenie pogan&nbsp;*<br>i chwa\u0142\u0119 ludu Twego, Izraela.<br>",
+          "Chwa\u0142a Ojcu i Synowi,&nbsp;*<br>i Duchowi \u015awi\u0119temu.<br>",
+          "Jak by\u0142a na pocz\u0105tku, teraz i zawsze,&nbsp;*<br>i na wieki wiek\u00f3w. Amen.<br>"
         ]
       }
     },
     {
       "type": "paragraph",
       "data": {
-        "text": "Jak by\u0142a na pocz\u0105tku, teraz i zawsze, *<br>i na wieki wiek\u00f3w. Amen.<br>"
+        "text": "Jak by\u0142a na pocz\u0105tku, teraz i zawsze,&nbsp;*<br>i na wieki wiek\u00f3w. Amen.<br>"
       }
     },
     {
       "type": "paragraph",
       "data": {
-        "text": "<mark class=\"cdx-marker\">Ant. Panie, Dobry Pasterzu, * Ty, kt\u00f3ry zawsze czuwasz, / nie opuszczaj swojego&nbsp;ludu.</mark>"
+        "text": "<mark class=\"cdx-marker\">Ant. Panie, Dobry Pasterzu,&nbsp;* Ty, kt\u00f3ry zawsze czuwasz, / nie opuszczaj swojego&nbsp;ludu.</mark>"
       }
     },
     {
