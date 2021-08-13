@@ -11,6 +11,12 @@
   @apply focus:text-red-600;
 }
 
+/* Editor overrides */
+/* TODO Check if this can be avoided */
 .codex-editor--narrow .codex-editor__redactor {
-  margin-right: 0; /* TODO check WTF is going on with the lib */
+  margin-right: 0;
+}
+
+.codex-editor__redactor {
+  padding-bottom: 0 !important;
 }
