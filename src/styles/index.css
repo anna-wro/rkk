@@ -38,8 +38,7 @@ h1.ce-header {
 }
 
 .ce-block .cdx-list--unordered {
-  @apply pl-0;
-  list-style-type: none;
+  @apply pl-0 list-none;
 }
 
 .ce-block .cdx-list--unordered li:nth-child(2n) {
