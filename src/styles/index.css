@@ -10,3 +10,25 @@
   @apply hover:text-red-600;
   @apply focus:text-red-600;
 }
+
+/* Editor overrides */
+/* TODO Check if this can be avoided */
+.codex-editor--narrow .codex-editor__redactor {
+  margin-right: 0;
+}
+
+.codex-editor__redactor {
+  padding-bottom: 0 !important;
+}
+
+h1.ce-header {
+  @apply font-bold text-lg my-2;
+}
+
+.ce-header {
+  @apply font-bold;
+}
+
+.ce-block .cdx-list {
+  @apply pl-4;
+}

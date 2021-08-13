@@ -1,24 +1,35 @@
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import PrayersList from 'components/Prayers/PrayersList';
+import Prayer from 'components/Prayers/Prayer';
 import fs from 'fs';
 import path from 'path';
 import getPrayerSlug from 'utils/getPrayerSlug';
+import copy from 'copy';
 
 export default function Home({ prayers }) {
   const router = useRouter();
-  const { prayer } = router.query;
+  const { slug } = router.query;
+  let prayer;
+
+  if (slug) {
+    prayer = prayers.find(prayer => prayer.slug === slug[0]);
+  }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="py-4">
       <Head>
-        <title>Reformowany brewiarz</title>
+        <title>{copy.title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-4xl font-bold">Reformowany brewiarz</h1>
-        <PrayersList prayers={prayers} />
+      <main className="px-4 md:px-20 text-center">
+        <h1 className="text-4xl font-bold mt-10">{copy.title}</h1>
+        {prayer ? (
+          <Prayer prayer={prayer} />
+        ) : (
+          <PrayersList prayers={prayers} />
+        )}
       </main>
     </div>
   );
@@ -26,7 +37,7 @@ export default function Home({ prayers }) {
 
 export async function getStaticPaths() {
   return {
-    paths: [{ params: { prayer: [] } }],
+    paths: [{ params: { slug: [] } }],
     fallback: 'blocking',
   };
 }
@@ -37,6 +48,7 @@ export function getStaticProps() {
     .readdirSync(DATA_PATH)
     .filter(path => /\.json?$/.test(path));
 
+  // TODO: sort in a chronological order
   const prayers = dataFilePaths.map(filePath => {
     const slug = getPrayerSlug({ filePath });
     const source = fs.readFileSync(path.join(DATA_PATH, filePath));
