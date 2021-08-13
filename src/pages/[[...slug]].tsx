@@ -17,13 +17,13 @@ export default function Home({ prayers }) {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="py-4">
       <Head>
         <title>{copy.title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+      <main className="px-4 md:px-20 text-center">
         <h1 className="text-4xl font-bold mt-10">{copy.title}</h1>
         {prayer ? (
           <Prayer prayer={prayer} />
