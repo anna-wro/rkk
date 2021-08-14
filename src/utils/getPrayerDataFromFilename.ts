@@ -1,8 +1,4 @@
-type PrayerSlugPropsType = Readonly<{
-  filePath: string;
-}>;
-
-type DataPropsType = Readonly<{
+type PrayerDataPropsType = Readonly<{
   ID: number;
   slug: string;
 }>;
@@ -26,7 +22,9 @@ const DAYS = {
 
 export default function getPrayerDataFromFilename({
   filePath,
-}: PrayerSlugPropsType): DataPropsType {
+}: {
+  filePath: string;
+}): PrayerDataPropsType {
   const [type, day, week] = filePath.replace('.json', '').split('_');
   const mappedDay = DAYS[day];
   const mappedType = PRAYERS[type];
