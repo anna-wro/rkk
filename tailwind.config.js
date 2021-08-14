@@ -74,11 +74,12 @@ module.exports = {
         800: '#2A2A2A',
         900: '#111111',
       },
-      dark: '#2E293B',
+      dark: '#000000',
       white: '#FFFFFF',
       transparent: 'transparent',
     },
   },
+  darkMode: 'media',
   variants: {},
   plugins: [],
 };
