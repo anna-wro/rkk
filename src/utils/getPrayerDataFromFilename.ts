@@ -30,7 +30,7 @@ export default function getPrayerDataFromFilename({
   const mappedType = PRAYERS[type];
 
   return {
-    slug: `${mappedDay.name}-${week}-${mappedType.name}`,
-    ID: Number(`${week}${mappedDay.order}${mappedType.order}`),
+    slug: `${mappedDay?.name}-${week}-${mappedType?.name}`,
+    ID: Number(`${week}${mappedDay?.order}${mappedType?.order}`),
   };
 }
