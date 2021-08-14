@@ -23,7 +23,7 @@ export default function Home({ prayers }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-4 md:px-20 text-center">
+      <main className="px-4 md:px-20 text-center max-w-2xl mx-auto">
         <h1 className="text-4xl font-bold mt-10">{copy.title}</h1>
         {prayer ? (
           <Prayer prayer={prayer} />
