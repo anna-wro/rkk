@@ -31,10 +31,10 @@ export default function getPrayerDataFromFilename({
   filePath: string;
 }): PrayerDataPropsType {
   const [type, day, week] = filePath.replace('.json', '').split('_');
-  const mappedDay = DAYS[day];
-  const mappedType = PRAYERS[type];
-  const slug = removeAccents(`${mappedDay?.name}-${week}-${mappedType?.name}`);
-  const ID = Number(`${week}${mappedDay?.order}${mappedType?.order}`);
+  const mappedDay = DAYS[day] ?? DAYS['sun'];
+  const mappedType = PRAYERS[type] ?? PRAYERS['lau'];
+  const slug = removeAccents(`${mappedDay.name}-${week}-${mappedType.name}`);
+  const ID = Number(`${week}${mappedDay.order}${mappedType.order}`);
 
   return {
     slug,
