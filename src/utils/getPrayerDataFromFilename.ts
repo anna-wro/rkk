@@ -1,6 +1,11 @@
+import { removeAccents } from 'utils/text';
+
 type PrayerDataPropsType = Readonly<{
   ID: number;
   slug: string;
+  day: string;
+  week: string;
+  type: string;
 }>;
 
 const PRAYERS = {
@@ -12,11 +17,11 @@ const PRAYERS = {
 
 const DAYS = {
   sun: { name: 'niedziela', order: 1 },
-  mon: { name: 'poniedzialek', order: 2 },
+  mon: { name: 'poniedziałek', order: 2 },
   tue: { name: 'wtorek', order: 3 },
-  wed: { name: 'sroda', order: 4 },
+  wed: { name: 'środa', order: 4 },
   thu: { name: 'czwartek', order: 5 },
-  fri: { name: 'piatek', order: 6 },
+  fri: { name: 'piątek', order: 6 },
   sat: { name: 'sobota', order: 7 },
 };
 
@@ -28,9 +33,14 @@ export default function getPrayerDataFromFilename({
   const [type, day, week] = filePath.replace('.json', '').split('_');
   const mappedDay = DAYS[day];
   const mappedType = PRAYERS[type];
+  const slug = removeAccents(`${mappedDay?.name}-${week}-${mappedType?.name}`);
+  const ID = Number(`${week}${mappedDay?.order}${mappedType?.order}`);
 
   return {
-    slug: `${mappedDay?.name}-${week}-${mappedType?.name}`,
-    ID: Number(`${week}${mappedDay?.order}${mappedType?.order}`),
+    slug,
+    ID,
+    day: mappedDay.name,
+    week,
+    type: mappedType.name,
   };
 }

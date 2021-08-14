@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { makeStartCase } from 'utils/text';
 
 export default function PrayersList({ prayers }) {
   return (
@@ -6,7 +7,7 @@ export default function PrayersList({ prayers }) {
       {prayers.map(prayer => (
         <Link key={prayer.ID} href={prayer.slug} passHref>
           <div className="hover:underline cursor-pointer">
-            {prayer.blocks[0].data.text}
+            {makeStartCase(prayer.day)} | Tydzień {prayer.week} | {prayer.type}
           </div>
         </Link>
       ))}
