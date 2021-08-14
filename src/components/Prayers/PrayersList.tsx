@@ -9,7 +9,7 @@ export default function PrayersList({ prayers }) {
   const secondWeekGroupedByDay = groupByKey(secondWeek, 'day');
 
   return (
-    <div className="flex justify-center flex-col md:flex-row md:space-x-24 mt-12 text-left ">
+    <div className="flex justify-center flex-col md:flex-row md:space-x-24">
       <div>
         <div className="font-semibold text-lg my-2">{copy.firstWeekTitle}</div>
         {Object.entries(firstWeekGroupedByDay).map((prayersFromDay, index) => (

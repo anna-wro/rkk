@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+import Title from 'components/Title';
 import PrayersList from 'components/Prayers/PrayersList';
 import Prayer from 'components/Prayers/Prayer';
 import fs from 'fs';
@@ -23,8 +24,8 @@ export default function Home({ prayers }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-4 md:px-20 text-center max-w-2xl mx-auto">
-        <h1 className="text-4xl font-bold mt-10">{copy.title}</h1>
+      <main className="px-4 md:px-20 max-w-2xl mx-auto">
+        <Title />
         {prayer ? (
           <Prayer prayer={prayer} />
         ) : (
