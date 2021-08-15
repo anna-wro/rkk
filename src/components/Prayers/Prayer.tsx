@@ -1,12 +1,24 @@
 import { useState } from 'react';
 import dynamic from 'next/dynamic';
 import GoBackButton from 'components/GoBackButton';
+import type { EditorDataType } from 'components/Editor/Editor';
 
 const Editor = dynamic(() => import('components/Editor/Editor'), {
   ssr: false,
 });
 
-export default function Prayer({ prayer }) {
+export type PrayerType = EditorDataType &
+  Readonly<{
+    ID: string;
+    slug: string;
+    day: string;
+    week: string;
+    type: string;
+  }>;
+
+type PropsType = Readonly<{ prayer: PrayerType }>;
+
+export default function Prayer({ prayer }: PropsType) {
   const [editorReady, setEditorReady] = useState(false);
   return (
     <>

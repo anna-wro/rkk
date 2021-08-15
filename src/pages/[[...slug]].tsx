@@ -7,8 +7,11 @@ import fs from 'fs';
 import path from 'path';
 import getPrayerDataFromFilename from 'utils/getPrayerDataFromFilename';
 import copy from 'copy';
+import { PrayerType } from 'components/Prayers/Prayer';
 
-export default function Home({ prayers }) {
+type PropsType = Readonly<{ prayers: PrayerType[] }>;
+
+export default function Home({ prayers }: PropsType) {
   const router = useRouter();
   const { slug } = router.query;
   let prayer;
