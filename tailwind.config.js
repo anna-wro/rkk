@@ -78,11 +78,12 @@ module.exports = {
       white: '#FFFFFF',
       transparent: 'transparent',
     },
-    extend: {
-      borderWidth: { 1: '1px' },
-    fontFamily: {
-      main: ['Lato', 'sans-serif'],
-    },
+  },
+  extend: {
+    borderWidth: { 1: '1px' },
+  },
+  fontFamily: {
+    main: ['Lato', 'sans-serif'],
   },
   variants: {},
   plugins: [],
