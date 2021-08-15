@@ -35,3 +35,8 @@ h1.ce-header {
 .ce-block .cdx-marker {
   @apply bg-white font-semibold;
 }
+
+.ce-block .ce-paragraph b {
+  @apply pl-6 inline-block;
+  text-indent: -1.5rem;
+}
