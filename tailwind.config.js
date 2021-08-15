@@ -81,9 +81,9 @@ module.exports = {
     fontFamily: {
       main: ['Lato', 'sans-serif'],
     },
-  },
-  extend: {
-    borderWidth: { 1: '1px' },
+    extend: {
+      borderWidth: { 1: '1px' },
+    },
   },
   darkMode: 'media',
   variants: {},
