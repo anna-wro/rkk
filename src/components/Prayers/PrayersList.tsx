@@ -1,8 +1,13 @@
 import PrayersGroup from './PrayersGroup';
 import { groupByKey } from 'utils/array';
 import { copy } from 'copy';
+import type { PrayerType } from 'components/Prayers/Prayer';
 
-export default function PrayersList({ prayers }) {
+type PropsType = Readonly<{
+  prayers: PrayerType[];
+}>;
+
+export default function PrayersList({ prayers }: PropsType) {
   const firstWeek = prayers.filter(prayer => prayer.week === '1');
   const firstWeekGroupedByDay = groupByKey(firstWeek, 'day');
   const secondWeek = prayers.filter(prayer => prayer.week === '2');

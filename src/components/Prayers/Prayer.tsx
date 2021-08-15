@@ -1,25 +1,38 @@
-import copy from 'copy';
+import { useState } from 'react';
 import dynamic from 'next/dynamic';
-import Link from 'next/link';
+import GoBackButton from 'components/GoBackButton';
+import type { EditorDataType } from 'components/Editor/Editor';
 
 const Editor = dynamic(() => import('components/Editor/Editor'), {
   ssr: false,
 });
 
-export default function Prayer({ prayer }) {
+export type PrayerType = EditorDataType &
+  Readonly<{
+    ID: string;
+    slug: string;
+    day: string;
+    week: string;
+    type: string;
+  }>;
+
+type PropsType = Readonly<{ prayer: PrayerType }>;
+
+export default function Prayer({ prayer }: PropsType) {
+  const [editorReady, setEditorReady] = useState(false);
   return (
     <>
-      <Link href="/" passHref>
-        <div
-          className="bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-600 
-        w-40 m-auto rounded-md p-2 mt-4 mb-4 cursor-pointer"
-        >
-          {copy.backToList}
-        </div>
-      </Link>
-      <div className="cursor-default">
-        <Editor data={prayer} />
+      <div className="md:absolute top-32 right-20 z-10 mt-3 mb-2 md:my-0">
+        <GoBackButton />
       </div>
+      <div className="cursor-default">
+        <Editor data={prayer} onReady={() => setEditorReady(true)} />
+      </div>
+      {editorReady && (
+        <div className="mt-6 mb-12">
+          <GoBackButton />
+        </div>
+      )}
     </>
   );
 }

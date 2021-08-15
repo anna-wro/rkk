@@ -7,8 +7,11 @@ import fs from 'fs';
 import path from 'path';
 import getPrayerDataFromFilename from 'utils/getPrayerDataFromFilename';
 import copy from 'copy';
+import { PrayerType } from 'components/Prayers/Prayer';
 
-export default function Home({ prayers }) {
+type PropsType = Readonly<{ prayers: PrayerType[] }>;
+
+export default function Home({ prayers }: PropsType) {
   const router = useRouter();
   const { slug } = router.query;
   let prayer;
@@ -24,7 +27,7 @@ export default function Home({ prayers }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-4 md:px-20 max-w-2xl mx-auto">
+      <main className="px-4 md:px-20 max-w-2xl mx-auto relative">
         <Title />
         {prayer ? (
           <Prayer prayer={prayer} />
