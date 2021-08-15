@@ -8,7 +8,7 @@ export default function PrayersGroup({ prayers }) {
       <div className="w-28 mr-4 border-r-1 border-gray-50">
         {makeStartCase(groupName)}
       </div>
-      <div className="pb-4 md:pb-8">
+      <div className="pb-4 md:pb-6">
         {prayersInGroup.map(prayer => (
           <Link key={prayer.ID} href={prayer.slug} passHref>
             <div className="font-light hover:underline cursor-pointer">
