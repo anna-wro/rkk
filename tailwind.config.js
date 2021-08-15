@@ -80,6 +80,8 @@ module.exports = {
     },
     extend: {
       borderWidth: { 1: '1px' },
+    fontFamily: {
+      main: ['Lato', 'sans-serif'],
     },
   },
   variants: {},
