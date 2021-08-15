@@ -8,7 +8,7 @@ const Editor = dynamic(() => import('components/Editor/Editor'), {
 
 export default function Prayer({ prayer }) {
   return (
-    <div className="mt-8">
+    <>
       <Link href="/" passHref>
         <div
           className="bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-600 
@@ -17,9 +17,9 @@ export default function Prayer({ prayer }) {
           {copy.backToList}
         </div>
       </Link>
-      <div className="text-left cursor-default">
+      <div className="cursor-default">
         <Editor data={prayer} />
       </div>
-    </div>
+    </>
   );
 }
