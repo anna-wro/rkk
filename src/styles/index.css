@@ -9,7 +9,7 @@
 }
 
 h1.ce-header {
-  @apply font-bold text-lg my-2;
+  @apply font-bold text-xl my-2;
 }
 
 .ce-header {
