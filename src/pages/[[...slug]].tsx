@@ -4,7 +4,7 @@ import PrayersList from 'components/Prayers/PrayersList';
 import Prayer from 'components/Prayers/Prayer';
 import fs from 'fs';
 import path from 'path';
-import getPrayerSlug from 'utils/getPrayerSlug';
+import getPrayerDataFromFilename from 'utils/getPrayerDataFromFilename';
 import copy from 'copy';
 
 export default function Home({ prayers }) {
@@ -23,7 +23,7 @@ export default function Home({ prayers }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-4 md:px-20 text-center">
+      <main className="px-4 md:px-20 text-center font-main">
         <h1 className="text-4xl font-bold mt-10">{copy.title}</h1>
         {prayer ? (
           <Prayer prayer={prayer} />
@@ -48,13 +48,15 @@ export function getStaticProps() {
     .readdirSync(DATA_PATH)
     .filter(path => /\.json?$/.test(path));
 
-  // TODO: sort in a chronological order
-  const prayers = dataFilePaths.map(filePath => {
-    const slug = getPrayerSlug({ filePath });
-    const source = fs.readFileSync(path.join(DATA_PATH, filePath));
-    const obj = JSON.parse(source.toString());
+  const prayers = dataFilePaths
+    .map(filePath => {
+      const prayerData = getPrayerDataFromFilename({ filePath });
+      const source = fs.readFileSync(path.join(DATA_PATH, filePath));
+      const obj = JSON.parse(source.toString());
 
-    return { ...obj, slug };
-  });
+      return { ...obj, ...prayerData };
+    })
+    .sort((a, b) => a.ID - b.ID);
+
   return { props: { prayers } };
 }

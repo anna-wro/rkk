@@ -32,3 +32,19 @@ h1.ce-header {
 .ce-block .cdx-list {
   @apply pl-4;
 }
+
+.ce-block .cdx-list__item {
+  padding: 2px 0;
+}
+
+.ce-block .cdx-list--unordered {
+  @apply pl-0 list-none;
+}
+
+.ce-block .cdx-list--unordered li:nth-child(2n) {
+  @apply pl-6;
+}
+
+.ce-block .cdx-marker {
+  @apply bg-white font-semibold;
+}
