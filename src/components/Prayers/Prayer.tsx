@@ -22,7 +22,7 @@ export default function Prayer({ prayer }: PropsType) {
   const [editorReady, setEditorReady] = useState(false);
   return (
     <>
-      <div className="absolute top-32 right-20 z-10">
+      <div className="md:absolute top-32 right-20 z-10 mt-3 mb-2 md:my-0">
         <GoBackButton />
       </div>
       <div className="cursor-default">
