@@ -78,6 +78,9 @@ module.exports = {
       white: '#FFFFFF',
       transparent: 'transparent',
     },
+    extend: {
+      borderWidth: { 1: '1px' },
+    },
   },
   variants: {},
   plugins: [],
