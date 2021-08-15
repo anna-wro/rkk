@@ -87,111 +87,29 @@
       }
     },
     {
-      "type": "paragraph",
+      "type": "list",
       "data": {
-        "text": "Kto si\u0119 w opiek\u0119 odda\u0142 Najwy\u017cszemu&nbsp;*<br>i w cieniu Wszechmocnego mieszka,<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "M\u00f3wi do Pana: \"Ty\u015b moj\u0105 ucieczk\u0105 i twierdz\u0105,&nbsp;*<br>Bo\u017ce m\u00f3j, kt\u00f3remu ufam\".<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Bo On sam ci\u0119 wyzwoli z side\u0142 my\u015bliwego&nbsp;*<br>i od s\u0142owa nios\u0105cego zgub\u0119.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Okryje ci\u0119 swoimi pi\u00f3rami, \u2020<br>pod Jego skrzyd\u0142a si\u0119 schronisz;&nbsp;*<br>wierno\u015b\u0107 Jego jest puklerzem i tarcz\u0105.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Nie ul\u0119kniesz si\u0119 strachu nocnego&nbsp;*<br>ani strza\u0142y za dnia lec\u0105cej,<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Ani zarazy skradaj\u0105cej si\u0119 w mroku,&nbsp;*<br>ani moru niszcz\u0105cego w po\u0142udnie.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "A cho\u0107by tysi\u0105c pad\u0142o u boku twego \u2020<br>i dziesi\u0119\u0107 tysi\u0119cy po twojej prawicy,&nbsp;*<br>ciebie to nie spotka.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Ty za\u015b ujrzysz w\u0142asnymi oczyma&nbsp;*<br>zap\u0142at\u0119 dan\u0105 grzesznikom.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Bo Pan jest twoj\u0105 ucieczk\u0105,&nbsp;*<br>za obro\u0144c\u0119 wzi\u0105\u0142e\u015b Najwy\u017cszego.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Nie przyst\u0105pi do ciebie niedola,&nbsp;*<br>a cios nie dosi\u0119gnie twojego namiotu,<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Bo rozkaza\u0142 swoim anio\u0142om,&nbsp;*<br>aby ci\u0119 strzegli na wszystkich twych drogach.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "B\u0119d\u0105 ci\u0119 nosili na r\u0119kach,&nbsp;*<br>aby\u015b stopy nie urazi\u0142 o kamie\u0144.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "B\u0119dziesz st\u0105pa\u0142 po w\u0119\u017cach i \u017cmijach,&nbsp;*<br>a lwa i smoka podepczesz.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "\"Ja go wybawi\u0119, bo przylgn\u0105\u0142 do Mnie,&nbsp;*<br>os\u0142oni\u0119 go, bo pozna\u0142 moje imi\u0119.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "B\u0119dzie Mnie wzywa\u0142, a Ja go wys\u0142ucham \u2020<br>i b\u0119d\u0119 z nim w utrapieniu,&nbsp;*<br>wyzwol\u0119 go i s\u0142aw\u0105 obdarz\u0119.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Nasyc\u0119 go d\u0142ugim \u017cyciem&nbsp;*<br>i uka\u017c\u0119 mu moje zbawienie\".<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Chwa\u0142a Ojcu i Synowi,&nbsp;*<br>i Duchowi \u015awi\u0119temu.<br>"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "Jak by\u0142a na pocz\u0105tku, teraz i zawsze,&nbsp;*<br>i na wieki wiek\u00f3w. Amen.<br>"
+        "style": "unordered",
+        "items": [
+          "Kto si\u0119 w opiek\u0119 odda\u0142 Najwy\u017cszemu&nbsp;*<br>i w cieniu Wszechmocnego mieszka,<br>",
+          "M\u00f3wi do Pana: \"Ty\u015b moj\u0105 ucieczk\u0105 i twierdz\u0105,&nbsp;*<br>Bo\u017ce m\u00f3j, kt\u00f3remu ufam\".<br>",
+          "Bo On sam ci\u0119 wyzwoli z side\u0142 my\u015bliwego&nbsp;*<br>i od s\u0142owa nios\u0105cego zgub\u0119.<br>",
+          "Okryje ci\u0119 swoimi pi\u00f3rami, \u2020<br>pod Jego skrzyd\u0142a si\u0119 schronisz;&nbsp;*<br>wierno\u015b\u0107 Jego jest puklerzem i tarcz\u0105.<br>",
+          "Nie ul\u0119kniesz si\u0119 strachu nocnego&nbsp;*<br>ani strza\u0142y za dnia lec\u0105cej,<br>",
+          "Ani zarazy skradaj\u0105cej si\u0119 w mroku,&nbsp;*<br>ani moru niszcz\u0105cego w po\u0142udnie.<br>",
+          "A cho\u0107by tysi\u0105c pad\u0142o u boku twego \u2020<br>i dziesi\u0119\u0107 tysi\u0119cy po twojej prawicy,&nbsp;*<br>ciebie to nie spotka.<br>",
+          "Ty za\u015b ujrzysz w\u0142asnymi oczyma&nbsp;*<br>zap\u0142at\u0119 dan\u0105 grzesznikom.<br>",
+          "Bo Pan jest twoj\u0105 ucieczk\u0105,&nbsp;*<br>za obro\u0144c\u0119 wzi\u0105\u0142e\u015b Najwy\u017cszego.<br>",
+          "Nie przyst\u0105pi do ciebie niedola,&nbsp;*<br>a cios nie dosi\u0119gnie twojego namiotu,<br>",
+          "Bo rozkaza\u0142 swoim anio\u0142om,&nbsp;*<br>aby ci\u0119 strzegli na wszystkich twych drogach.<br>",
+          "B\u0119d\u0105 ci\u0119 nosili na r\u0119kach,&nbsp;*<br>aby\u015b stopy nie urazi\u0142 o kamie\u0144.<br>",
+          "B\u0119dziesz st\u0105pa\u0142 po w\u0119\u017cach i \u017cmijach,&nbsp;*<br>a lwa i smoka podepczesz.<br>",
+          "Ja go wybawi\u0119, bo przylgn\u0105\u0142 do Mnie,&nbsp;*<br>os\u0142oni\u0119 go, bo pozna\u0142 moje imi\u0119.<br>",
+          "B\u0119dzie Mnie wzywa\u0142, a Ja go wys\u0142ucham \u2020<br>i b\u0119d\u0119 z nim w utrapieniu,&nbsp;*<br>wyzwol\u0119 go i s\u0142aw\u0105 obdarz\u0119.<br>",
+          "Nasyc\u0119 go d\u0142ugim \u017cyciem&nbsp;*<br>i uka\u017c\u0119 mu moje zbawienie\".<br>",
+          "Chwa\u0142a Ojcu i Synowi,&nbsp;*<br>i Duchowi \u015awi\u0119temu.<br>",
+          "Jak by\u0142a na pocz\u0105tku, teraz i zawsze,&nbsp;*<br>i na wieki wiek\u00f3w. Amen.<br>"
+        ]
       }
     },
     {
