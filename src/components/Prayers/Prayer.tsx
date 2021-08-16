@@ -1,10 +1,6 @@
 import copy from 'copy';
-import dynamic from 'next/dynamic';
+import { MDXRemote } from 'next-mdx-remote';
 import Link from 'next/link';
-
-const Editor = dynamic(() => import('components/Editor/Editor'), {
-  ssr: false,
-});
 
 export default function Prayer({ prayer }) {
   return (
@@ -18,7 +14,7 @@ export default function Prayer({ prayer }) {
         </div>
       </Link>
       <div className="cursor-default">
-        <Editor data={prayer} />
+        <MDXRemote {...prayer.source} />
       </div>
     </>
   );

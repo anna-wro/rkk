@@ -25,12 +25,12 @@ const DAYS = {
   sat: { name: 'sobota', order: 7 },
 };
 
-export default function getPrayerDataFromFilename({
+export function getPrayerDataFromFilename({
   filePath,
 }: {
   filePath: string;
 }): PrayerDataPropsType {
-  const [type, day, week] = filePath.replace('.json', '').split('_');
+  const [type, day, week] = filePath.replace('.mdx', '').split('_');
   const mappedDay = DAYS[day] ?? DAYS['sun'];
   const mappedType = PRAYERS[type] ?? PRAYERS['lau'];
   const slug = removeAccents(`${mappedDay.name}-${week}-${mappedType.name}`);
