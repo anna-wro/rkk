@@ -9,30 +9,30 @@ type PrayerDataPropsType = Readonly<{
 }>;
 
 const PRAYERS = {
-  eve: { name: 'wigilia', order: 1 },
-  lau: { name: 'jutrznia', order: 2 },
-  ves: { name: 'nieszpory', order: 3 },
-  com: { name: 'kompleta', order: 4 },
+  wigilia: { name: 'wigilia', order: 1 },
+  jutrznia: { name: 'jutrznia', order: 2 },
+  nieszpory: { name: 'nieszpory', order: 3 },
+  kompleta: { name: 'kompleta', order: 4 },
 };
 
 const DAYS = {
-  sun: { name: 'niedziela', order: 1 },
-  mon: { name: 'poniedziałek', order: 2 },
-  tue: { name: 'wtorek', order: 3 },
-  wed: { name: 'środa', order: 4 },
-  thu: { name: 'czwartek', order: 5 },
-  fri: { name: 'piątek', order: 6 },
-  sat: { name: 'sobota', order: 7 },
+  niedziela: { name: 'niedziela', order: 1 },
+  poniedzialek: { name: 'poniedziałek', order: 2 },
+  wtorek: { name: 'wtorek', order: 3 },
+  sroda: { name: 'środa', order: 4 },
+  czwartek: { name: 'czwartek', order: 5 },
+  piatek: { name: 'piątek', order: 6 },
+  sobota: { name: 'sobota', order: 7 },
 };
 
-export default function getPrayerDataFromFilename({
+export function getPrayerDataFromFilename({
   filePath,
 }: {
   filePath: string;
 }): PrayerDataPropsType {
-  const [type, day, week] = filePath.replace('.json', '').split('_');
-  const mappedDay = DAYS[day] ?? DAYS['sun'];
-  const mappedType = PRAYERS[type] ?? PRAYERS['lau'];
+  const [day, week, type] = filePath.replace('.mdx', '').split('-');
+  const mappedDay = DAYS[day] ?? DAYS['niedziela'];
+  const mappedType = PRAYERS[type] ?? PRAYERS['jutrznia'];
   const slug = removeAccents(`${mappedDay.name}-${week}-${mappedType.name}`);
   const ID = Number(`${week}${mappedDay.order}${mappedType.order}`);
 

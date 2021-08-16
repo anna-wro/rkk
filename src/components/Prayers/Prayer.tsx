@@ -1,38 +1,30 @@
-import { useState } from 'react';
-import dynamic from 'next/dynamic';
+import { MDXRemote } from 'next-mdx-remote';
+import type { MDXRemoteSerializeResult } from 'next-mdx-remote';
 import GoBackButton from 'components/GoBackButton';
-import type { EditorDataType } from 'components/Editor/Editor';
 
-const Editor = dynamic(() => import('components/Editor/Editor'), {
-  ssr: false,
-});
-
-export type PrayerType = EditorDataType &
-  Readonly<{
-    ID: string;
-    slug: string;
-    day: string;
-    week: string;
-    type: string;
-  }>;
+export type PrayerType = Readonly<{
+  ID: string;
+  slug: string;
+  day: string;
+  week: string;
+  type: string;
+  source: MDXRemoteSerializeResult;
+}>;
 
 type PropsType = Readonly<{ prayer: PrayerType }>;
 
 export default function Prayer({ prayer }: PropsType) {
-  const [editorReady, setEditorReady] = useState(false);
   return (
     <>
       <div className="md:absolute top-32 right-20 z-10 mt-3 mb-2 md:my-0">
         <GoBackButton />
       </div>
       <div className="cursor-default">
-        <Editor data={prayer} onReady={() => setEditorReady(true)} />
+        <MDXRemote {...prayer.source} />
       </div>
-      {editorReady && (
-        <div className="mt-6 mb-12">
-          <GoBackButton />
-        </div>
-      )}
+      <div className="mt-6 mb-12">
+        <GoBackButton />
+      </div>
     </>
   );
 }
