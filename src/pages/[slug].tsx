@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Title from 'components/Title';
 import Prayer from 'components/Prayers/Prayer';
 import copy from 'copy';
+import { PRAYERS_PATH, prayersFilePaths } from 'utils/mdxUtils';
 
 export default function PrayerPage({ prayer }) {
   return (
@@ -24,8 +25,7 @@ export default function PrayerPage({ prayer }) {
 }
 
 export const getStaticProps = async ({ params }) => {
-  const DATA_PATH = path.join(process.cwd(), 'src/data');
-  const postFilePath = path.join(DATA_PATH, `${params.slug}.mdx`);
+  const postFilePath = path.join(PRAYERS_PATH, `${params.slug}.mdx`);
   const source = fs.readFileSync(postFilePath);
 
   const { content, data } = matter(source);
@@ -46,12 +46,7 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export const getStaticPaths = async () => {
-  const DATA_PATH = path.join(process.cwd(), 'src/data');
-  const dataFilePaths = fs
-    .readdirSync(DATA_PATH)
-    .filter(path => /\.mdx?$/.test(path));
-
-  const paths = dataFilePaths
+  const paths = prayersFilePaths
     // Remove file extensions for page paths
     .map(path => path.replace(/\.mdx?$/, ''))
     // Map the path into the static paths object required by Next.js
