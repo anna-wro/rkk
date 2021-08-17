@@ -2,7 +2,7 @@ import { MDXRemote } from 'next-mdx-remote';
 import type { MDXRemoteSerializeResult } from 'next-mdx-remote';
 import GoBackButton from 'components/GoBackButton';
 import { Header, Section, List, ListItem } from 'components/components';
-import { Versicles } from 'components/Versicles';
+import { Responsory } from 'components/common/Responsory';
 import {
   OurFather,
   OpeningVersicle,
@@ -26,7 +26,7 @@ const components = {
   h2: Section,
   ol: List,
   li: ListItem,
-  Versicles,
+  Responsory,
   OpeningVersicle,
   OurFather,
   BlessingAndConcludingVersicle,
