@@ -1,7 +1,7 @@
 import { MDXRemote } from 'next-mdx-remote';
 import type { MDXRemoteSerializeResult } from 'next-mdx-remote';
 import GoBackButton from 'components/GoBackButton';
-import { Header } from 'components/components';
+import { Header, Role } from 'components/components';
 
 export type PrayerType = Readonly<{
   ID: string;
@@ -16,6 +16,7 @@ type PropsType = Readonly<{ prayer: PrayerType }>;
 
 const components = {
   h1: Header,
+  Role,
 };
 
 export default function Prayer({ prayer }: PropsType) {

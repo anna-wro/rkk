@@ -8,10 +8,6 @@
   padding-bottom: 0 !important;
 }
 
-h1.ce-header {
-  @apply font-bold text-xl mb-0 -mt-2 md:mr-32;
-}
-
 .ce-header {
   @apply font-bold;
 }
@@ -30,13 +26,4 @@ h1.ce-header {
 
 .ce-block .cdx-list--unordered li:nth-child(2n) {
   @apply pl-6;
-}
-
-.ce-block .cdx-marker {
-  @apply bg-white font-semibold;
-}
-
-.ce-block .ce-paragraph b {
-  @apply pl-6 inline-block;
-  text-indent: -1.5rem;
 }
