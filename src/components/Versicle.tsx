@@ -10,7 +10,7 @@ export const Versicle = ({ initial, content }: RolesType) => {
 
   return (
     <div
-      className={cx('flex my-2', {
+      className={cx('flex', {
         'font-bold': initial === 'w',
       })}
     >

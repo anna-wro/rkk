@@ -3,14 +3,21 @@ import cx from 'classnames';
 type RoleType = Readonly<{
   name: string;
   antiphon: string;
-  children: string[];
+  content: string[];
 }>;
 
-export const Psalm = ({ name, antiphon, children }: RoleType) => {
+export const Psalm = ({ name, antiphon, content }: RoleType) => {
   return (
-    <div className={cx('flex mb-2')}>
-      <div className="w-7 flex-shrink-0">{antiphon}</div>
-      <div>{children}</div>
+    <div className={cx('mb-2')}>
+      {name}
+      {antiphon}
+      <div className="space-y-1">
+        {content.map((part, index) => (
+          <div key={index} className={index % 2 === 0 ? 'pl-7' : null}>
+            {part}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

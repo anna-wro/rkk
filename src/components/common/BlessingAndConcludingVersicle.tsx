@@ -1,6 +1,6 @@
 import { Versicles } from 'components/Versicles';
 
-export const ClosingVersicle = () => {
+export const BlessingAndConcludingVersicle = () => {
   return (
     <Versicles
       versicles={[

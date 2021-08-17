@@ -3,7 +3,11 @@ import type { MDXRemoteSerializeResult } from 'next-mdx-remote';
 import GoBackButton from 'components/GoBackButton';
 import { Header, Section, List, ListItem } from 'components/components';
 import { Versicles } from 'components/Versicles';
-import { OurFather, OpeningVersicle, ClosingVersicle } from 'components/common';
+import {
+  OurFather,
+  OpeningVersicle,
+  BlessingAndConcludingVersicle,
+} from 'components/common';
 import { Psalm } from 'components/Psalm';
 
 export type PrayerType = Readonly<{
@@ -25,7 +29,8 @@ const components = {
   Versicles,
   OpeningVersicle,
   OurFather,
-  ClosingVersicle,
+  BlessingAndConcludingVersicle,
+  Psalm,
 };
 
 export default function Prayer({ prayer }: PropsType) {
