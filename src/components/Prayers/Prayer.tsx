@@ -1,7 +1,7 @@
 import { MDXRemote } from 'next-mdx-remote';
 import type { MDXRemoteSerializeResult } from 'next-mdx-remote';
 import GoBackButton from 'components/GoBackButton';
-import { Header, Section, List, ListItem } from 'components/components';
+import { Header, Section, List, ListItem } from 'components/overrides';
 import { Responsory } from 'components/common/Responsory';
 import {
   OurFather,

@@ -1,11 +1,13 @@
 import cx from 'classnames';
 
 type RoleType = Readonly<{
+  order: string;
   name: string;
   antiphon: string;
   content: string[];
 }>;
 
+// TODO: allelujowy
 export const Psalm = ({ name, antiphon, content }: RoleType) => {
   return (
     <div className={cx('mb-2')}>
