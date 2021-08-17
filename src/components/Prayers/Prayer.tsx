@@ -21,13 +21,13 @@ const components = {
 export default function Prayer({ prayer }: PropsType) {
   return (
     <>
-      <div className="mt-6 relative">
-        <div className="md:absolute top-0 right-0">
+      <div className="relative">
+        <div className="md:absolute top-0 right-0 mb-4">
           <GoBackButton />
         </div>
         <MDXRemote {...prayer.source} components={components} />
       </div>
-      <div className="mt-6 mb-12">
+      <div className="mt-6">
         <GoBackButton />
       </div>
     </>
