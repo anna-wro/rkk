@@ -2,25 +2,15 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { serialize } from 'next-mdx-remote/serialize';
-import Head from 'next/head';
-import Title from 'components/Title';
 import Prayer from 'components/Prayers/Prayer';
-import copy from 'copy';
+import Layout from 'components/Layout';
 import { PRAYERS_PATH, prayersFilePaths } from 'utils/mdxUtils';
 
 export default function PrayerPage({ prayer }) {
   return (
-    <div className="py-4">
-      <Head>
-        <title>{copy.title}</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className="px-4 md:px-20 max-w-2xl mx-auto">
-        <Title />
-        <Prayer prayer={prayer} />
-      </main>
-    </div>
+    <Layout>
+      <Prayer prayer={prayer} />
+    </Layout>
   );
 }
 

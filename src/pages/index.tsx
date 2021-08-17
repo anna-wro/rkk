@@ -1,27 +1,17 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import Head from 'next/head';
-import Title from 'components/Title';
+import Layout from 'components/Layout';
 import PrayersList from 'components/Prayers/PrayersList';
 import { getPrayerDataFromFilename } from 'utils/getPrayerDataFromFilename';
 import { PRAYERS_PATH, prayersFilePaths } from 'utils/mdxUtils';
-import copy from 'copy';
 
 export default function Home({ prayers }) {
   console.log({ prayers });
   return (
-    <div className="py-4">
-      <Head>
-        <title>{copy.title}</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className="px-4 md:px-20 max-w-2xl mx-auto">
-        <Title />
-        <PrayersList prayers={prayers} />
-      </main>
-    </div>
+    <Layout>
+      <PrayersList prayers={prayers} />
+    </Layout>
   );
 }
 
