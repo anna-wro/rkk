@@ -13,7 +13,7 @@ export const Roles = ({ items }: RolesType) => {
         return (
           <div
             key={index}
-            className={cx('flex mb-2', { 'font-bold': roleName === 'W.' })}
+            className={cx('flex my-2', { 'font-bold': roleName === 'W.' })}
           >
             <div className="w-7 flex-shrink-0">{roleName}</div>
             <div>{item}</div>

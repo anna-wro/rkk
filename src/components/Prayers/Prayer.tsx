@@ -1,8 +1,7 @@
 import { MDXRemote } from 'next-mdx-remote';
 import type { MDXRemoteSerializeResult } from 'next-mdx-remote';
 import GoBackButton from 'components/GoBackButton';
-import { Header, Section, Hymn, ListItem } from 'components/components';
-import { Role } from 'components/Role';
+import { Header, Section, List, ListItem } from 'components/components';
 import { Roles } from 'components/Roles';
 import { Opening } from 'components/common/Opening';
 import { Psalm } from 'components/Psalm';
@@ -21,9 +20,8 @@ type PropsType = Readonly<{ prayer: PrayerType }>;
 const components = {
   h1: Header,
   h2: Section,
-  ol: Hymn,
+  ol: List,
   li: ListItem,
-  Role,
   Roles,
   Opening,
 };

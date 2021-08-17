@@ -8,6 +8,6 @@ export const Section = ({ children }) => (
 
 export const ListItem = ({ children }) => <li className="pl-3">{children}</li>;
 
-export const Hymn = ({ children }) => (
-  <ol className="list-decimal my-3 ml-4 space-y-2">{children}</ol>
+export const List = ({ children }) => (
+  <ol className="list-decimal mb-3 ml-4 space-y-2">{children}</ol>
 );
