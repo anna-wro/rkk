@@ -29,7 +29,7 @@ const components = {
 export default function Prayer({ prayer }: PropsType) {
   return (
     <>
-      <div className="relative">
+      <div className="relative whitespace-pre-line">
         <div className="md:absolute top-0 right-0 mb-4">
           <GoBackButton />
         </div>
