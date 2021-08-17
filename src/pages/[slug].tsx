@@ -16,7 +16,7 @@ export default function PrayerPage({ prayer }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-4 md:px-20 max-w-2xl mx-auto relative">
+      <main className="px-4 md:px-20 max-w-2xl mx-auto">
         <Title />
         <Prayer prayer={prayer} />
       </main>

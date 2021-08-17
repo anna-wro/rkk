@@ -17,7 +17,7 @@ export default function Home({ prayers }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-4 md:px-20 max-w-2xl mx-auto relative">
+      <main className="px-4 md:px-20 max-w-2xl mx-auto">
         <Title />
         <PrayersList prayers={prayers} />
       </main>
