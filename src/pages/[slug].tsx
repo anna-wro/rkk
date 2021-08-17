@@ -19,7 +19,9 @@ export const getStaticProps = async ({ params }) => {
   const source = fs.readFileSync(postFilePath);
 
   const { content, data } = matter(source);
-  const contentWithNewlines = content.replaceAll('\\', '<br />');
+  const contentWithNewlines = content
+    .replaceAll('\\', '<br />')
+    .replaceAll('_', '&#42;');
   const mdxSource = await serialize(contentWithNewlines, {
     // Optionally pass remark/rehype plugins
     mdxOptions: {

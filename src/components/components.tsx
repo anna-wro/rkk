@@ -1,21 +1,13 @@
-import cx from 'classnames';
-
-type RoleType = Readonly<{
-  type: 'k' | 'w';
-  children: React.ReactElement;
-}>;
-
 export const Header = ({ children }) => (
-  <div className="font-bold text-xl mt-4 mb-6 md:mr-32">{children}</div>
+  <h1 className="font-bold text-xl mt-4 mb-6 md:mr-32">{children}</h1>
 );
 
-export const Role = ({ type, children }: RoleType) => {
-  const roleName = `${type.toUpperCase()}.`;
+export const Section = ({ children }) => (
+  <h2 className="font-bold text-l my-3 uppercase">{children}</h2>
+);
 
-  return (
-    <div className={cx('flex mb-2', { 'font-bold': type === 'w' })}>
-      <div className="w-7 flex-shrink-0">{roleName}</div>
-      <div>{children}</div>
-    </div>
-  );
-};
+export const ListItem = ({ children }) => <li className="pl-3">{children}</li>;
+
+export const Hymn = ({ children }) => (
+  <ol className="list-decimal my-3 ml-4 space-y-2">{children}</ol>
+);
