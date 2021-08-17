@@ -6,7 +6,7 @@ type RolesType = Readonly<{
 
 export const Versicles = ({ versicles }: RolesType) => {
   return (
-    <div className="mb-6">
+    <div className="mb-3">
       {versicles.map((versicle, index) => {
         const initial = index % 2 === 0 ? 'k' : 'w';
 
