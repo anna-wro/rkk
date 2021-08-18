@@ -2,7 +2,7 @@ import cx from 'classnames';
 import React from 'react';
 
 type SectionType = Readonly<{
-  inline?: boolean;
+  sigla?: string;
   spacedTop?: string;
   children: React.ReactNode;
 }>;
@@ -13,15 +13,15 @@ export const Header = ({ children }) => (
 
 export const Section = ({
   children,
-  inline,
+  sigla,
   spacedTop = 'mt-6',
 }: SectionType) => (
   <h2
-    className={cx('font-bold text-l tracking-wide uppercasemb-2', spacedTop, {
-      'inline-block': inline,
+    className={cx('font-bold text-l tracking-wide uppercase', spacedTop, {
+      'inline-block': sigla,
     })}
   >
-    {children}
+    {children} {sigla && <span className="font-light">| {sigla}</span>}
   </h2>
 );
 

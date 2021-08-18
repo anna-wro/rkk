@@ -13,7 +13,7 @@ export const NuncDimittis = ({ variant = 1 }: NuncDimittisType) => {
 
   return (
     <>
-      <Section inline>Pieśń Symeona</Section> | Łk 2, 29-32
+      <Section sigla="Łk 2, 29-32">Pieśń Symeona</Section>
       <Canticle
         antiphon={antiphon}
         versicles={[

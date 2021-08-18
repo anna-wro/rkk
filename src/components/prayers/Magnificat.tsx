@@ -8,9 +8,7 @@ type MagnificatType = Readonly<{
 export const Magnificat = ({ antiphon }: MagnificatType) => {
   return (
     <>
-      <div>
-        <Section inline>Pieśń Maryi</Section> | Łk 1, 46-55
-      </div>
+      <Section sigla="Łk 1, 46-55">Pieśń Maryi</Section>
       <Canticle
         antiphon={antiphon}
         versicles={[

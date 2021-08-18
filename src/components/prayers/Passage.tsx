@@ -8,10 +8,9 @@ type MagnificatType = Readonly<{
 export const Passage = ({ passage, sigla }: MagnificatType) => {
   return (
     <>
-      <Section inline spacedTop="mt-0">
+      <Section sigla={sigla} spacedTop="mt-0">
         Czytanie
       </Section>
-      | {sigla}
       <div>{passage}</div>
     </>
   );
