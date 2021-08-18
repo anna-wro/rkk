@@ -12,7 +12,7 @@ export const CanticleWrapper = ({
   children,
 }: CanticleWrapperType) => {
   return (
-    <div className="mt-4 mb-6 space-y-2">
+    <div className="mb-6 space-y-2">
       <div>
         {order ? (
           <span className="font-bold">{order} ant. </span>

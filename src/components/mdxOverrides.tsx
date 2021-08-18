@@ -17,7 +17,7 @@ export const Section = ({
   spacedTop = 'mt-6',
 }: SectionType) => (
   <h2
-    className={cx('font-bold text-l tracking-wide uppercase', spacedTop, {
+    className={cx('font-bold text-l tracking-wide uppercase mb-2', spacedTop, {
       'inline-block': sigla,
     })}
   >
