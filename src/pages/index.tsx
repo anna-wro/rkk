@@ -7,7 +7,6 @@ import { getPrayerDataFromFilename } from 'utils/getPrayerDataFromFilename';
 import { PRAYERS_PATH, prayersFilePaths } from 'utils/mdxUtils';
 
 export default function Home({ prayers }) {
-  console.log({ prayers });
   return (
     <Layout>
       <PrayersList prayers={prayers} />
