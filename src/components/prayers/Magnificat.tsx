@@ -1,13 +1,13 @@
 import { Canticle } from './index';
 import { Section } from 'components/mdxOverrides';
 
-type AlleluiaType = Readonly<{
+type MagnificatType = Readonly<{
   antiphon: string;
 }>;
 
-export const Magnificat = ({ antiphon }: AlleluiaType) => {
+export const Magnificat = ({ antiphon }: MagnificatType) => {
   return (
-    <div>
+    <>
       <Section>Pieśń Maryi</Section>
       <Canticle
         name="Łk 1, 46-55"
@@ -37,6 +37,6 @@ export const Magnificat = ({ antiphon }: AlleluiaType) => {
         * i na wieki wieków. Amen.`,
         ]}
       />
-    </div>
+    </>
   );
 };

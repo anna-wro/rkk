@@ -4,5 +4,7 @@ export { OurFather } from './OurFather';
 export { AlleluiaPsalm } from './AlleluiaPsalm';
 export { Canticle } from './Canticle';
 export { Magnificat } from './Magnificat';
+export { Benedictus } from './Benedictus';
+export { NuncDimittis } from './NuncDimittis';
 export { V } from './V';
 export { R } from './R';

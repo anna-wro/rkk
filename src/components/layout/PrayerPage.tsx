@@ -10,6 +10,8 @@ import {
   AlleluiaPsalm,
   Canticle,
   Magnificat,
+  Benedictus,
+  NuncDimittis,
   V,
   R,
 } from 'components/prayers';
@@ -36,6 +38,8 @@ const components = {
   BlessingAndConcludingVersicle,
   Canticle,
   Magnificat,
+  Benedictus,
+  NuncDimittis,
   AlleluiaPsalm,
   V,
   R,

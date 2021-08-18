@@ -1,4 +1,4 @@
-type PsalmHeaderType = Readonly<{
+type CanticleWrapperType = Readonly<{
   order?: number;
   name: string;
   antiphon: string;
@@ -10,7 +10,7 @@ export const CanticleWrapper = ({
   name,
   antiphon,
   children,
-}: PsalmHeaderType) => {
+}: CanticleWrapperType) => {
   return (
     <div className="mt-4 mb-6 space-y-2 relative">
       <div>
