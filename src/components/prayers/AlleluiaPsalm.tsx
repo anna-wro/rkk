@@ -1,10 +1,20 @@
+import { PsalmWrapper } from './PsalmWrapper';
+
 type PartType = [string, string];
 
 type AlleluiaType = Readonly<{
+  order: number;
+  name: string;
+  antiphon: string;
   versicles: PartType[];
 }>;
 
-export const AlleluiaPsalm = ({ versicles }: AlleluiaType) => {
+export const AlleluiaPsalm = ({
+  versicles,
+  order,
+  name,
+  antiphon,
+}: AlleluiaType) => {
   const versiclesWithGloriaPatri = [
     ...versicles,
     ['Chwała Ojcu i Synowi,', 'i Duchowi Świętemu.'],
@@ -12,7 +22,7 @@ export const AlleluiaPsalm = ({ versicles }: AlleluiaType) => {
   ];
 
   return (
-    <div className="mt-4">
+    <PsalmWrapper order={order} name={name} antiphon={antiphon}>
       {versiclesWithGloriaPatri.map((versicle, index) => (
         <div key={index} className="mb-3">{`Alleluja.
         ${versicle[0]} * 
@@ -20,6 +30,6 @@ export const AlleluiaPsalm = ({ versicles }: AlleluiaType) => {
         ${versicle[1]}
         W. Alleluja (alleluja).`}</div>
       ))}
-    </div>
+    </PsalmWrapper>
   );
 };
