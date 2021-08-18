@@ -2,7 +2,7 @@ import { CanticleWrapper } from './CanticleWrapper';
 
 type PsalmType = Readonly<{
   order?: number;
-  sigla: string;
+  sigla?: string;
   antiphon: string;
   versicles: string[];
 }>;

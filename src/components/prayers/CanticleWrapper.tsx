@@ -1,6 +1,6 @@
 type CanticleWrapperType = Readonly<{
   order?: number;
-  sigla: string;
+  sigla?: string;
   antiphon: string;
   children: React.ReactNode;
 }>;
@@ -22,9 +22,11 @@ export const CanticleWrapper = ({
         {antiphon}
       </div>
       <div className="relative">
-        <div className="text-right md:absolute md:right-0 md:top-0 italic font-light">
-          {sigla}
-        </div>
+        {sigla && (
+          <div className="text-right md:absolute md:right-0 md:top-0 italic font-light">
+            {sigla}
+          </div>
+        )}
         {children}
       </div>
       <div>

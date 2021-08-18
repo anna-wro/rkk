@@ -7,5 +7,6 @@ export { Magnificat } from './Magnificat';
 export { Benedictus } from './Benedictus';
 export { NuncDimittis } from './NuncDimittis';
 export { KyrieEleison } from './KyrieEleison';
+export { Passage } from './Passage';
 export { V } from './V';
 export { R } from './R';

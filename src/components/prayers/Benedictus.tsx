@@ -8,9 +8,8 @@ type BenedictusType = Readonly<{
 export const Benedictus = ({ antiphon }: BenedictusType) => {
   return (
     <>
-      <Section>Pieśń Zachariasza</Section>
+      <Section inline>Pieśń Zachariasza</Section> | Łk 1, 68-79
       <Canticle
-        sigla="Łk 1, 68-79"
         antiphon={antiphon}
         versicles={[
           `† Błogosławiony Pan, Bóg Izraela, * 

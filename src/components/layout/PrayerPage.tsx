@@ -13,6 +13,7 @@ import {
   Benedictus,
   NuncDimittis,
   KyrieEleison,
+  Passage,
   V,
   R,
 } from 'components/prayers';
@@ -43,6 +44,7 @@ const components = {
   NuncDimittis,
   AlleluiaCanticle,
   KyrieEleison,
+  Passage,
   V,
   R,
 };

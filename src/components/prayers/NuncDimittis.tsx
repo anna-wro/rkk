@@ -13,9 +13,8 @@ export const NuncDimittis = ({ variant = 1 }: NuncDimittisType) => {
 
   return (
     <>
-      <Section>Pieśń Symeona</Section>
+      <Section inline>Pieśń Symeona</Section> | Łk 2, 29-32
       <Canticle
-        sigla="Łk 2, 29-32"
         antiphon={antiphon}
         versicles={[
           `† Teraz, o Panie, pozwól odejść słudze swemu w pokoju, * 
