@@ -8,8 +8,10 @@ import {
   OpeningVersicle,
   BlessingAndConcludingVersicle,
   AlleluiaPsalm,
+  Psalm,
+  V,
+  R,
 } from 'components/prayers';
-import { Psalm } from 'components/prayers/Psalm';
 
 export type PrayerType = Readonly<{
   ID: string;
@@ -33,6 +35,8 @@ const components = {
   BlessingAndConcludingVersicle,
   Psalm,
   AlleluiaPsalm,
+  V,
+  R,
 };
 
 export default function PrayerPage({ prayer }: PropsType) {
