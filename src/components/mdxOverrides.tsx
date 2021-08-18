@@ -21,7 +21,8 @@ export const Section = ({
       'inline-block': sigla,
     })}
   >
-    {children} {sigla && <span className="font-light">| {sigla}</span>}
+    {children}{' '}
+    {sigla && <span className="font-light normal-case">| {sigla}</span>}
   </h2>
 );
 
