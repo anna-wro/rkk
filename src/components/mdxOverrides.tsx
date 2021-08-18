@@ -3,7 +3,7 @@ export const Header = ({ children }) => (
 );
 
 export const Section = ({ children }) => (
-  <h2 className="font-bold text-l mt-4 mb-3 uppercase">{children}</h2>
+  <h2 className="font-bold text-l mt-6 mb-2 uppercase">{children}</h2>
 );
 
 export const ListItem = ({ children }) => <li className="pl-3">{children}</li>;

@@ -1,21 +1,21 @@
 import cx from 'classnames';
-import { PsalmWrapper } from './PsalmWrapper';
+import { CanticleWrapper } from './CanticleWrapper';
 
 type PsalmType = Readonly<{
-  order: number;
+  order?: number;
   name: string;
   antiphon: string;
   content: string[];
 }>;
 
-export const Psalm = ({ order, name, antiphon, content }: PsalmType) => {
+export const Canticle = ({ order, name, antiphon, content }: PsalmType) => {
   return (
-    <PsalmWrapper order={order} name={name} antiphon={antiphon}>
+    <CanticleWrapper order={order} name={name} antiphon={antiphon}>
       {content.map((versicles, index) => (
         <div key={index} className={index % 2 === 1 ? 'pl-7' : null}>
           {versicles}
         </div>
       ))}
-    </PsalmWrapper>
+    </CanticleWrapper>
   );
 };

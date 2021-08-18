@@ -1,11 +1,11 @@
 type PsalmHeaderType = Readonly<{
-  order: number;
+  order?: number;
   name: string;
   antiphon: string;
   children: React.ReactNode;
 }>;
 
-export const PsalmWrapper = ({
+export const CanticleWrapper = ({
   order,
   name,
   antiphon,
@@ -14,7 +14,11 @@ export const PsalmWrapper = ({
   return (
     <div className="mt-4 mb-6 space-y-2 relative">
       <div>
-        <span className="font-bold">{order} ant. </span>
+        {order ? (
+          <span className="font-bold">{order} ant. </span>
+        ) : (
+          <span className="font-bold">Ant. </span>
+        )}
         {antiphon}
         <div className="text-right md:absolute md:right-0 md:top-8 italic font-light">
           {name}

@@ -1,4 +1,4 @@
-import { PsalmWrapper } from './PsalmWrapper';
+import { CanticleWrapper } from './CanticleWrapper';
 
 type PartType = [string, string];
 
@@ -22,7 +22,7 @@ export const AlleluiaPsalm = ({
   ];
 
   return (
-    <PsalmWrapper order={order} name={name} antiphon={antiphon}>
+    <CanticleWrapper order={order} name={name} antiphon={antiphon}>
       {versiclesWithGloriaPatri.map((versicle, index) => (
         <div key={index} className="mb-3">{`Alleluja.
         ${versicle[0]} * 
@@ -30,6 +30,6 @@ export const AlleluiaPsalm = ({
         ${versicle[1]}
         W. Alleluja (alleluja).`}</div>
       ))}
-    </PsalmWrapper>
+    </CanticleWrapper>
   );
 };
