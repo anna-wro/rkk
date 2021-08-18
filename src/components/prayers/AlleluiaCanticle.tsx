@@ -9,7 +9,7 @@ type AlleluiaType = Readonly<{
   versicles: PartType[];
 }>;
 
-export const AlleluiaPsalm = ({
+export const AlleluiaCanticle = ({
   versicles,
   order,
   sigla,
