@@ -6,13 +6,13 @@ type MagnificatType = Readonly<{
 }>;
 
 export const Passage = ({ passage, sigla }: MagnificatType) => {
-  console.log('inside');
   return (
     <>
-      <div>
-        <Section inline>Czytanie</Section> | {sigla}
-      </div>
-      {passage}
+      <Section inline spacedTop="mt-0">
+        Czytanie
+      </Section>
+      | {sigla}
+      <div>{passage}</div>
     </>
   );
 };
