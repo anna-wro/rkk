@@ -10,9 +10,9 @@ export const Magnificat = ({ antiphon }: MagnificatType) => {
     <>
       <Section>Pieśń Maryi</Section>
       <Canticle
-        name="Łk 1, 46-55"
+        sigla="Łk 1, 46-55"
         antiphon={antiphon}
-        content={[
+        versicles={[
           `† Wielbi dusza moja Pana *
          i raduje się duch mój w Bogu, Zbawicielu moim.`,
           `Bo wejrzał na uniżenie swojej Służebnicy. *

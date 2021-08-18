@@ -4,7 +4,7 @@ type PartType = [string, string];
 
 type AlleluiaType = Readonly<{
   order: number;
-  name: string;
+  sigla: string;
   antiphon: string;
   versicles: PartType[];
 }>;
@@ -12,7 +12,7 @@ type AlleluiaType = Readonly<{
 export const AlleluiaPsalm = ({
   versicles,
   order,
-  name,
+  sigla,
   antiphon,
 }: AlleluiaType) => {
   const versiclesWithGloriaPatri = [
@@ -22,7 +22,7 @@ export const AlleluiaPsalm = ({
   ];
 
   return (
-    <CanticleWrapper order={order} name={name} antiphon={antiphon}>
+    <CanticleWrapper order={order} sigla={sigla} antiphon={antiphon}>
       {versiclesWithGloriaPatri.map((versicle, index) => (
         <div key={index} className="mb-3">{`Alleluja.
         ${versicle[0]} * 

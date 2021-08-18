@@ -10,9 +10,9 @@ export const Benedictus = ({ antiphon }: BenedictusType) => {
     <>
       <Section>Pieśń Zachariasza</Section>
       <Canticle
-        name="Łk 1, 68-79"
+        sigla="Łk 1, 68-79"
         antiphon={antiphon}
-        content={[
+        versicles={[
           `† Błogosławiony Pan, Bóg Izraela, * 
           bo lud swój nawiedził i wyzwolił.`,
           `I wzbudził dla nas moc zbawczą *

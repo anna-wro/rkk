@@ -1,18 +1,18 @@
 type CanticleWrapperType = Readonly<{
   order?: number;
-  name: string;
+  sigla: string;
   antiphon: string;
   children: React.ReactNode;
 }>;
 
 export const CanticleWrapper = ({
   order,
-  name,
+  sigla,
   antiphon,
   children,
 }: CanticleWrapperType) => {
   return (
-    <div className="mt-4 mb-6 space-y-2 relative">
+    <div className="mt-4 mb-6 space-y-2">
       <div>
         {order ? (
           <span className="font-bold">{order} ant. </span>
@@ -20,11 +20,13 @@ export const CanticleWrapper = ({
           <span className="font-bold">Ant. </span>
         )}
         {antiphon}
-        <div className="text-right md:absolute md:right-0 md:top-8 italic font-light">
-          {name}
-        </div>
       </div>
-      <div>{children}</div>
+      <div className="relative">
+        <div className="text-right md:absolute md:right-0 md:top-0 italic font-light">
+          {sigla}
+        </div>
+        {children}
+      </div>
       <div>
         <span className="font-bold">Ant. </span>
         {antiphon}

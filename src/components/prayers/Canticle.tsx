@@ -1,19 +1,18 @@
-import cx from 'classnames';
 import { CanticleWrapper } from './CanticleWrapper';
 
 type PsalmType = Readonly<{
   order?: number;
-  name: string;
+  sigla: string;
   antiphon: string;
-  content: string[];
+  versicles: string[];
 }>;
 
-export const Canticle = ({ order, name, antiphon, content }: PsalmType) => {
+export const Canticle = ({ order, sigla, antiphon, versicles }: PsalmType) => {
   return (
-    <CanticleWrapper order={order} name={name} antiphon={antiphon}>
-      {content.map((versicles, index) => (
+    <CanticleWrapper order={order} sigla={sigla} antiphon={antiphon}>
+      {versicles.map((versicle, index) => (
         <div key={index} className={index % 2 === 1 ? 'pl-7' : null}>
-          {versicles}
+          {versicle}
         </div>
       ))}
     </CanticleWrapper>
