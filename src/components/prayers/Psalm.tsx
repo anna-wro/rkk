@@ -11,13 +11,11 @@ type PsalmType = Readonly<{
 export const Psalm = ({ order, name, antiphon, content }: PsalmType) => {
   return (
     <PsalmWrapper order={order} name={name} antiphon={antiphon}>
-      <div className="space-y-1">
-        {content.map((versicles, index) => (
-          <div key={index} className={index % 2 === 0 ? 'pl-7' : null}>
-            {versicles}
-          </div>
-        ))}
-      </div>
+      {content.map((versicles, index) => (
+        <div key={index} className={index % 2 === 1 ? 'pl-7' : null}>
+          {versicles}
+        </div>
+      ))}
     </PsalmWrapper>
   );
 };

@@ -1,5 +1,3 @@
-import cx from 'classnames';
-
 type PsalmHeaderType = Readonly<{
   order: number;
   name: string;
@@ -14,12 +12,18 @@ export const PsalmWrapper = ({
   children,
 }: PsalmHeaderType) => {
   return (
-    <div className={cx('mb-2')}>
-      {order}
-      {name}
-      {antiphon}
+    <div className="mb-2 space-y-2">
+      <div>
+        <span className="font-bold">{order} ant. </span>
+        {antiphon}
+        <div className="text-right italic font-light">{name}</div>
+      </div>
+
       <div>{children}</div>
-      {antiphon}
+      <div>
+        <b>Ant. </b>
+        {antiphon}
+      </div>
     </div>
   );
 };
