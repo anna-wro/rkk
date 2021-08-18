@@ -4,7 +4,7 @@ type RolesType = Readonly<{
   children: string;
 }>;
 
-// R
+// Response
 export const R = ({ children }: RolesType) => {
   return (
     <div className="flex font-bold">
