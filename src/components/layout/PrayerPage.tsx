@@ -1,7 +1,13 @@
 import { MDXRemote } from 'next-mdx-remote';
 import type { MDXRemoteSerializeResult } from 'next-mdx-remote';
 import GoBackButton from 'components/layout/GoBackButton';
-import { Header, Section, List, ListItem } from 'components/mdxOverrides';
+import {
+  Header,
+  Section,
+  List,
+  ListItem,
+  Intercessions,
+} from 'components/mdxOverrides';
 import { Responsory } from 'components/prayers/Responsory';
 import {
   OurFather,
@@ -14,6 +20,8 @@ import {
   NuncDimittis,
   KyrieEleison,
   Passage,
+  Amen,
+  SalveRegina,
   V,
   R,
 } from 'components/prayers';
@@ -33,6 +41,7 @@ const components = {
   h1: Header,
   h2: Section,
   ol: List,
+  ul: Intercessions,
   li: ListItem,
   Responsory,
   OpeningVersicle,
@@ -44,7 +53,10 @@ const components = {
   NuncDimittis,
   AlleluiaCanticle,
   KyrieEleison,
+  SalveRegina,
   Passage,
+  Intercessions,
+  Amen,
   V,
   R,
 };

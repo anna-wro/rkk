@@ -27,6 +27,10 @@ export const Section = ({
 
 export const ListItem = ({ children }) => <li className="pl-3">{children}</li>;
 
+export const Intercessions = ({ children }) => (
+  <ol className="space-y-2 -ml-3">{children}</ol>
+);
+
 export const List = ({ children }) => (
   <ol className="list-decimal mb-3 ml-4 space-y-2">{children}</ol>
 );
