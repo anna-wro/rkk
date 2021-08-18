@@ -7,6 +7,7 @@ import {
   OurFather,
   OpeningVersicle,
   BlessingAndConcludingVersicle,
+  AlleluiaPsalm,
 } from 'components/common';
 import { Psalm } from 'components/Psalm';
 
@@ -31,6 +32,7 @@ const components = {
   OurFather,
   BlessingAndConcludingVersicle,
   Psalm,
+  AlleluiaPsalm,
 };
 
 export default function Prayer({ prayer }: PropsType) {
