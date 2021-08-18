@@ -1,23 +1,23 @@
 type PartType = [string, string];
 
 type AlleluiaType = Readonly<{
-  parts: PartType[];
+  versicles: PartType[];
 }>;
 
-export const AlleluiaPsalm = ({ parts }: AlleluiaType) => {
-  const partsWithGloriaPatri = [
-    ...parts,
+export const AlleluiaPsalm = ({ versicles }: AlleluiaType) => {
+  const versiclesWithGloriaPatri = [
+    ...versicles,
     ['Chwała Ojcu i Synowi,', 'i Duchowi Świętemu.'],
     ['Jak była na początku, teraz i zawsze,', 'i na wieki wieków. Amen.'],
   ];
 
   return (
     <div className="mt-4">
-      {partsWithGloriaPatri.map((part, index) => (
+      {versiclesWithGloriaPatri.map((versicle, index) => (
         <div key={index} className="mb-3">{`Alleluja.
-        ${part[0]} * 
+        ${versicle[0]} * 
         (W. Alleluja)
-        ${part[1]}
+        ${versicle[1]}
         W. Alleluja (alleluja).`}</div>
       ))}
     </div>
