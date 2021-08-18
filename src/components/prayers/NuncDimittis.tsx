@@ -2,10 +2,15 @@ import { Canticle } from './index';
 import { Section } from 'components/mdxOverrides';
 
 type NuncDimittisType = Readonly<{
-  antiphon: string;
+  variant?: 1 | 2;
 }>;
 
-export const NuncDimittis = ({ antiphon }: NuncDimittisType) => {
+export const NuncDimittis = ({ variant = 1 }: NuncDimittisType) => {
+  const antiphon =
+    variant === 1
+      ? 'Strzeż nas, Panie, gdy czuwamy, * podczas snu nas osłaniaj, / abyśmy czuwali z Chrystusem / i odpoczywali w pokoju.'
+      : 'Panie, Dobry Pasterzu, * Ty, który zawsze czuwasz, / nie opuszczaj swojego ludu.';
+
   return (
     <>
       <Section>Pieśń Symeona</Section>
