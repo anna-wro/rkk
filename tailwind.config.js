@@ -4,8 +4,8 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   purge: [
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     colors: {
