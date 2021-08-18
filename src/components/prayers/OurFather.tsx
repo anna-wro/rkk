@@ -1,5 +1,4 @@
-import { V } from 'components/V';
-import { R } from 'components/R';
+import { V, R } from './index';
 
 export const OurFather = () => {
   return (

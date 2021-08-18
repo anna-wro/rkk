@@ -1,5 +1,4 @@
-import { R } from 'components/R';
-import { V } from 'components/V';
+import { V, R } from './index';
 
 type ResponsoryType = Readonly<{ content: Array<string> }>;
 
