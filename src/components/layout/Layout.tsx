@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Title from 'components/Title';
+import Title from 'components/layout/Title';
 import copy from 'copy';
 
 export default function Layout({ children }) {

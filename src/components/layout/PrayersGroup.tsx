@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { makeStartCase } from 'utils/text';
-import type { PrayerType } from 'components/Prayers/Prayer';
+import type { PrayerType } from 'components/layout/PrayerPage';
 
 export default function PrayersGroup({ prayers }) {
   const [groupName, prayersInGroup] = prayers;

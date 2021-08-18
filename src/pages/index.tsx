@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import Layout from 'components/Layout';
-import PrayersList from 'components/Prayers/PrayersList';
+import Layout from 'components/layout/Layout';
+import PrayersList from 'components/layout/PrayersList';
 import { getPrayerDataFromFilename } from 'utils/getPrayerDataFromFilename';
 import { PRAYERS_PATH, prayersFilePaths } from 'utils/mdxUtils';
 

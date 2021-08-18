@@ -7,7 +7,6 @@ type RoleType = Readonly<{
   content: string[];
 }>;
 
-// TODO: allelujowy
 export const Psalm = ({ name, antiphon, content }: RoleType) => {
   return (
     <div className={cx('mb-2')}>

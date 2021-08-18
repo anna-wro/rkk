@@ -1,5 +1,5 @@
-import { V } from 'components/V';
-import { R } from 'components/R';
+import { V } from 'components/prayers/V';
+import { R } from 'components/prayers/R';
 
 export const OpeningVersicle = () => {
   return (

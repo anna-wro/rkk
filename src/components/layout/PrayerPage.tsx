@@ -1,15 +1,15 @@
 import { MDXRemote } from 'next-mdx-remote';
 import type { MDXRemoteSerializeResult } from 'next-mdx-remote';
-import GoBackButton from 'components/GoBackButton';
-import { Header, Section, List, ListItem } from 'components/overrides';
-import { Responsory } from 'components/common/Responsory';
+import GoBackButton from 'components/layout/GoBackButton';
+import { Header, Section, List, ListItem } from 'components/mdxOverrides';
+import { Responsory } from 'components/prayers/Responsory';
 import {
   OurFather,
   OpeningVersicle,
   BlessingAndConcludingVersicle,
   AlleluiaPsalm,
-} from 'components/common';
-import { Psalm } from 'components/Psalm';
+} from 'components/prayers';
+import { Psalm } from 'components/prayers/Psalm';
 
 export type PrayerType = Readonly<{
   ID: string;
@@ -35,7 +35,7 @@ const components = {
   AlleluiaPsalm,
 };
 
-export default function Prayer({ prayer }: PropsType) {
+export default function PrayerPage({ prayer }: PropsType) {
   return (
     <>
       <div className="relative whitespace-pre-line">
