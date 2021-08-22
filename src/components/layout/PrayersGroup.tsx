@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { makeStartCase } from 'utils/text';
-import type { PrayerType } from 'components/Prayers/Prayer';
+import type { PrayerType } from 'components/layout/PrayerPage';
 
 export default function PrayersGroup({ prayers }) {
   const [groupName, prayersInGroup] = prayers;
@@ -12,7 +12,7 @@ export default function PrayersGroup({ prayers }) {
       </div>
       <div className="pb-4 md:pb-6">
         {prayersInGroup.map((prayer: PrayerType) => (
-          <Link key={prayer.ID} href={prayer.slug} passHref>
+          <Link key={prayer.ID} as={prayer.slug} href={`[slug]`} passHref>
             {/* I don't like it, 
             but that's the effect we have on the main site. 
             Let's discuss it */}

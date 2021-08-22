@@ -1,15 +1,19 @@
-import getPrayerDataFromFilename from './getPrayerDataFromFilename';
+import { getPrayerDataFromFilename } from './getPrayerDataFromFilename';
 
 describe('getPrayerDataFromFilename()', () => {
   it('returns proper values', () => {
-    expect(getPrayerDataFromFilename({ filePath: 'com_sun_1' })).toMatchObject({
+    expect(
+      getPrayerDataFromFilename({ filePath: 'niedziela-1-kompleta' }),
+    ).toMatchObject({
       slug: 'niedziela-1-kompleta',
       ID: 114,
       day: 'niedziela',
       week: '1',
       type: 'kompleta',
     });
-    expect(getPrayerDataFromFilename({ filePath: 'lau_wed_2' })).toMatchObject({
+    expect(
+      getPrayerDataFromFilename({ filePath: 'sroda-2-jutrznia' }),
+    ).toMatchObject({
       slug: 'sroda-2-jutrznia',
       ID: 242,
       day: 'środa',
@@ -19,7 +23,7 @@ describe('getPrayerDataFromFilename()', () => {
   });
   it("doesn't break if wrong path", () => {
     expect(
-      getPrayerDataFromFilename({ filePath: 'eve_someday_1' }),
+      getPrayerDataFromFilename({ filePath: 'niewiemkiedy-1-wigilia' }),
     ).toMatchObject({
       slug: 'niedziela-1-wigilia',
       ID: 111,
@@ -28,7 +32,7 @@ describe('getPrayerDataFromFilename()', () => {
       type: 'wigilia',
     });
     expect(
-      getPrayerDataFromFilename({ filePath: 'something_tue_3' }),
+      getPrayerDataFromFilename({ filePath: 'wtorek-3-niewiemco' }),
     ).toMatchObject({
       slug: 'wtorek-3-jutrznia',
       ID: 332,
