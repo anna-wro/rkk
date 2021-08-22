@@ -8,9 +8,17 @@ type PsalmType = Readonly<{
 }>;
 
 export const Canticle = ({ order, sigla, antiphon, versicles }: PsalmType) => {
+  const versiclesWithGloriaPatri = [
+    ...versicles,
+    `Chwała Ojcu i Synowi, *
+  i Duchowi Świętemu.`,
+    `Jak była na początku, teraz i zawsze, *
+  i na wieki wieków. Amen.`,
+  ];
+
   return (
     <CanticleWrapper order={order} sigla={sigla} antiphon={antiphon}>
-      {versicles.map((versicle, index) => (
+      {versiclesWithGloriaPatri.map((versicle, index) => (
         <div key={index} className={index % 2 === 1 ? 'pl-7' : null}>
           {versicle}
         </div>
