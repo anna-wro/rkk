@@ -1,0 +1,17 @@
+{
+  "Canticle": {
+    "prefix": "can",
+    "body": [
+      "<Canticle",
+      "  order={0}",
+      "  sigla=\"\"",
+      "  antiphon=\"\"",
+      "  versicles={[",
+      "    ``,",
+      "    ``,",
+      "  ]}",
+      "/>"
+    ],
+    "description": "Canticle"
+  }
+}

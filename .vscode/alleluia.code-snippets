@@ -1,0 +1,24 @@
+{
+  "Alleluia Canticle": {
+    "prefix": "all",
+    "body": [
+      "<AlleluiaCanticle",
+      "  order={4}",
+      "  sigla=\"\"",
+      "  antiphon=\"\"",
+      "  versicles={[",
+      "    [",
+      "      '',",
+      "      '',",
+      "    ],",
+      "    [",
+      "      '',",
+      "      '',",
+      "    ],",
+      "  ]}",
+      "/>",
+      ""
+    ],
+    "description": "Alleluia Canticle"
+  }
+}
