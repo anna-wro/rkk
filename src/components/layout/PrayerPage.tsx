@@ -10,7 +10,7 @@ import {
 } from 'components/mdxOverrides';
 import { Responsory } from 'components/prayers/Responsory';
 import {
-  OurFather,
+  LordsPrayer,
   OpeningVersicle,
   BlessingAndConcludingVersicle,
   AlleluiaCanticle,
@@ -45,7 +45,7 @@ const components = {
   li: ListItem,
   Responsory,
   OpeningVersicle,
-  OurFather,
+  LordsPrayer,
   BlessingAndConcludingVersicle,
   Canticle,
   Magnificat,

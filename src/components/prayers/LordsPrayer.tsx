@@ -1,6 +1,6 @@
 import { V, R } from './index';
 
-export const OurFather = () => {
+export const LordsPrayer = () => {
   return (
     <div className="mt-4">
       <V>{`Ojcze nasz, któryś jest w niebie,

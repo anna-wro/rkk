@@ -1,6 +1,6 @@
 export { BlessingAndConcludingVersicle } from './BlessingAndConcludingVersicle';
 export { OpeningVersicle } from './OpeningVersicle';
-export { OurFather } from './OurFather';
+export { LordsPrayer } from './LordsPrayer';
 export { AlleluiaCanticle } from './AlleluiaCanticle';
 export { Canticle } from './Canticle';
 export { Magnificat } from './Magnificat';
