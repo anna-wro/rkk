@@ -14,7 +14,7 @@ export const Header = ({ children }) => (
 export const Section = ({
   children,
   sigla,
-  spacedTop = 'mt-6',
+  spacedTop = 'mt-4',
 }: SectionType) => (
   <h2
     className={cx('font-bold text-l tracking-wide uppercase mb-2', spacedTop, {
