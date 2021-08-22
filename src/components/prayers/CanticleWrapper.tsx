@@ -28,7 +28,7 @@ export const CanticleWrapper = ({
           </div>
         )}
       </div>
-      {children}
+      <div>{children}</div>
       <div>
         <span className="font-bold">Ant. </span>
         {antiphon}
