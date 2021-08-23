@@ -10,8 +10,7 @@ export const CustomIntercessions = ({ type }: PropsType) => {
         <div className="mt-2">
           Ty wzbudzasz w nas chęci oraz popychasz do działania -{' '}
           <b>
-            spraw, aby chciało się nam tak, jak nam się nie chce i umocnij w nas
-            motywację do działania.
+            spraw, aby nam się chciało i umocnij w nas motywację do działania.
           </b>
         </div>
       )}
