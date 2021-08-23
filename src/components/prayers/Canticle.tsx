@@ -5,20 +5,29 @@ type PsalmType = Readonly<{
   sigla?: string;
   antiphon: string;
   versicles: string[];
+  withGloriaPatri?: boolean;
 }>;
 
-export const Canticle = ({ order, sigla, antiphon, versicles }: PsalmType) => {
-  const versiclesWithGloriaPatri = [
-    ...versicles,
-    `Chwała Ojcu i Synowi, *
+export const Canticle = ({
+  order,
+  sigla,
+  antiphon,
+  versicles,
+  withGloriaPatri = true,
+}: PsalmType) => {
+  const versiclesToDisplay = withGloriaPatri
+    ? [
+        ...versicles,
+        `Chwała Ojcu i Synowi, *
   i Duchowi Świętemu.`,
-    `Jak była na początku, teraz i zawsze, *
+        `Jak była na początku, teraz i zawsze, *
   i na wieki wieków. Amen.`,
-  ];
+      ]
+    : versicles;
 
   return (
     <CanticleWrapper order={order} sigla={sigla} antiphon={antiphon}>
-      {versiclesWithGloriaPatri.map((versicle, index) => (
+      {versiclesToDisplay.map((versicle, index) => (
         <div key={index} className={index % 2 === 1 ? 'pl-7' : null}>
           {versicle}
         </div>
