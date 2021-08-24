@@ -1,0 +1,15 @@
+{
+  "Responsory": {
+    "prefix": "res",
+    "body": [
+      "<Responsory",
+      "  versicles={[",
+      "    '',",
+      "    '',",
+      "    '',",
+      "  ]}",
+      "/>"
+    ],
+    "description": "Responsory"
+  }
+}

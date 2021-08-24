@@ -13,22 +13,22 @@ export const CanticleWrapper = ({
 }: CanticleWrapperType) => {
   return (
     <div className="mb-6 space-y-2">
-      <div>
-        {order ? (
-          <span className="font-bold">{order} ant. </span>
-        ) : (
-          <span className="font-bold">Ant. </span>
-        )}
-        {antiphon}
-      </div>
-      <div className="relative">
+      <div className="md:flex justify-between">
+        <div>
+          {order ? (
+            <span className="font-bold">{order} ant. </span>
+          ) : (
+            <span className="font-bold">Ant. </span>
+          )}
+          {antiphon}
+        </div>
         {sigla && (
-          <div className="text-right md:absolute md:right-0 md:top-0 italic font-light">
+          <div className="flex-shrink-0 pl-4 text-right italic font-light mb-2">
             {sigla}
           </div>
         )}
-        {children}
       </div>
+      <div>{children}</div>
       <div>
         <span className="font-bold">Ant. </span>
         {antiphon}
