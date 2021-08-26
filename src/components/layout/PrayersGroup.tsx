@@ -7,7 +7,7 @@ export default function PrayersGroup({ prayers }) {
 
   return (
     <div className="flex">
-      <div className="w-28 mr-4 border-r-1 border-gray-50">
+      <div className="w-28 mr-3 border-r-1 border-gray-50">
         {makeStartCase(groupName)}
       </div>
       <div className="pb-4 md:pb-6">
