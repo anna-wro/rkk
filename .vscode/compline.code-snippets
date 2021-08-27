@@ -1,0 +1,37 @@
+{
+  "Compline": {
+    "prefix": "com",
+    "body": [
+      "# Kompleta | X X tygodnia",
+      "",
+      "<OpeningVersicle />",
+      "",
+      "<ExaminationOfConscience />",
+      "",
+      "## Hymn",
+      "",
+      "1. X,",
+      "   X",
+      "",
+      "## PSALMODIA",
+      "",
+      "<Canticle sigla=\"\" antiphon=\"\" versicles={[",
+      "",
+      "]} />",
+      "",
+      "<Passage sigla=\"\" passage=\"\" />",
+      "",
+      "<Responsory versicles={['', '', '']} />",
+      "",
+      "<NuncDimittis variant={2} />",
+      "",
+      "## Modlitwa",
+      "",
+      "XX",
+      "",
+      "<ComplineBlessingAndConcludingVersicle variant={2} />",
+      ""
+    ],
+    "description": "Compline"
+  }
+}
