@@ -20,7 +20,8 @@ export const Section = ({
   spacedTop = styles.marginTop,
 }: SectionType) => (
   <h2
-    className={cx('font-bold text-l tracking-wide uppercase mb-2', spacedTop, {
+    className={cx('font-bold text-l tracking-wide uppercase mb-2', {
+      [spacedTop]: spacedTop,
       'inline-block': sigla,
     })}
   >
