@@ -12,7 +12,7 @@ export default function Title() {
           <h1 className="text-2xl md:text-4xl font-bold hover:text-gray-700 dark:hover:text-red-400">
             {copy.title}
           </h1>
-          <h2 className="text-sm md:text-md text-gray-600 hover:text-gray-800 dark:text-white dark:text-opacity-90  dark:hover:text-red-400">
+          <h2 className="text-sm md:text-md text-gray-600 hover:text-gray-800 dark:text-white/90 dark:hover:text-red-400">
             {copy.subtitle}
           </h2>
         </div>
