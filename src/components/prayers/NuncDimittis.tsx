@@ -23,10 +23,6 @@ export const NuncDimittis = ({ variant = 1 }: NuncDimittisType) => {
         któreś przygotował wobec wszystkich narodów:`,
           `Światło na oświecenie pogan *
         i chwałę ludu Twego, Izraela.`,
-          `Chwała Ojcu i Synowi, *
-        i Duchowi Świętemu.`,
-          `Jak była na początku, teraz i zawsze, * 
-          i na wieki wieków. Amen.`,
         ]}
       />
     </>
