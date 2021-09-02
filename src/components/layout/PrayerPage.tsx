@@ -76,7 +76,7 @@ export default function PrayerPage({ prayer }: PropsType) {
         </div>
         <MDXRemote {...prayer.source} components={components} />
       </div>
-      <div className="mt-6">
+      <div className="section">
         <GoBackButton />
       </div>
     </>

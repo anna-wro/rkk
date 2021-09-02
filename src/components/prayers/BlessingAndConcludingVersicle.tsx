@@ -2,7 +2,7 @@ import { V, R } from './index';
 
 export const BlessingAndConcludingVersicle = () => {
   return (
-    <div className="mt-4">
+    <div className="section">
       <V>
         Niech nas Pan błogosławi, broni od wszelkiego zła i doprowadzi do życia
         wiecznego.

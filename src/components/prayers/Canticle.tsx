@@ -1,4 +1,5 @@
 import { CanticleWrapper } from './CanticleWrapper';
+import { addNonBreakingSpaces } from 'utils/text';
 
 type PsalmType = Readonly<{
   order?: number;
@@ -29,7 +30,7 @@ export const Canticle = ({
     <CanticleWrapper order={order} sigla={sigla} antiphon={antiphon}>
       {versiclesToDisplay.map((versicle, index) => (
         <div key={index} className={index % 2 === 1 ? 'pl-7' : null}>
-          {versicle}
+          {addNonBreakingSpaces(versicle)}
         </div>
       ))}
     </CanticleWrapper>

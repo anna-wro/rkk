@@ -8,3 +8,7 @@ export function removeAccents(text: string) {
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/\u0142/g, 'l'); // ł
 }
+
+export function addNonBreakingSpaces(text: string) {
+  return text.replace(' *', `\xA0*`).replace(' †', `\xA0†`);
+}
