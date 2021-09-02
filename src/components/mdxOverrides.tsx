@@ -8,13 +8,13 @@ type SectionType = Readonly<{
 }>;
 
 export const Header = ({ children }) => (
-  <h1 className="font-bold text-xl mt-4 mb-6 md:mr-32">{children}</h1>
+  <h1 className="font-bold text-xl mt-6 mb-6 md:mr-32">{children}</h1>
 );
 
 export const Section = ({
   children,
   sigla,
-  spacedTop = 'mt-4',
+  spacedTop = 'mt-6',
 }: SectionType) => (
   <h2
     className={cx('font-bold text-l tracking-wide uppercase mb-2', spacedTop, {

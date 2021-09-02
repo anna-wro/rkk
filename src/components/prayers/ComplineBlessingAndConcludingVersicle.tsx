@@ -8,7 +8,7 @@ export const ComplineBlessingAndConcludingVersicle = ({
   variant,
 }: PropsType) => {
   return (
-    <div className="mt-4">
+    <div className="mt-6">
       <V>
         {variant === 1
           ? 'Noc spokojną i śmierć szczęśliwą niech nam da Bóg wszechmogący, Ojciec i Syn, i Duch Święty.'

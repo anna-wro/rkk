@@ -5,7 +5,7 @@ type PropsType = Readonly<{
 export const CustomIntercessions = ({ type }: PropsType) => {
   return (
     <>
-      <div className="mt-4 font-bold">[miejsce na Twoją prośbę]</div>
+      <div className="mt-3 font-bold">[miejsce na Twoją prośbę]</div>
       {type == 'lauds' && (
         <div className="mt-2">
           Ty wzbudzasz w nas chęci oraz popychasz do działania -{' '}

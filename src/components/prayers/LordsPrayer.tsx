@@ -2,7 +2,7 @@ import { V, R } from './index';
 
 export const LordsPrayer = () => {
   return (
-    <div className="mt-4">
+    <div className="mt-6">
       <V>{`Ojcze nasz, któryś jest w niebie,
         święć się imię Twoje;
         przyjdź królestwo Twoje;
