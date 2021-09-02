@@ -25,7 +25,7 @@ export const CanticleWrapper = ({
           {antiphon}
         </div>
         {sigla && (
-          <div className="flex-shrink-0 pl-4 text-right italic font-light mb-2">
+          <div className="flex-shrink-0 pl-4 text-right italic font-light mb-2 max-w-[160px]">
             {sigla}
           </div>
         )}
