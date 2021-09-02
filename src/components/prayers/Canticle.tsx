@@ -31,7 +31,7 @@ export const Canticle = ({
       {versiclesToDisplay.map((versicle, index) => (
         <div key={index} className={index % 2 === 1 ? 'pl-7' : null}>
           {addNonBreakingSpaces(versicle)}
-        </div>
+        </div> 
       ))}
     </CanticleWrapper>
   );
