@@ -1,4 +1,5 @@
 import cx from 'classnames';
+import { styles } from 'consts/styles';
 import React from 'react';
 
 type SectionType = Readonly<{
@@ -8,13 +9,15 @@ type SectionType = Readonly<{
 }>;
 
 export const Header = ({ children }) => (
-  <h1 className="font-bold text-xl mt-6 mb-6 md:mr-32">{children}</h1>
+  <h1 className={cx('font-bold text-xl mb-6 md:mr-32', styles.marginTop)}>
+    {children}
+  </h1>
 );
 
 export const Section = ({
   children,
   sigla,
-  spacedTop = 'mt-6',
+  spacedTop = styles.marginTop,
 }: SectionType) => (
   <h2
     className={cx('font-bold text-l tracking-wide uppercase mb-2', spacedTop, {

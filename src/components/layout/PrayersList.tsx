@@ -1,6 +1,6 @@
 import PrayersGroup from './PrayersGroup';
 import { groupByKey } from 'utils/array';
-import { copy } from 'copy';
+import { copy } from 'consts/copy';
 import type { PrayerType } from 'components/layout/PrayerPage';
 
 type PropsType = Readonly<{

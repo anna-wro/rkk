@@ -1,4 +1,4 @@
-import copy from 'copy';
+import copy from 'consts/copy';
 import Image from 'next/image';
 import Link from 'next/link';
 import logo from '../../../public/logo.svg';

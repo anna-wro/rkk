@@ -1,5 +1,6 @@
 import { MDXRemote } from 'next-mdx-remote';
 import type { MDXRemoteSerializeResult } from 'next-mdx-remote';
+import { styles } from 'consts/styles';
 import GoBackButton from 'components/layout/GoBackButton';
 import {
   Header,
@@ -76,7 +77,7 @@ export default function PrayerPage({ prayer }: PropsType) {
         </div>
         <MDXRemote {...prayer.source} components={components} />
       </div>
-      <div className="mt-6">
+      <div className={styles.marginTop}>
         <GoBackButton />
       </div>
     </>

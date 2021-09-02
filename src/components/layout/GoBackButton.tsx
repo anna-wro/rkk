@@ -1,4 +1,4 @@
-import copy from 'copy';
+import copy from 'consts/copy';
 import Link from 'next/link';
 
 export default function GoBackButton() {

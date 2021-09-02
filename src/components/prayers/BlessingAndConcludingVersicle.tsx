@@ -1,8 +1,9 @@
 import { V, R } from './index';
+import { styles } from 'consts/styles';
 
 export const BlessingAndConcludingVersicle = () => {
   return (
-    <div className="mt-6">
+    <div className={styles.marginTop}>
       <V>
         Niech nas Pan błogosławi, broni od wszelkiego zła i doprowadzi do życia
         wiecznego.

@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Title from 'components/layout/Title';
-import copy from 'copy';
+import copy from 'consts/copy';
 
 export default function Layout({ children }) {
   return (
