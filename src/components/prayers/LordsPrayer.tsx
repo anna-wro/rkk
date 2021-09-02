@@ -1,9 +1,8 @@
 import { V, R } from './index';
-import { styles } from 'consts/styles';
 
 export const LordsPrayer = () => {
   return (
-    <div className={styles.marginTop}>
+    <div className="section">
       <V>{`Ojcze nasz, któryś jest w niebie,
         święć się imię Twoje;
         przyjdź królestwo Twoje;
