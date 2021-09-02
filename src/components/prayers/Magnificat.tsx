@@ -30,10 +30,6 @@ export const Magnificat = ({ antiphon }: MagnificatType) => {
         pomny na swe miłosierdzie,`,
           `Jak obiecał naszym ojcom, * 
         Abrahamowi i jego potomstwu na wieki.`,
-          `Chwała Ojcu i Synowi, *
-        i Duchowi Świętemu.`,
-          `Jak była na początku, teraz i zawsze, 
-        * i na wieki wieków. Amen.`,
         ]}
       />
     </>

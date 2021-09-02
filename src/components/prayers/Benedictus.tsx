@@ -36,10 +36,6 @@ export const Benedictus = ({ antiphon }: BenedictusType) => {
           z jaką nas nawiedzi z wysoka Wschodzące Słońce,`,
           `By oświecić tych, co w mroku i cieniu śmierci mieszkają, *
           aby nasze kroki skierować na drogę pokoju.`,
-          `Chwała Ojcu i Synowi, *
-          i Duchowi Świętemu.`,
-          `Jak była na początku, teraz i zawsze, * 
-          i na wieki wieków. Amen.`,
         ]}
       />
     </>
