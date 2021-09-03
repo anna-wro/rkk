@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import { copy } from 'consts/copy';
 
 class MyDocument extends Document {
   render() {
@@ -27,16 +28,9 @@ class MyDocument extends Document {
             sizes="16x16"
             href="/favicon-16x16.png"
           />
-          <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000" />
-          <meta
-            name="apple-mobile-web-app-title"
-            content="Reformowany Kości&oacute;ł Katolicki"
-          />
-          <meta
-            name="application-name"
-            content="Reformowany Kości&oacute;ł Katolicki"
-          />
+          <meta name="apple-mobile-web-app-title" content={copy.appName} />
+          <meta name="application-name" content={copy.appName} />
           <meta name="theme-color" content="#ffffff" />
         </Head>
         <body className="dark:bg-gray-900 dark:text-white/90 font-main selection:bg-green-200">
