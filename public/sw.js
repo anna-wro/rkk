@@ -95,23 +95,42 @@ define('./sw.js', ['./workbox-202dc43a'], function (workbox) {
    * See https://goo.gl/2aRDsh
    */
 
-  importScripts();
+  importScripts("fallback-development.js");
   self.skipWaiting();
   workbox.clientsClaim();
-  workbox.registerRoute(
-    '/',
-    new workbox.NetworkFirst({
-      cacheName: 'start-url',
-      plugins: [
-        {
-          cacheWillUpdate: async ({ request, response, event, state }) => {
-            if (response && response.type === 'opaqueredirect') {
-              return new Response(response.body, {
-                status: 200,
-                statusText: 'OK',
-                headers: response.headers,
-              });
-            }
+  workbox.registerRoute("/", new workbox.NetworkFirst({
+    "cacheName": "start-url",
+    plugins: [{
+      cacheWillUpdate: async ({
+        request,
+        response,
+        event,
+        state
+      }) => {
+        if (response && response.type === 'opaqueredirect') {
+          return new Response(response.body, {
+            status: 200,
+            statusText: 'OK',
+            headers: response.headers
+          });
+        }
+
+        return response;
+      }
+    }, {
+      handlerDidError: async ({
+        request
+      }) => self.fallback(request)
+    }]
+  }), 'GET');
+  workbox.registerRoute(/.*/i, new workbox.NetworkOnly({
+    "cacheName": "dev",
+    plugins: [{
+      handlerDidError: async ({
+        request
+      }) => self.fallback(request)
+    }]
+  }), 'GET');
 
             return response;
           },
