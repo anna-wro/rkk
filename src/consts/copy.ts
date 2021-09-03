@@ -11,7 +11,9 @@ export const copy = {
   sundayReadings:
     'Dzisiejsze czytania znajdziesz również na [HTML]naszej stronie.[HTML]',
   appName: 'Reformowany Kościół Katolicki',
-  offlineDesc: 'Jesteś offline. Połącz się z siecią, aby pobrać tekst.',
+  offlineHeader: 'Jesteś offline.',
+  offlineDesc: 'Połącz się z siecią, aby pobrać tekst.',
+  reloadPage: 'Spróbuj ponownie',
 };
 
 export default copy;
