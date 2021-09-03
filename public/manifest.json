@@ -1,6 +1,6 @@
 {
-  "name": "Reformowany Ko\u015bci\u00f3\u0142 Katolicki",
-  "short_name": "Reformowany Ko\u015bci\u00f3\u0142 Katolicki",
+  "name": "Reformowany Kościół Katolicki w Polsce",
+  "short_name": "Reformowany Kościół Katolicki",
   "icons": [
     {
       "src": "/android-chrome-36x36.png",
@@ -48,7 +48,8 @@
       "type": "image/svg"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "start_url": "/",
   "display": "standalone"
 }
