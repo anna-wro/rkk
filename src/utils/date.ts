@@ -4,8 +4,18 @@ import { calendar } from 'consts/calendar';
 export const getCurrentWeekNumber = () => {
   const dateNow = DateTime.now();
   const formattedDate = dateNow.toFormat('yyyy-LL-dd');
-  const currentData = calendar.find(item => item.date === formattedDate);
+  const currentCalendarItem = calendar.find(
+    item => item.date === formattedDate,
+  );
+  const currentWeek = currentCalendarItem.week ?? 1;
 
-  //   TODO handle Saturday evenings case
-  return currentData.week || 1;
+  // Handle new week starting on Saturday evening
+  const dayOfWeek = dateNow.toFormat('ccc');
+  const isSundayEve = dayOfWeek === 'Sat' && dateNow.hour >= 17;
+
+  if (isSundayEve) {
+    return currentWeek === '1' ? '2' : '1';
+  }
+
+  return currentWeek;
 };
