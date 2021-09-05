@@ -13,10 +13,7 @@ export default function PrayersGroup({ prayers }) {
       <div className="pb-4 md:pb-6">
         {prayersInGroup.map((prayer: PrayerType) => (
           <Link key={prayer.ID} as={prayer.slug} href={`[slug]`} passHref>
-            {/* I don't like it, 
-            but that's the effect we have on the main site. 
-            Let's discuss it */}
-            <div className="font-light hover:text-red cursor-pointer">
+            <div className="font-light hover:text-orange-500 cursor-pointer">
               {prayer.type}
             </div>
           </Link>
