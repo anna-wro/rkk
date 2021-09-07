@@ -10,7 +10,7 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-8 md:px-20 md:pt-10 mb-6 md:mb-10 max-w-2xl mx-auto">
+      <main className="px-6 md:px-20 md:pt-10 mb-6 md:mb-10 max-w-2xl mx-auto">
         <div className="mb-3 md:mb-8">
           <Title />
         </div>
