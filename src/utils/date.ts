@@ -1,5 +1,6 @@
 import { DateTime } from 'luxon';
 import { calendar } from 'consts/calendar';
+import { makeStartCase } from './text';
 
 export const getCurrentWeekNumber = () => {
   const dateNow = DateTime.now();
@@ -18,4 +19,16 @@ export const getCurrentWeekNumber = () => {
   }
 
   return currentWeek;
+};
+
+export const getDayOfWeek = () => {
+  const dateNow = DateTime.now();
+  console.log({ dateNow });
+  const formattedDate = dateNow.toFormat('yyyy-LL-dd');
+
+  // Handle new week starting on Saturday evening
+  const dayOfWeek = dateNow.setLocale('pl').toFormat('cccc');
+  const isSundayEve = dayOfWeek === 'sobota' && dateNow.hour >= 15;
+
+  return isSundayEve ? 'niedziela' : dayOfWeek;
 };

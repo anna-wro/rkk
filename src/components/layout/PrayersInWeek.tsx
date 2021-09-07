@@ -30,7 +30,11 @@ export default function PrayersInWeek({
         {title} {isCurrentWeek && <CurrentWeekDot />}
       </div>
       {Object.entries(prayersGrouppedByDay).map((prayersFromDay, index) => (
-        <PrayersGroup key={index} prayers={prayersFromDay} />
+        <PrayersGroup
+          key={index}
+          prayers={prayersFromDay}
+          isCurrentWeek={isCurrentWeek}
+        />
       ))}
     </div>
   );
