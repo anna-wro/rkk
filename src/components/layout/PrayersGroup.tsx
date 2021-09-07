@@ -23,11 +23,7 @@ export default function PrayersGroup({ prayers, isCurrentWeek }) {
       <div className="pb-4 md:pb-6">
         {prayersInGroup.map((prayer: PrayerType) => (
           <Link key={prayer.ID} as={prayer.slug} href={`[slug]`} passHref>
-            <div
-              className={cx('font-light hover:text-orange-500 cursor-pointer', {
-                'text-gray': false,
-              })}
-            >
+            <div className="font-light hover:text-orange-500 cursor-pointer">
               {prayer.type}
             </div>
           </Link>
