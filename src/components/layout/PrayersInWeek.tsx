@@ -18,7 +18,7 @@ export default function PrayersInWeek({
   const prayersGrouppedByDay = groupByKey(prayers, 'day');
 
   return (
-    <div style={{ scrollMarginTop: '24px' }}>
+    <>
       <div className="font-semibold text-lg my-4">{title}</div>
       {Object.entries(prayersGrouppedByDay).map((prayersFromDay, index) => (
         <PrayersGroup
@@ -27,6 +27,6 @@ export default function PrayersInWeek({
           isCurrentWeek={isCurrentWeek}
         />
       ))}
-    </div>
+    </>
   );
 }

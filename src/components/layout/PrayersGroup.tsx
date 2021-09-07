@@ -15,6 +15,7 @@ export default function PrayersGroup({ prayers, isCurrentWeek }) {
     <div className="flex">
       <div
         className="relative w-36 mr-3 border-r-1 border-gray-50"
+        style={{ scrollMarginTop: '24px' }}
         id={isToday ? 'today' : undefined}
       >
         {isToday && <CurrentTimeDot />}
