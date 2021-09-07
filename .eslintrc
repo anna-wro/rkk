@@ -1,3 +1,7 @@
 {
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
   "extends": ["next", "next/core-web-vitals", "plugin:mdx/recommended"]
 }
