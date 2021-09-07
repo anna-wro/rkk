@@ -1,6 +1,7 @@
 import { DateTime } from 'luxon';
 import { calendar } from 'consts/calendar';
-import { makeStartCase } from './text';
+
+// FIXME: Eslint stopped working and doesnt highlight errors
 
 export const getCurrentWeekNumber = () => {
   const dateNow = DateTime.now();
