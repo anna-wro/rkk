@@ -27,6 +27,6 @@ describe('getCurrentWeekNumber()', () => {
     const someSaturdayEvening = DateTime.local(2045, 9, 4, 18, 0, 0);
     Settings.now = () => someSaturdayEvening.toMillis();
 
-    expect(getCurrentWeekNumber()).toEqual(1);
+    expect(getCurrentWeekNumber()).toEqual(0);
   });
 });

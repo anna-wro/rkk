@@ -7,7 +7,7 @@ export const getCurrentWeekNumber = () => {
   const currentCalendarItem = calendar.find(
     item => item.date === formattedDate,
   );
-  const currentWeek = currentCalendarItem?.week ?? 1;
+  const currentWeek = currentCalendarItem?.week ?? 0;
 
   // Handle new week starting on Saturday evening
   const dayOfWeek = dateNow.toFormat('ccc');
