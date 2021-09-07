@@ -38,7 +38,11 @@ export function getPrayerDataFromFilename({
   const mappedType = variant ? PRAYERS[`${type}_${variant}`] : PRAYERS[type];
   const prayerType = mappedType || defaultPrayerType;
 
-  const slug = removeAccents(`${mappedDay.name}-${week}-${prayerType.name}`);
+  const slug = removeAccents(
+    `${mappedDay.name}-${week}-${
+      variant ? `${type}-${variant}` : prayerType.name
+    }`,
+  );
   const ID = Number(`${week}${mappedDay.order}${prayerType.order}`);
 
   return {

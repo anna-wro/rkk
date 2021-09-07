@@ -11,7 +11,7 @@ export default function Layout({ children }) {
       </Head>
 
       <main className="px-8 md:px-20 md:pt-10 mb-6 md:mb-10 max-w-2xl mx-auto">
-        <div className="mb-2 md:mb-8">
+        <div className="mb-3 md:mb-8">
           <Title />
         </div>
         {children}
