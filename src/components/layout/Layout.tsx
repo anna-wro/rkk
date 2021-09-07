@@ -14,6 +14,7 @@ export default function Layout({ children }) {
         <div className="mb-3 md:mb-8">
           <Title />
         </div>
+        TESTING AUTOMATIC UPDATE
         {children}
       </main>
     </div>
