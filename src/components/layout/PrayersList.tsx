@@ -10,8 +10,8 @@ type PropsType = Readonly<{
 
 export default function PrayersList({ prayers }: PropsType) {
   useEffect(() => {
-    const currentWeekContainer = document.getElementById('currentWeek');
-    currentWeekContainer?.scrollIntoView({ behavior: 'smooth' });
+    const currentWeekContainer = document.getElementById('today');
+    currentWeekContainer?.scrollIntoView();
   }, []);
 
   const currentWeek = getCurrentWeekNumber();

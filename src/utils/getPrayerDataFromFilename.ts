@@ -10,11 +10,11 @@ type PrayerDataPropsType = Readonly<{
 
 const PRAYERS = {
   wigilia: { name: 'wigilia', order: 1 },
-  kompleta_1: { name: 'kompleta I', order: 2 },
+  kompleta_1: { name: 'kompleta', order: 2 },
   jutrznia: { name: 'jutrznia', order: 3 },
   nieszpory: { name: 'nieszpory', order: 4 },
   kompleta: { name: 'kompleta', order: 5 },
-  kompleta_2: { name: 'kompleta II', order: 5 },
+  kompleta_2: { name: 'kompleta', order: 5 },
 };
 
 const DAYS = {

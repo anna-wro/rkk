@@ -2,7 +2,7 @@ import cx from 'classnames';
 import PrayersGroup from './PrayersGroup';
 import { groupByKey } from 'utils/array';
 import type { PrayerType } from 'components/layout/PrayerPage';
-import CurrentWeekDot from 'components/layout/CurrentWeekDot';
+import CurrentTimeDot from 'components/layout/CurrentTimeDot';
 
 type PropsType = Readonly<{
   prayers: PrayerType[];
@@ -18,17 +18,8 @@ export default function PrayersInWeek({
   const prayersGrouppedByDay = groupByKey(prayers, 'day');
 
   return (
-    <div
-      style={{ scrollMarginTop: '24px' }}
-      id={isCurrentWeek ? 'currentWeek' : undefined}
-    >
-      <div
-        className={cx('font-semibold text-lg my-4', {
-          'text-gray-500': !isCurrentWeek,
-        })}
-      >
-        {title} {isCurrentWeek && <CurrentWeekDot />}
-      </div>
+    <div style={{ scrollMarginTop: '24px' }}>
+      <div className="font-semibold text-lg my-4">{title}</div>
       {Object.entries(prayersGrouppedByDay).map((prayersFromDay, index) => (
         <PrayersGroup
           key={index}
