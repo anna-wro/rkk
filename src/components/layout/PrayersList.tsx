@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { copy } from 'consts/copy';
 import { getCurrentWeekNumber } from 'utils/date';
 import type { PrayerType } from 'components/layout/PrayerPage';
@@ -8,6 +9,11 @@ type PropsType = Readonly<{
 }>;
 
 export default function PrayersList({ prayers }: PropsType) {
+  useEffect(() => {
+    const currentWeekContainer = document.getElementById('currentWeek');
+    currentWeekContainer?.scrollIntoView({ behavior: 'smooth' });
+  }, []);
+
   const currentWeek = getCurrentWeekNumber();
   const firstWeek = prayers.filter(prayer => prayer.week === '1');
   const secondWeek = prayers.filter(prayer => prayer.week === '2');
