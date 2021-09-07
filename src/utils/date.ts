@@ -23,8 +23,6 @@ export const getCurrentWeekNumber = () => {
 
 export const getDayOfWeek = () => {
   const dateNow = DateTime.now();
-  console.log({ dateNow });
-  const formattedDate = dateNow.toFormat('yyyy-LL-dd');
 
   // Handle new week starting on Saturday evening
   const dayOfWeek = dateNow.setLocale('pl').toFormat('cccc');
