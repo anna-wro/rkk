@@ -6,7 +6,7 @@ describe('getPrayerDataFromFilename()', () => {
       getPrayerDataFromFilename({ filePath: 'niedziela-1-kompleta' }),
     ).toMatchObject({
       slug: 'niedziela-1-kompleta',
-      ID: 114,
+      ID: 115,
       day: 'niedziela',
       week: '1',
       type: 'kompleta',
@@ -15,7 +15,7 @@ describe('getPrayerDataFromFilename()', () => {
       getPrayerDataFromFilename({ filePath: 'sroda-2-jutrznia' }),
     ).toMatchObject({
       slug: 'sroda-2-jutrznia',
-      ID: 242,
+      ID: 243,
       day: 'środa',
       week: '2',
       type: 'jutrznia',
@@ -35,7 +35,7 @@ describe('getPrayerDataFromFilename()', () => {
       getPrayerDataFromFilename({ filePath: 'wtorek-3-niewiemco' }),
     ).toMatchObject({
       slug: 'wtorek-3-jutrznia',
-      ID: 332,
+      ID: 333,
       day: 'wtorek',
       week: '3',
       type: 'jutrznia',
