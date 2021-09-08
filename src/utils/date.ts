@@ -1,7 +1,14 @@
 import { DateTime } from 'luxon';
 import { calendar } from 'calendar/calendar';
+import type { CalendarDayType } from 'calendar/calendar';
 
 type SeasonType = 'ordinary' | 'advent';
+
+export type CalendarDataType = Readonly<
+  {
+    prettyDate: string;
+  } & CalendarDayType
+>;
 
 // FIXME: Eslint stopped working and doesnt highlight errors
 
@@ -42,4 +49,19 @@ export const getCurrentSeason = (): SeasonType => {
   );
 
   return currentCalendarItem?.season ?? 'ordinary';
+};
+
+export const getCalendarData = (): CalendarDataType => {
+  const dateNow = DateTime.now();
+  const formattedDate = dateNow.toFormat('yyyy-LL-dd');
+  const prettyDate = dateNow.setLocale('pl').toLocaleString(DateTime.DATE_HUGE);
+
+  const currentCalendarItem = calendar.find(
+    item => item.date === formattedDate,
+  );
+  const calendarData = currentCalendarItem
+    ? { ...currentCalendarItem, prettyDate }
+    : null;
+
+  return calendarData;
 };

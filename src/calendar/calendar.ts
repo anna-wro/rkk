@@ -1,13 +1,15 @@
 import { September2021 } from './2021-09';
 
-export type CalendarType = ReadonlyArray<{
+export type CalendarDayType = Readonly<{
   date: string;
   week: 1 | 2;
   season: 'ordinary' | 'advent';
   holiday?: string;
-  note?: string[];
+  notes?: string[];
   passages?: string[];
 }>;
+
+export type CalendarType = ReadonlyArray<CalendarDayType>;
 
 export const calendar: CalendarType = [
   ...September2021,
