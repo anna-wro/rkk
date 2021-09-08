@@ -1,5 +1,5 @@
 import { DateTime } from 'luxon';
-import { calendar } from 'consts/calendar';
+import { calendar } from 'calendar/calendar';
 
 type SeasonType = 'ordinary' | 'advent';
 
