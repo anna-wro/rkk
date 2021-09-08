@@ -1,0 +1,8 @@
+{
+  "extends": ["next", "next/core-web-vitals", "eslint-config-prettier"],
+  "plugins": ["eslint-plugin-prettier"],
+  "rules": {
+    "no-console": "error",
+    "prettier/prettier": "error"
+  }
+}
