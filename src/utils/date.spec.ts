@@ -1,5 +1,5 @@
 import { DateTime, Settings } from 'luxon';
-import { getCurrentWeekNumber, getDayOfWeek } from './date';
+import { getCurrentWeekNumber, getDayOfWeek, getCurrentSeason } from './date';
 
 describe('getCurrentWeekNumber()', () => {
   it('returns proper values when week 2', () => {
@@ -51,5 +51,14 @@ describe('getDayOfWeek()', () => {
     Settings.now = () => sampleSaturdayEvening.toMillis();
 
     expect(getDayOfWeek()).toEqual('niedziela');
+  });
+});
+
+describe('getCurrentSeason()', () => {
+  it('returns proper value', () => {
+    const sampleOrdinaryDay = DateTime.local(2021, 9, 7, 13, 0, 0);
+    Settings.now = () => sampleOrdinaryDay.toMillis();
+
+    expect(getCurrentSeason()).toEqual('ordinary');
   });
 });

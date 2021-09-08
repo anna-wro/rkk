@@ -1,6 +1,8 @@
 import { DateTime } from 'luxon';
 import { calendar } from 'consts/calendar';
 
+type SeasonType = 'ordinary' | 'advent';
+
 // FIXME: Eslint stopped working and doesnt highlight errors
 
 export const getCurrentWeekNumber = () => {
@@ -30,4 +32,14 @@ export const getDayOfWeek = () => {
   const isSundayEve = dayOfWeek === 'sobota' && dateNow.hour >= 15;
 
   return isSundayEve ? 'niedziela' : dayOfWeek;
+};
+
+export const getCurrentSeason = (): SeasonType => {
+  const dateNow = DateTime.now();
+  const formattedDate = dateNow.toFormat('yyyy-LL-dd');
+  const currentCalendarItem = calendar.find(
+    item => item.date === formattedDate,
+  );
+
+  return currentCalendarItem?.season ?? 'ordinary';
 };
