@@ -9,7 +9,6 @@ export default function PrayersGroup({ prayers, isCurrentWeek }) {
   const currentDayOfWeek = getDayOfWeek();
   const [groupName, prayersInGroup] = prayers;
   const isToday = isCurrentWeek && groupName === currentDayOfWeek;
-  console.log({ groupName });
 
   return (
     <div className="flex">
