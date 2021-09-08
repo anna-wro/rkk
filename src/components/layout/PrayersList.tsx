@@ -20,20 +20,24 @@ export default function PrayersList({ prayers }: PropsType) {
 
   return (
     <div className="flex justify-center flex-col md:flex-row md:space-x-24">
-      <div>
-        <PrayersInWeek
-          prayers={firstWeek}
-          isCurrentWeek={currentWeek === 1}
-          title={copy.firstWeekTitle}
-        />
-      </div>
-      <div className="mt-10 md:m-0">
-        <PrayersInWeek
-          prayers={secondWeek}
-          isCurrentWeek={currentWeek === 2}
-          title={copy.secondWeekTitle}
-        />
-      </div>
+      {firstWeek.length > 0 && (
+        <div>
+          <PrayersInWeek
+            prayers={firstWeek}
+            isCurrentWeek={currentWeek === 1}
+            title={copy.firstWeekTitle}
+          />
+        </div>
+      )}
+      {secondWeek.length > 0 && (
+        <div className="mt-10 md:m-0">
+          <PrayersInWeek
+            prayers={secondWeek}
+            isCurrentWeek={currentWeek === 2}
+            title={copy.secondWeekTitle}
+          />
+        </div>
+      )}
     </div>
   );
 }
