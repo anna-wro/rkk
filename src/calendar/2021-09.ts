@@ -6,10 +6,12 @@ export const September2021: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['Kol 1,1-8', 'Ps 52,10.11', 'Łk 4,38-44'],
+    note: ['[html]Rut[html] w.'],
   },
   {
     date: '2021-09-02',
     week: 1,
+    holiday: 'FEBE dk.',
     season: 'ordinary',
     passages: ['Kol 1,9-14', 'Ps 98,2-3b.3c-4.5-6', 'Łk 5,1-11'],
   },
@@ -17,6 +19,7 @@ export const September2021: CalendarType = [
     date: '2021-09-03',
     week: 1,
     season: 'ordinary',
+    note: ['[html]Roberta Schumana[html] w.'],
     passages: [
       'Pwt 10, 8-9',
       'Ps 16, 1-2a i 5. 7-8. 11',
@@ -36,6 +39,7 @@ export const September2021: CalendarType = [
     season: 'ordinary',
     holiday: '15. Niedziela po Pięćdziesiątnicy',
     passages: ['Iz 35,4-7a', 'Ps 146,6-7.8-9b.9c-10', 'Jk 2,1-5', 'Mk 7,31-37'],
+    note: ['[HTML]Teresy z Kalkuty[HTML] zak.'],
   },
   {
     date: '2021-09-06',
@@ -66,6 +70,7 @@ export const September2021: CalendarType = [
     week: 2,
     season: 'ordinary',
     passages: ['Kol 3,12-17', 'Ps 150,1-2.3-4.5-6', 'Łk 6,27-38'],
+    note: ['[HTML]Aleksandra Mienia[HTML] prezb. i m.'],
   },
   {
     date: '2021-09-10',
@@ -114,6 +119,7 @@ export const September2021: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['1 Tm 3,14-16', 'Ps 111,1-2.3-4.5-6', 'Łk 7,31-35'],
+    note: ['[HTML]Cypriana[HTML] bp. i m.'],
   },
   {
     date: '2021-09-16',
@@ -126,12 +132,17 @@ export const September2021: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['1 Tm 6,3b-12', 'Ps 49,6-7.8-9.17-18.19-20', 'Łk 8, 1-3'],
+    note: [
+      '[HTML]Hildegardy z Bingen[HTML] mn. i mis.',
+      'DZIEŃ WSPÓLNEGO POSTU',
+    ],
   },
   {
     date: '2021-09-18',
     week: 1,
     season: 'ordinary',
     passages: ['1 Tm 6,13-16', 'Ps 100,2-3.4-5', 'Łk 8,4-15'],
+    note: ['[HTML]Józega z Kupertynu[HTML] zak.'],
   },
   {
     date: '2021-09-19',
@@ -144,12 +155,14 @@ export const September2021: CalendarType = [
       'Jk 3,16-4,3',
       'Mk 9,30-37',
     ],
+    note: ['Rocznica powstania Ekumenicznej Wspólnoty Katolickiej (2003 r.)'],
   },
   {
     date: '2021-09-20',
     week: 2,
     season: 'ordinary',
     passages: ['Ezd 1,1-6', 'Ps 126,1-2b.2c-3.4-5.6', 'Łk 8,16-18'],
+    note: ['[HTML]Henriego Nouwena[HTML] prez.'],
   },
   {
     date: '2021-09-21',
@@ -169,12 +182,16 @@ export const September2021: CalendarType = [
     week: 2,
     season: 'ordinary',
     passages: ['Ag 1,1-8', 'Ps 149,1-2.3-4.5-6a i 9b', 'Łk 9,7-9'],
+    note: ['[HTML]Bernardyny Marii Jabłońskiej[HTML] zak.'],
   },
   {
     date: '2021-09-24',
     week: 2,
     season: 'ordinary',
     passages: ['Ag 1,15b-2,9', 'Ps 43,1-2b.3.4', 'Łk 9,18-22'],
+    note: [
+      'Rocznica podpisania Deklaracji Utrechckiej Kościołów starokatolickich (1889)',
+    ],
   },
   {
     date: '2021-09-25',
@@ -193,12 +210,14 @@ export const September2021: CalendarType = [
       'Jk 5,1-6',
       'Mk 9,38-43.45.47-48',
     ],
+    note: ['[HTML]Kosmy i Damiana[HTML] m.'],
   },
   {
     date: '2021-09-27',
     week: 1,
     season: 'ordinary',
     passages: ['Za 8,1-8', 'Ps 102,16-17.18-19.20-21.29 i 22', 'Łk 9,46-50'],
+    note: ['[HTML]Wincentego à Paulo[HTML] zak.'],
   },
   {
     date: '2021-09-28',
@@ -223,5 +242,6 @@ export const September2021: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['Ne 8,1-4a.5-6.7b-12', 'Ps 19,8.9.10', 'Łk 10,1-12'],
+    note: ['[HTML]Hieronima[HTML] prezb.'],
   },
 ];

@@ -5,7 +5,7 @@ export type CalendarType = ReadonlyArray<{
   week: 1 | 2;
   season: 'ordinary' | 'advent';
   holiday?: string;
-  optional?: string;
+  note?: string[];
   passages?: string[];
 }>;
 
