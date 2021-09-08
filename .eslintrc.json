@@ -1,7 +1,13 @@
 {
-  "extends": ["next", "next/core-web-vitals", "eslint-config-prettier"],
-  "plugins": ["eslint-plugin-prettier"],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "next",
+    "next/core-web-vitals",
+    "eslint-config-prettier"
+  ],
+  "plugins": ["@typescript-eslint", "eslint-plugin-prettier"],
   "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "no-console": "error",
     "prettier/prettier": "error"
   }
