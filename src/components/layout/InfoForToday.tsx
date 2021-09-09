@@ -1,8 +1,7 @@
 import type { CalendarDataType } from 'utils/date';
-import { makeStartCase } from 'utils/text';
+import { makeStartCase, formatCalendarNotes } from 'utils/text';
 
 export default function InfoForToday({ data }: { data: CalendarDataType }) {
-  // TODO handle [html] in notes
   return (
     <div className="font-light mb-6 text-sm">
       <div className="font-medium">{makeStartCase(data.prettyDate)}</div>
@@ -13,7 +12,7 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
         <div key={index}>{passage}</div>
       ))}
       {data?.notes?.map((note, index) => (
-        <div key={index}>{note}</div>
+        <div key={index}>{formatCalendarNotes(note)}</div>
       ))}
     </div>
   );
