@@ -1,4 +1,10 @@
-export const calendar = [
+type CalendarType = ReadonlyArray<{
+  date: string;
+  week: 1 | 2;
+  season: 'ordinary' | 'advent';
+}>;
+
+export const calendar: CalendarType = [
   { date: '2021-09-01', week: 1, season: 'ordinary' },
   { date: '2021-09-02', week: 1, season: 'ordinary' },
   { date: '2021-09-03', week: 1, season: 'ordinary' },

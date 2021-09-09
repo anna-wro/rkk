@@ -1,13 +1,23 @@
+import cx from 'classnames';
 import Link from 'next/link';
 import { makeStartCase } from 'utils/text';
+import { getDayOfWeek } from 'utils/date';
 import type { PrayerType } from 'components/layout/PrayerPage';
+import CurrentTimeDot from 'components/layout/CurrentTimeDot';
 
-export default function PrayersGroup({ prayers }) {
+export default function PrayersGroup({ prayers, isCurrentWeek }) {
+  const currentDayOfWeek = getDayOfWeek();
   const [groupName, prayersInGroup] = prayers;
+  const isToday = isCurrentWeek && groupName === currentDayOfWeek;
 
   return (
     <div className="flex">
-      <div className="w-28 mr-3 border-r-1 border-gray-50">
+      <div
+        className="relative w-36 mr-3 border-r-1 border-gray-50"
+        style={{ scrollMarginTop: '24px' }}
+        id={isToday ? 'today' : undefined}
+      >
+        {isToday && <CurrentTimeDot />}
         {makeStartCase(groupName)}
       </div>
       <div className="pb-4 md:pb-6">
