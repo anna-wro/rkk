@@ -5,6 +5,9 @@ export const copy = {
   firstWeekTitle: 'Tydzień pierwszy',
   secondWeekTitle: 'Tydzień drugi',
   logoAlt: 'logo Kościoła',
+  chevronImageAlt: 'chevron',
+  seeMoreInfo: 'więcej informacji',
+  seeLessInfo: 'ukryj informacje',
 };
 
 export default copy;
