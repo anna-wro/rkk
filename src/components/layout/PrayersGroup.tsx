@@ -1,4 +1,3 @@
-import cx from 'classnames';
 import Link from 'next/link';
 import { makeStartCase } from 'utils/text';
 import { getDayOfWeek } from 'utils/date';

@@ -1,8 +1,6 @@
-import cx from 'classnames';
 import PrayersGroup from './PrayersGroup';
 import { groupByKey } from 'utils/array';
 import type { PrayerType } from 'components/layout/PrayerPage';
-import CurrentTimeDot from 'components/layout/CurrentTimeDot';
 
 type PropsType = Readonly<{
   prayers: PrayerType[];
