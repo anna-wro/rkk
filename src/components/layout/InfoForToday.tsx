@@ -37,7 +37,14 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
         <div>
           <ul className="mt-2">
             {data?.passages?.map((passage, index) => (
-              <li key={index}>{passage}</li>
+              <li key={index}>
+                <a
+                  href={`https://wbiblii.pl/szukaj/${passage}`}
+                  className="hover:underline"
+                >
+                  {passage}
+                </a>
+              </li>
             ))}
           </ul>
           <ul className="mt-1">
