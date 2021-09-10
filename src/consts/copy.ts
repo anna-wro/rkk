@@ -8,7 +8,8 @@ export const copy = {
   chevronImageAlt: 'chevron',
   seeMoreInfo: 'więcej informacji',
   seeLessInfo: 'ukryj informacje',
-  sundayReadings: 'Czytania są również dostępne na [html]naszej stronie.[html]',
+  sundayReadings:
+    'Dzisiejsze czytania znajdziesz również na [html]naszej stronie.[html]',
 };
 
 export default copy;
