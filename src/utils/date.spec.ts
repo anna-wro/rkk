@@ -1,4 +1,3 @@
-import { DateTime, Settings } from 'luxon';
 import { getCurrentWeekNumber, getDayOfWeek, getCurrentSeason } from './date';
 import { mockDate } from './mocks';
 
