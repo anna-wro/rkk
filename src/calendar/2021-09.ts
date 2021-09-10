@@ -22,7 +22,7 @@ export const September2021: CalendarType = [
     notes: ['[html]Roberta Schumana[html] w.'],
     passages: [
       'Pwt 10, 8-9',
-      'Ps 16, 1-2a i 5. 7-8. 11',
+      'Ps 16, 1-2a. 5. 7-8. 11',
       'Rz 16, 1-7',
       'Łk 5,33-39',
     ],
@@ -31,7 +31,7 @@ export const September2021: CalendarType = [
     date: '2021-09-04',
     week: 1,
     season: 'ordinary',
-    passages: ['Kol 1,21-23', 'Ps 54,3-4.6 i 8', 'Łk 6,1-5'],
+    passages: ['Kol 1,21-23', 'Ps 54,3-4.6 . 8', 'Łk 6,1-5'],
   },
   {
     date: '2021-09-05',
@@ -76,13 +76,13 @@ export const September2021: CalendarType = [
     date: '2021-09-10',
     week: 2,
     season: 'ordinary',
-    passages: ['1 Tm 1,1-2.12-14', 'Ps 16,1-2 i 5.7-8.9 i 11', 'Łk 6,39-42'],
+    passages: ['1 Tm 1,1-2.12-14', 'Ps 16,1-2 . 5.7-8.9 . 11', 'Łk 6,39-42'],
   },
   {
     date: '2021-09-11',
     week: 2,
     season: 'ordinary',
-    passages: ['1 Tm 1,15-17', 'Ps 113,1-2.3-4.5a i 6-7', 'Łk 6,43-49'],
+    passages: ['1 Tm 1,15-17', 'Ps 113,1-2.3-4.5a . 6-7', 'Łk 6,43-49'],
   },
   {
     date: '2021-09-12',
@@ -100,7 +100,7 @@ export const September2021: CalendarType = [
     date: '2021-09-13',
     week: 1,
     season: 'ordinary',
-    passages: ['1 Tm 2,1-8', 'Ps 28,1ab i 2.7.8-9', 'Łk 7,1-10'],
+    passages: ['1 Tm 2,1-8', 'Ps 28,1ab . 2.7.8-9', 'Łk 7,1-10'],
   },
   {
     date: '2021-09-14',
@@ -181,7 +181,7 @@ export const September2021: CalendarType = [
     date: '2021-09-23',
     week: 2,
     season: 'ordinary',
-    passages: ['Ag 1,1-8', 'Ps 149,1-2.3-4.5-6a i 9b', 'Łk 9,7-9'],
+    passages: ['Ag 1,1-8', 'Ps 149,1-2.3-4.5-6a.9b', 'Łk 9,7-9'],
     notes: ['[HTML]Bernardyny Marii Jabłońskiej[HTML] zak.'],
   },
   {
@@ -216,14 +216,14 @@ export const September2021: CalendarType = [
     date: '2021-09-27',
     week: 1,
     season: 'ordinary',
-    passages: ['Za 8,1-8', 'Ps 102,16-17.18-19.20-21.29 i 22', 'Łk 9,46-50'],
+    passages: ['Za 8,1-8', 'Ps 102,16-17.18-19.20-21.29.22', 'Łk 9,46-50'],
     notes: ['[HTML]Wincentego à Paulo[HTML] zak.'],
   },
   {
     date: '2021-09-28',
     week: 1,
     season: 'ordinary',
-    passages: ['Za 8,20-23', 'Ps 87,2-3.4.5 i 7', 'Łk 9,51-56'],
+    passages: ['Za 8,20-23', 'Ps 87,2-3.4.5.7', 'Łk 9,51-56'],
   },
   {
     date: '2021-09-29',
