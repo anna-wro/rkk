@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { SeeMoreArrow } from 'components/layout/SeeMoreArrow';
 import { CalendarDataType, getDayOfWeek } from 'utils/date';
 import { makeStartCase, formatCalendarNotes } from 'utils/text';
+import { copy } from 'consts/copy';
 
 export default function InfoForToday({ data }: { data: CalendarDataType }) {
   function handleClick() {
@@ -16,6 +17,7 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
 
   const [showMoreInfo, setShowMoreInfo] = useState(false);
   const dayOfWeek = getDayOfWeek();
+  const [intro, linkToReadings] = copy.sundayReadings.split('[html]');
 
   return (
     <div className="font-light md:mb-4 mt-2 text-sm more-info">
@@ -50,12 +52,12 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
           </ul>
           {dayOfWeek === 'niedziela' && (
             <div>
-              Czytania są również dostępne na{' '}
+              {intro}{' '}
               <a
                 href="https://starokatolicy.eu/czytania-liturgiczne/"
                 className="font-medium"
               >
-                naszej stronie.
+                {linkToReadings}
               </a>
             </div>
           )}
