@@ -90,7 +90,7 @@ export const September2021: CalendarType = [
     season: 'ordinary',
     holiday: '16. Niedziela po Pięćdziesiątnicy',
     passages: [
-      'z 50,5-9a',
+      'Iz 50,5-9a',
       'Ps 116,1-2.3-4.5-6.8-9',
       'Jk 2,14-18',
       'Mk 8,27-35',
