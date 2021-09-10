@@ -54,6 +54,8 @@ export const getCalendarData = (): CalendarDataType => {
   // eslint-disable-next-line no-console
   console.log({ dateNow });
   const formattedDate = dateNow.toFormat('yyyy-LL-dd');
+  // eslint-disable-next-line no-console
+  console.log({ formattedDate });
   const prettyDate = dateNow.setLocale('pl').toLocaleString(DateTime.DATE_HUGE);
 
   const currentCalendarItem = calendar.find(
@@ -64,6 +66,9 @@ export const getCalendarData = (): CalendarDataType => {
   const calendarData = currentCalendarItem
     ? { ...currentCalendarItem, prettyDate }
     : null;
+
+  // eslint-disable-next-line no-console
+  console.log({ calendarData });
 
   return calendarData;
 };
