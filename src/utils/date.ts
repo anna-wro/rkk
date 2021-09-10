@@ -51,12 +51,16 @@ export const getCurrentSeason = (): SeasonType => {
 
 export const getCalendarData = (): CalendarDataType => {
   const dateNow = DateTime.now();
+  // eslint-disable-next-line no-console
+  console.log({ dateNow });
   const formattedDate = dateNow.toFormat('yyyy-LL-dd');
   const prettyDate = dateNow.setLocale('pl').toLocaleString(DateTime.DATE_HUGE);
 
   const currentCalendarItem = calendar.find(
     item => item.date === formattedDate,
   );
+  // eslint-disable-next-line no-console
+  console.log({ currentCalendarItem });
   const calendarData = currentCalendarItem
     ? { ...currentCalendarItem, prettyDate }
     : null;
