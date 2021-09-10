@@ -5,8 +5,11 @@ import { serialize } from 'next-mdx-remote/serialize';
 import Prayer from 'components/layout/PrayerPage';
 import Layout from 'components/layout/Layout';
 import { PRAYERS_PATH, prayersFilePaths } from 'utils/mdxUtils';
+import useNoSleep from 'utils/useNoSleep';
 
 export default function PrayerPage({ prayer }) {
+  useNoSleep(true);
+
   return (
     <Layout>
       <Prayer prayer={prayer} />
