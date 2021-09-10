@@ -9,6 +9,8 @@ import { PRAYERS_PATH, prayersFilePaths } from 'utils/mdxUtils';
 import { getCalendarData } from 'utils/date';
 
 export default function Home({ prayers, calendar }) {
+  // eslint-disable-next-line no-console
+  console.log({ calendar });
   return (
     <Layout>
       {calendar && <InfoForToday data={calendar} />}
