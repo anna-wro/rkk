@@ -3,12 +3,12 @@ import { copy } from 'consts/copy';
 
 export function SeeMoreArrow({ rotated }: { rotated: boolean }) {
   return (
-    <div className="flex items-center mt-2 mb-2 md:mb-0 md:mt-0 select-none">
-      <div className="mr-2 hover:text-gray-800">
+    <div className="flex items-center mt-2 mb-2 md:mb-0 md:mt-0 select-none opacity-90 hover:opacity-100">
+      <div className="mr-2 ">
         {rotated ? copy.seeLessInfo : copy.seeMoreInfo}
       </div>
       <div
-        className={`bg-green hover:bg-green-600 rounded-full 
+        className={`bg-green-500 rounded-full 
 flex items-center justify-center w-4 h-4 flex-shrink-0 ${
           rotated && 'transform rotate-90'
         }`}
