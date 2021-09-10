@@ -8,9 +8,9 @@ import { getPrayerDataFromFilename } from 'utils/getPrayerDataFromFilename';
 import { PRAYERS_PATH, prayersFilePaths } from 'utils/mdxUtils';
 import { getCalendarData } from 'utils/date';
 
-export default function Home({ prayers, calendar }) {
-  // eslint-disable-next-line no-console
-  console.log({ calendar });
+export default function Home({ prayers }) {
+  const calendar = getCalendarData();
+
   return (
     <Layout>
       {calendar && <InfoForToday data={calendar} />}
@@ -20,7 +20,6 @@ export default function Home({ prayers, calendar }) {
 }
 
 export function getStaticProps() {
-  const calendar = getCalendarData();
   const prayers = prayersFilePaths
     .map(filePath => {
       const prayerData = getPrayerDataFromFilename({ filePath });
@@ -31,5 +30,5 @@ export function getStaticProps() {
     })
     .sort((a, b) => a.ID - b.ID);
 
-  return { props: { prayers, calendar } };
+  return { props: { prayers } };
 }
