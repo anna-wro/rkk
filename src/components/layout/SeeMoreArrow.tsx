@@ -15,7 +15,7 @@ flex items-center justify-center w-4 h-4 flex-shrink-0 ${
       >
         <Image
           src="/chevron-right.svg"
-          width={5}
+          width={8}
           height={8}
           alt={copy.chevronImageAlt}
         />
