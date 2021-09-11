@@ -9,7 +9,7 @@ export const copy = {
   seeMoreInfo: 'więcej informacji',
   seeLessInfo: 'ukryj informacje',
   sundayReadings:
-    'Dzisiejsze czytania znajdziesz również na [html]naszej stronie.[html]',
+    'Dzisiejsze czytania znajdziesz również na [HTML]naszej stronie.[HTML]',
 };
 
 export default copy;

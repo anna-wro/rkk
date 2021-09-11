@@ -4,7 +4,7 @@ import { copy } from 'consts/copy';
 
 export function ExtendedInfo({ data }: { data: CalendarDataType }) {
   const dayOfWeek = getDayOfWeek();
-  const [intro, linkToReadings] = copy.sundayReadings.split('[html]');
+  const [intro, linkToReadings] = copy.sundayReadings.split('[HTML]');
 
   return (
     <div>
