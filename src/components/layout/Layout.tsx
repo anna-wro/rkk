@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Title from 'components/layout/Title';
 import copy from 'consts/copy';
@@ -6,6 +6,8 @@ import copy from 'consts/copy';
 declare const window: any;
 
 export default function Layout({ children }) {
+  const [newVersionAvailable, setNewVersionAvailable] = useState(false);
+
   useEffect(() => {
     if (
       typeof window !== 'undefined' &&
@@ -13,6 +15,7 @@ export default function Layout({ children }) {
       window.workbox !== undefined
     ) {
       const wb = window.workbox;
+      wb.addEventListener('waiting', setNewVersionAvailable(true));
       wb.register();
     }
   }, []);
@@ -28,6 +31,7 @@ export default function Layout({ children }) {
         <div className="mb-3 md:mb-8">
           <Title />
         </div>
+        {newVersionAvailable && <div>Hello, zrestartuj mnie!</div>}
         {children}
       </main>
     </div>
