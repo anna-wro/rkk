@@ -42,11 +42,15 @@ export default function Layout({ children }) {
       // NOTE: MUST set skipWaiting to false in next.config.js pwa object
       // https://developers.google.com/web/tools/workbox/guides/advanced-recipes#offer_a_page_reload_for_users
       const promptNewVersionAvailable = event => {
+        // eslint-disable-next-line no-console
+        console.log('prompt new version available', event);
         // `event.wasWaitingBeforeRegister` will be false if this is the first time the updated service worker is waiting.
         // When `event.wasWaitingBeforeRegister` is true, a previously updated service worker is still waiting.
         // You may want to customize the UI prompt accordingly.
         if (confirm('Dostępna jest aktualizacja. Czy chesz ją pobrać?')) {
           wb.addEventListener('controlling', event => {
+            // eslint-disable-next-line no-console
+            console.log('controlling', event);
             window.location.reload();
           });
 
