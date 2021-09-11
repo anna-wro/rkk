@@ -28,8 +28,7 @@ export default function Layout({ children }) {
         <div className="mb-3 md:mb-8">
           <Title />
         </div>
-        THE LAST TEST
-        {children}
+        1{children}
       </main>
     </div>
   );
