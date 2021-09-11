@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import Head from 'next/head';
 import Title from 'components/layout/Title';
 import copy from 'consts/copy';
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+declare const window: any;
 
 export default function Layout({ children }) {
   // This hook only run once in browser after the component is rendered for the first time.
@@ -16,17 +18,23 @@ export default function Layout({ children }) {
       // add event listeners to handle any of PWA lifecycle event
       // https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-window.Workbox#events
       wb.addEventListener('installed', event => {
+        // eslint-disable-next-line no-console
         console.log(`Event ${event.type} is triggered.`);
+        // eslint-disable-next-line no-console
         console.log(event);
       });
 
       wb.addEventListener('controlling', event => {
+        // eslint-disable-next-line no-console
         console.log(`Event ${event.type} is triggered.`);
+        // eslint-disable-next-line no-console
         console.log(event);
       });
 
       wb.addEventListener('activated', event => {
+        // eslint-disable-next-line no-console
         console.log(`Event ${event.type} is triggered.`);
+        // eslint-disable-next-line no-console
         console.log(event);
       });
 
@@ -49,6 +57,7 @@ export default function Layout({ children }) {
           // Send a message to the waiting service worker, instructing it to activate.
           wb.messageSkipWaiting();
         } else {
+          // eslint-disable-next-line no-console
           console.log(
             'User rejected to reload the web app, keep using old version. New version will be automatically load when user open the app next time.',
           );
@@ -60,7 +69,9 @@ export default function Layout({ children }) {
       // ISSUE - this is not working as expected, why?
       // I could only make message event listenser work when I manually add this listenser into sw.js file
       wb.addEventListener('message', event => {
+        // eslint-disable-next-line no-console
         console.log(`Event ${event.type} is triggered.`);
+        // eslint-disable-next-line no-console
         console.log(event);
       });
 
