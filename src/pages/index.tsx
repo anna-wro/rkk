@@ -26,7 +26,7 @@ export function getStaticProps() {
       const source = fs.readFileSync(path.join(PRAYERS_PATH, filePath));
       const { content, data } = matter(source);
 
-      return { data, content, ...prayerData };
+      return { content, data, ...prayerData };
     })
     .sort((a, b) => a.ID - b.ID);
 
