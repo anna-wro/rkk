@@ -31,7 +31,7 @@ export default function Layout({ children }) {
         <div className="mb-3 md:mb-8">
           <Title />
         </div>
-        {newVersionAvailable && <div>Hello, zrestartuj mnie!</div>}
+        {newVersionAvailable && <div>Hello, zrestartuj mnie! 2</div>}
         {children}
       </main>
     </div>
