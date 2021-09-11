@@ -68,6 +68,7 @@ const components = {
 };
 
 export default function PrayerPage({ prayer }: PropsType) {
+  // TODO nosleep.js when text opened
   return (
     <>
       <div className="relative whitespace-pre-line">

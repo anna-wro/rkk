@@ -19,7 +19,7 @@ export default function PrayersList({ prayers }: PropsType) {
   const secondWeek = prayers.filter(prayer => prayer.week === '2');
 
   return (
-    <div className="flex justify-center flex-col md:flex-row md:space-x-24">
+    <div className="flex justify-between flex-col md:flex-row">
       {firstWeek.length > 0 && (
         <div>
           <PrayersInWeek
