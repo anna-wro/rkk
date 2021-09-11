@@ -15,7 +15,7 @@ export default function Layout({ children }) {
       window.workbox !== undefined
     ) {
       const wb = window.workbox;
-      wb.addEventListener('waiting', setNewVersionAvailable(true));
+      wb.addEventListener('waiting', () => setNewVersionAvailable(true));
       wb.register();
     }
   }, []);
