@@ -14,6 +14,9 @@ export const copy = {
   offlineHeader: 'Jesteś offline.',
   offlineDesc: 'Połącz się z siecią, aby pobrać tekst.',
   reloadPage: 'Spróbuj ponownie',
+  updateAvailableHeader: 'Dostępna aktualizacja',
+  updateAvailableDescription:
+    'Uruchom ponownie aplikację, aby zobaczyć najnowszą wersję.',
 };
 
 export default copy;

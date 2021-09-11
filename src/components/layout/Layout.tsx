@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Title from 'components/layout/Title';
+import UpdateAvailable from 'components/layout/UpdateAvailable';
+
 import copy from 'consts/copy';
 
 export default function Layout({ children }) {
@@ -25,12 +27,12 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-8 md:px-20 md:pt-10 mb-6 md:mb-10 max-w-2xl mx-auto">
-        <div className="mb-3 md:mb-8">
+      <main className="md:pt-10 mb-6 md:mb-10 max-w-2xl mx-auto">
+        <div className="px-8 md:px-20  mb-3 md:mb-8">
           <Title />
         </div>
-        {newVersionAvailable && <div>Hello, zrestartuj mnie! 2</div>}
-        {children}
+        {newVersionAvailable && <UpdateAvailable />}
+        <div className="px-8 md:px-20 ">{children}</div>
       </main>
     </div>
   );
