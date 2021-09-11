@@ -12,11 +12,7 @@ import { useWakeLock } from 'use-wake-lock';
 export default function PrayerPage({ prayer }) {
   const { toggleWakeLock } = useWakeLock();
 
-  useEffect(() => {
-    toggleWakeLock();
-
-    return () => toggleWakeLock();
-  }, [toggleWakeLock]);
+  toggleWakeLock();
 
   return (
     <Layout>
