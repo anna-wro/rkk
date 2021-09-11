@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Title from 'components/layout/Title';
 import copy from 'consts/copy';
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-declare const window: any;
 
 export default function Layout({ children }) {
   const [newVersionAvailable, setNewVersionAvailable] = useState(false);
