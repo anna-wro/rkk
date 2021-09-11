@@ -1,3 +1,5 @@
+import 'regenerator-runtime/runtime';
+import { useEffect } from 'react';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
@@ -5,10 +7,16 @@ import { serialize } from 'next-mdx-remote/serialize';
 import Prayer from 'components/layout/PrayerPage';
 import Layout from 'components/layout/Layout';
 import { PRAYERS_PATH, prayersFilePaths } from 'utils/mdxUtils';
-import useNoSleep from 'utils/useNoSleep';
+import { useWakeLock } from 'use-wake-lock';
 
 export default function PrayerPage({ prayer }) {
-  useNoSleep(true);
+  const { toggleWakeLock } = useWakeLock();
+
+  useEffect(() => {
+    toggleWakeLock();
+
+    return () => toggleWakeLock();
+  }, [toggleWakeLock]);
 
   return (
     <Layout>
