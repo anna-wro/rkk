@@ -24,7 +24,7 @@ export default function PrayersList({ prayers }: PropsType) {
         </div>
       )}
       {secondWeek.length > 0 && (
-        <div className="mt-10 md:m-0">
+        <div className="mt-4 md:m-0">
           <PrayersInWeek
             prayers={secondWeek}
             isCurrentWeek={currentWeek === 2}
