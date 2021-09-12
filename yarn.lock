@@ -5786,6 +5786,11 @@ react-refresh@0.8.3:
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
+react-screen-wake-lock@^1.1.10:
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/react-screen-wake-lock/-/react-screen-wake-lock-1.1.10.tgz#967b063490ebaa9b932ffd5708b2c59c7cc5356e"
+  integrity sha512-CY98tNPJnz0ZY0zsMf/ifVA89QkHjsfCrE/Kemx3hjptfCXS3UL7/dDxEZN+j65y+zvYj2sg4/ydIkL7sKcvug==
+
 react@17.0.2:
   version "17.0.2"
   resolved "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
