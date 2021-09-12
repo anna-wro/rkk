@@ -10,7 +10,7 @@ export const copy = {
   seeLessInfo: 'ukryj informacje',
   sundayReadings:
     'Dzisiejsze czytania znajdziesz również na [HTML]naszej stronie.[HTML]',
-  appName: 'Reformowany Kościół Katolicki',
+  appName: 'Oficjum',
   offlineHeader: 'Jesteś offline.',
   offlineDesc: 'Połącz się z siecią, aby pobrać tekst.',
   reloadPage: 'Spróbuj ponownie',
