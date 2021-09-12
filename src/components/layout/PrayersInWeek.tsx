@@ -17,7 +17,7 @@ export default function PrayersInWeek({
 
   return (
     <>
-      <div className="font-semibold text-lg my-4">{title}</div>
+      <h3 className="font-semibold text-lg my-4">{title}</h3>
       {Object.entries(prayersGrouppedByDay).map((prayersFromDay, index) => (
         <PrayersGroup
           key={index}

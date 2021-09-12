@@ -18,7 +18,7 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
   const [showMoreInfo, setShowMoreInfo] = useState(false);
 
   return (
-    <div className="font-light md:mb-4 mt-2 text-sm more-info">
+    <div className="font-light md:mb-4 mt-3 text-sm more-info">
       <div
         className="md:flex justify-between items-center"
         onClick={handleClick}
