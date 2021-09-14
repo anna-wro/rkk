@@ -109,7 +109,7 @@ export const September2021: CalendarType = [
     holiday: 'Uroczystość Krzyża Świętego',
     passages: [
       'Lb 21,4b-9',
-      'Ps 78,1-2.34-35.36-37.38ab i 39',
+      'Ps 78,1-2.34-35.36-37.38ab.39',
       'Flp 2, 6-11',
       'J 3,13-17',
     ],
