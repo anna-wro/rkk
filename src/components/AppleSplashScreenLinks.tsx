@@ -2,7 +2,7 @@ import { appleDeviceSpecsForLaunchImages } from 'pwa-asset-generator';
 
 export const AppleSplashScreenLinks = () => {
   console.log('test');
-  
+     
   return (
     <>
       <meta name="apple-mobile-web-app-capable" content="yes" />
