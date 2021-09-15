@@ -1,3 +1,4 @@
-yarn lint-staged
-yarn next lint
-next lint
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run lint
