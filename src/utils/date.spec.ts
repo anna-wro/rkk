@@ -62,4 +62,10 @@ describe('getCurrentSeason()', () => {
 
     expect(getCurrentSeason()).toEqual('ordinary');
   });
+
+  it('returns proper value when advent', () => {
+    mockDate(2021, 12, 7);
+
+    expect(getCurrentSeason()).toEqual('advent');
+  });
 });

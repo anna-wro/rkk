@@ -2,6 +2,8 @@ import { DateTime } from 'luxon';
 import { calendar } from 'calendar/calendar';
 import type { CalendarDayType } from 'calendar/calendar';
 
+type SeasonType = 'ordinary' | 'advent';
+
 export type CalendarDataType = Readonly<
   {
     prettyDate: string;
@@ -51,7 +53,7 @@ export const getCurrentDate = () => {
   };
 };
 
-export const getCurrentSeason = () => {
+export const getCurrentSeason = (): SeasonType => {
   const { isoDate } = getCurrentDate();
   const currentCalendarItem = calendar.find(item => item.date === isoDate);
 
