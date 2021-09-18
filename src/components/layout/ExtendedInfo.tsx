@@ -1,9 +1,9 @@
-import { CalendarDataType, getDayOfWeek } from 'utils/date';
+import { CalendarDataType, getCurrentDate } from 'utils/date';
 import { formatCalendarNotes } from 'utils/text';
 import { copy } from 'consts/copy';
 
 export function ExtendedInfo({ data }: { data: CalendarDataType }) {
-  const dayOfWeek = getDayOfWeek();
+  const { dayOfWeek } = getCurrentDate();
   const [intro, linkToReadings] = copy.sundayReadings.split('[HTML]');
 
   return (
