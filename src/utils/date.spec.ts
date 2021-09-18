@@ -64,7 +64,7 @@ describe('getCurrentSeason()', () => {
   });
 
   it('returns proper value when advent', () => {
-    mockDate(2021, 12, 7);
+    mockDate(2021, 12, 3);
 
     expect(getCurrentSeason()).toEqual('advent');
   });
