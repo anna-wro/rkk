@@ -2,8 +2,6 @@ import { DateTime } from 'luxon';
 import { calendar } from 'calendar/calendar';
 import type { CalendarDayType } from 'calendar/calendar';
 
-type SeasonType = 'ordinary' | 'advent';
-
 export type CalendarDataType = Readonly<
   {
     prettyDate: string;
@@ -29,35 +27,42 @@ export const getCurrentWeekNumber = () => {
   return currentWeek;
 };
 
-export const getDayOfWeek = () => {
-  const dateNow = DateTime.now();
-
+const getDayOfWeek = ({ dateNow }) => {
   // Handle new week starting on Saturday evening
   const dayOfWeek = dateNow.setLocale('pl').toFormat('cccc');
   const isSundayEve = dayOfWeek === 'sobota' && dateNow.hour >= 15;
 
-  return isSundayEve ? 'niedziela' : dayOfWeek;
+  return { dayOfWeek: isSundayEve ? 'niedziela' : dayOfWeek, isSundayEve };
 };
 
-export const getCurrentSeason = (): SeasonType => {
-  const dateNow = DateTime.now();
-  const formattedDate = dateNow.toFormat('yyyy-LL-dd');
-  const currentCalendarItem = calendar.find(
-    item => item.date === formattedDate,
-  );
+export const getCurrentDate = () => {
+  let dateNow = DateTime.now();
+  const { dayOfWeek, isSundayEve } = getDayOfWeek({ dateNow });
+
+  if (isSundayEve) {
+    dateNow = dateNow.plus({ days: 1 });
+  }
+
+  return {
+    dateNow,
+    dayOfWeek,
+    isSundayEve,
+    isoDate: dateNow.toFormat('yyyy-LL-dd'),
+    prettyDate: dateNow.setLocale('pl').toLocaleString(DateTime.DATE_HUGE),
+  };
+};
+
+export const getCurrentSeason = () => {
+  const { isoDate } = getCurrentDate();
+  const currentCalendarItem = calendar.find(item => item.date === isoDate);
 
   return currentCalendarItem?.season ?? 'ordinary';
 };
 
 export const getCalendarData = (): CalendarDataType => {
-  const dateNow = DateTime.now();
-  const formattedDate = dateNow.toFormat('yyyy-LL-dd');
-  const prettyDate = dateNow.setLocale('pl').toLocaleString(DateTime.DATE_HUGE);
+  const { isoDate, prettyDate } = getCurrentDate();
 
-  // TODO Handle Sunday starting on Saturday evening
-  const currentCalendarItem = calendar.find(
-    item => item.date === formattedDate,
-  );
+  const currentCalendarItem = calendar.find(item => item.date === isoDate);
   const calendarData = currentCalendarItem
     ? { ...currentCalendarItem, prettyDate }
     : null;
