@@ -1,6 +1,12 @@
-[{
-        "relation": ["delegate_permission/common.handle_all_urls"],
-        "target" : { "namespace": "android_app", "package_name": "eu.starokatolicy.lg.twa",
-                     "sha256_cert_fingerprints": ["DB:B2:C0:B8:3E:CB:FA:F5:88:61:62:7A:6A:75:7F:79:31:D8:F9:9F:37:99:7D:5F:69:B0:0A:F3:56:3E:19:3F"] }
-      }
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "eu.starokatolicy.lg.twa",
+      "sha256_cert_fingerprints": [
+        "5C:A1:9A:7D:B0:46:07:5C:7A:37:51:1E:D1:54:DC:B0:B0:8A:75:0D:8C:79:CB:D7:46:92:7B:06:43:C6:D7:A8"
+      ]
+    }
+  }
 ]
