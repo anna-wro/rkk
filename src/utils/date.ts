@@ -29,24 +29,17 @@ export const getCurrentWeekNumber = () => {
   return currentWeek;
 };
 
-const getDayOfWeek = ({ dateNow }) => {
-  // Handle new week starting on Saturday evening
-  const dayOfWeek = dateNow.setLocale('pl').toFormat('cccc');
-  const isSundayEve = dayOfWeek === 'sobota' && dateNow.hour >= 15;
-
-  return { dayOfWeek: isSundayEve ? 'niedziela' : dayOfWeek, isSundayEve };
-};
-
 export const getCurrentDate = () => {
   let dateNow = DateTime.now();
-  const { dayOfWeek, isSundayEve } = getDayOfWeek({ dateNow });
+  const dayOfWeek = dateNow.setLocale('pl').toFormat('cccc');
+  const isSundayEve = dayOfWeek === 'sobota' && dateNow.hour >= 15;
 
   if (isSundayEve) {
     dateNow = dateNow.plus({ days: 1 });
   }
 
   return {
-    dayOfWeek,
+    dayOfWeek: isSundayEve ? 'niedziela' : dayOfWeek,
     isSundayEve,
     isoDate: dateNow.toFormat('yyyy-LL-dd'),
     prettyDate: dateNow.setLocale('pl').toLocaleString(DateTime.DATE_HUGE),
