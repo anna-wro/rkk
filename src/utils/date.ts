@@ -44,7 +44,6 @@ export const getCurrentDate = () => {
   }
 
   return {
-    dateNow,
     dayOfWeek,
     isSundayEve,
     isoDate: dateNow.toFormat('yyyy-LL-dd'),
