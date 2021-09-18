@@ -142,7 +142,7 @@ export const September2021: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['1 Tm 6,13-16', 'Ps 100,2-3.4-5', 'Łk 8,4-15'],
-    notes: ['[HTML]Józega z Kupertynu[HTML] zak.'],
+    notes: ['[HTML]Józefa z Kupertynu[HTML] zak.'],
   },
   {
     date: '2021-09-19',
