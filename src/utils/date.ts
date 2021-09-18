@@ -54,6 +54,7 @@ export const getCalendarData = (): CalendarDataType => {
   const formattedDate = dateNow.toFormat('yyyy-LL-dd');
   const prettyDate = dateNow.setLocale('pl').toLocaleString(DateTime.DATE_HUGE);
 
+  // TODO Handle Sunday starting on Saturday evening
   const currentCalendarItem = calendar.find(
     item => item.date === formattedDate,
   );
