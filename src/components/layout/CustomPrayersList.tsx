@@ -27,7 +27,7 @@ export function CustomPrayersList({ prayers }: PropsType) {
   const prayersGrouppedByTitle = groupByKey(prayers, 'title');
   return (
     <>
-      <h3 className="font-semibold text-lg mb-4 mt-8">
+      <h3 className="font-semibold text-lg mb-4 mt-6 md:mt-8">
         {copy.customPrayerHeadline}
       </h3>
       {Object.entries(prayersGrouppedByTitle).map(
