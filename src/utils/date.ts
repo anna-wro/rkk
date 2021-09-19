@@ -43,6 +43,9 @@ export const getCurrentDate = () => {
     isSundayEve,
     isoDate: dateNow.toFormat('yyyy-LL-dd'),
     prettyDate: dateNow.setLocale('pl').toLocaleString(DateTime.DATE_HUGE),
+    prettyDayAndMonth: dateNow
+      .setLocale('pl')
+      .toLocaleString({ day: 'numeric', month: 'long' }),
   };
 };
 

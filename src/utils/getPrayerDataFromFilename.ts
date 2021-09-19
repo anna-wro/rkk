@@ -1,14 +1,7 @@
 import { removeAccents } from 'utils/text';
+import type { PrayerDataPropsType } from 'components/layout/PrayerPage';
 
-type PrayerDataPropsType = Readonly<{
-  ID: number;
-  slug: string;
-  day: string;
-  week: string;
-  type: string;
-}>;
-
-const PRAYERS = {
+export const PRAYERS = {
   wigilia: { name: 'wigilia', order: 1 },
   kompleta_1: { name: 'kompleta', order: 2 },
   jutrznia: { name: 'jutrznia', order: 3 },
