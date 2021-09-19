@@ -57,16 +57,12 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export const getStaticPaths = async () => {
-  const seasonPaths = seasonPrayersFilePaths
-    .map(path => path.replace(/\.mdx?$/, ''))
-    .map(slug => ({ params: { slug } }));
-
-  const customPaths = customPrayersFilePaths
+  const paths = [...seasonPrayersFilePaths, ...customPrayersFilePaths]
     .map(path => path.replace(/\.mdx?$/, ''))
     .map(slug => ({ params: { slug } }));
 
   return {
-    paths: [...seasonPaths, ...customPaths],
+    paths,
     fallback: false,
   };
 };

@@ -10,7 +10,6 @@ import { getCustomPrayerDataFromMeta } from 'utils/getCustomPrayerDataFromMeta';
 
 export default function CustomPrayersIndex({ prayers }) {
   const calendar = getCalendarData();
-
   return (
     <Layout>
       {calendar && <InfoForToday data={calendar} />}
