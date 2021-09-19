@@ -20,7 +20,7 @@ const DAYS = {
   sobota: { name: 'sobota', order: 7 },
 };
 
-export function getPrayerDataFromFilename({
+export function getSeasonPrayerDataFromFilename({
   filePath,
 }: {
   filePath: string;

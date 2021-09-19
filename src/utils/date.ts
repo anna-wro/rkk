@@ -1,6 +1,7 @@
 import { DateTime } from 'luxon';
 import { calendar } from 'calendar/calendar';
 import type { CalendarDayType } from 'calendar/calendar';
+// import { mockDate } from './mocks';
 
 type SeasonType = 'ordinary' | 'advent';
 
@@ -30,6 +31,7 @@ export const getCurrentWeekNumber = () => {
 };
 
 export const getCurrentDate = () => {
+  // mockDate(2021, 9, 20);
   let dateNow = DateTime.now();
   const dayOfWeek = dateNow.setLocale('pl').toFormat('cccc');
   const isSundayEve = dayOfWeek === 'sobota' && dateNow.hour >= 15;
@@ -43,9 +45,6 @@ export const getCurrentDate = () => {
     isSundayEve,
     isoDate: dateNow.toFormat('yyyy-LL-dd'),
     prettyDate: dateNow.setLocale('pl').toLocaleString(DateTime.DATE_HUGE),
-    prettyDayAndMonth: dateNow
-      .setLocale('pl')
-      .toLocaleString({ day: 'numeric', month: 'long' }),
   };
 };
 
@@ -65,4 +64,12 @@ export const getCalendarData = (): CalendarDataType => {
     : null;
 
   return calendarData;
+};
+
+export const formatDate = (date: string) => {
+  const formattedDate = DateTime.fromISO(date)
+    .setLocale('pl')
+    .toLocaleString({ day: 'numeric', month: 'long' });
+
+  return formattedDate;
 };
