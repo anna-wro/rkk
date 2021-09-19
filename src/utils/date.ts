@@ -31,7 +31,6 @@ export const getCurrentWeekNumber = () => {
 };
 
 export const getCurrentDate = () => {
-  // mockDate(2021, 9, 20);
   let dateNow = DateTime.now();
   const dayOfWeek = dateNow.setLocale('pl').toFormat('cccc');
   const isSundayEve = dayOfWeek === 'sobota' && dateNow.hour >= 15;
