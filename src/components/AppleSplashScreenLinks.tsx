@@ -4,11 +4,11 @@ export const AppleSplashScreenLinks = () => {
   return (
     <>
       <meta name="apple-mobile-web-app-capable" content="yes" />
-      {appleDeviceSpecsForLaunchImages.map(spec => {
+      {appleDeviceSpecsForLaunchImages.map((spec, index) => {
         return (
           <>
             <link
-              key={`apple-splash-portrait-${spec.portrait.width}-${spec.portrait.height}`}
+              key={`apple-splash-portrait-${index}-${spec.portrait.width}-${spec.portrait.height}`}
               rel="apple-touch-startup-image"
               href={`/pwa/apple-splash-${spec.portrait.width}-${spec.portrait.height}.jpg`}
               media={`(device-width: ${
@@ -20,7 +20,7 @@ export const AppleSplashScreenLinks = () => {
               }) and (orientation: portrait)`}
             />
             <link
-              key={`apple-splash-dark-portrait-${spec.portrait.width}-${spec.portrait.height}`}
+              key={`apple-splash-dark-portrait-${index}-${spec.portrait.width}-${spec.portrait.height}`}
               rel="apple-touch-startup-image"
               href={`/pwa/apple-splash-dark-${spec.portrait.width}-${spec.portrait.height}.jpg`}
               media={`(prefers-color-scheme: dark) and (device-width: ${
@@ -32,7 +32,7 @@ export const AppleSplashScreenLinks = () => {
               }) and (orientation: portrait)`}
             />
             <link
-              key={`apple-splash-landscape-${spec.portrait.width}-${spec.portrait.height}`}
+              key={`apple-splash-landscape-${index}-${spec.portrait.width}-${spec.portrait.height}`}
               rel="apple-touch-startup-image"
               href={`/pwa/apple-splash-${spec.portrait.width}-${spec.portrait.height}.jpg`}
               media={`(device-width: ${
@@ -44,7 +44,7 @@ export const AppleSplashScreenLinks = () => {
               }) and (orientation: landscape)`}
             />
             <link
-              key={`apple-splash-dark-landscape-${spec.portrait.width}-${spec.portrait.height}`}
+              key={`apple-splash-dark-landscape-${index}-${spec.portrait.width}-${spec.portrait.height}`}
               rel="apple-touch-startup-image"
               href={`/pwa/apple-splash-dark-${spec.portrait.width}-${spec.portrait.height}.jpg`}
               media={`(prefers-color-scheme: dark) and (device-width: ${
