@@ -18,7 +18,7 @@ export function getCustomPrayerDataFromMeta({
   const slug = filePath.replace('.mdx', '');
   const mappedType = PRAYERS[meta?.type] ?? PRAYERS['jutrznia'];
   const ID = Number(
-    `${meta?.date?.replaceAll('-', '') ?? '0'}${mappedType?.order}`,
+    `${meta?.date?.replace(/-/g, '') ?? '0'}${mappedType?.order}`,
   );
 
   return {
