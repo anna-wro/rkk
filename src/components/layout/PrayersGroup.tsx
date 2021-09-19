@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import { makeStartCase } from 'utils/text';
-import { getDayOfWeek } from 'utils/date';
+import { getCurrentDate } from 'utils/date';
 import type { PrayerType } from 'components/layout/PrayerPage';
 import CurrentTimeDot from 'components/layout/CurrentTimeDot';
 
 export default function PrayersGroup({ prayers, isCurrentWeek }) {
-  const currentDayOfWeek = getDayOfWeek();
+  const { dayOfWeek: currentDayOfWeek } = getCurrentDate();
   const [groupName, prayersInGroup] = prayers;
   const isToday = isCurrentWeek && groupName === currentDayOfWeek;
 
