@@ -17,6 +17,7 @@ export const copy = {
   updateAvailableHeader: 'Dostępna aktualizacja',
   updateAvailableDescription:
     'Uruchom ponownie aplikację, aby zobaczyć najnowszą wersję.',
+  customPrayerHeadline: 'Modlitwy na święta',
 };
 
 export default copy;

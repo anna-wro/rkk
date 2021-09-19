@@ -3,28 +3,28 @@ import path from 'path';
 import matter from 'gray-matter';
 import Layout from 'components/layout/Layout';
 import InfoForToday from 'components/layout/InfoForToday';
-import PrayersList from 'components/layout/PrayersList';
-import { getSeasonPrayerDataFromFilename } from 'utils/getSeasonPrayerDataFromFilename';
-import { SEASON_PRAYERS_PATH, seasonPrayersFilePaths } from 'utils/mdxUtils';
+import { CustomPrayersList } from 'components/layout/CustomPrayersList';
+import { CUSTOM_PRAYERS_PATH, customPrayersFilePaths } from 'utils/mdxUtils';
 import { getCalendarData } from 'utils/date';
+import { getCustomPrayerDataFromMeta } from 'utils/getCustomPrayerDataFromMeta';
 
-export default function Home({ prayers }) {
+export default function CustomPrayersIndex({ prayers }) {
   const calendar = getCalendarData();
-
   return (
     <Layout>
       {calendar && <InfoForToday data={calendar} />}
-      <PrayersList prayers={prayers} />
+      <CustomPrayersList prayers={prayers} />
     </Layout>
   );
 }
 
 export function getStaticProps() {
-  const prayers = seasonPrayersFilePaths
+  const prayers = customPrayersFilePaths
     .map(filePath => {
-      const prayerData = getSeasonPrayerDataFromFilename({ filePath });
-      const source = fs.readFileSync(path.join(SEASON_PRAYERS_PATH, filePath));
+      const source = fs.readFileSync(path.join(CUSTOM_PRAYERS_PATH, filePath));
       const { content, data } = matter(source);
+
+      const prayerData = getCustomPrayerDataFromMeta({ meta: data, filePath });
 
       return { content, data, ...prayerData };
     })

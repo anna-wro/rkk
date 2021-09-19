@@ -1,6 +1,7 @@
 import { DateTime } from 'luxon';
 import { calendar } from 'calendar/calendar';
 import type { CalendarDayType } from 'calendar/calendar';
+// import { mockDate } from './mocks';
 
 type SeasonType = 'ordinary' | 'advent';
 
@@ -62,4 +63,12 @@ export const getCalendarData = (): CalendarDataType => {
     : null;
 
   return calendarData;
+};
+
+export const formatDate = (date: string) => {
+  const formattedDate = DateTime.fromISO(date)
+    .setLocale('pl')
+    .toLocaleString({ day: 'numeric', month: 'long' });
+
+  return formattedDate;
 };

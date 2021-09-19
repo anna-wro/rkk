@@ -1,14 +1,7 @@
 import { removeAccents } from 'utils/text';
+import type { PrayerDataPropsType } from 'components/layout/PrayerPage';
 
-type PrayerDataPropsType = Readonly<{
-  ID: number;
-  slug: string;
-  day: string;
-  week: string;
-  type: string;
-}>;
-
-const PRAYERS = {
+export const PRAYERS = {
   wigilia: { name: 'wigilia', order: 1 },
   kompleta_1: { name: 'kompleta', order: 2 },
   jutrznia: { name: 'jutrznia', order: 3 },
@@ -27,7 +20,7 @@ const DAYS = {
   sobota: { name: 'sobota', order: 7 },
 };
 
-export function getPrayerDataFromFilename({
+export function getSeasonPrayerDataFromFilename({
   filePath,
 }: {
   filePath: string;

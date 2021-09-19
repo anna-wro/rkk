@@ -29,14 +29,18 @@ import {
   R,
 } from 'components/prayers';
 
-export type PrayerType = Readonly<{
-  ID: string;
+export type PrayerDataPropsType = Readonly<{
+  ID: number;
   slug: string;
   day: string;
   week: string;
   type: string;
-  source: MDXRemoteSerializeResult;
 }>;
+
+export type PrayerType = Readonly<{
+  source: MDXRemoteSerializeResult;
+}> &
+  PrayerDataPropsType;
 
 type PropsType = Readonly<{ prayer: PrayerType }>;
 
@@ -68,7 +72,6 @@ const components = {
 };
 
 export default function PrayerPage({ prayer }: PropsType) {
-  // TODO nosleep.js when text opened
   return (
     <>
       <div className="relative whitespace-pre-line">

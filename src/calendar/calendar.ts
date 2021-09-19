@@ -3,11 +3,14 @@ import { September2021 } from './2021-09';
 export type CalendarDayType = Readonly<{
   date: string;
   week: 1 | 2;
-  season: 'ordinary' | 'advent';
+  season: SeasonType;
   holiday?: string;
+  files?: string[];
   notes?: string[];
   passages?: string[];
 }>;
+
+export type SeasonType = 'ordinary' | 'advent';
 
 export type CalendarType = ReadonlyArray<CalendarDayType>;
 
