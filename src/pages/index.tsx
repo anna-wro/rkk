@@ -5,7 +5,7 @@ import Layout from 'components/layout/Layout';
 import InfoForToday from 'components/layout/InfoForToday';
 import PrayersList from 'components/layout/PrayersList';
 import { getPrayerDataFromFilename } from 'utils/getPrayerDataFromFilename';
-import { PRAYERS_PATH, prayersFilePaths } from 'utils/mdxUtils';
+import { SEASON_PRAYERS_PATH, seasonPrayersFilePaths } from 'utils/mdxUtils';
 import { getCalendarData } from 'utils/date';
 
 export default function Home({ prayers }) {
@@ -20,10 +20,10 @@ export default function Home({ prayers }) {
 }
 
 export function getStaticProps() {
-  const prayers = prayersFilePaths
+  const prayers = seasonPrayersFilePaths
     .map(filePath => {
       const prayerData = getPrayerDataFromFilename({ filePath });
-      const source = fs.readFileSync(path.join(PRAYERS_PATH, filePath));
+      const source = fs.readFileSync(path.join(SEASON_PRAYERS_PATH, filePath));
       const { content, data } = matter(source);
 
       return { content, data, ...prayerData };

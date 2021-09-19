@@ -4,7 +4,12 @@ import matter from 'gray-matter';
 import { serialize } from 'next-mdx-remote/serialize';
 import Prayer from 'components/layout/PrayerPage';
 import Layout from 'components/layout/Layout';
-import { PRAYERS_PATH, prayersFilePaths } from 'utils/mdxUtils';
+import {
+  SEASON_PRAYERS_PATH,
+  CUSTOM_PRAYERS_PATH,
+  seasonPrayersFilePaths,
+  customPrayersFilePaths,
+} from 'utils/mdxUtils';
 import { useWakeLock } from 'utils/useWakeLock';
 
 export default function PrayerPage({ prayer }) {
@@ -18,8 +23,21 @@ export default function PrayerPage({ prayer }) {
 }
 
 export const getStaticProps = async ({ params }) => {
-  const postFilePath = path.join(PRAYERS_PATH, `${params.slug}.mdx`);
-  const source = fs.readFileSync(postFilePath);
+  const seasonPrayerFilePath = path.join(
+    SEASON_PRAYERS_PATH,
+    `${params.slug}.mdx`,
+  );
+  const customPrayerFilePath = path.join(
+    CUSTOM_PRAYERS_PATH,
+    `${params.slug}.mdx`,
+  );
+
+  let source;
+  try {
+    source = fs.readFileSync(customPrayerFilePath);
+  } catch {
+    source = fs.readFileSync(seasonPrayerFilePath);
+  }
 
   const { content, data } = matter(source);
   const mdxSource = await serialize(content, {
@@ -39,14 +57,16 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export const getStaticPaths = async () => {
-  const paths = prayersFilePaths
-    // Remove file extensions for page paths
+  const seasonPaths = seasonPrayersFilePaths
     .map(path => path.replace(/\.mdx?$/, ''))
-    // Map the path into the static paths object required by Next.js
+    .map(slug => ({ params: { slug } }));
+
+  const customPaths = customPrayersFilePaths
+    .map(path => path.replace(/\.mdx?$/, ''))
     .map(slug => ({ params: { slug } }));
 
   return {
-    paths,
+    paths: [...seasonPaths, ...customPaths],
     fallback: false,
   };
 };
