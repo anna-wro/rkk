@@ -19,15 +19,16 @@ export default function CustomPrayersIndex({ prayers }) {
 }
 
 export function getStaticProps() {
-  const prayers = customPrayersFilePaths.map(filePath => {
-    const source = fs.readFileSync(path.join(CUSTOM_PRAYERS_PATH, filePath));
-    const { content, data } = matter(source);
+  const prayers = customPrayersFilePaths
+    .map(filePath => {
+      const source = fs.readFileSync(path.join(CUSTOM_PRAYERS_PATH, filePath));
+      const { content, data } = matter(source);
 
-    const prayerData = getCustomPrayerDataFromMeta({ meta: data, filePath });
+      const prayerData = getCustomPrayerDataFromMeta({ meta: data, filePath });
 
-    return { content, data, ...prayerData };
-  });
-  // .sort((a, b) => a.ID - b.ID);
+      return { content, data, ...prayerData };
+    })
+    .sort((a, b) => a.ID - b.ID);
 
   return { props: { prayers } };
 }

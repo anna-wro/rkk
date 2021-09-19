@@ -17,7 +17,9 @@ export function getCustomPrayerDataFromMeta({
 }: PropsType): CustomPrayerDataPropsType {
   const slug = filePath.replace('.mdx', '');
   const mappedType = PRAYERS[meta?.type] ?? PRAYERS['jutrznia'];
-  const ID = Number(`${meta?.date?.replaceAll('-', '')}${mappedType?.order}`);
+  const ID = Number(
+    `${meta?.date?.replaceAll('-', '') ?? '0'}${mappedType?.order}`,
+  );
 
   return {
     slug,
