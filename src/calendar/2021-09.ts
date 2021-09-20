@@ -161,7 +161,7 @@ export const September2021: CalendarType = [
     date: '2021-09-20',
     week: 2,
     season: 'ordinary',
-    passages: ['Ezd 1,1-6', 'Ps 126,1-2b.2c-3.4-5.6', 'Łk 8,16-18'],
+    passages: ['Ezd 1,1-6', 'Ps 126,1-3.4-5.6', 'Łk 8,16-18'],
     notes: ['[HTML]Henriego Nouwena[HTML] prez.'],
   },
   {
