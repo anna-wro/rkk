@@ -216,14 +216,14 @@ export const September2021: CalendarType = [
     date: '2021-09-27',
     week: 1,
     season: 'ordinary',
-    passages: ['Za 8,1-8', 'Ps 102,16-17.18-19.20-21.29.22', 'Łk 9,46-50'],
+    passages: ['Za 8,1-8', 'Ps 102,16-22.29', 'Łk 9,46-50'],
     notes: ['[HTML]Wincentego à Paulo[HTML] zak.'],
   },
   {
     date: '2021-09-28',
     week: 1,
     season: 'ordinary',
-    passages: ['Za 8,20-23', 'Ps 87,2-3.4.5.7', 'Łk 9,51-56'],
+    passages: ['Za 8,20-23', 'Ps 87,2-5.7', 'Łk 9,51-56'],
   },
   {
     date: '2021-09-29',
@@ -241,7 +241,7 @@ export const September2021: CalendarType = [
     date: '2021-09-30',
     week: 1,
     season: 'ordinary',
-    passages: ['Ne 8,1-4a.5-6.7b-12', 'Ps 19,8.9.10', 'Łk 10,1-12'],
+    passages: ['Ne 8,1-4a.5-6.7b-12', 'Ps 19,8-10', 'Łk 10,1-12'],
     notes: ['[HTML]Hieronima[HTML] prezb.'],
   },
 ];
