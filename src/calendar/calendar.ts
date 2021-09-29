@@ -1,4 +1,5 @@
 import { September2021 } from './2021-09';
+import { October2021 } from './2021-10';
 
 export type CalendarDayType = Readonly<{
   date: string;
@@ -16,37 +17,7 @@ export type CalendarType = ReadonlyArray<CalendarDayType>;
 
 export const calendar: CalendarType = [
   ...September2021,
-  { date: '2021-10-01', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-02', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-03', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-04', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-05', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-06', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-07', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-08', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-09', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-10', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-11', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-12', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-13', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-14', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-15', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-16', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-17', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-18', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-19', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-20', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-21', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-22', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-23', week: 2, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-24', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-25', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-26', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-27', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-28', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-29', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-30', week: 1, season: 'ordinary', passages: ['', '', ''] },
-  { date: '2021-10-31', week: 2, season: 'ordinary', passages: ['', '', ''] },
+  ...October2021,
   { date: '2021-11-01', week: 2, season: 'ordinary', passages: ['', '', ''] },
   { date: '2021-11-02', week: 2, season: 'ordinary', passages: ['', '', ''] },
   { date: '2021-11-03', week: 2, season: 'ordinary', passages: ['', '', ''] },
