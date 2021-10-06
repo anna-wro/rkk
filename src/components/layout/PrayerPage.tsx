@@ -73,6 +73,7 @@ const components = {
 };
 
 export default function PrayerPage({ prayer }: PropsType) {
+  //  TODO get from file metadata
   const season = getCurrentSeason();
 
   return (
