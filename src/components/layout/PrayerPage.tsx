@@ -28,6 +28,7 @@ import {
   V,
   R,
 } from 'components/prayers';
+import { getCurrentSeason } from 'utils/date';
 
 export type PrayerDataPropsType = Readonly<{
   ID: number;
@@ -72,13 +73,19 @@ const components = {
 };
 
 export default function PrayerPage({ prayer }: PropsType) {
+  const season = getCurrentSeason();
+
   return (
     <>
       <div className="relative whitespace-pre-line">
         <div className="md:absolute top-0 right-0 mb-4">
           <GoBackButton />
         </div>
-        <MDXRemote {...prayer.source} components={components} />
+        <MDXRemote
+          {...prayer.source}
+          components={components}
+          scope={{ season }}
+        />
       </div>
       <div className="section">
         <GoBackButton />

@@ -43,7 +43,7 @@
       "",
       "<Amen />",
       "",
-      "<BlessingAndConcludingVersicle />",
+      "<BlessingAndConcludingVersicle season={season} />",
       ""
     ],
     "description": "Lauds"
