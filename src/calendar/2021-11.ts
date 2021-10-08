@@ -6,7 +6,7 @@ export const November2021: CalendarType = [
     week: 2,
     season: 'ordinary',
     passages: ['Ap 7,2-4.9-14', 'Ps 24,1-2.3-4.5-6', '1 J 3,1-3', 'Mt 5,1-12a'],
-    holiday: 'WSZYSTKICH ŚWIĘTYCH',
+    holidays: ['WSZYSTKICH ŚWIĘTYCH'],
   },
   {
     date: '2021-11-02',
@@ -54,7 +54,7 @@ export const November2021: CalendarType = [
       '[HTML]Wilibrorda bp. Utrechtu[HTML]',
       'Dzień modlitwy za wspólnoty starokatolickie na świecie',
     ],
-    holiday: '23. NIEDZIELA PO PIĘĆDZIESIĄTNICY',
+    holidays: ['23. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
   },
   {
     date: '2021-11-08',
@@ -109,7 +109,7 @@ export const November2021: CalendarType = [
       'Hbr 10,11-14.18',
       'Mk 13, 24-32',
     ],
-    holiday: '24. NIEDZIELA PO PIĘĆDZIESIĄTNICY',
+    holidays: ['24. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     notes: [
       '[HTML]Wszystkich współczesnych męczenników[HTML]',
       'Dzień modlitwy za prześladowanych chrześcijan',
@@ -165,7 +165,7 @@ export const November2021: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['Dn 7,13-14', 'Ps 93,1.2-3.4-5', 'Ap 1, 5-8', 'J 18, 33b-37'],
-    holiday: 'CHRYSTUSA PANTOKRATORA',
+    holidays: ['CHRYSTUSA PANTOKRATORA'],
   },
   {
     date: '2021-11-22',
@@ -220,7 +220,7 @@ export const November2021: CalendarType = [
       '1 Tes 3,12-4,2',
       'Łk 21, 25-28, 34-36',
     ],
-    holiday: '1. NIEDZIELA ADWENTU',
+    holidays: ['1. NIEDZIELA ADWENTU'],
   },
   {
     date: '2021-11-29',
@@ -234,6 +234,6 @@ export const November2021: CalendarType = [
     week: 1,
     season: 'advent',
     passages: ['Rz 10,9-18', 'Ps 19,2-3.4-5b', 'Mt 4,18-22'],
-    holiday: 'ANDRZEJA APOSTOŁA',
+    holidays: ['ANDRZEJA APOSTOŁA'],
   },
 ];

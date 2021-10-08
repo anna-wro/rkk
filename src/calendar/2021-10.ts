@@ -17,7 +17,7 @@ export const October2021: CalendarType = [
   {
     date: '2021-10-03',
     week: 2,
-    holiday: '19. NIEDZIELA PO PIĘĆDZIESIĄTNICY',
+    holidays: ['19. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     season: 'ordinary',
     passages: ['Rdz 2,18-24', 'Ps 128,1-2.3.4-6', 'Hbr 2,9-11', 'Mk 10,2-16'],
   },
@@ -59,7 +59,7 @@ export const October2021: CalendarType = [
     date: '2021-10-09',
     week: 2,
     season: 'ordinary',
-    holiday: 'ABRAHAMA I SARY',
+    holidays: ['ABRAHAMA I SARY'],
     passages: [
       'Rdz 12, 1-4a',
       'Ps 16, 1-2a.5.7-8.11',
@@ -71,7 +71,7 @@ export const October2021: CalendarType = [
     date: '2021-10-10',
     week: 1,
     season: 'ordinary',
-    holiday: '20. NIEDZIELA PO PIĘĆDZIESIĄTNICY',
+    holidays: ['20. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: [
       'Mdr 7,7-11',
       'Ps 90,12-13.14-15.16-17',
@@ -127,7 +127,7 @@ export const October2021: CalendarType = [
     week: 2,
     season: 'ordinary',
     notes: ['[HTML]Ignacego[HTML] bp. i m.'],
-    holiday: '21. NIEDZIELA PO PIĘĆDZIESIĄTNICY',
+    holidays: ['21. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: [
       'Iz 53,10-11',
       'Ps 33,4-5.18-19.20.22',
@@ -139,7 +139,7 @@ export const October2021: CalendarType = [
     date: '2021-10-18',
     week: 2,
     season: 'ordinary',
-    holiday: 'ŁUKASZA EWANGELISTY',
+    holidays: ['ŁUKASZA EWANGELISTY'],
     passages: ['2 Tm 4,9-17a', 'Ps 145,10-11.12-13b.17-18', 'Łk 10,1-9'],
   },
   {
@@ -170,14 +170,14 @@ export const October2021: CalendarType = [
     date: '2021-10-23',
     week: 2,
     season: 'ordinary',
-    holiday: 'JAKUBA SPRAWIEDLIWEGO APOSTOŁA',
+    holidays: ['JAKUBA SPRAWIEDLIWEGO APOSTOŁA'],
     passages: ['2 Kor 4, 7-15', 'Ps 126', 'Mt 20, 20-28'],
   },
   {
     date: '2021-10-24',
     week: 1,
     season: 'ordinary',
-    holiday: '22. NIEDZIELA PO PIĘĆDZIESIĄTNICY',
+    holidays: ['22. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: ['Jr 31,7-9', 'Ps 126,1-3.4-5.6', 'Hbr 5,1-6 ', 'Mk 10,46-52'],
   },
   {
@@ -203,7 +203,7 @@ export const October2021: CalendarType = [
     date: '2021-10-28',
     week: 1,
     season: 'ordinary',
-    holiday: 'SZYMONA I JUDY APOSTOŁÓW',
+    holidays: ['SZYMONA I JUDY APOSTOŁÓW'],
     passages: ['Ef 2,19-22', 'Ps 19,2-3.4-5ab', 'Łk 6,12-19'],
   },
   {
@@ -227,7 +227,7 @@ export const October2021: CalendarType = [
     date: '2021-10-31',
     week: 2,
     season: 'ordinary',
-    holiday: '22. NIEDZIELA PO PIĘĆDZIESIĄTNICY',
+    holidays: ['22. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: [
       'Pwt 6,2-6',
       'Ps 18,2-3.4.47.50-51',
