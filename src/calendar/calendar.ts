@@ -11,9 +11,10 @@ export type CalendarDayType = Readonly<{
   files?: string[];
   notes?: string[];
   passages?: string[];
+  antiphon?: string;
 }>;
 
-export type SeasonType = 'ordinary' | 'advent';
+export type SeasonType = 'ordinary' | 'advent' | 'christmas';
 
 export type CalendarType = ReadonlyArray<CalendarDayType>;
 
