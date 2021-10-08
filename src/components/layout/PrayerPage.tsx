@@ -42,7 +42,9 @@ export type PrayerType = Readonly<{
 }> &
   PrayerDataPropsType;
 
-type PropsType = Readonly<{ prayer: PrayerType }>;
+type PropsType = Readonly<{
+  prayer: PrayerType;
+}>;
 
 const components = {
   h1: Header,

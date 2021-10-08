@@ -1,16 +1,19 @@
 import { Canticle } from './index';
 import { Section } from 'components/mdxOverrides';
+import { getCalendarData } from 'utils/date';
 
 type MagnificatType = Readonly<{
   antiphon: string;
 }>;
 
 export const Magnificat = ({ antiphon }: MagnificatType) => {
+  const calendar = getCalendarData();
+
   return (
     <>
       <Section sigla="Łk 1, 46-55">Pieśń Maryi</Section>
       <Canticle
-        antiphon={antiphon}
+        antiphon={calendar?.antiphon ?? antiphon}
         versicles={[
           `† Wielbi dusza moja Pana *
          i raduje się duch mój w Bogu, Zbawicielu moim.`,
