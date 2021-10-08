@@ -1,7 +1,8 @@
 import { DateTime } from 'luxon';
 import { calendar } from 'calendar/calendar';
 import type { CalendarDayType, SeasonType } from 'calendar/calendar';
-// import { mockDate } from './mocks';
+import { getQueryParam } from 'utils/url';
+import { mockDate } from './mocks';
 
 export type CalendarDataType = Readonly<
   {
@@ -29,7 +30,12 @@ export const getCurrentWeekNumber = () => {
 };
 
 export const getCurrentDate = () => {
-  // mockDate(2021, 12, 28);
+  const dateToMock = getQueryParam('date')?.split('-').map(Number);
+
+  if (dateToMock) {
+    mockDate.apply(this, dateToMock);
+  }
+
   let dateNow = DateTime.now();
   const dayOfWeek = dateNow.setLocale('pl').toFormat('cccc');
   const isSundayEve = dayOfWeek === 'sobota' && dateNow.hour >= 15;

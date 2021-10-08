@@ -5,6 +5,8 @@ import { CalendarDataType } from 'utils/date';
 import { makeStartCase } from 'utils/text';
 
 export default function InfoForToday({ data }: { data: CalendarDataType }) {
+  const [showMoreInfo, setShowMoreInfo] = useState(false);
+
   function handleClick() {
     setShowMoreInfo(!showMoreInfo);
   }
@@ -14,8 +16,6 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
       handleClick();
     }
   }
-
-  const [showMoreInfo, setShowMoreInfo] = useState(false);
 
   return (
     <div className="font-light md:mb-4 mt-3 text-sm more-info">
