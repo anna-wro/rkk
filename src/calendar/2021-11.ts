@@ -152,7 +152,11 @@ export const November2021: CalendarType = [
       '1 Chr 29,10b-11a.11b-12a.12b-13',
       'Łk 19,45-48',
     ],
-    notes: ['[HTML]Hildy[HTML] mn.', '[HTML]Mechtyldy[HTML] mist.'],
+    notes: [
+      '[HTML]Hildy[HTML] mn.',
+      '[HTML]Mechtyldy[HTML] mist.',
+      'DZIEŃ WSPÓLNEGO POSTU',
+    ],
   },
   {
     date: '2021-11-20',
