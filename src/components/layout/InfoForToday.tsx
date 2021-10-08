@@ -28,9 +28,11 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
       >
         <div>
           <div className="font-medium">{makeStartCase(data.prettyDate)}</div>
-          {data?.holiday && (
-            <div className="font-bold">{data.holiday.toUpperCase()}</div>
-          )}
+          {data?.holidays?.map(holiday => (
+            <div className="font-bold" key={holiday}>
+              {holiday.toUpperCase()}
+            </div>
+          ))}
         </div>
         <SeeMoreArrow rotated={showMoreInfo} />
       </div>

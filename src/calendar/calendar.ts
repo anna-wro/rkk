@@ -7,7 +7,7 @@ export type CalendarDayType = Readonly<{
   date: string;
   week: 1 | 2;
   season: SeasonType;
-  holiday?: string;
+  holidays?: string[];
   files?: string[];
   notes?: string[];
   passages?: string[];

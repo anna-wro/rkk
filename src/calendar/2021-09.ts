@@ -11,7 +11,7 @@ export const September2021: CalendarType = [
   {
     date: '2021-09-02',
     week: 1,
-    holiday: 'FEBE dk.',
+    holidays: ['FEBE dk.'],
     season: 'ordinary',
     passages: ['Kol 1,9-14', 'Ps 98,2-3b.3c-4.5-6', 'Łk 5,1-11'],
   },
@@ -37,7 +37,7 @@ export const September2021: CalendarType = [
     date: '2021-09-05',
     week: 2,
     season: 'ordinary',
-    holiday: '15. Niedziela po Pięćdziesiątnicy',
+    holidays: ['15. Niedziela po Pięćdziesiątnicy'],
     passages: ['Iz 35,4-7a', 'Ps 146,6-7.8-9b.9c-10', 'Jk 2,1-5', 'Mk 7,31-37'],
     notes: ['[HTML]Teresy z Kalkuty[HTML] zak.'],
   },
@@ -57,7 +57,7 @@ export const September2021: CalendarType = [
     date: '2021-09-08',
     week: 2,
     season: 'ordinary',
-    holiday: 'Narodzenie Bogurodzicy',
+    holidays: ['Narodzenie Bogurodzicy'],
     passages: [
       'Mi 5,1-4a',
       'Ps 13 (12), 6 (R.: por. Iz 61, 10b)',
@@ -88,7 +88,7 @@ export const September2021: CalendarType = [
     date: '2021-09-12',
     week: 1,
     season: 'ordinary',
-    holiday: '16. Niedziela po Pięćdziesiątnicy',
+    holidays: ['16. Niedziela po Pięćdziesiątnicy'],
     passages: [
       'Iz 50,5-9a',
       'Ps 116,1-2.3-4.5-6.8-9',
@@ -106,7 +106,7 @@ export const September2021: CalendarType = [
     date: '2021-09-14',
     week: 1,
     season: 'ordinary',
-    holiday: 'Uroczystość Krzyża Świętego',
+    holidays: ['Uroczystość Krzyża Świętego'],
     passages: [
       'Lb 21,4b-9',
       'Ps 78,1-2.34-35.36-37.38ab.39',
@@ -148,7 +148,7 @@ export const September2021: CalendarType = [
     date: '2021-09-19',
     week: 2,
     season: 'ordinary',
-    holiday: '17. Niedziela po Pięćdziesiątnicy',
+    holidays: ['17. Niedziela po Pięćdziesiątnicy'],
     passages: [
       'Mdr 2, 12. 17-20',
       'Ps 54,3-4.5-6.8-9',
@@ -168,7 +168,7 @@ export const September2021: CalendarType = [
     date: '2021-09-21',
     week: 2,
     season: 'ordinary',
-    holiday: 'Mateusza Apostoła',
+    holidays: ['Mateusza Apostoła'],
     passages: ['Ef 4,1-7.11-13', 'Ps 19,2-3.4-5b', 'Mt 9,9-13'],
   },
   {
@@ -203,7 +203,7 @@ export const September2021: CalendarType = [
     date: '2021-09-26',
     week: 1,
     season: 'ordinary',
-    holiday: '18. Niedziela po Pięćdziesiątnicy',
+    holidays: ['18. Niedziela po Pięćdziesiątnicy'],
     passages: [
       'Lb 11,25-29',
       'Ps 19,8.10.12-13.14',
@@ -229,7 +229,7 @@ export const September2021: CalendarType = [
     date: '2021-09-29',
     week: 1,
     season: 'ordinary',
-    holiday: 'Świętych Archaniołów i Aniołów Bożych',
+    holidays: ['Świętych Archaniołów i Aniołów Bożych'],
     passages: [
       'Dn 7,9-10.13-14',
       'Ps 138,1-2b.2c-3.4-5',
