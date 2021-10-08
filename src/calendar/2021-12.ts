@@ -1,10 +1,28 @@
 import type { CalendarType } from './calendar';
 
 export const December2021: CalendarType = [
-  { date: '2021-12-01', week: 1, season: 'advent', passages: ['', '', ''] },
+  {
+    date: '2021-12-01',
+    week: 1,
+    season: 'advent',
+    passages: ['', '', ''],
+    notes: ['[HTML]Karola de Foucauld[HTML] mn.'],
+  },
   { date: '2021-12-02', week: 1, season: 'advent', passages: ['', '', ''] },
-  { date: '2021-12-03', week: 1, season: 'advent', passages: ['', '', ''] },
-  { date: '2021-12-04', week: 1, season: 'advent', passages: ['', '', ''] },
+  {
+    date: '2021-12-03',
+    week: 1,
+    season: 'advent',
+    passages: ['', '', ''],
+    notes: ['[HTML]Franciszka Ksawerego[HTML] prezb. i misj.'],
+  },
+  {
+    date: '2021-12-04',
+    week: 1,
+    season: 'advent',
+    passages: ['', '', ''],
+    notes: ['[HTML]Jana z Damaszku[HTML] mn. i teo.'],
+  },
   {
     date: '2021-12-05',
     week: 2,
@@ -12,8 +30,20 @@ export const December2021: CalendarType = [
     passages: ['', '', ''],
     holidays: ['2. NIEDZIELA ADWENTU'],
   },
-  { date: '2021-12-06', week: 2, season: 'advent', passages: ['', '', ''] },
-  { date: '2021-12-07', week: 2, season: 'advent', passages: ['', '', ''] },
+  {
+    date: '2021-12-06',
+    week: 2,
+    season: 'advent',
+    passages: ['', '', ''],
+    notes: ['[HTML]Mikołaja[HTML] bp. Miry'],
+  },
+  {
+    date: '2021-12-07',
+    week: 2,
+    season: 'advent',
+    passages: ['', '', ''],
+    notes: ['[HTML]Ambrożego[HTML] bp. Mediolanu i teo.'],
+  },
   {
     date: '2021-12-08',
     week: 2,
@@ -21,8 +51,20 @@ export const December2021: CalendarType = [
     passages: ['', '', ''],
     holidays: ['POCZĘCIE BOGURODZICY'],
   },
-  { date: '2021-12-09', week: 2, season: 'advent', passages: ['', '', ''] },
-  { date: '2021-12-10', week: 2, season: 'advent', passages: ['', '', ''] },
+  {
+    date: '2021-12-09',
+    week: 2,
+    season: 'advent',
+    passages: ['', '', ''],
+    notes: ['[HTML]Klemensa z Aleksandrii[HTML] mn. i teo.'],
+  },
+  {
+    date: '2021-12-10',
+    week: 2,
+    season: 'advent',
+    passages: ['', '', ''],
+    notes: ['[HTML]Tomasza Mertona[HTML] mn.'],
+  },
   { date: '2021-12-11', week: 2, season: 'advent', passages: ['', '', ''] },
   {
     date: '2021-12-12',
@@ -31,15 +73,34 @@ export const December2021: CalendarType = [
     passages: ['', '', ''],
     holidays: ['3. NIEDZIELA ADWENTU'],
   },
-  { date: '2021-12-13', week: 1, season: 'advent', passages: ['', '', ''] },
-  { date: '2021-12-14', week: 1, season: 'advent', passages: ['', '', ''] },
-  { date: '2021-12-15', week: 1, season: 'advent', passages: ['', '', ''] },
+  {
+    date: '2021-12-13',
+    week: 1,
+    season: 'advent',
+    passages: ['', '', ''],
+    notes: ['[HTML]Łucji[HTML] m.'],
+  },
+  {
+    date: '2021-12-14',
+    week: 1,
+    season: 'advent',
+    passages: ['', '', ''],
+    notes: ['[HTML]Jana od Krzyża[HTML] zak.'],
+  },
+  {
+    date: '2021-12-15',
+    week: 1,
+    season: 'advent',
+    passages: ['', '', ''],
+    notes: ['[HTML]Catherine de Hueck Doherty[HTML] w.'],
+  },
   { date: '2021-12-16', week: 1, season: 'advent', passages: ['', '', ''] },
   {
     date: '2021-12-17',
     week: 1,
     season: 'advent',
     passages: ['', '', ''],
+    notes: ['[HTML]Jana de Matha[HTML] zak.', ''],
     antiphon:
       'O Mądrości, która wyszłaś z ust Najwyższego, / obejmując wszechświat od krańca do krańca, / i wszystkim rządzisz z mocą i słodyczą; / przyjdź i naucz nas dróg roztropności.',
   },
@@ -57,6 +118,7 @@ export const December2021: CalendarType = [
     season: 'advent',
     passages: ['', '', ''],
     holidays: ['4. NIEDZIELA ADWENTU'],
+    notes: ['[HTML]Fryderyka von Schulte[HTML] w. i teo.'],
     antiphon:
       'O Korzeniu Jessego, / który się wznosisz jako znak dla narodów, przed Tobą zamilkną królowie, a ludy modlić się będą do Ciebie; / przyjdź nas wyzwolić, już dłużej nie zwlekaj.',
   },
@@ -92,7 +154,15 @@ export const December2021: CalendarType = [
     antiphon:
       'O Emmanuelu, / nasz Królu i Prawodawco, oczekiwany Zbawicielu narodów, / przyjdź, aby nas zbawić, nasz Panie i Boże.',
   },
-  { date: '2021-12-24', week: 1, season: 'christmas' },
+  {
+    date: '2021-12-24',
+    week: 1,
+    season: 'christmas',
+    notes: [
+      '[HTML]Adama i Ewy[HTML] pierwszych rodziców',
+      '[HTML]Charbela[HTML] mn.',
+    ],
+  },
   {
     date: '2021-12-25',
     week: 1,
@@ -104,6 +174,7 @@ export const December2021: CalendarType = [
     week: 1,
     season: 'christmas',
     holidays: ['NIEDZIELA W OKTAWIE NARODZENIA PAŃSKIEGO'],
+    notes: ['[HTML]Szczepana[HTML] diak. i m'],
   },
   {
     date: '2021-12-27',
@@ -116,12 +187,14 @@ export const December2021: CalendarType = [
     week: 1,
     season: 'christmas',
     holidays: ['OKTAWA NARODZENIA PAŃSKIEGO'],
+    notes: ['[HTML]Niewinnych Dzieci Betlejemskich[HTML]'],
   },
   {
     date: '2021-12-29',
     week: 1,
     season: 'christmas',
     holidays: ['OKTAWA NARODZENIA PAŃSKIEGO'],
+    notes: ['[HTML]Tomasza Becketa[HTML] bp. i m.'],
   },
   {
     date: '2021-12-30',
@@ -134,5 +207,6 @@ export const December2021: CalendarType = [
     week: 1,
     season: 'christmas',
     holidays: ['OKTAWA NARODZENIA PAŃSKIEGO'],
+    notes: ['[HTML]Sylwestra[HTML] bp. Rzymu'],
   },
 ];
