@@ -1,11 +1,9 @@
 import { V, R } from './index';
-import type { SeasonType } from '../../calendar/calendar';
+import { getCalendarData } from 'utils/date';
 
-type PropsType = Readonly<{
-  season?: SeasonType;
-}>;
+export const BlessingAndConcludingVersicle = () => {
+  const calendar = getCalendarData();
 
-export const BlessingAndConcludingVersicle = ({ season }: PropsType) => {
   return (
     <div className="section">
       <V>
@@ -13,7 +11,7 @@ export const BlessingAndConcludingVersicle = ({ season }: PropsType) => {
         wiecznego.
       </V>
       <R>Amen.</R>
-      {season === 'advent' && (
+      {calendar?.season === 'advent' && (
         <div className="my-2">
           <V>Maranatha. Przyjdź Panie Jezu.</V>
           <R>Maranatha. Przyjdź Panie Jezu.</R>
