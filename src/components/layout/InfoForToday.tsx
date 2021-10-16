@@ -3,6 +3,7 @@ import { SeeMoreArrow } from 'components/layout/SeeMoreArrow';
 import { ExtendedInfo } from 'components/layout/ExtendedInfo';
 import { CalendarDataType } from 'utils/date';
 import { makeStartCase } from 'utils/text';
+import Link from 'next/link';
 
 export default function InfoForToday({ data }: { data: CalendarDataType }) {
   const [showMoreInfo, setShowMoreInfo] = useState(false);
@@ -19,13 +20,7 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
 
   return (
     <div className="font-light md:mb-4 mt-3 text-sm more-info">
-      <div
-        className="md:flex justify-between items-center"
-        onClick={handleClick}
-        onKeyDown={handleKeyDown}
-        role="button"
-        tabIndex={0}
-      >
+      <div className="md:flex justify-between items-center">
         <div>
           <div className="font-medium">{makeStartCase(data.prettyDate)}</div>
           {data?.holidays?.map(holiday => (
@@ -33,8 +28,19 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
               {holiday.toUpperCase()}
             </div>
           ))}
+          {data?.date === '2021-10-17' && (
+            <Link href="niedziela-chrystusa-migranta" passHref>
+              <p className="hover:underline cursor-pointer">
+                Modlitwy na ten dzień
+              </p>
+            </Link>
+          )}
         </div>
-        <SeeMoreArrow rotated={showMoreInfo} />
+        <SeeMoreArrow
+          rotated={showMoreInfo}
+          onClick={handleClick}
+          onKeyDown={handleKeyDown}
+        />
       </div>
       {showMoreInfo && <ExtendedInfo data={data} />}
     </div>
