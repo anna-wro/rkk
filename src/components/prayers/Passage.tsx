@@ -1,17 +1,30 @@
 import { Section } from 'components/mdxOverrides';
+import React from 'react';
 
-type MagnificatType = Readonly<{
+type PassageType = Readonly<{
   sigla: string;
-  passage: string;
+  passage: React.ReactNode;
+  type?: 'first' | 'second';
 }>;
 
-export const Passage = ({ passage, sigla }: MagnificatType) => {
+export const Passage = ({ passage, sigla, type }: PassageType) => {
+  let headline = 'Czytanie';
+
+  switch (type) {
+    case 'first':
+      headline = 'Czytanie pierwsze';
+      break;
+    case 'second':
+      headline = 'Czytanie drugie';
+      break;
+  }
+
   return (
     <>
       <Section sigla={sigla} spacedTop="mt-0">
-        Czytanie
+        {headline}
       </Section>
-      <div>{passage}</div>
+      <div className="space-y-2">{passage}</div>
     </>
   );
 };

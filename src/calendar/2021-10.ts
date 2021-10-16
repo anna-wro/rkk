@@ -127,7 +127,7 @@ export const October2021: CalendarType = [
     week: 2,
     season: 'ordinary',
     notes: ['[HTML]Ignacego[HTML] bp. i m.'],
-    holidays: ['21. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
+    holidays: ['NIEDZIELA CHRYSTUSA MIGRANTA'],
     passages: [
       'Iz 53,10-11',
       'Ps 33,4-5.18-19.20.22',

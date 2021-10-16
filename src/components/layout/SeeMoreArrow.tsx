@@ -1,9 +1,23 @@
 import Image from 'next/image';
 import { copy } from 'consts/copy';
 
-export function SeeMoreArrow({ rotated }: { rotated: boolean }) {
+export function SeeMoreArrow({
+  rotated,
+  onClick,
+  onKeyDown,
+}: {
+  rotated: boolean;
+  onClick: () => void;
+  onKeyDown: (event) => void;
+}) {
   return (
-    <div className="flex items-center mt-2 mb-2 md:mb-0 md:mt-0 select-none opacity-90 hover:opacity-100">
+    <div
+      className="flex items-center mt-2 mb-2 md:mb-0 md:mt-0 select-none opacity-90 hover:opacity-100"
+      onClick={onClick}
+      onKeyDown={onKeyDown}
+      role="button"
+      tabIndex={0}
+    >
       <div className="mr-2 ">
         {rotated ? copy.seeLessInfo : copy.seeMoreInfo}
       </div>
