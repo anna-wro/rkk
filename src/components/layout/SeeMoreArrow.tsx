@@ -12,7 +12,7 @@ export function SeeMoreArrow({
 }) {
   return (
     <div
-      className="inline-flex items-center mt-2 mb-2 md:mb-0 md:mt-0 select-none opacity-90 hover:opacity-100 focus-visible"
+      className="flex items-center mt-2 mb-2 md:mb-0 md:mt-0 select-none opacity-90 hover:opacity-100"
       onClick={onClick}
       onKeyDown={onKeyDown}
       role="button"
