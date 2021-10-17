@@ -18,7 +18,7 @@ export default function PrayersGroup({ prayers, isCurrentWeek }) {
         {prayersInGroup.map((prayer: PrayerType) => (
           <a
             key={prayer.ID}
-            className="block font-light hover:text-orange-500 cursor-pointer focus"
+            className="block font-light hover:text-orange-500 cursor-pointer"
             href={`[slug]`}
           >
             {prayer.type}
