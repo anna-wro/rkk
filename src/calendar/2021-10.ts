@@ -84,7 +84,7 @@ export const October2021: CalendarType = [
     week: 1,
     season: 'ordinary',
     notes: ['[HTML]Filipa[HTML] dk.'],
-    passages: ['Rz 1,1-7', 'Ps 98,1.2-3b.3c-4', 'Łk 11,29-32'],
+    passages: ['Rz 1,1-7', 'Ps 98,1-4', 'Łk 11,29-32'],
   },
   {
     date: '2021-10-12',
