@@ -18,7 +18,7 @@ export function CustomPrayersGroup({ prayers }) {
 
   return (
     <div className="flex">
-      <div className="relative w-36 mr-3 border-r-1 border-gray-50">
+      <div className="relative w-36 mr-3 border-r-1 border-gray-50 pb-4 md:pb-6">
         {isToday && <CurrentTimeDot />}
         <>
           {makeStartCase(title)}{' '}
