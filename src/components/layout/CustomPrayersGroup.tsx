@@ -18,7 +18,7 @@ export function CustomPrayersGroup({ prayers }) {
 
   return (
     <div className="flex">
-      <div className="relative w-36 mr-3 border-r-1 border-gray-50">
+      <div className="relative w-36 mr-3 border-r-1 border-gray-50 pb-4 md:pb-6">
         {isToday && <CurrentTimeDot />}
         <>
           {makeStartCase(title)}{' '}
@@ -30,9 +30,12 @@ export function CustomPrayersGroup({ prayers }) {
       <div className="pb-4 md:pb-6">
         {prayersInGroup?.map((prayer: CustomPrayerType) => (
           <Link key={prayer?.ID} href={prayer?.slug} passHref>
-            <div className="font-light hover:text-orange-500 cursor-pointer">
+            <a
+              href={prayer?.slug}
+              className="block font-light hover:text-orange-500 cursor-pointer focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+            >
               {prayer.type}
-            </div>
+            </a>
           </Link>
         ))}
       </div>
