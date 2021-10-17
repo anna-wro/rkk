@@ -1,3 +1,8 @@
+a {
+  /* TODO check why it doesnt apply */
+  @apply focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2;
+}
+
 .section {
   @apply mt-6;
 }
@@ -5,4 +10,8 @@
 .more-info {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
+}
+
+.focus-visible {
+  @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-green-500 focus-visible:ring-offset-2;
 }

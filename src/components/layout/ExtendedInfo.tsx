@@ -25,7 +25,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
           {intro}{' '}
           <a
             href="https://starokatolicy.eu/czytania-liturgiczne/"
-            className="font-medium"
+            className="font-medium focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
           >
             {linkToReadings}
           </a>
