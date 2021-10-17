@@ -3,7 +3,6 @@ import { SeeMoreArrow } from 'components/layout/SeeMoreArrow';
 import { ExtendedInfo } from 'components/layout/ExtendedInfo';
 import { CalendarDataType } from 'utils/date';
 import { makeStartCase } from 'utils/text';
-import Link from 'next/link';
 
 export default function InfoForToday({ data }: { data: CalendarDataType }) {
   const [showMoreInfo, setShowMoreInfo] = useState(false);
@@ -29,11 +28,12 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
             </div>
           ))}
           {data?.date === '2021-10-17' && (
-            <Link href="niedziela-chrystusa-migranta" passHref>
-              <p className="hover:underline cursor-pointer">
-                Modlitwy na ten dzień
-              </p>
-            </Link>
+            <a
+              href="niedziela-chrystusa-migranta"
+              className="inline-block hover:underline cursor-pointer"
+            >
+              Modlitwy na ten dzień
+            </a>
           )}
         </div>
         <SeeMoreArrow
