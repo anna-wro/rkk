@@ -30,7 +30,7 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
           {data?.date === '2021-10-17' && (
             <a
               href="niedziela-chrystusa-migranta"
-              className="inline-block hover:underline cursor-pointer"
+              className="inline-block hover:underline cursor-pointer focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
             >
               Modlitwy na ten dzień
             </a>
