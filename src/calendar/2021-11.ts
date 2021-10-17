@@ -51,7 +51,7 @@ export const November2021: CalendarType = [
       'Mk 12,38-44',
     ],
     notes: [
-      '[HTML]Wilibrorda bp. Utrechtu[HTML]',
+      '[HTML]Willibrorda bp. Utrechtu[HTML]',
       'Dzień modlitwy za wspólnoty starokatolickie na świecie',
     ],
     holidays: ['23. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],

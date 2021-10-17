@@ -1,6 +1,13 @@
 import { formatDate } from 'utils/date';
-import { PRAYERS } from 'utils/getSeasonPrayerDataFromFilename';
 import type { CustomPrayerDataPropsType } from 'components/layout/CustomPrayersList';
+
+const CUSTOM_FILES = {
+  biogram: { name: 'biogram', order: 1 },
+  wigilia: { name: 'wigilia', order: 2 },
+  jutrznia: { name: 'jutrznia', order: 3 },
+  nieszpory: { name: 'nieszpory', order: 4 },
+  kompleta: { name: 'kompleta', order: 5 },
+};
 
 type CustomPrayerMetaType = Readonly<{
   [key: string]: string;
@@ -16,7 +23,7 @@ export function getCustomPrayerDataFromMeta({
   filePath,
 }: PropsType): CustomPrayerDataPropsType {
   const slug = filePath.replace('.mdx', '');
-  const mappedType = PRAYERS[meta?.type] ?? PRAYERS['jutrznia'];
+  const mappedType = CUSTOM_FILES[meta?.type] ?? CUSTOM_FILES['jutrznia'];
   const ID = Number(
     `${meta?.date?.replace(/-/g, '') ?? '0'}${mappedType?.order}`,
   );
