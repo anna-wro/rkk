@@ -1,9 +1,9 @@
+import Link from 'next/link';
 import { useState } from 'react';
 import { SeeMoreArrow } from 'components/layout/SeeMoreArrow';
 import { ExtendedInfo } from 'components/layout/ExtendedInfo';
 import { CalendarDataType } from 'utils/date';
 import { makeStartCase } from 'utils/text';
-import Link from 'next/link';
 
 export default function InfoForToday({ data }: { data: CalendarDataType }) {
   const [showMoreInfo, setShowMoreInfo] = useState(false);
@@ -30,9 +30,12 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
           ))}
           {data?.date === '2021-10-17' && (
             <Link href="niedziela-chrystusa-migranta" passHref>
-              <p className="hover:underline cursor-pointer">
+              <a
+                href="niedziela-chrystusa-migranta"
+                className="inline-block hover:underline cursor-pointer focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+              >
                 Modlitwy na ten dzień
-              </p>
+              </a>
             </Link>
           )}
         </div>

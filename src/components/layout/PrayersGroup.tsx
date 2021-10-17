@@ -18,9 +18,12 @@ export default function PrayersGroup({ prayers, isCurrentWeek }) {
       <div className="pb-4 md:pb-6">
         {prayersInGroup.map((prayer: PrayerType) => (
           <Link key={prayer.ID} as={prayer.slug} href={`[slug]`} passHref>
-            <div className="font-light hover:text-orange-500 cursor-pointer">
+            <a
+              href={prayer.slug}
+              className="block font-light hover:text-orange-500 cursor-pointer focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+            >
               {prayer.type}
-            </div>
+            </a>
           </Link>
         ))}
       </div>
