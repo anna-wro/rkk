@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { makeStartCase } from 'utils/text';
 import { getCurrentDate } from 'utils/date';
 import type { PrayerType } from 'components/layout/PrayerPage';
@@ -16,13 +17,14 @@ export default function PrayersGroup({ prayers, isCurrentWeek }) {
       </div>
       <div className="pb-4 md:pb-6">
         {prayersInGroup.map((prayer: PrayerType) => (
-          <a
-            key={prayer.ID}
-            href={prayer.slug}
-            className="block font-light hover:text-orange-500 cursor-pointer focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
-          >
-            {prayer.type}
-          </a>
+          <Link key={prayer.ID} as={prayer.slug} href={`[slug]`} passHref>
+            <a
+              href={prayer.slug}
+              className="block font-light hover:text-orange-500 cursor-pointer focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+            >
+              {prayer.type}
+            </a>
+          </Link>
         ))}
       </div>
     </div>
