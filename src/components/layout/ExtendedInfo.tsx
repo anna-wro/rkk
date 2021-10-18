@@ -13,7 +13,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
           <li key={index}>
             <a
               href={`https://wbiblii.pl/szukaj/${passage}`}
-              className="hover:underline"
+              className="hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-green-500 focus-visible:ring-offset-2 rounded-sm"
             >
               {passage}
             </a>
