@@ -3,10 +3,11 @@ import type { CustomPrayerDataPropsType } from 'components/layout/CustomPrayersL
 
 const CUSTOM_FILES = {
   biogram: { name: 'biogram', order: 1 },
-  wigilia: { name: 'wigilia', order: 2 },
-  jutrznia: { name: 'jutrznia', order: 3 },
-  nieszpory: { name: 'nieszpory', order: 4 },
-  kompleta: { name: 'kompleta', order: 5 },
+  modlitwy: { name: 'modlitwy', order: 2 },
+  wigilia: { name: 'wigilia', order: 3 },
+  jutrznia: { name: 'jutrznia', order: 4 },
+  nieszpory: { name: 'nieszpory', order: 5 },
+  kompleta: { name: 'kompleta', order: 6 },
 };
 
 type CustomPrayerMetaType = Readonly<{

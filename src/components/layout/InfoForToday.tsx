@@ -32,7 +32,7 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
             <Link href="niedziela-chrystusa-migranta" passHref>
               <a
                 href="niedziela-chrystusa-migranta"
-                className="inline-block hover:underline cursor-pointer focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+                className="inline-block hover:underline cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-green-500 focus-visible:ring-offset-2 rounded-sm"
               >
                 Modlitwy na ten dzień
               </a>

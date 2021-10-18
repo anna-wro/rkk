@@ -20,7 +20,7 @@ export default function PrayersGroup({ prayers, isCurrentWeek }) {
           <Link key={prayer.ID} as={prayer.slug} href={`[slug]`} passHref>
             <a
               href={prayer.slug}
-              className="block font-light hover:text-orange-500 cursor-pointer focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+              className="block font-light hover:text-orange-500 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-green-500 focus-visible:ring-offset-2 rounded-sm"
             >
               {prayer.type}
             </a>
