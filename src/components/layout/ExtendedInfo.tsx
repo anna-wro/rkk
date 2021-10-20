@@ -22,16 +22,16 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
             </li>
           ))}
         </ul>
-        {data?.files && (
+        {data?.links && (
           <ul className="border-l-1 border-gray-50 pl-3">
-            {data.files.map((file, index) => (
+            {data.links.map((link, index) => (
               <li key={index}>
-                <Link href={file.slug} passHref>
+                <Link href={link.slug} passHref>
                   <a
-                    href="niedziela-chrystusa-migranta"
+                    href={link.slug}
                     className="inline-block hover:underline cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-green-500 focus-visible:ring-offset-2 rounded-sm"
                   >
-                    {file.title}
+                    {link.name}
                   </a>
                 </Link>
               </li>

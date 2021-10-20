@@ -3,20 +3,13 @@ import { October2021 } from './2021-10';
 import { November2021 } from './2021-11';
 import { December2021 } from './2021-12';
 
-type FileTitleType =
-  | 'biogram'
-  | 'wigilia'
-  | 'jutrznia'
-  | 'nieszpory'
-  | 'kompleta';
-
 export type CalendarDayType = Readonly<{
   date: string;
   week: 1 | 2;
   season: SeasonType;
   holidays?: string[];
-  files?: ReadonlyArray<{
-    title: FileTitleType;
+  links?: ReadonlyArray<{
+    name: string;
     slug: string;
   }>;
   notes?: string[];
