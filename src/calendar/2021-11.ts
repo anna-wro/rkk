@@ -44,12 +44,7 @@ export const November2021: CalendarType = [
     date: '2021-11-07',
     week: 1,
     season: 'ordinary',
-    passages: [
-      '1 Krl 17,10-16',
-      'Ps 146,6-7.8-9b.9c-10',
-      'Hbr 9,24-28',
-      'Mk 12,38-44',
-    ],
+    passages: ['1 Krl 17,10-16', 'Ps 146,6-10', 'Hbr 9,24-28', 'Mk 12,38-44'],
     notes: [
       '[HTML]Willibrorda bp. Utrechtu[HTML]',
       'Dzień modlitwy za wspólnoty starokatolickie na świecie',
