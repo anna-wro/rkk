@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import StyledLink from 'components/layout/StyledLink';
 import { makeStartCase } from 'utils/text';
 import { getCurrentDate } from 'utils/date';
 import CurrentTimeDot from 'components/layout/CurrentTimeDot';
@@ -29,14 +29,9 @@ export function CustomPrayersGroup({ prayers }) {
       </div>
       <div className="pb-4 md:pb-6">
         {prayersInGroup?.map((prayer: CustomPrayerType) => (
-          <Link key={prayer?.ID} href={prayer?.slug} passHref>
-            <a
-              href={prayer?.slug}
-              className="block font-light hover:text-orange-500 cursor-pointer focus-visible"
-            >
-              {prayer.type}
-            </a>
-          </Link>
+          <div key={prayer.ID} className="font-light">
+            <StyledLink href={prayer.slug} name={prayer.type} />
+          </div>
         ))}
       </div>
     </div>

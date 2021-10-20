@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import StyledLink from 'components/layout/StyledLink';
 import { makeStartCase } from 'utils/text';
 import { getCurrentDate } from 'utils/date';
 import type { PrayerType } from 'components/layout/PrayerPage';
@@ -17,11 +17,9 @@ export default function PrayersGroup({ prayers, isCurrentWeek }) {
       </div>
       <div className="pb-4 md:pb-6">
         {prayersInGroup.map((prayer: PrayerType) => (
-          <Link key={prayer.ID} as={prayer.slug} href={`[slug]`} passHref>
-            <a href={prayer.slug} className="block font-light focus-visible">
-              {prayer.type}
-            </a>
-          </Link>
+          <div key={prayer.ID} className="font-light">
+            <StyledLink href={prayer.slug} name={prayer.type} />
+          </div>
         ))}
       </div>
     </div>
