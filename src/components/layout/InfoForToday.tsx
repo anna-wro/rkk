@@ -28,16 +28,6 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
               {holiday.toUpperCase()}
             </div>
           ))}
-          {data?.date === '2021-10-17' && (
-            <Link href="niedziela-chrystusa-migranta" passHref>
-              <a
-                href="niedziela-chrystusa-migranta"
-                className="inline-block hover:underline cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-green-500 focus-visible:ring-offset-2 rounded-sm"
-              >
-                Modlitwy na ten dzień
-              </a>
-            </Link>
-          )}
         </div>
         <SeeMoreArrow
           rotated={showMoreInfo}
