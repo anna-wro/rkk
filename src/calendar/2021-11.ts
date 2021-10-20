@@ -55,6 +55,11 @@ export const November2021: CalendarType = [
       'Dzień modlitwy za wspólnoty starokatolickie na świecie',
     ],
     holidays: ['23. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
+    files: [
+      { title: 'biogram', slug: 'willibrord-biogram' },
+      { title: 'jutrznia', slug: 'willibrord-jutrznia' },
+      { title: 'nieszpory', slug: 'willibrord-nieszpory' },
+    ],
   },
   {
     date: '2021-11-08',

@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { useState } from 'react';
 import { SeeMoreArrow } from 'components/layout/SeeMoreArrow';
 import { ExtendedInfo } from 'components/layout/ExtendedInfo';
