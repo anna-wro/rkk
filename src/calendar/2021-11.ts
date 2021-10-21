@@ -44,17 +44,15 @@ export const November2021: CalendarType = [
     date: '2021-11-07',
     week: 1,
     season: 'ordinary',
-    passages: [
-      '1 Krl 17,10-16',
-      'Ps 146,6-7.8-9b.9c-10',
-      'Hbr 9,24-28',
-      'Mk 12,38-44',
-    ],
-    notes: [
-      '[HTML]Willibrorda bp. Utrechtu[HTML]',
-      'Dzień modlitwy za wspólnoty starokatolickie na świecie',
-    ],
+    passages: ['1 Krl 17,10-16', 'Ps 146,6-10', 'Hbr 9,24-28', 'Mk 12,38-44'],
+    notes: ['Dzień modlitwy za wspólnoty starokatolickie na świecie'],
     holidays: ['23. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
+    links: [
+      { name: 'biogram', slug: 'willibrord-biogram' },
+      { name: 'jutrznia', slug: 'willibrord-jutrznia' },
+      { name: 'nieszpory', slug: 'willibrord-nieszpory' },
+    ],
+    linksTitle: '[HTML]Willibrorda bp. Utrechtu[HTML]',
   },
   {
     date: '2021-11-08',
