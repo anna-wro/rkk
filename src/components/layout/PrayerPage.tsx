@@ -8,26 +8,7 @@ import {
   ListItem,
   Intercessions,
 } from 'components/mdxOverrides';
-import { Responsory } from 'components/prayers/Responsory';
-import {
-  LordsPrayer,
-  OpeningVersicle,
-  BlessingAndConcludingVersicle,
-  AlleluiaCanticle,
-  Canticle,
-  Magnificat,
-  Benedictus,
-  NuncDimittis,
-  KyrieEleison,
-  Passage,
-  Amen,
-  CustomIntercessions,
-  ExaminationOfConscience,
-  ComplineBlessingAndConcludingVersicle,
-  SalveRegina,
-  V,
-  R,
-} from 'components/prayers';
+import * as Components from 'components/prayers';
 
 export type PrayerDataPropsType = Readonly<{
   ID: number;
@@ -52,25 +33,8 @@ const components = {
   ol: List,
   ul: Intercessions,
   li: ListItem,
-  Responsory,
-  OpeningVersicle,
-  LordsPrayer,
-  BlessingAndConcludingVersicle,
-  CustomIntercessions,
-  Canticle,
-  Magnificat,
-  Benedictus,
-  NuncDimittis,
-  AlleluiaCanticle,
-  KyrieEleison,
-  SalveRegina,
-  Passage,
   Intercessions,
-  ExaminationOfConscience,
-  ComplineBlessingAndConcludingVersicle,
-  Amen,
-  V,
-  R,
+  ...Components,
 };
 
 export default function PrayerPage({ prayer }: PropsType) {
