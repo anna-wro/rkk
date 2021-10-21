@@ -9,8 +9,8 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
 
   return (
     <div>
-      <div className="mt-2 flex">
-        <ul className="mr-6 md:mr-10">
+      <div className="mt-2 extended-info">
+        <ul>
           {data?.passages?.map((passage, index) => (
             <li key={index}>
               <StyledLink
@@ -21,7 +21,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
           ))}
         </ul>
         {data?.links?.length > 0 && (
-          <ul className="border-l-1 border-gray-50 pl-3 mb-1">
+          <ul className="border-l-1 border-gray-50 pl-4 mb-1">
             {data?.linksTitle && <p>{formatCalendarNotes(data.linksTitle)}</p>}
             {data.links.map((link, index) => (
               <li key={index}>
