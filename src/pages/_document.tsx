@@ -12,6 +12,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="manifest" href="/manifest.json" />
+          <meta name="robots" content="noindex" />
           <meta
             name="msapplication-square70x70logo"
             content="/pwa/mstile-icon-128.png"
