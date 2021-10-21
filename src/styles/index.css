@@ -19,3 +19,11 @@
   @apply grid gap-6;
   grid-template-columns: fit-content(40%) 1fr;
 }
+
+.dropcap::first-letter {
+  @apply text-accent font-medium;
+  float: left;
+  font-size: 3em;
+  line-height: 1;
+  margin-right: .2em;
+}

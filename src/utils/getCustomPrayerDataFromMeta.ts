@@ -3,6 +3,8 @@ import type { CustomPrayerDataPropsType } from 'components/layout/CustomPrayersL
 
 const CUSTOM_FILES = {
   biogram: { name: 'biogram', order: 1 },
+  wprowadzenie: { name: 'wprowadzenie', order: 1 },
+  liturgia: { name: 'obrzędy liturgii', order: 2 },
   modlitwy: { name: 'modlitwy', order: 2 },
   wigilia: { name: 'wigilia', order: 3 },
   jutrznia: { name: 'jutrznia', order: 4 },
