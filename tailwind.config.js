@@ -78,6 +78,7 @@ module.exports = {
       dark: '#000000',
       white: '#FFFFFF',
       transparent: 'transparent',
+      accent: '#E88008',
     },
     fontFamily: {
       main: ['Lato', 'sans-serif'],
