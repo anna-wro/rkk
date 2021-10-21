@@ -20,8 +20,9 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
             </li>
           ))}
         </ul>
-        {data?.links && (
-          <ul className="border-l-1 border-gray-50 pl-3">
+        {data?.links?.length > 0 && (
+          <ul className="border-l-1 border-gray-50 pl-3 mb-1">
+            {data?.linksTitle && <p>{formatCalendarNotes(data.linksTitle)}</p>}
             {data.links.map((link, index) => (
               <li key={index}>
                 <StyledLink name={link.name} href={link.slug} />

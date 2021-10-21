@@ -12,6 +12,7 @@ export type CalendarDayType = Readonly<{
     name: string;
     slug: string;
   }>;
+  linksTitle?: string;
   notes?: string[];
   passages?: string[];
   antiphon?: string;
