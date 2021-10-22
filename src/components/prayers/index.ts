@@ -6,6 +6,7 @@ export { Canticle } from './Canticle';
 export { Magnificat } from './Magnificat';
 export { Benedictus } from './Benedictus';
 export { NuncDimittis } from './NuncDimittis';
+export { Responsory } from './Responsory';
 export { KyrieEleison } from './KyrieEleison';
 export { SalveRegina } from './SalveRegina';
 export { CustomIntercessions } from './CustomIntercessions';
