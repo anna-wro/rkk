@@ -4,6 +4,7 @@ import React from 'react';
 type SectionType = Readonly<{
   sigla?: string;
   spacedTop?: string;
+  uppercase?: boolean;
   children: React.ReactNode;
 }>;
 
@@ -15,10 +16,12 @@ export const Section = ({
   children,
   sigla,
   spacedTop = 'section',
+  uppercase = true,
 }: SectionType) => (
   <h2
-    className={cx('font-bold text-l tracking-wide uppercase mb-2', {
+    className={cx('font-bold text-l tracking-wide mb-2', {
       [spacedTop]: spacedTop,
+      uppercase: uppercase,
       'inline-block': sigla,
     })}
   >

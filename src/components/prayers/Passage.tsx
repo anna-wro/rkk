@@ -5,9 +5,15 @@ type PassageType = Readonly<{
   sigla: string;
   passage: React.ReactNode;
   type?: string;
+  uppercase?: boolean;
 }>;
 
-export const Passage = ({ passage, sigla, type = '' }: PassageType) => {
+export const Passage = ({
+  passage,
+  sigla,
+  type = '',
+  uppercase = true,
+}: PassageType) => {
   let headline;
 
   switch (type) {
@@ -23,7 +29,7 @@ export const Passage = ({ passage, sigla, type = '' }: PassageType) => {
 
   return (
     <>
-      <Section sigla={sigla} spacedTop="mt-0">
+      <Section sigla={sigla} spacedTop="mt-0" uppercase={uppercase}>
         {headline}
       </Section>
       <div className="space-y-2">{passage}</div>
