@@ -18,6 +18,7 @@ export const copy = {
   updateAvailableDescription:
     'Uruchom ponownie aplikację, aby zobaczyć najnowszą wersję.',
   customPrayerHeadline: 'Modlitwy na święta',
+  or: 'Albo:',
 };
 
 export default copy;

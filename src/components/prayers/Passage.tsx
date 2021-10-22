@@ -4,11 +4,17 @@ import React from 'react';
 type PassageType = Readonly<{
   sigla: string;
   passage: React.ReactNode;
-  type?: 'first' | 'second';
+  type?: string;
+  uppercase?: boolean;
 }>;
 
-export const Passage = ({ passage, sigla, type }: PassageType) => {
-  let headline = 'Czytanie';
+export const Passage = ({
+  passage,
+  sigla,
+  type = '',
+  uppercase = true,
+}: PassageType) => {
+  let headline;
 
   switch (type) {
     case 'first':
@@ -17,11 +23,13 @@ export const Passage = ({ passage, sigla, type }: PassageType) => {
     case 'second':
       headline = 'Czytanie drugie';
       break;
+    default:
+      headline = `Czytanie ${type}`;
   }
 
   return (
     <>
-      <Section sigla={sigla} spacedTop="mt-0">
+      <Section sigla={sigla} spacedTop="mt-0" uppercase={uppercase}>
         {headline}
       </Section>
       <div className="space-y-2">{passage}</div>
