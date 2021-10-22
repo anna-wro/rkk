@@ -4,11 +4,11 @@ import React from 'react';
 type PassageType = Readonly<{
   sigla: string;
   passage: React.ReactNode;
-  type?: 'first' | 'second';
+  type?: string;
 }>;
 
-export const Passage = ({ passage, sigla, type }: PassageType) => {
-  let headline = 'Czytanie';
+export const Passage = ({ passage, sigla, type = '' }: PassageType) => {
+  let headline;
 
   switch (type) {
     case 'first':
@@ -17,6 +17,8 @@ export const Passage = ({ passage, sigla, type }: PassageType) => {
     case 'second':
       headline = 'Czytanie drugie';
       break;
+    default:
+      headline = `Czytanie ${type}`;
   }
 
   return (
