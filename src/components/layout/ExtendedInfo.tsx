@@ -1,15 +1,17 @@
 import { CalendarDataType, getCurrentDate } from 'utils/date';
 import { formatCalendarNotes } from 'utils/text';
 import { copy } from 'consts/copy';
+import cx from 'classnames';
 import StyledLink from './StyledLink';
 
 export function ExtendedInfo({ data }: { data: CalendarDataType }) {
   const { dayOfWeek } = getCurrentDate();
   const [intro, linkToReadings] = copy.sundayReadings.split('[HTML]');
+  const hasLinks = data?.links?.length > 0;
 
   return (
     <div>
-      <div className="mt-2 extended-info">
+      <div className={cx('mt-2', { 'extended-info': hasLinks })}>
         <ul>
           {data?.passages?.map((passage, index) => (
             <li key={index}>
@@ -20,7 +22,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
             </li>
           ))}
         </ul>
-        {data?.links?.length > 0 && (
+        {hasLinks && (
           <ul className="border-l-1 border-gray-50 pl-4 mb-1">
             {data?.linksTitle && <p>{formatCalendarNotes(data.linksTitle)}</p>}
             {data.links.map((link, index) => (
