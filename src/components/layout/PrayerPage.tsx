@@ -9,6 +9,7 @@ import {
   Intercessions,
 } from 'components/mdxOverrides';
 import * as Components from 'components/prayers';
+import StyledLink from 'components/layout/StyledLink';
 
 export type PrayerDataPropsType = Readonly<{
   ID: number;
@@ -34,6 +35,8 @@ const components = {
   ul: Intercessions,
   li: ListItem,
   Intercessions,
+  StyledLink,
+  Section,
   ...Components,
 };
 
