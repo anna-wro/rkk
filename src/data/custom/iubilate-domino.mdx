@@ -110,8 +110,8 @@ type: 'liturgia'
   (św. Atanazy)
 </p>
 
-<div className="flex font-bold my-2 space-x-4">
-  <Advice className="mr-4 flex-shrink-0">Antyfona:</Advice>
+<div className="flex my-2 space-x-4">
+  <div className="mr-4 flex-shrink-0 font-bold">Ant.</div>
   <div className="ml-2">
     Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu,&nbsp;/ alleluja
   </div>
@@ -122,8 +122,8 @@ służcie Panu z weselem.
 Stańcie przed obliczem Pana \*
 z okrzykami radości.
 
-<div className="flex font-bold my-2 space-x-4">
-  <Advice className="mr-4 flex-shrink-0">Antyfona:</Advice>
+<div className="flex my-2 space-x-4">
+  <div className="mr-4 flex-shrink-0 font-bold">Ant.</div>
   <div className="ml-2">
     Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu,&nbsp;/ alleluja
   </div>
@@ -134,8 +134,8 @@ On sam nas stworzył,
 Jesteśmy Jego własnością, \*
 Jego ludem, owcami Jego pastwiska.
 
-<div className="flex font-bold my-2 space-x-4">
-  <Advice className="mr-4 flex-shrink-0">Antyfona:</Advice>
+<div className="flex my-2 space-x-4">
+  <div className="mr-4 flex-shrink-0 font-bold">Ant.</div>
   <div className="ml-2">
     Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu,&nbsp;/ alleluja
   </div>
@@ -148,12 +148,13 @@ Albowiem Pan jest dobry, †
 Jego łaska trwa na wieki, \*
 a Jego wierność przez pokolenia.
 
-<div className="flex font-bold my-2 space-x-4">
-  <Advice className="mr-4 flex-shrink-0">Antyfona:</Advice>
+<div className="flex my-2 space-x-4">
+  <div className="mr-4 flex-shrink-0 font-bold">Ant.</div>
   <div className="ml-2">
     Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu,&nbsp;/ alleluja
   </div>
 </div>
+
 <p>
   {`Chwała Ojcu i Synowi, * 
   i Duchowi Świętemu. 
@@ -190,9 +191,11 @@ a Jego wierność przez pokolenia.
   naprzemiennie w dwóch chórach.
 </Advice>
 
-Psalm 63, 2-9
-Tęsknota za Bogiem
-Ten czuwa przy Bogu, kto odrzuca ciemne uczynki
+<p className="font-light text-center">Psalm 63, 2-9</p>
+<p className="font-light text-center mb-2">Tęsknota za Bogiem</p>
+<p className="font-light mb-2 italic">
+  Ten czuwa przy Bogu, kto odrzuca ciemne uczynki
+</p>
 
 <Canticle
   order={1}
@@ -219,9 +222,14 @@ prawica Twoja mnie wspiera".`,
   ]}
 />
 
-Psalm 149 Radość świętych
-Synowie Kościoła, synowie nowego ludu, radują się swym Królem, Chrystusem
-(Hezychiusz)
+<p className="font-light text-center">Psalm 149</p>
+<p className="font-light text-center mb-2">Radość świętych</p>
+<p className="font-light mb-2">
+  <span className="italic">
+    Synowie Kościoła, synowie nowego ludu, radują się swym Królem, Chrystusem
+  </span>{' '}
+  (Hezychiusz)
+</p>
 
 <Canticle
   order={2}
@@ -300,9 +308,7 @@ To jest chwałą wszystkich świętych Jego.`,
   i sobie, aby usłyszeć Boga.
 </Advice>
 
-<div className="font-semibold">
-  <Benedictus />
-</div>
+<Benedictus />
 
 ## Prośby
 
