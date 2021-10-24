@@ -5,6 +5,7 @@ type CanticleWrapperType = Readonly<{
   children: React.ReactNode;
 }>;
 
+// TODO use <Antiphon />
 export const CanticleWrapper = ({
   order,
   sigla,
