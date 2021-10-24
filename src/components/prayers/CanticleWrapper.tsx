@@ -25,7 +25,11 @@ export const CanticleWrapper = ({
       <div>{children}</div>
       {antiphon && (
         <div>
-          <span className="font-bold">Ant. </span>
+          {order ? (
+            <span className="font-bold">{order} ant. </span>
+          ) : (
+            <span className="font-bold">Ant. </span>
+          )}
           {antiphon}
         </div>
       )}
