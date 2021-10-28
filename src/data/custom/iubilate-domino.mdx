@@ -9,9 +9,9 @@ type: 'liturgia'
   Obrzędy liturgii
 </p>
 
-# Jeszcze nie jest gotowe, nie pokazuj ludziom! 😈
-
-<Section spacedTop="0" uppercase>Rozpoczęcie</Section>
+<Section spacedTop="0" uppercase>
+  Rozpoczęcie
+</Section>
 
 <Advice>
   Przed rozpoczęciem modlitwy, jeśli to możliwe, zapala się w ciszy świecę,
@@ -99,23 +99,37 @@ type: 'liturgia'
   (melorecytować).
 </Advice>
 
-Psalm 100
-Radość wchodzących do świątyni
-Pan chce, by odkupieni śpiewali pieśń zwycięstwa (św. Atanazy)
+<PsalmSectionTitle title="Psalm 100" subtitle="Radość wchodzących do świątyni">
+  <span className="italic">
+    Pan chce, by odkupieni śpiewali pieśń zwycięstwa
+  </span>{' '}
+  (św. Atanazy)
+</PsalmSectionTitle>
 
-Antyfona: Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu, / alleluja.
+<Antiphon>
+  Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu,&nbsp;/ alleluja
+</Antiphon>
+
 Wykrzykujcie na cześć Pana, wszystkie ziemie, \*
 służcie Panu z weselem.
 Stańcie przed obliczem Pana \*
 z okrzykami radości.
 
-Antyfona: Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu, / alleluja.
+<Antiphon>
+  Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu,&nbsp;/ alleluja
+
+</Antiphon>
+
 Wiedzcie, że Pan jest Bogiem, \*
 On sam nas stworzył,
 Jesteśmy Jego własnością, \*
 Jego ludem, owcami Jego pastwiska.
 
-Antyfona: Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu, / alleluja.
+<Antiphon>
+  Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu,&nbsp;/ alleluja
+
+</Antiphon>
+
 W Jego bramy wstępujcie z dziękczynieniem, †
 z hymnami w Jego przedsionki, \*
 chwalcie i błogosławcie Jego imię.
@@ -123,12 +137,21 @@ Albowiem Pan jest dobry, †
 Jego łaska trwa na wieki, \*
 a Jego wierność przez pokolenia.
 
-Antyfona: Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu, / alleluja.
-Chwała Ojcu i Synowi, \*
-i Duchowi Świętemu.
-Jak była na początku, teraz i zawsze, \*
-i na wieki wieków. Amen.
-Antyfona: Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu, / alleluja.
+<Antiphon>
+  Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu,&nbsp;/ alleluja
+
+</Antiphon>
+
+<p>
+  {`Chwała Ojcu i Synowi, * 
+  i Duchowi Świętemu. 
+  Jak była na początku, teraz i zawsze, * 
+  i na wieki wieków. Amen.`}
+</p>
+
+<Antiphon>
+  Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu,&nbsp;/ alleluja
+</Antiphon>
 
 ## Ewangelia
 
@@ -152,9 +175,9 @@ Antyfona: Ludu Boży, przyjdź pokłonić się Panu / i Pasterzowi swojemu, / al
   naprzemiennie w dwóch chórach.
 </Advice>
 
-Psalm 63, 2-9
-Tęsknota za Bogiem
-Ten czuwa przy Bogu, kto odrzuca ciemne uczynki
+<PsalmSectionTitle title="Psalm 63, 2-9" subtitle="Tęsknota za Bogiem">
+  Ten czuwa przy Bogu, kto odrzuca ciemne uczynki
+</PsalmSectionTitle>
 
 <Canticle
   order={1}
@@ -181,9 +204,12 @@ prawica Twoja mnie wspiera".`,
   ]}
 />
 
-Psalm 149 Radość świętych
-Synowie Kościoła, synowie nowego ludu, radują się swym Królem, Chrystusem
-(Hezychiusz)
+<PsalmSectionTitle title="Psalm 149" subtitle="Radość świętych">
+  <span className="italic">
+    Synowie Kościoła, synowie nowego ludu, radują się swym Królem, Chrystusem
+  </span>{' '}
+  (Hezychiusz)
+</PsalmSectionTitle>
 
 <Canticle
   order={2}
@@ -262,9 +288,7 @@ To jest chwałą wszystkich świętych Jego.`,
   i sobie, aby usłyszeć Boga.
 </Advice>
 
-<div className="font-semibold">
-  <Benedictus />
-</div>
+<Benedictus />
 
 ## Prośby
 

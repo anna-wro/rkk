@@ -18,3 +18,5 @@ export { V } from './V';
 export { R } from './R';
 export { Advice } from './Advice';
 export { Or } from './Or';
+export { PsalmSectionTitle } from './PsalmSectionTitle';
+export { Antiphon } from './Antiphon';
