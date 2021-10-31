@@ -234,5 +234,8 @@ export const October2021: CalendarType = [
       'Hbr 7,23-28',
       'Mk 12,28b-34',
     ],
+    links: [
+      { name: 'Wigilia dnia Wszystkich Świętych', slug: 'wigilia-o-swietych' },
+    ],
   },
 ];

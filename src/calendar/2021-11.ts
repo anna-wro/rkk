@@ -7,6 +7,11 @@ export const November2021: CalendarType = [
     season: 'ordinary',
     passages: ['Ap 7,2-4.9-14', 'Ps 24,1-2.3-4.5-6', '1 J 3,1-3', 'Mt 5,1-12a'],
     holidays: ['WSZYSTKICH ŚWIĘTYCH'],
+    links: [
+      { name: 'jutrznia', slug: 'jutrznia-o-swietych' },
+      { name: 'nieszpory', slug: 'nieszpory-o-swietych' },
+    ],
+    linksTitle: '[HTML]Modlitwy na dziś:[HTML]',
   },
   {
     date: '2021-11-02',
