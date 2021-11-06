@@ -53,11 +53,11 @@ export const November2021: CalendarType = [
     notes: ['Dzień modlitwy za wspólnoty starokatolickie na świecie'],
     holidays: ['23. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     links: [
-      { name: 'biogram', slug: 'willibrord-biogram' },
-      { name: 'jutrznia', slug: 'willibrord-jutrznia' },
-      { name: 'nieszpory', slug: 'willibrord-nieszpory' },
+      { name: 'biogram', slug: 'wilibrord-biogram' },
+      { name: 'jutrznia', slug: 'wilibrord-jutrznia' },
+      { name: 'nieszpory', slug: 'wilibrord-nieszpory' },
     ],
-    linksTitle: '[HTML]Willibrorda bp. Utrechtu[HTML]',
+    linksTitle: '[HTML]Wilibrorda bp. Utrechtu[HTML]',
   },
   {
     date: '2021-11-08',
