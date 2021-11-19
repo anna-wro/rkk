@@ -150,11 +150,7 @@ export const November2021: CalendarType = [
     date: '2021-11-19',
     week: 2,
     season: 'ordinary',
-    passages: [
-      '1 Mch 4,36-37.52-59',
-      '1 Chr 29,10b-11a.11b-12a.12b-13',
-      'Łk 19,45-48',
-    ],
+    passages: ['1 Mch 4,36-37.52-59', '1 Krn 29,10-13', 'Łk 19,45-48'],
     notes: [
       '[HTML]Hildy[HTML] mn.',
       '[HTML]Mechtyldy[HTML] mist.',
