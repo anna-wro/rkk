@@ -181,6 +181,7 @@ export const November2021: CalendarType = [
     date: '2021-11-23',
     week: 1,
     season: 'ordinary',
+    notes: ['[HTML]Kolumbana[HTML] mn.'],
     passages: ['Dn 2,31-45', 'Dn 3,57.58.59.60.61', 'Łk 21,5-11'],
   },
   {
