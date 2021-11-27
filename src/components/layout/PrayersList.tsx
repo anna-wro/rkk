@@ -18,7 +18,7 @@ export default function PrayersList({ prayers }: PropsType) {
         <div>
           <PrayersInWeek
             prayers={firstWeek}
-            isCurrentWeek={currentWeek === 1}
+            isCurrentWeek
             title={copy.firstWeekTitle}
           />
         </div>
@@ -27,7 +27,7 @@ export default function PrayersList({ prayers }: PropsType) {
         <div className="mt-4 md:m-0">
           <PrayersInWeek
             prayers={secondWeek}
-            isCurrentWeek={currentWeek === 2}
+            isCurrentWeek={false}
             title={copy.secondWeekTitle}
           />
         </div>
