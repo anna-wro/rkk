@@ -6,7 +6,7 @@ const currentSeason = getCurrentSeason();
 
 export const SEASON_PRAYERS_PATH = path.join(
   process.cwd(),
-  `src/data/${currentSeason}`,
+  `src/data/advent`,
 );
 
 export const CUSTOM_PRAYERS_PATH = path.join(process.cwd(), `src/data/custom`);
