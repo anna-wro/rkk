@@ -8,7 +8,7 @@ type PropsType = Readonly<{
 }>;
 
 export default function PrayersList({ prayers }: PropsType) {
-  const currentWeek = getCurrentWeekNumber();
+  const currentWeek = '1';
   const firstWeek = prayers.filter(prayer => prayer.week === '1');
   const secondWeek = prayers.filter(prayer => prayer.week === '2');
 
@@ -18,7 +18,7 @@ export default function PrayersList({ prayers }: PropsType) {
         <div>
           <PrayersInWeek
             prayers={firstWeek}
-            isCurrentWeek={currentWeek === 1}
+            isCurrentWeek
             title={copy.firstWeekTitle}
           />
         </div>
@@ -27,7 +27,7 @@ export default function PrayersList({ prayers }: PropsType) {
         <div className="mt-4 md:m-0">
           <PrayersInWeek
             prayers={secondWeek}
-            isCurrentWeek={currentWeek === 2}
+            isCurrentWeek={false}
             title={copy.secondWeekTitle}
           />
         </div>
