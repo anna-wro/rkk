@@ -8,9 +8,9 @@ type PropsType = Readonly<{
 }>;
 
 export default function PrayersList({ prayers }: PropsType) {
-  const currentWeek = '1';
-  const firstWeek = prayers.filter(prayer => prayer.week === '1');
-  const secondWeek = prayers.filter(prayer => prayer.week === '2');
+  const currentWeek = getCurrentWeekNumber();
+  const firstWeek = prayers.filter(prayer => prayer.week === 1);
+  const secondWeek = prayers.filter(prayer => prayer.week === 2);
 
   return (
     <div className="flex justify-between flex-col md:flex-row">
@@ -18,7 +18,7 @@ export default function PrayersList({ prayers }: PropsType) {
         <div>
           <PrayersInWeek
             prayers={firstWeek}
-            isCurrentWeek
+            isCurrentWeek={currentWeek === 1}
             title={copy.firstWeekTitle}
           />
         </div>
@@ -27,7 +27,7 @@ export default function PrayersList({ prayers }: PropsType) {
         <div className="mt-4 md:m-0">
           <PrayersInWeek
             prayers={secondWeek}
-            isCurrentWeek={false}
+            isCurrentWeek={currentWeek === 2}
             title={copy.secondWeekTitle}
           />
         </div>

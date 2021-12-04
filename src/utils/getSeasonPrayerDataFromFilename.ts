@@ -42,7 +42,7 @@ export function getSeasonPrayerDataFromFilename({
     slug,
     ID,
     day: mappedDay.name,
-    week,
+    week: Number(week),
     type: prayerType.name,
   };
 }
