@@ -8,7 +8,7 @@ describe('getSeasonPrayerDataFromFilename()', () => {
       slug: 'niedziela-1-kompleta',
       ID: 115,
       day: 'niedziela',
-      week: '1',
+      week: 1,
       type: 'kompleta',
     });
     expect(
@@ -17,7 +17,7 @@ describe('getSeasonPrayerDataFromFilename()', () => {
       slug: 'sroda-2-jutrznia',
       ID: 243,
       day: 'środa',
-      week: '2',
+      week: 2,
       type: 'jutrznia',
     });
   });
@@ -28,7 +28,7 @@ describe('getSeasonPrayerDataFromFilename()', () => {
       slug: 'niedziela-1-wigilia',
       ID: 111,
       day: 'niedziela',
-      week: '1',
+      week: 1,
       type: 'wigilia',
     });
     expect(
@@ -37,7 +37,7 @@ describe('getSeasonPrayerDataFromFilename()', () => {
       slug: 'wtorek-3-jutrznia',
       ID: 333,
       day: 'wtorek',
-      week: '3',
+      week: 3,
       type: 'jutrznia',
     });
   });
