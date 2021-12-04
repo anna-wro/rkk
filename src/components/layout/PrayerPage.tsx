@@ -15,7 +15,7 @@ export type PrayerDataPropsType = Readonly<{
   ID: number;
   slug: string;
   day: string;
-  week: string;
+  week: number;
   type: string;
 }>;
 

@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { getCurrentSeason } from 'utils/date';
 
-const currentSeason = 'advent';
+const currentSeason = getCurrentSeason();
 
 export const SEASON_PRAYERS_PATH = path.join(
   process.cwd(),
