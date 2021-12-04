@@ -30,5 +30,5 @@ export function getStaticProps() {
     })
     .sort((a, b) => a.ID - b.ID);
 
-  return { props: { prayers } };
+  return { props: { prayers }, revalidate: 3600 };
 }
