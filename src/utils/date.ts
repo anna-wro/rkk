@@ -10,25 +10,6 @@ export type CalendarDataType = Readonly<
   } & CalendarDayType
 >;
 
-export const getCurrentWeekNumber = () => {
-  const dateNow = DateTime.now();
-  const formattedDate = dateNow.toFormat('yyyy-LL-dd');
-  const currentCalendarItem = calendar.find(
-    item => item.date === formattedDate,
-  );
-  const currentWeek = currentCalendarItem?.week ?? 0;
-
-  // Handle new week starting on Saturday evening
-  const dayOfWeek = dateNow.toFormat('ccc');
-  const isSundayEve = dayOfWeek === 'Sat' && dateNow.hour >= 15;
-
-  if (isSundayEve) {
-    return currentWeek === 1 ? 2 : 1;
-  }
-
-  return currentWeek;
-};
-
 export const getCurrentDate = () => {
   const dateToMock = getQueryParam('date')?.split('-').map(Number);
 

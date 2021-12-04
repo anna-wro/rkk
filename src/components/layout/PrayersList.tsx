@@ -1,5 +1,5 @@
 import { copy } from 'consts/copy';
-import { getCurrentWeekNumber } from 'utils/date';
+import { getCalendarData } from 'utils/date';
 import type { PrayerType } from 'components/layout/PrayerPage';
 import PrayersInWeek from 'components/layout/PrayersInWeek';
 
@@ -8,7 +8,7 @@ type PropsType = Readonly<{
 }>;
 
 export default function PrayersList({ prayers }: PropsType) {
-  const currentWeek = getCurrentWeekNumber();
+  const { week: currentWeek } = getCalendarData();
   const firstWeek = prayers.filter(prayer => prayer.week === 1);
   const secondWeek = prayers.filter(prayer => prayer.week === 2);
 
