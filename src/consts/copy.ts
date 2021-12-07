@@ -19,6 +19,7 @@ export const copy = {
     'Uruchom ponownie aplikację, aby zobaczyć najnowszą wersję.',
   customPrayerHeadline: 'Modlitwy na święta',
   or: 'Albo:',
+  settings: { headline: 'Ustawienia', goBackButton: 'wróć na stronę główną' },
 };
 
 export default copy;
