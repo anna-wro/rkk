@@ -26,7 +26,7 @@ export const October2021: CalendarType = [
     week: 2,
     season: 'ordinary',
     notes: ['[HTML]Franciszka z Asyżu[HTML] dk. i zak.'],
-    passages: ['Jon 1,1-2,1.11', 'Kantyk: Jon 2,3.4.5-6.8 i 10', 'Łk 10,25-37'],
+    passages: ['Jon 1,1-2,1.11', 'Kantyk: Jon 2,3.4.5-6.8.10', 'Łk 10,25-37'],
   },
   {
     date: '2021-10-05',
