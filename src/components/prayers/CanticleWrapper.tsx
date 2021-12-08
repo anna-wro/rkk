@@ -14,6 +14,7 @@ export const CanticleWrapper = ({
 }: CanticleWrapperType) => {
   return (
     <div className="mb-6 space-y-2">
+      {sigla && <div className="mb-2 font-light text-center">{sigla}</div>}
       {antiphon ? (
         order ? (
           <span className="font-bold">{order} ant. </span>
@@ -22,7 +23,6 @@ export const CanticleWrapper = ({
         )
       ) : null}
       {antiphon}
-      {sigla && <div className="text-right italic font-light">{sigla}</div>}
       <div>{children}</div>
       {antiphon && (
         <div>
