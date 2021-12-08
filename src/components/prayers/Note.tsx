@@ -1,6 +1,6 @@
 import cx from 'classnames';
 
-export const Advice = ({
+export const Note = ({
   children,
   className,
 }: {

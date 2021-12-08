@@ -1,8 +1,8 @@
-import { Advice } from './Advice';
+import { Note } from './Note';
 
 export const ExaminationOfConscience = () => (
-  <Advice className="my-6">
+  <Note className="my-6">
     Kompletę można poprzedzić w tym miejscu czytaniem duchowym. Następnie
     przewidziany jest rachunek sumienia.
-  </Advice>
+  </Note>
 );
