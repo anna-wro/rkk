@@ -65,7 +65,7 @@ export const December2021: CalendarType = [
     date: '2021-12-09',
     week: 2,
     season: 'advent',
-    passages: ['Iz 41,13-20', 'Ps 145,1 i 9.10-11.12-13b', 'Mt 11,7b.11-15'],
+    passages: ['Iz 41,13-20', 'Ps 145,1.9.10-11.12-13b', 'Mt 11,7b.11-15'],
     notes: ['[HTML]Klemensa z Aleksandrii[HTML] mn. i teo.'],
   },
   {
