@@ -1,6 +1,8 @@
+import { Advice } from './Advice';
+
 export const ExaminationOfConscience = () => (
-  <div className="italic my-6 text-sm">
+  <Advice className="my-6">
     Kompletę można poprzedzić w tym miejscu czytaniem duchowym. Następnie
     przewidziany jest rachunek sumienia.
-  </div>
+  </Advice>
 );

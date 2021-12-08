@@ -7,7 +7,5 @@ export const Advice = ({
   children: React.ReactNode;
   className?: string;
 }) => {
-  return (
-    <p className={cx('font-light text-accent mb-2', className)}>{children}</p>
-  );
+  return <p className={cx('italic text-sm mb-2', className)}>{children}</p>;
 };
