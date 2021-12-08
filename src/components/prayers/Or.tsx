@@ -1,4 +1,6 @@
 import { copy } from 'consts/copy';
+import { Note } from './Note';
+
 export const Or = () => {
-  return <p className="italic text-sm my-2">{copy.or}</p>;
+  return <Note className="my-2">{copy.or}</Note>;
 };
