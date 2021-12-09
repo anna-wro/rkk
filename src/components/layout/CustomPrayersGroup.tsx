@@ -21,7 +21,7 @@ export function CustomPrayersGroup({ prayers }) {
     <LinksGroup
       className="w-40 pb-4 md:pb-6"
       title={title}
-      description={formattedPrayerDate ? `${formattedPrayerDate}` : null}
+      description={formattedPrayerDate ? `(${formattedPrayerDate})` : null}
       isToday={isToday}
       links={links}
     />
