@@ -1,4 +1,4 @@
-import PrayersGroup from './PrayersGroup';
+import SeasonPrayersGroup from './SeasonPrayersGroup';
 import { groupByKey } from 'utils/array';
 import type { PrayerType } from 'components/layout/PrayerPage';
 
@@ -19,7 +19,7 @@ export default function PrayersInWeek({
     <>
       <h3 className="font-semibold text-lg my-4">{title}</h3>
       {Object.entries(prayersGrouppedByDay).map((prayersFromDay, index) => (
-        <PrayersGroup
+        <SeasonPrayersGroup
           key={index}
           prayers={prayersFromDay}
           isCurrentWeek={isCurrentWeek}
