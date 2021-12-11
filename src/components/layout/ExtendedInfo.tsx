@@ -7,10 +7,9 @@ import StyledLink from './StyledLink';
 export function ExtendedInfo({ data }: { data: CalendarDataType }) {
   const { dayOfWeek } = getCurrentDate();
   const [intro, linkToReadings] = copy.sundayReadings.split('[HTML]');
-  const isHoliday = data?.holidays?.length > 0;
   const linksToDisplay = [
     ...(data?.links?.length > 0 ? data.links : []),
-    ...(isHoliday
+    ...(data?.holidays?.length > 0
       ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino' }]
       : []),
   ];
