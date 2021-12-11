@@ -1,16 +1,19 @@
 import { Canticle } from './index';
 import { Section } from 'components/mdxOverrides';
+import { getCalendarData } from 'utils/date';
 
 type BenedictusType = Readonly<{
   antiphon: string;
 }>;
 
 export const Benedictus = ({ antiphon }: BenedictusType) => {
+  const calendar = getCalendarData();
+
   return (
     <>
       <Section sigla="Łk 1, 68-79">Pieśń Zachariasza</Section>
       <Canticle
-        antiphon={antiphon}
+        antiphon={calendar?.lauds?.antiphon ?? antiphon}
         versicles={[
           `† Błogosławiony Pan, Bóg Izraela, * 
           bo lud swój nawiedził i wyzwolił.`,

@@ -95,11 +95,15 @@ export const January2022: CalendarType = [
       sigla: '1 J 1, 5',
       passage:
         'Nowina, którą usłyszeliśmy od Niego i którą wam głosimy, jest taka: Bóg jest światłością, a nie ma w Nim żadnej ciemności.',
+      antiphon:
+        'Ty jesteś moim Synem umiłowanym, * w Tobie złożyłem swoje postanowienia.',
     },
     vespers: {
       sigla: 'Kol 1, 13-15',
       passage:
         'Bóg nas uwolnił spod władzy ciemności i przeniósł do królestwa swego umiłowanego Syna, w którym mamy odkupienie, odpuszczenie grzechów. On jest obrazem Boga niewidzialnego, Pierworodnym wobec każdego stworzenia.',
+      antiphon:
+        'Oto Baranek Boży, * który gładzi grzechy świata. On przez wodę i Ducha uświęca wszystkich ludzi. / Oto znaleźliśmy Mesjasza. / Alleluja.',
     },
     links: [
       { name: 'jutrznia', slug: 'epifania-jutrznia' },
@@ -181,5 +185,18 @@ export const January2022: CalendarType = [
       { name: 'jutrznia', slug: 'epifania-jutrznia' },
       { name: 'nieszpory', slug: 'epifania-nieszpory' },
     ],
+  },
+  {
+    date: '2022-01-16',
+    week: 2,
+    season: 'christmas',
+    vespers: {
+      antiphon:
+        'Kiedy zabrakło wina, * Jezus kazał napełnić stągwie wodą, / a ona stała się winem, / alleluja.',
+    },
+    lauds: {
+      antiphon:
+        'Pierwszy z cudownych znaków * uczynił Jezus w Kanie Galilejskiej. / Ukazał swą chwałę. / Jego uczniowie uwierzyli w Niego.',
+    },
   },
 ];

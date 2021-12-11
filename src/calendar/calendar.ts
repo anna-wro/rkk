@@ -17,14 +17,15 @@ export type CalendarDayType = Readonly<{
   notes?: string[];
   passages?: string[];
   lauds?: {
-    sigla: string;
-    passage: string;
+    sigla?: string;
+    passage?: string;
+    antiphon?: string;
   };
   vespers?: {
-    sigla: string;
-    passage: string;
+    sigla?: string;
+    passage?: string;
+    antiphon?: string;
   };
-  antiphon?: string;
 }>;
 
 export type SeasonType = 'ordinary' | 'advent' | 'christmas';
