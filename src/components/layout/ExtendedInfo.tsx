@@ -7,7 +7,14 @@ import StyledLink from './StyledLink';
 export function ExtendedInfo({ data }: { data: CalendarDataType }) {
   const { dayOfWeek } = getCurrentDate();
   const [intro, linkToReadings] = copy.sundayReadings.split('[HTML]');
-  const hasLinks = data?.links?.length > 0;
+  const isHoliday = data?.holidays?.length > 0;
+
+  const calendarLinks = data?.links?.length > 0 ? data.links : [];
+  const holidayLinks = isHoliday
+    ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino' }]
+    : [];
+  const linksToDisplay = [...calendarLinks, ...holidayLinks];
+  const hasLinks = linksToDisplay.length > 0;
 
   return (
     <div>
@@ -24,8 +31,8 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
         </ul>
         {hasLinks && (
           <ul className="border-l-1 border-gray-50 pl-4 mb-1">
-            {data?.linksTitle && <p>{formatCalendarNotes(data.linksTitle)}</p>}
-            {data.links.map((link, index) => (
+            <p>{formatCalendarNotes(copy.linksTitle)}</p>
+            {linksToDisplay.map((link, index) => (
               <li key={index}>
                 <StyledLink name={link.name} href={link.slug} />
               </li>

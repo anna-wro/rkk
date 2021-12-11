@@ -20,6 +20,7 @@ export const copy = {
   customPrayerHeadline: 'Modlitwy na święta',
   or: 'Albo:',
   settings: { headline: 'Ustawienia', goBackButton: 'wróć na stronę główną' },
+  linksTitle: '[HTML]Modlitwy na dziś: [HTML]',
 };
 
 export default copy;
