@@ -5,7 +5,9 @@ import { CalendarDataType } from 'utils/date';
 import { makeStartCase } from 'utils/text';
 
 export default function InfoForToday({ data }: { data: CalendarDataType }) {
-  const [showMoreInfo, setShowMoreInfo] = useState(!!data?.links);
+  const [showMoreInfo, setShowMoreInfo] = useState(
+    !!(data?.links || data?.holidays),
+  );
 
   function handleClick() {
     setShowMoreInfo(!showMoreInfo);

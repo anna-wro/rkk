@@ -8,12 +8,12 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
   const { dayOfWeek } = getCurrentDate();
   const [intro, linkToReadings] = copy.sundayReadings.split('[HTML]');
   const isHoliday = data?.holidays?.length > 0;
-
-  const calendarLinks = data?.links?.length > 0 ? data.links : [];
-  const holidayLinks = isHoliday
-    ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino' }]
-    : [];
-  const linksToDisplay = [...calendarLinks, ...holidayLinks];
+  const linksToDisplay = [
+    ...(data?.links?.length > 0 ? data.links : []),
+    ...(isHoliday
+      ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino' }]
+      : []),
+  ];
   const hasLinks = linksToDisplay.length > 0;
 
   return (
