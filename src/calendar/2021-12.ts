@@ -125,16 +125,20 @@ export const December2021: CalendarType = [
     season: 'advent',
     passages: ['Rdz 49,2.8-10', 'Ps 72,1-2.3-4b.7-8.17', 'Mt 1,1-17'],
     notes: ['[HTML]Jana de Matha[HTML] zak.', 'DZIEŃ WSPÓLNEGO POSTU'],
-    antiphon:
-      'O Mądrości, która wyszłaś z ust Najwyższego, / obejmując wszechświat od krańca do krańca, / i wszystkim rządzisz z mocą i słodyczą; / przyjdź i naucz nas dróg roztropności.',
+    vespers: {
+      antiphon:
+        'O Mądrości, która wyszłaś z ust Najwyższego, / obejmując wszechświat od krańca do krańca, / i wszystkim rządzisz z mocą i słodyczą; / przyjdź i naucz nas dróg roztropności.',
+    },
   },
   {
     date: '2021-12-18',
     week: 1,
     season: 'advent',
     passages: ['Jr 23,5-8', 'Ps 72,1-2.12-13.18-19', 'Mt 1,18-24'],
-    antiphon:
-      'O Adonai, Wodzu Izraela, / Tyś w krzaku gorejącym objawił się Mojżeszowi / i na Synaju dałeś mu Prawo; / przyjdź nas wyzwolić swym potężnym ramieniem.',
+    vespers: {
+      antiphon:
+        'O Adonai, Wodzu Izraela, / Tyś w krzaku gorejącym objawił się Mojżeszowi / i na Synaju dałeś mu Prawo; / przyjdź nas wyzwolić swym potężnym ramieniem.',
+    },
   },
   {
     date: '2021-12-19',
@@ -143,40 +147,50 @@ export const December2021: CalendarType = [
     passages: ['Mi 5, 1-4a', 'Ps 80', 'Hbr 10, 5-10', 'Łk 1, 39-45'],
     holidays: ['4. NIEDZIELA ADWENTU'],
     notes: ['[HTML]Fryderyka von Schulte[HTML] w. i teo.'],
-    antiphon:
-      'O Korzeniu Jessego, / który się wznosisz jako znak dla narodów, przed Tobą zamilkną królowie, a ludy modlić się będą do Ciebie; / przyjdź nas wyzwolić, już dłużej nie zwlekaj.',
+    vespers: {
+      antiphon:
+        'O Korzeniu Jessego, / który się wznosisz jako znak dla narodów, przed Tobą zamilkną królowie, a ludy modlić się będą do Ciebie; / przyjdź nas wyzwolić, już dłużej nie zwlekaj.',
+    },
   },
   {
     date: '2021-12-20',
     week: 2,
     season: 'advent',
     passages: ['Iz 7,10-14', 'Ps 24,1-2.3-4.5-6', 'Łk 1,26-38'],
-    antiphon:
-      'O Kluczu Dawida i Berło domu Izraela, / Ty, który otwierasz, a nikt zamknąć nie zdoła, zamykasz, a nikt nie otworzy; / przyjdź i wyprowadź z więzienia człowieka, pogrążonego w mroku i cieniu śmierci.',
+    vespers: {
+      antiphon:
+        'O Kluczu Dawida i Berło domu Izraela, / Ty, który otwierasz, a nikt zamknąć nie zdoła, zamykasz, a nikt nie otworzy; / przyjdź i wyprowadź z więzienia człowieka, pogrążonego w mroku i cieniu śmierci.',
+    },
   },
   {
     date: '2021-12-21',
     week: 2,
     season: 'advent',
     passages: ['Pnp 2, 8-14', 'Ps 33, 2-3. 11-12. 20-21', 'Łk 1, 39-45'],
-    antiphon:
-      'O Wschodzie, / blasku Światła wiecznego i Słońce sprawiedliwości, / przyjdź i oświeć siedzących w mroku i cieniu śmierci.',
+    vespers: {
+      antiphon:
+        'O Wschodzie, / blasku Światła wiecznego i Słońce sprawiedliwości, / przyjdź i oświeć siedzących w mroku i cieniu śmierci.',
+    },
   },
   {
     date: '2021-12-22',
     week: 2,
     season: 'advent',
     passages: ['1 Sm 1,24-28', '1 Sm 2,1bcde.4-5b.6-7.8abcd', 'Łk 1,46-56'],
-    antiphon:
-      'O Królu narodów, przez nie upragniony; / Kamieniu węgielny Kościoła, / przyjdź i zbaw człowieka, którego utworzyłeś z prochu ziemi.',
+    vespers: {
+      antiphon:
+        'O Królu narodów, przez nie upragniony; / Kamieniu węgielny Kościoła, / przyjdź i zbaw człowieka, którego utworzyłeś z prochu ziemi.',
+    },
   },
   {
     date: '2021-12-23',
     week: 2,
     season: 'advent',
     passages: ['Ml 3,1-4; 4,23-24', 'Ps 25,4-5.8-9.10 . 14', 'Łk 1,57-66'],
-    antiphon:
-      'O Emmanuelu, / nasz Królu i Prawodawco, oczekiwany Zbawicielu narodów, / przyjdź, aby nas zbawić, nasz Panie i Boże.',
+    vespers: {
+      antiphon:
+        'O Emmanuelu, / nasz Królu i Prawodawco, oczekiwany Zbawicielu narodów, / przyjdź, aby nas zbawić, nasz Panie i Boże.',
+    },
   },
   {
     date: '2021-12-24',
