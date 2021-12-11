@@ -10,6 +10,7 @@ import {
 } from 'components/mdxOverrides';
 import * as Components from 'components/prayers';
 import StyledLink from 'components/layout/StyledLink';
+import { getCalendarData } from 'utils/date';
 
 export type PrayerDataPropsType = Readonly<{
   ID: number;
@@ -41,13 +42,19 @@ const components = {
 };
 
 export default function PrayerPage({ prayer }: PropsType) {
+  const calendar = getCalendarData();
+
   return (
     <>
       <div className="relative whitespace-pre-line">
         <div className="md:absolute top-0 right-0 mb-4">
           <GoBackButton />
         </div>
-        <MDXRemote {...prayer.source} components={components} />
+        <MDXRemote
+          {...prayer.source}
+          components={components}
+          scope={{ calendar }}
+        />
       </div>
       <div className="section">
         <GoBackButton />
