@@ -6,7 +6,7 @@ import InfoForToday from 'components/layout/InfoForToday';
 import { CustomPrayersList } from 'components/layout/CustomPrayersList';
 import { CUSTOM_PRAYERS_PATH, customPrayersFilePaths } from 'utils/mdxUtils';
 import { getCalendarData } from 'utils/date';
-import { getCustomPrayerDataFromMeta } from 'utils/getCustomPrayerDataFromMeta';
+import { getPrayerDataFromMeta } from 'utils/getPrayerDataFromMeta';
 
 export default function CustomPrayersIndex({ prayers }) {
   const calendar = getCalendarData();
@@ -24,7 +24,7 @@ export function getStaticProps() {
       const source = fs.readFileSync(path.join(CUSTOM_PRAYERS_PATH, filePath));
       const { content, data } = matter(source);
 
-      const prayerData = getCustomPrayerDataFromMeta({ meta: data, filePath });
+      const prayerData = getPrayerDataFromMeta({ meta: data, filePath });
 
       return { content, data, ...prayerData };
     })

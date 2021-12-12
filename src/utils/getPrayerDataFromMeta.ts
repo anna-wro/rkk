@@ -40,11 +40,10 @@ export function getPrayerDataFromMeta({ meta, filePath }: PropsType) {
   const slug = filePath.replace('.mdx', '');
   const mappedType = TYPES[meta?.type] ?? TYPES['jutrznia'];
   const mappedDay = DAYS[meta?.day] ?? DAYS['poniedzialek'];
-  const isBasicType = !!BASIC_TYPES[meta?.type];
 
-  const ID = isBasicType
-    ? Number(`${meta?.week}${mappedDay.order}${mappedType.order}`)
-    : Number(`${meta?.date?.replace(/-/g, '') ?? '0'}${mappedType?.order}`);
+  const ID = meta?.date
+    ? Number(`${meta?.date?.replace(/-/g, '') ?? '0'}${mappedType?.order}`)
+    : Number(`${meta?.week}${mappedDay.order}${mappedType.order}`);
 
   return {
     slug,
