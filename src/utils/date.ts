@@ -52,9 +52,11 @@ export const getCalendarData = (): CalendarDataType => {
 };
 
 export const formatDate = (date: string) => {
-  const formattedDate = DateTime.fromISO(date)
-    .setLocale('pl')
-    .toLocaleString({ day: 'numeric', month: 'long' });
+  const dateTime = DateTime.fromISO(date);
+
+  const formattedDate = dateTime.isValid
+    ? dateTime.setLocale('pl').toLocaleString({ day: 'numeric', month: 'long' })
+    : null;
 
   return formattedDate;
 };
