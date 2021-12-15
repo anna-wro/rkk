@@ -42,7 +42,11 @@ export function getPrayerDataFromMeta({ meta, filePath }: PropsType) {
   const mappedDay = DAYS[meta?.day] ?? DAYS['poniedzialek'];
 
   const ID = meta?.date
-    ? Number(`${meta?.date?.replace(/-/g, '') ?? '0'}${mappedType?.order}`)
+    ? Number(
+        `${meta?.date?.substring(4).replace(/-/g, '') ?? '0'}${
+          mappedType?.order
+        }`,
+      )
     : Number(`${meta?.week}${mappedDay.order}${mappedType.order}`);
 
   return {
