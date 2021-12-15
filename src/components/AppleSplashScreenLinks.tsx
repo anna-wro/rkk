@@ -6,9 +6,8 @@ export const AppleSplashScreenLinks = () => {
       <meta name="apple-mobile-web-app-capable" content="yes" />
       {appleDeviceSpecsForLaunchImages.map((spec, index) => {
         return (
-          <>
+          <div key={index}>
             <link
-              key={`apple-splash-portrait-${index}-${spec.portrait.width}-${spec.portrait.height}`}
               rel="apple-touch-startup-image"
               href={`/pwa/apple-splash-${spec.portrait.width}-${spec.portrait.height}.jpg`}
               media={`(device-width: ${
@@ -20,7 +19,6 @@ export const AppleSplashScreenLinks = () => {
               }) and (orientation: portrait)`}
             />
             <link
-              key={`apple-splash-dark-portrait-${index}-${spec.portrait.width}-${spec.portrait.height}`}
               rel="apple-touch-startup-image"
               href={`/pwa/apple-splash-dark-${spec.portrait.width}-${spec.portrait.height}.jpg`}
               media={`(prefers-color-scheme: dark) and (device-width: ${
@@ -32,7 +30,6 @@ export const AppleSplashScreenLinks = () => {
               }) and (orientation: portrait)`}
             />
             <link
-              key={`apple-splash-landscape-${index}-${spec.portrait.width}-${spec.portrait.height}`}
               rel="apple-touch-startup-image"
               href={`/pwa/apple-splash-${spec.portrait.width}-${spec.portrait.height}.jpg`}
               media={`(device-width: ${
@@ -44,7 +41,6 @@ export const AppleSplashScreenLinks = () => {
               }) and (orientation: landscape)`}
             />
             <link
-              key={`apple-splash-dark-landscape-${index}-${spec.portrait.width}-${spec.portrait.height}`}
               rel="apple-touch-startup-image"
               href={`/pwa/apple-splash-dark-${spec.portrait.width}-${spec.portrait.height}.jpg`}
               media={`(prefers-color-scheme: dark) and (device-width: ${
@@ -55,7 +51,7 @@ export const AppleSplashScreenLinks = () => {
                 spec.scaleFactor
               }) and (orientation: landscape)`}
             />
-          </>
+          </div>
         );
       })}
     </>
