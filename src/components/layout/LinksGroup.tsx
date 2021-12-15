@@ -34,7 +34,7 @@ export function LinksGroup({
       <div className="pb-4 md:pb-6">
         {links?.map((link: LinkPropsType) => (
           <div key={link.ID} className="font-light">
-            <StyledLink href={link.slug} name={link.type} />
+            <StyledLink href={`/${link.slug}`} name={link.type} />
           </div>
         ))}
       </div>

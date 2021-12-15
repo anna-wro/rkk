@@ -1,3 +1,4 @@
+import React from 'react';
 import { appleDeviceSpecsForLaunchImages } from 'pwa-asset-generator';
 
 export const AppleSplashScreenLinks = () => {
@@ -6,7 +7,7 @@ export const AppleSplashScreenLinks = () => {
       <meta name="apple-mobile-web-app-capable" content="yes" />
       {appleDeviceSpecsForLaunchImages.map((spec, index) => {
         return (
-          <div key={index}>
+          <React.Fragment key={index}>
             <link
               rel="apple-touch-startup-image"
               href={`/pwa/apple-splash-${spec.portrait.width}-${spec.portrait.height}.jpg`}
@@ -51,7 +52,7 @@ export const AppleSplashScreenLinks = () => {
                 spec.scaleFactor
               }) and (orientation: landscape)`}
             />
-          </div>
+          </React.Fragment>
         );
       })}
     </>

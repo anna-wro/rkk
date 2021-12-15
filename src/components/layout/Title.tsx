@@ -7,13 +7,15 @@ export default function Title() {
   return (
     <div className="flex items-center">
       <Link href="/" passHref>
-        <Image
-          src={logo}
-          alt={copy.logoAlt}
-          width="100"
-          height="100"
-          className="cursor-pointer"
-        />
+        <div>
+          <Image
+            src={logo}
+            alt={copy.logoAlt}
+            width="100"
+            height="100"
+            className="cursor-pointer"
+          />
+        </div>
       </Link>
       <div className="ml-2">
         <Link href="/" passHref>
