@@ -1,10 +1,15 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Head from 'next/head';
 import Title from 'components/layout/Title';
 
 import copy from 'consts/copy';
 
-export default function Layout({ children }) {
+type LayoutPropsType = Readonly<{
+  children: React.ReactNode;
+  title?: string;
+}>;
+
+export default function Layout({ children, title }: LayoutPropsType) {
   useEffect(() => {
     if (
       typeof window !== 'undefined' &&
@@ -19,7 +24,7 @@ export default function Layout({ children }) {
   return (
     <div className="py-4">
       <Head>
-        <title>{copy.title}</title>
+        <title>{title ?? copy.title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
