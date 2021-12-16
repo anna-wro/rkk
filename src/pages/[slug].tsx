@@ -16,7 +16,7 @@ export default function PrayerPage({ prayer }) {
   useWakeLock();
 
   return (
-    <Layout>
+    <Layout title={prayer?.meta?.title}>
       <Prayer prayer={prayer} />
     </Layout>
   );
