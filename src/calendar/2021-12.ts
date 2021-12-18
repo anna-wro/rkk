@@ -149,7 +149,9 @@ export const December2021: CalendarType = [
     notes: ['[HTML]Fryderyka von Schulte[HTML] w. i teo.'],
     vespers: {
       antiphon:
-        'O Korzeniu Jessego, / który się wznosisz jako znak dla narodów, przed Tobą zamilkną królowie, a ludy modlić się będą do Ciebie; / przyjdź nas wyzwolić, już dłużej nie zwlekaj.',
+               'O Adonai, Wodzu Izraela, / Tyś w krzaku gorejącym objawił się Mojżeszowi / i na Synaju dałeś mu Prawo; / przyjdź nas wyzwolić swym potężnym ramieniem.',
+
+
     },
   },
   {
