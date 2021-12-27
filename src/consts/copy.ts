@@ -6,8 +6,8 @@ export const copy = {
   secondWeekTitle: 'Tydzień drugi',
   logoAlt: 'logo Kościoła',
   chevronImageAlt: 'chevron',
-  seeLessInfo: 'ukryj informacje',
   seeMoreInfo: 'więcej informacji',
+  seeLessInfo: 'ukryj informacje',
   sundayReadings:
     'Dzisiejsze czytania znajdziesz również na [HTML]naszej stronie.[HTML]',
   appName: 'Oficjum',
