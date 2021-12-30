@@ -3,11 +3,10 @@ import type { CalendarType } from './calendar';
 export const January2022: CalendarType = [
   {
     date: '2022-01-01',
-    week: 1,
+    week: 2,
     season: 'christmas',
-    passages: [],
-    holidays: ['OKTAWA NARODZENIA PAŃSKIEGO'],
-    notes: [],
+    passages: ['Iz 9, 1-3, 5-6', 'Ps 8', 'Flp 2, 1-11', 'Łk 2, 21-24'],
+    holidays: ['NADANIE IMIENIA JEZUSOWI'],
     lauds: {
       sigla: 'Iz 7, 14',
       passage:
@@ -24,16 +23,44 @@ export const January2022: CalendarType = [
     ],
   },
   {
+    date: '2022-01-02',
+    week: 1,
+    season: 'christmas',
+    passages: ['Syr 24, 1-2, 8-12', 'Ps 147', 'Ef 1, 3-6, 15-18', 'J 1, 1-18'],
+    holidays: ['2. NIEDZIELA PO NARODZENIU PAŃSKIM'],
+    notes: [
+      '[HTML]Bazylego Wielkiego[HTML] bp',
+      '[HTML]Grzegorza z Nazjanzu[HTML] bp',
+    ],
+  },
+  {
+    date: '2022-01-03',
+    week: 1,
+    season: 'christmas',
+    passages: ['1 J 2, 29-3, 6', 'Ps 98', 'J 1, 29-34'],
+    notes: ['[HTML]Mariana Piątkowskiego[HTML] prezb.'],
+  },
+  {
+    date: '2022-01-04',
+    week: 1,
+    season: 'christmas',
+    passages: ['1 J 3, 7-10', 'Ps 98', 'J 1, 35-42'],
+    notes: ['[HTML]Grzegorza z Langres[HTML] bp'],
+  },
+  {
     date: '2022-01-05',
     week: 1,
     season: 'christmas',
-
+    passages: ['1 J 3, 11-21', 'Ps 100', 'J 1, 43-51'],
+    notes: ['[HTML]Synkletyki[HTML] mn.'],
     links: [{ name: 'wigilia Epifanii', slug: 'epifania-wigilia' }],
   },
   {
     date: '2022-01-06',
     week: 1,
     season: 'christmas',
+    holidays: ['EPIFANIA'],
+    passages: ['Iz 60, 1-6', 'Ps 72', 'Ef 3, 2-3a, 5-6', 'Mt 2, 1-12'],
     lauds: {
       sigla: 'Iz 52, 7-10',
       passage:
@@ -53,6 +80,8 @@ export const January2022: CalendarType = [
     date: '2022-01-07',
     week: 1,
     season: 'christmas',
+    holidays: ['OKTAWA EPIFANII'],
+    passages: ['1 J 3, 22-4, 6', 'Ps 2', 'Mt 4, 12-17, 23-25'],
     lauds: {
       sigla: 'Iz 9, 5',
       passage:
@@ -72,6 +101,8 @@ export const January2022: CalendarType = [
     date: '2022-01-08',
     week: 1,
     season: 'christmas',
+    holidays: ['OKTAWA EPIFANII'],
+    passages: ['1 J 4, 7-10', 'Ps 72', 'Mk 6, 34-44'],
     lauds: {
       sigla: 'Iz 60, 1-3',
       passage:
@@ -89,6 +120,13 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-09',
+    holidays: ['NIEDZIELA W OKTAWIE EPIFANII'],
+    passages: [
+      '1 Sm 1, 20-22, 24-28',
+      'Ps 84',
+      '1 J 3, 1-2, 21-24',
+      'Łk 2, 41-52',
+    ],
     week: 2,
     season: 'christmas',
     lauds: {
@@ -114,6 +152,8 @@ export const January2022: CalendarType = [
     date: '2022-01-10',
     week: 2,
     season: 'christmas',
+    passages: ['1 J 4, 19-5, 4', 'Ps 72', 'Łk 4, 14-22a'],
+    holidays: ['OKTAWA EPIFANII'],
     lauds: {
       sigla: '1 J 5, 1',
       passage:
@@ -133,6 +173,8 @@ export const January2022: CalendarType = [
     date: '2022-01-11',
     week: 2,
     season: 'christmas',
+    holidays: ['OKTAWA EPIFANII'],
+    passages: ['1 J 5, 5-13', 'Ps 147', 'Łk 5, 12-16'],
     lauds: {
       sigla: '1 J 4, 9',
       passage:
@@ -150,6 +192,8 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-12',
+    passages: ['1 J 5, 14-21', 'Ps 149', 'J 3, 22-30'],
+    holidays: ['OKTAWA EPIFANII'],
     week: 2,
     season: 'christmas',
     lauds: {
@@ -166,11 +210,14 @@ export const January2022: CalendarType = [
       { name: 'jutrznia', slug: 'epifania-jutrznia' },
       { name: 'nieszpory', slug: 'epifania-nieszpory' },
     ],
+    notes: ['[HTML]Elreda z Rievaulx[HTML] mn.'],
   },
   {
     date: '2022-01-13',
     week: 2,
     season: 'christmas',
+    holidays: ['UROCZYSTOŚĆ CHRZTU PAŃSKIEGO'],
+    passages: ['Iz 42, 1-7', 'Ps 29', 'Dz 10, 34-38', 'Łk 3, 15-16, 21-22'],
     lauds: {
       sigla: 'Iz 42, 1-4',
       passage:
@@ -185,6 +232,23 @@ export const January2022: CalendarType = [
       { name: 'jutrznia', slug: 'epifania-jutrznia' },
       { name: 'nieszpory', slug: 'epifania-nieszpory' },
     ],
+    notes: ['[HTML]Hilarego[HTML] bp i teo'],
+  },
+  {
+    date: '2022-01-14',
+    week: 2,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-15',
+    week: 2,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
   },
   {
     date: '2022-01-16',
@@ -198,5 +262,125 @@ export const January2022: CalendarType = [
       antiphon:
         'Pierwszy z cudownych znaków * uczynił Jezus w Kanie Galilejskiej. / Ukazał swą chwałę. / Jego uczniowie uwierzyli w Niego.',
     },
+  },
+  {
+    date: '2022-01-17',
+    week: 1,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-18',
+    week: 1,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-19',
+    week: 1,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-20',
+    week: 1,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-21',
+    week: 1,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-22',
+    week: 1,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-23',
+    week: 2,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-24',
+    week: 2,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-25',
+    week: 2,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-26',
+    week: 2,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-27',
+    week: 2,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-28',
+    week: 2,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-29',
+    week: 2,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-30',
+    week: 1,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
+  },
+  {
+    date: '2022-01-31',
+    week: 1,
+    season: 'christmas',
+    passages: [],
+    holidays: [],
+    notes: ['[HTML] [HTML]'],
   },
 ];
