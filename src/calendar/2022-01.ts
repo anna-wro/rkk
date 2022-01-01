@@ -3,7 +3,7 @@ import type { CalendarType } from './calendar';
 export const January2022: CalendarType = [
   {
     date: '2022-01-01',
-    week: 2,
+    week: 1,
     season: 'christmas',
     passages: ['Iz 9, 1-3, 5-6', 'Ps 8', 'Flp 2, 1-11', 'Łk 2, 21-24'],
     holidays: ['NADANIE IMIENIA JEZUSOWI'],
@@ -24,7 +24,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-02',
-    week: 1,
+    week: 2,
     season: 'christmas',
     passages: ['Syr 24, 1-2, 8-12', 'Ps 147', 'Ef 1, 3-6, 15-18', 'J 1, 1-18'],
     holidays: ['2. NIEDZIELA PO NARODZENIU PAŃSKIM'],
@@ -35,21 +35,21 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-03',
-    week: 1,
+    week: 2,
     season: 'christmas',
     passages: ['1 J 2, 29-3, 6', 'Ps 98', 'J 1, 29-34'],
     notes: ['[HTML]Mariana Piątkowskiego[HTML] prezb.'],
   },
   {
     date: '2022-01-04',
-    week: 1,
+    week: 2,
     season: 'christmas',
     passages: ['1 J 3, 7-10', 'Ps 98', 'J 1, 35-42'],
     notes: ['[HTML]Grzegorza z Langres[HTML] bp'],
   },
   {
     date: '2022-01-05',
-    week: 1,
+    week: 2,
     season: 'christmas',
     passages: ['1 J 3, 11-21', 'Ps 100', 'J 1, 43-51'],
     notes: ['[HTML]Synkletyki[HTML] mn.'],
@@ -57,7 +57,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-06',
-    week: 1,
+    week: 2,
     season: 'christmas',
     holidays: ['EPIFANIA'],
     passages: ['Iz 60, 1-6', 'Ps 72', 'Ef 3, 2-3a, 5-6', 'Mt 2, 1-12'],
@@ -78,7 +78,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-07',
-    week: 1,
+    week: 2,
     season: 'christmas',
     holidays: ['OKTAWA EPIFANII'],
     passages: ['1 J 3, 22-4, 6', 'Ps 2', 'Mt 4, 12-17, 23-25'],
@@ -99,7 +99,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-08',
-    week: 1,
+    week: 2,
     season: 'christmas',
     holidays: ['OKTAWA EPIFANII'],
     passages: ['1 J 4, 7-10', 'Ps 72', 'Mk 6, 34-44'],
@@ -238,22 +238,22 @@ export const January2022: CalendarType = [
     date: '2022-01-14',
     week: 2,
     season: 'christmas',
-    passages: [],
-    holidays: [],
-    notes: ['[HTML] [HTML]'],
+    passages: ['1 Sm 8, 4-7, 10-22a', 'Ps 89', 'Mk 2, 1-12'],
+    notes: ['[HTML]Nino[HTML] ap'],
   },
   {
     date: '2022-01-15',
     week: 2,
     season: 'christmas',
-    passages: [],
-    holidays: [],
-    notes: ['[HTML] [HTML]'],
+    passages: ['1 Sm 9, 1-4, 17-19; 10, 1', 'Ps 21', 'Mk 2, 13-17'],
+    notes: ['[HTML]Marcina Lutra Kinga[HTML] m.'],
   },
   {
     date: '2022-01-16',
     week: 2,
     season: 'christmas',
+    holidays: ['NIEDZIELA CUDU W KANIE'],
+    passages: ['Iz 62, 1-5', 'Ps 96', '1 Kor 12, 4-11', 'J 2, 1-11'],
     vespers: {
       antiphon:
         'Kiedy zabrakło wina, * Jezus kazał napełnić stągwie wodą, / a ona stała się winem, / alleluja.',
@@ -269,7 +269,7 @@ export const January2022: CalendarType = [
     season: 'christmas',
     passages: [],
     holidays: [],
-    notes: ['[HTML] [HTML]'],
+    notes: ['[HTML] [HTML] mn.', '[HTML] [HTML] mn.'],
   },
   {
     date: '2022-01-18',
