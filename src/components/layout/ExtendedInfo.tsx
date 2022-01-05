@@ -8,17 +8,20 @@ import StyledLink from './StyledLink';
 export function ExtendedInfo({ data }: { data: CalendarDataType }) {
   const { dayOfWeek } = getCurrentDate();
   const [intro, linkToReadings] = copy.sundayReadings.split('[HTML]');
-  const linksToDisplay = [
-    ...(data?.links?.length > 0 ? data.links : []),
-    ...(data?.holidays?.length > 0
-      ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino' }]
-      : []),
-  ];
-  const hasLinks = linksToDisplay.length > 0;
 
   const [passages, setPassages] = useState([]);
+  const [linksToDisplay, setLinksToDisplay] = useState([]);
+  const hasLinks = linksToDisplay.length > 0;
 
-  useEffect(() => setPassages(data?.passages), [data]);
+  useEffect(() => {
+    setPassages(data?.passages);
+    setLinksToDisplay([
+      ...(data?.links?.length > 0 ? data.links : []),
+      ...(data?.holidays?.length > 0
+        ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino' }]
+        : []),
+    ]);
+  }, [data]);
 
   return (
     <div>
