@@ -32,6 +32,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
               <StyledLink
                 href={`https://wbiblii.pl/szukaj/${passage}`}
                 name={passage}
+                internal={false}
               />
             </li>
           ))}
@@ -41,11 +42,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
             <div>{formatCalendarNotes(copy.linksTitle)}</div>
             {linksToDisplay.map((link, index) => (
               <li key={index}>
-                <StyledLink
-                  name={link.name}
-                  href={link.slug}
-                  internal={false}
-                />
+                <StyledLink name={link.name} href={link.slug} />
               </li>
             ))}
           </ul>
