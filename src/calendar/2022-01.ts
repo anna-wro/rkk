@@ -216,7 +216,7 @@ export const January2022: CalendarType = [
     date: '2022-01-13',
     week: 2,
     season: 'christmas',
-    holidays: ['UROCZYSTOŚĆ CHRZTU PAŃSKIEGO'],
+    holidays: ['EPIFANIA NAD JORDANEM'],
     passages: ['Iz 42, 1-7', 'Ps 29', 'Dz 10, 34-38', 'Łk 3, 15-16, 21-22'],
     lauds: {
       sigla: 'Iz 42, 1-4',
@@ -252,7 +252,7 @@ export const January2022: CalendarType = [
     date: '2022-01-16',
     week: 2,
     season: 'christmas',
-    holidays: ['NIEDZIELA CUDU W KANIE'],
+    holidays: ['EPIFANIA W KANIE'],
     passages: ['Iz 62, 1-5', 'Ps 96', '1 Kor 12, 4-11', 'J 2, 1-11'],
     vespers: {
       antiphon:
