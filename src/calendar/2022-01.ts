@@ -122,10 +122,10 @@ export const January2022: CalendarType = [
     date: '2022-01-09',
     holidays: ['NIEDZIELA W OKTAWIE EPIFANII'],
     passages: [
-      '1 Sm 1, 20-22, 24-28',
-      'Ps 84',
-      '1 J 3, 1-2, 21-24',
-      'Łk 2, 41-52',
+      'Iz 2, 1-5',
+      'Ps 98',
+      'Rz 10, 9-18',
+      'Mt 2, 13-15. 19-23',
     ],
     week: 1,
     season: 'christmas',
@@ -216,7 +216,7 @@ export const January2022: CalendarType = [
     date: '2022-01-13',
     week: 1,
     season: 'christmas',
-    holidays: ['UROCZYSTOŚĆ CHRZTU PAŃSKIEGO'],
+    holidays: ['EPIFANIA NAD JORDANEM'],
     passages: ['Iz 42, 1-7', 'Ps 29', 'Dz 10, 34-38', 'Łk 3, 15-16, 21-22'],
     lauds: {
       sigla: 'Iz 42, 1-4',
@@ -252,7 +252,7 @@ export const January2022: CalendarType = [
     date: '2022-01-16',
     week: 2,
     season: 'christmas',
-    holidays: ['NIEDZIELA CUDU W KANIE'],
+    holidays: ['EPIFANIA W KANIE'],
     passages: ['Iz 62, 1-5', 'Ps 96', '1 Kor 12, 4-11', 'J 2, 1-11'],
     vespers: {
       antiphon:
