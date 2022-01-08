@@ -123,7 +123,7 @@ export const January2022: CalendarType = [
     holidays: ['NIEDZIELA W OKTAWIE EPIFANII'],
     passages: [
       'Iz 2, 1-5',
-      'Ps 98 (97), 1bcde. 2-3b. 3c-4 (R.: por. 3cd)',
+      'Ps 98',
       'Rz 10, 9-18',
       'Mt 2, 13-15. 19-23',
     ],
