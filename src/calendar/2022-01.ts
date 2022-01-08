@@ -127,7 +127,7 @@ export const January2022: CalendarType = [
       '1 J 3, 1-2, 21-24',
       'Łk 2, 41-52',
     ],
-    week: 2,
+    week: 1,
     season: 'christmas',
     lauds: {
       sigla: '1 J 1, 5',
@@ -150,7 +150,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-10',
-    week: 2,
+    week: 1,
     season: 'christmas',
     passages: ['1 J 4, 19-5, 4', 'Ps 72', 'Łk 4, 14-22a'],
     holidays: ['OKTAWA EPIFANII'],
@@ -171,7 +171,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-11',
-    week: 2,
+    week: 1,
     season: 'christmas',
     holidays: ['OKTAWA EPIFANII'],
     passages: ['1 J 5, 5-13', 'Ps 147', 'Łk 5, 12-16'],
@@ -194,7 +194,7 @@ export const January2022: CalendarType = [
     date: '2022-01-12',
     passages: ['1 J 5, 14-21', 'Ps 149', 'J 3, 22-30'],
     holidays: ['OKTAWA EPIFANII'],
-    week: 2,
+    week: 1,
     season: 'christmas',
     lauds: {
       sigla: 'Rz 11, 33-36',
@@ -214,7 +214,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-13',
-    week: 2,
+    week: 1,
     season: 'christmas',
     holidays: ['UROCZYSTOŚĆ CHRZTU PAŃSKIEGO'],
     passages: ['Iz 42, 1-7', 'Ps 29', 'Dz 10, 34-38', 'Łk 3, 15-16, 21-22'],
@@ -236,14 +236,14 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-14',
-    week: 2,
+    week: 1,
     season: 'christmas',
     passages: ['1 Sm 8, 4-7, 10-22a', 'Ps 89', 'Mk 2, 1-12'],
     notes: ['[HTML]Nino[HTML] ap'],
   },
   {
     date: '2022-01-15',
-    week: 2,
+    week: 1,
     season: 'christmas',
     passages: ['1 Sm 9, 1-4, 17-19; 10, 1', 'Ps 21', 'Mk 2, 13-17'],
     notes: ['[HTML]Marcina Lutra Kinga[HTML] m.'],
@@ -265,7 +265,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-17',
-    week: 1,
+    week: 2,
     season: 'christmas',
     passages: [],
     holidays: [],
@@ -273,7 +273,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-18',
-    week: 1,
+    week: 2,
     season: 'christmas',
     passages: [],
     holidays: [],
@@ -281,7 +281,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-19',
-    week: 1,
+    week: 2,
     season: 'christmas',
     passages: [],
     holidays: [],
@@ -289,7 +289,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-20',
-    week: 1,
+    week: 2,
     season: 'christmas',
     passages: [],
     holidays: [],
@@ -297,7 +297,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-21',
-    week: 1,
+    week: 2,
     season: 'christmas',
     passages: [],
     holidays: [],
@@ -313,7 +313,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-23',
-    week: 2,
+    week: 1,
     season: 'christmas',
     passages: [],
     holidays: [],
@@ -321,7 +321,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-24',
-    week: 2,
+    week: 1,
     season: 'christmas',
     passages: [],
     holidays: [],
@@ -329,7 +329,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-25',
-    week: 2,
+    week: 1,
     season: 'christmas',
     passages: [],
     holidays: [],
@@ -337,7 +337,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-26',
-    week: 2,
+    week: 1,
     season: 'christmas',
     passages: [],
     holidays: [],
@@ -345,7 +345,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-27',
-    week: 2,
+    week: 1,
     season: 'christmas',
     passages: [],
     holidays: [],
@@ -353,7 +353,7 @@ export const January2022: CalendarType = [
   },
   {
     date: '2022-01-28',
-    week: 2,
+    week: 1,
     season: 'christmas',
     passages: [],
     holidays: [],
