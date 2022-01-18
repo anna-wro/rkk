@@ -6,7 +6,7 @@ export const ChristianUnityWeek = () => (
       Modlitwa Wspólnoty Chemin Neuf o Jedność Chrześcijan
     </div>
     <V>
-      {`Panie Jezu, który modliłeś się, aby wszyscy byli jedno prosimy Cię o jedność chrześcijan taką, jakiej Ty chcesz, poprzez środki jakie Ty wybierasz. 
+      {`Panie Jezu, który modliłeś się, aby wszyscy byli jedno, prosimy Cię o jedność chrześcijan taką, jakiej Ty chcesz, poprzez środki, jakie Ty wybierasz. 
       Niech Twój Duch Święty da nam doświadczyć cierpienia podziałów, zobaczyć nasz grzech i mieć nadzieję ponad wszelką nadzieję. `}
     </V>
     <R>Amen.</R>
