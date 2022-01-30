@@ -30,7 +30,12 @@ export type CalendarDayType = Readonly<{
   };
 }>;
 
-export type SeasonType = 'ordinary' | 'advent' | 'christmas' | 'lent';
+export type SeasonType =
+  | 'ordinary'
+  | 'advent'
+  | 'christmas'
+  | 'lent'
+  | 'easter';
 
 export type CalendarType = ReadonlyArray<CalendarDayType>;
 
