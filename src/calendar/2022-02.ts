@@ -7,6 +7,7 @@ export const February2022: CalendarType = [
     season: 'christmas',
     passages: ['2 Sm 18, 9-10, 14b, 24-25a, 30-19, 3', 'Ps 86', 'Mk 5, 21-43'],
     notes: ['[HTML]Brygidy z Kildare[HTML] mn.'],
+    links: [{ name: 'wigilia Hypapante', slug: 'hypapante-wigilia' }],
   },
   {
     date: '2022-02-02',
@@ -14,6 +15,10 @@ export const February2022: CalendarType = [
     season: 'christmas',
     passages: ['Ml 3, 1-4', 'Ps 24', 'Hbr 2, 14-18', 'Łk 2, 22-40'],
     holidays: ['HYPAPANTE'],
+    links: [
+      { name: 'jutrznia', slug: 'hypapante-jutrznia' },
+      { name: 'nieszpory', slug: 'hypapante-nieszpory' },
+    ],
   },
   {
     date: '2022-02-03',
