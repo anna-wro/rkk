@@ -40,6 +40,10 @@ export const March2022: CalendarType = [
     season: 'lent',
     passages: ['Pwt 26, 4-10', 'Ps 91', 'Rz 10, 8-13', 'Łk 4, 1-13'],
     holidays: ['1. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
+    eve: {
+      antiphon:
+        'Nie samym chlebem żyje człowiek, * lecz każdym słowem, / które pochodzi z ust Bożych.',
+    },
   },
   {
     date: '2022-03-07',
@@ -142,6 +146,10 @@ export const March2022: CalendarType = [
     season: 'lent',
     passages: ['Wj 17, 3-7', 'Ps 95', 'Rz 5, 1-2, 5-8', 'J 4, 5-42'],
     holidays: ['3. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
+    eve: {
+      antiphon:
+        'Usprawiedliwieni przez wiarę * żyjmy w pokoju z Bogiem / przez naszego Pana, Jezusa Chrystusa.',
+    },
   },
   {
     date: '2022-03-21',

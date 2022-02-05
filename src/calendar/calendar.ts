@@ -28,6 +28,9 @@ export type CalendarDayType = Readonly<{
     passage?: string;
     antiphon?: string;
   };
+  eve?: {
+    antiphon?: string;
+  };
 }>;
 
 export type SeasonType =
