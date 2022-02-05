@@ -40,9 +40,17 @@ export const March2022: CalendarType = [
     season: 'lent',
     passages: ['Pwt 26, 4-10', 'Ps 91', 'Rz 10, 8-13', 'Łk 4, 1-13'],
     holidays: ['1. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
+    lauds: {
+      antiphon:
+        'Duch wyprowadził Jezusa na pustynię, * aby kuszony był przez diabła. / A gdy przepościł czterdzieści dni i nocy, / głód wielki potem odczuwał.',
+    },
     eve: {
       antiphon:
         'Nie samym chlebem żyje człowiek, * lecz każdym słowem, / które pochodzi z ust Bożych.',
+    },
+    vespers: {
+      antiphon:
+        'Czuwaj nad nami, o Zbawicielu, * by nas nie pochwycił przebiegły kusiciel; / Ty bowiem jesteś naszą odwieczną pomocą.',
     },
   },
   {
@@ -149,6 +157,14 @@ export const March2022: CalendarType = [
     eve: {
       antiphon:
         'Usprawiedliwieni przez wiarę * żyjmy w pokoju z Bogiem / przez naszego Pana, Jezusa Chrystusa.',
+    },
+    lauds: {
+      antiphon:
+        'Pan mówi: * kto będzie pił wodę, którą Ja mu dam, / nie będzie pragnął na wieki.',
+    },
+    vespers: {
+      antiphon:
+        'Wierzymy i jesteśmy przekonani, * że Chrystus jest prawdziwie Zbawicielem świata.',
     },
   },
   {
