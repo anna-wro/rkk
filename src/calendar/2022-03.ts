@@ -40,6 +40,18 @@ export const March2022: CalendarType = [
     season: 'lent',
     passages: ['Pwt 26, 4-10', 'Ps 91', 'Rz 10, 8-13', 'Łk 4, 1-13'],
     holidays: ['1. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
+    lauds: {
+      antiphon:
+        'Duch wyprowadził Jezusa na pustynię, * aby kuszony był przez diabła. / A gdy przepościł czterdzieści dni i nocy, / głód wielki potem odczuwał.',
+    },
+    eve: {
+      antiphon:
+        'Nie samym chlebem żyje człowiek, * lecz każdym słowem, / które pochodzi z ust Bożych.',
+    },
+    vespers: {
+      antiphon:
+        'Czuwaj nad nami, o Zbawicielu, * by nas nie pochwycił przebiegły kusiciel; / Ty bowiem jesteś naszą odwieczną pomocą.',
+    },
   },
   {
     date: '2022-03-07',
@@ -91,6 +103,18 @@ export const March2022: CalendarType = [
       'Łk 9, 28b-36',
     ],
     holidays: ['2. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
+    eve: {
+      antiphon:
+        'Odezwał się głos z obłoku: * To jest mój Syn umiłowany, / w którym mam upodobanie, / Jego słuchajcie.',
+    },
+    lauds: {
+      antiphon:
+        'Nasz Pan, Jezus Chrystus, śmierć zniweczył * i przez Ewangelię dał nam światło życia wiecznego.',
+    },
+    vespers: {
+      antiphon:
+        'Nie mówcie nikomu o tym widzeniu, * aż Syn Człowieczy zmartwychwstanie.',
+    },
   },
   {
     date: '2022-03-14',
@@ -142,6 +166,18 @@ export const March2022: CalendarType = [
     season: 'lent',
     passages: ['Wj 17, 3-7', 'Ps 95', 'Rz 5, 1-2, 5-8', 'J 4, 5-42'],
     holidays: ['3. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
+    eve: {
+      antiphon:
+        'Usprawiedliwieni przez wiarę * żyjmy w pokoju z Bogiem / przez naszego Pana, Jezusa Chrystusa.',
+    },
+    lauds: {
+      antiphon:
+        'Pan mówi: * kto będzie pił wodę, którą Ja mu dam, / nie będzie pragnął na wieki.',
+    },
+    vespers: {
+      antiphon:
+        'Wierzymy i jesteśmy przekonani, * że Chrystus jest prawdziwie Zbawicielem świata.',
+    },
   },
   {
     date: '2022-03-21',
@@ -186,7 +222,18 @@ export const March2022: CalendarType = [
     season: 'lent',
     passages: ['1 Sm 16, 1b, 6-7, 10-13a', 'Ps 23', 'Ef 5, 8-14', 'J 9, 1-41'],
     holidays: ['4. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
-    notes: ['[HTML][HTML] '],
+    eve: {
+      antiphon:
+        'Niegdyś byliście ciemnością, * lecz teraz jesteście światłością w Panu.',
+    },
+    lauds: {
+      antiphon:
+        'Panie, kto zawinił, * ten człowiek, czy jego rodzice, że się urodził niewidomy? / Jezus odpowiedział: Ani on nie zawinił, ani jego rodzice: / ale stało się tak, aby się na nim objawiły sprawy Boże.',
+    },
+    vespers: {
+      antiphon:
+        'Człowiek imieniem Jezus * pomazał mi oczy błotem, / i kazał mi się obmyć, i teraz widzę.',
+    },
   },
   {
     date: '2022-03-28',
