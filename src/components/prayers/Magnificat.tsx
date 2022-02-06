@@ -9,16 +9,19 @@ type MagnificatType = Readonly<{
 
 export const Magnificat = ({ antiphon, isEve }: MagnificatType) => {
   const calendar = getCalendarData();
+  const getAntiphonToDisplay = () => {
+    if (isEve) {
+      return calendar?.eve?.antiphon ?? antiphon;
+    }
+    return calendar?.vespers?.antiphon ?? antiphon;
+  };
+  const antiphonToDisplay = getAntiphonToDisplay();
 
   return (
     <>
       <Section sigla="Łk 1, 46-55">Pieśń Maryi</Section>
       <Canticle
-        antiphon={
-          isEve
-            ? calendar?.eve?.antiphon
-            : calendar?.vespers?.antiphon ?? antiphon
-        }
+        antiphon={antiphonToDisplay}
         versicles={[
           `† Wielbi dusza moja Pana *
          i raduje się duch mój w Bogu, Zbawicielu moim.`,
