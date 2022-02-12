@@ -90,7 +90,7 @@ export const February2022: CalendarType = [
     date: '2022-02-13',
     week: 2,
     season: 'ordinary',
-    passages: ['Jr 17, 5-8', 'Ps 1', '1 Kor 15, 12.16-20', 'Łk 6, 17, 20-26'],
+    passages: ['Jr 17, 5-8', 'Ps 1', '1 Kor 15, 12.16-20', 'Łk 6, 17.20-26'],
     holidays: ['6. NIEDZIELA PO EPIFANII'],
     notes: ['[HTML][HTML] '],
   },
@@ -138,7 +138,7 @@ export const February2022: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: [
-      '1 Sm 26, 2, 7-9, 12-13, 22-23',
+      '1 Sm 26, 2.7-9.12-13.22-23',
       'Ps 103',
       '1 Kor 15, 45-49',
       'Łk 6, 27-38',
