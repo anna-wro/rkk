@@ -5,6 +5,8 @@ import { December2021 } from './2021-12';
 import { January2022 } from './2022-01';
 import { February2022 } from './2022-02';
 import { March2022 } from './2022-03';
+import { April2022 } from './2022-04';
+import { May2022 } from './2022-05';
 
 export type CalendarDayType = Readonly<{
   date: string;
@@ -38,6 +40,7 @@ export type SeasonType =
   | 'advent'
   | 'christmas'
   | 'lent'
+  | 'pascha'
   | 'easter';
 
 export type CalendarType = ReadonlyArray<CalendarDayType>;
@@ -50,4 +53,6 @@ export const calendar: CalendarType = [
   ...January2022,
   ...February2022,
   ...March2022,
+  ...April2022,
+  ...May2022,
 ];
