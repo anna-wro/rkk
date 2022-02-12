@@ -5,7 +5,7 @@ export const April2022: CalendarType = [
     date: '2022-04-01',
     week: 2,
     season: 'lent',
-    passages: ['Mdr 2, 1a, 12-22', 'Ps 34', 'J 7, 1-2, 10, 25-30'],
+    passages: ['Mdr 2, 1a. 12-22', 'Ps 34', 'J 7, 1-2. 10. 25-30'],
     notes: [
       '[HTML]Marii Egipcjanki[HTML] mn.',
       '[HTML]Melitona z Sardes[HTML] bp.',
@@ -30,7 +30,7 @@ export const April2022: CalendarType = [
     week: 1,
     season: 'lent',
     notes: ['[HTML]Izydora z Sewilli[HTML] bp.'],
-    passages: ['Dn 13, 1-9, 15-17, 19-30, 33-62', 'Ps 23', 'J 8, 1-11'],
+    passages: ['Dn 13, 1-9. 15-17. 19-30. 33-62', 'Ps 23', 'J 8, 1-11'],
   },
   {
     date: '2022-04-05',
@@ -42,7 +42,7 @@ export const April2022: CalendarType = [
     date: '2022-04-06',
     week: 1,
     season: 'lent',
-    passages: ['Dn 3, 14-20, 91-92, 95', 'Dn 3', 'J 8, 31-42'],
+    passages: ['Dn 3, 14-20. 91-92. 95', 'Dn 3', 'J 8, 31-42'],
     notes: ['[HTML]Jacquesa Fescha[HTML] w.'],
   },
   {
@@ -92,7 +92,7 @@ export const April2022: CalendarType = [
     week: 2,
     season: 'pascha',
     holidays: ['WIELKI WTOREK'],
-    passages: ['Iz 49, 1-6', 'Ps 71', 'J 13, 21-33, 36-38'],
+    passages: ['Iz 49, 1-6', 'Ps 71', 'J 13, 21-33. 36-38'],
   },
   {
     date: '2022-04-13',
@@ -106,7 +106,7 @@ export const April2022: CalendarType = [
     week: 2,
     season: 'pascha',
     holidays: ['WIELKI CZWARTEK'],
-    passages: ['Iz 61, 1-3a, 6a, 8b-9', 'Ps 89', 'Ap 1, 5-8', 'Łk 4, 16-21'], // FIXME: passages for the liturgy
+    passages: ['Iz 61, 1-3a.6a.8b-9', 'Ps 89', 'Ap 1, 5-8', 'Łk 4, 16-21'], // FIXME: passages for the liturgy
   },
   {
     date: '2022-04-15',
@@ -130,7 +130,7 @@ export const April2022: CalendarType = [
     ],
     passages: [
       'Rdz 1, 1-2, 2',
-      'Ps 104 (103) 1-2a. 5-6. 10 . 12 13-14. 24 . 35c',
+      'Ps 104 (103), 1-2a. 5-6. 10 . 12. 13-14. 24 . 35c',
       'Rdz 22, 1-18',
       'Ps 16 (15), 5 . 8. 9-10. 11',
       'Wj 14, 15-15, 1',
@@ -152,7 +152,7 @@ export const April2022: CalendarType = [
     week: 2,
     season: 'pascha',
     holidays: ['PASCHA'],
-    passages: ['Dz 10, 34a, 37-43', 'Ps 118', '1 Kor 5,6-8', 'J 20, 1-9'],
+    passages: ['Dz 10, 34a. 37-43', 'Ps 118', '1 Kor 5,6-8', 'J 20, 1-9'],
     notes: [
       'Wieczorem kończy się Triduum Paschalna i rozpoczyna się Oktawa Paschalna',
     ],
@@ -162,7 +162,7 @@ export const April2022: CalendarType = [
     week: 2,
     season: 'pascha',
     holidays: ['PONIEDZIAŁEK PASCHALNY'],
-    passages: ['Dz 2, 14, 22-33', 'Ps 16', 'Mt 28, 8-15'],
+    passages: ['Dz 2, 14. 22-33', 'Ps 16', 'Mt 28, 8-15'],
   },
   {
     date: '2022-04-19',
@@ -208,7 +208,7 @@ export const April2022: CalendarType = [
     passages: [
       'Dz 5, 12-16',
       'Ps 118',
-      'Ap 1, 9-11a, 12-13, 17-19',
+      'Ap 1, 9-11a. 12-13. 17-19',
       'J 20, 19-31',
     ],
   },
