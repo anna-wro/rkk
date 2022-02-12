@@ -11,7 +11,7 @@ export const March2022: CalendarType = [
     date: '2022-03-02',
     week: 2,
     season: 'lent',
-    passages: ['Jl 2, 12-18', 'Ps 51', '2 Kor 5, 20-6, 2', 'Mt 6, 1-6, 16-18'],
+    passages: ['Jl 2, 12-18', 'Ps 51', '2 Kor 5, 20-6, 2', 'Mt 6, 1-6.16-18'],
     holidays: ['ŚRODA POPIELCOWA'],
   },
   {
@@ -57,7 +57,7 @@ export const March2022: CalendarType = [
     date: '2022-03-07',
     week: 1,
     season: 'lent',
-    passages: ['Kpł 19, 1-2, 11-18', 'Ps 19', 'Mt 25, 31-46'],
+    passages: ['Kpł 19, 1-2. 11-18', 'Ps 19', 'Mt 25, 31-46'],
     notes: ['[HTML]Perpetuy i Felicyty[HTML] m.'],
   },
   {
@@ -97,7 +97,7 @@ export const March2022: CalendarType = [
     week: 2,
     season: 'lent',
     passages: [
-      'Rdz 15, 5-12, 17-18',
+      'Rdz 15, 5-12. 17-18',
       'Ps 27',
       'Flp 3, 17–4, 1',
       'Łk 9, 28b-36',
@@ -126,7 +126,7 @@ export const March2022: CalendarType = [
     date: '2022-03-15',
     week: 2,
     season: 'lent',
-    passages: ['Iz 1, 10, 16-20', 'Ps 50', 'Mt 23, 1-12'],
+    passages: ['Iz 1, 10. 16-20', 'Ps 50', 'Mt 23, 1-12'],
   },
   {
     date: '2022-03-16',
@@ -145,7 +145,7 @@ export const March2022: CalendarType = [
     date: '2022-03-18',
     week: 2,
     season: 'lent',
-    passages: ['Rdz 37, 3-4, 12-13a, 17b-28a', 'Ps 105', 'Mt 21, 33-43, 45-46'],
+    passages: ['Rdz 37, 3-4. 12-13a. 17b-28a', 'Ps 105', 'Mt 21, 33-43. 45-46'],
     notes: ['[HTML]Cyryla Jerozolimskiego[HTML] bp. teo.'],
   },
   {
@@ -153,10 +153,10 @@ export const March2022: CalendarType = [
     week: 2,
     season: 'lent',
     passages: [
-      '2 Sm 7, 4-5a, 12-14a, 16',
+      '2 Sm 7, 4-5a. 12-14a. 16',
       'Ps 89',
-      'Rz 4, 13, 16-18, 22',
-      'Mt 1, 16, 18-21, 24',
+      'Rz 4, 13. 16-18. 22',
+      'Mt 1, 16. 18-21. 24',
     ],
     holidays: ['JÓZEFA Z NAZARETU'],
   },
@@ -164,7 +164,7 @@ export const March2022: CalendarType = [
     date: '2022-03-20',
     week: 1,
     season: 'lent',
-    passages: ['Wj 17, 3-7', 'Ps 95', 'Rz 5, 1-2, 5-8', 'J 4, 5-42'],
+    passages: ['Wj 17, 3-7', 'Ps 95', 'Rz 5, 1-2.5-8', 'J 4, 5-42'],
     holidays: ['3. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
     eve: {
       antiphon:
@@ -189,13 +189,13 @@ export const March2022: CalendarType = [
     date: '2022-03-22',
     week: 1,
     season: 'lent',
-    passages: ['Dn 3, 25, 34-43', 'Ps 25', 'Mt 18, 21-35'],
+    passages: ['Dn 3, 25. 34-43', 'Ps 25', 'Mt 18, 21-35'],
   },
   {
     date: '2022-03-23',
     week: 1,
     season: 'lent',
-    passages: ['Pwt 4, 1, 5-9', 'Ps 147', 'Mt 5, 17-19'],
+    passages: ['Pwt 4, 1. 5-9', 'Ps 147', 'Mt 5, 17-19'],
   },
   {
     date: '2022-03-24',
@@ -220,7 +220,7 @@ export const March2022: CalendarType = [
     date: '2022-03-27',
     week: 2,
     season: 'lent',
-    passages: ['1 Sm 16, 1b, 6-7, 10-13a', 'Ps 23', 'Ef 5, 8-14', 'J 9, 1-41'],
+    passages: ['1 Sm 16, 1b. 6-7.10-13a', 'Ps 23', 'Ef 5, 8-14', 'J 9, 1-41'],
     holidays: ['4. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
     eve: {
       antiphon:
@@ -245,7 +245,7 @@ export const March2022: CalendarType = [
     date: '2022-03-29',
     week: 2,
     season: 'lent',
-    passages: ['Ez 47, 1-9, 12', 'Ps 46', 'J 5, 1-3a, 5-16'],
+    passages: ['Ez 47, 1-9. 12', 'Ps 46', 'J 5, 1-3a. 5-16'],
   },
   {
     date: '2022-03-30',
