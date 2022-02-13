@@ -24,6 +24,17 @@ export const April2022: CalendarType = [
     season: 'lent',
     holidays: ['5. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
     passages: ['Ez 37, 12-14', 'Ps 130', 'Rz 8, 8-11', 'J 11, 1-45'],
+    eve: {
+      antiphon:
+        'Jeśli ziarno pszenicy * nie wpadnie w ziemię i nie obumrze, / zostanie tylko samo; / lecz jeśli obumrze, / przynosi plon obfity.',
+    },
+    lauds: {
+      antiphon: 'Zasnął przyjaciel nasz Łazarz, * lecz idę, aby go obudzić.',
+    },
+    vespers: {
+      antiphon:
+        'Panie, gdybyś był tutaj, Łazarz by nie umarł, * ale ja i tak wierzę, że jesteś Synem Bożym.',
+    },
   },
   {
     date: '2022-04-04',
