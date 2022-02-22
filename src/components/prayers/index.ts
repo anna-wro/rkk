@@ -20,3 +20,4 @@ export { Note } from './Note';
 export { Or } from './Or';
 export { PsalmSectionTitle } from './PsalmSectionTitle';
 export { Antiphon } from './Antiphon';
+export { PrayerForPeace } from './PrayerForPeace';
