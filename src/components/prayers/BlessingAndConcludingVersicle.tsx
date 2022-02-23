@@ -1,4 +1,4 @@
-import { V, R } from './index';
+import { V, R, PrayerForPeace } from './index';
 import { getCalendarData } from 'utils/date';
 
 export const BlessingAndConcludingVersicle = () => {
@@ -19,6 +19,7 @@ export const BlessingAndConcludingVersicle = () => {
       )}
       <V>Pomoc Boża niech będzie zawsze z nami.</V>
       <R>I z naszymi braćmi i siostrami nieobecnymi. Amen.</R>
+      <PrayerForPeace />
     </div>
   );
 };

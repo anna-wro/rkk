@@ -1,4 +1,4 @@
-import { V, R } from './index';
+import { V, R, PrayerForPeace } from './index';
 
 type PropsType = Readonly<{
   variant: 1 | 2;
@@ -15,6 +15,7 @@ export const ComplineBlessingAndConcludingVersicle = ({
           : 'Niech nas błogosławi i strzeże Bóg wszechmogący i miłosierny: Ojciec i Syn, i Duch Święty, a pokój Pański niech zawsze będzie z nami.'}
       </V>
       <R>Amen.</R>
+      <PrayerForPeace />
     </div>
   );
 };
