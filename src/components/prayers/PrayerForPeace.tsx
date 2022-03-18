@@ -5,10 +5,10 @@ export const PrayerForPeace = () => {
     <div className="mt-5 space-y-2">
       <p>
         <b>Wszechmogący Boże,</b> powierzamy Tobie bezpieczeństwo tych, którzy
-        żyją w sąsiedztwie wojny i konfliktów, oraz zagrożonych ich
-        rozpoczęciem. Pamiętajmy w tym szczególnym momencie o ludziach z Europy
-        Wschodniej, Ukrainy i Rosji. Modlimy się o pokojowe rozwiązanie tego
-        konfliktu.
+        przebywają na obszarach objętych wojną lub konfliktami oraz zagrożonych
+        ich rozpoczęciem lub eskalacją. Pamiętajmy w tym szczególnym momencie o
+        ludziach z Europy Wschodniej, Ukrainy i Rosji. Modlimy się o pokojowe
+        rozwiązanie tego konfliktu.
       </p>
       <p>
         Natchnij nasze serca do gościnności i opieki, a przebacz naszą wrogość i
