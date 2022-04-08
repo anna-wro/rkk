@@ -3,7 +3,8 @@ import { getCalendarData } from 'utils/date';
 
 export const OpeningVersicle = () => {
   const calendar = getCalendarData();
-  const displayAlleluia = calendar?.season !== 'lent';
+  const displayAlleluia =
+    calendar?.season !== 'lent' && calendar?.season !== 'pascha';
 
   return (
     <>

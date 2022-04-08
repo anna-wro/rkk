@@ -90,6 +90,11 @@ export const April2022: CalendarType = [
       'Flp 2, 6-11',
       'Łk 22, 14-23, 56',
     ],
+    links: [
+      { name: 'wigilia', slug: 'niedziela-palmowa-wigilia' },
+      { name: 'jutrznia', slug: 'niedziela-palmowa-jutrznia' },
+      { name: 'nieszpory', slug: 'niedziela-palmowa-nieszpory' },
+    ],
   },
   {
     date: '2022-04-11',
