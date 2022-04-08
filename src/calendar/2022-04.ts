@@ -94,6 +94,7 @@ export const April2022: CalendarType = [
       { name: 'wigilia', slug: 'niedziela-palmowa-wigilia' },
       { name: 'jutrznia', slug: 'niedziela-palmowa-jutrznia' },
       { name: 'nieszpory', slug: 'niedziela-palmowa-nieszpory' },
+      { name: 'kompleta', slug: 'niedziela-palmowa-kompleta' },
     ],
   },
   {
@@ -102,6 +103,11 @@ export const April2022: CalendarType = [
     holidays: ['WIELKI PONIEDZIAŁEK'],
     season: 'pascha',
     passages: ['Iz 42, 1-7', 'Ps 27', 'J 12, 1-11'],
+    links: [
+      { name: 'jutrznia', slug: 'wielki-poniedzialek-jutrznia' },
+      { name: 'nieszpory', slug: 'wielki-poniedzialek-nieszpory' },
+      { name: 'kompleta', slug: 'wielki-poniedzialek-kompleta' },
+    ],
   },
   {
     date: '2022-04-12',
@@ -109,6 +115,11 @@ export const April2022: CalendarType = [
     season: 'pascha',
     holidays: ['WIELKI WTOREK'],
     passages: ['Iz 49, 1-6', 'Ps 71', 'J 13, 21-33. 36-38'],
+    links: [
+      { name: 'jutrznia', slug: 'wielki-wtorek-jutrznia' },
+      { name: 'nieszpory', slug: 'wielki-wtorek-nieszpory' },
+      { name: 'kompleta', slug: 'wielki-wtorek-kompleta' },
+    ],
   },
   {
     date: '2022-04-13',
@@ -116,6 +127,11 @@ export const April2022: CalendarType = [
     season: 'pascha',
     holidays: ['WIELKA ŚRODA'],
     passages: ['Iz 50, 4-9a', 'Ps 69', 'Mt 26, 14-25'],
+    links: [
+      { name: 'jutrznia', slug: 'wielka-sroda-jutrznia' },
+      { name: 'nieszpory', slug: 'wielka-sroda-nieszpory' },
+      { name: 'kompleta', slug: 'wielka-sroda-kompleta' },
+    ],
   },
   {
     date: '2022-04-14',
@@ -123,6 +139,11 @@ export const April2022: CalendarType = [
     season: 'pascha',
     holidays: ['WIELKI CZWARTEK'],
     passages: ['Iz 61, 1-3a.6a.8b-9', 'Ps 89', 'Ap 1, 5-8', 'Łk 4, 16-21'], // FIXME: passages for the liturgy
+    links: [
+      { name: 'jutrznia', slug: 'wielki-czwartek-jutrznia' },
+      { name: 'wigilia Wielkiego Piątku', slug: 'wielki-piatek-wigilia' },
+      { name: 'kompleta', slug: 'wielki-piatek-kompleta-1' },
+    ],
   },
   {
     date: '2022-04-15',
@@ -134,6 +155,12 @@ export const April2022: CalendarType = [
       'Ps 31',
       'Hbr 4, 14-16; 5, 7-9',
       'J 18, 1-19, 42',
+    ],
+    links: [
+      { name: 'jutrznia', slug: 'wielki-piatek-jutrznia' },
+      { name: 'godzina czytań', slug: 'wielki-piatek-godzina-czytań' },
+      { name: 'nieszpory', slug: 'wielki-piatek-nieszpory' },
+      { name: 'kompleta', slug: 'wielki-piatek-kompleta-2' },
     ],
   },
   {
@@ -162,6 +189,13 @@ export const April2022: CalendarType = [
       'Ps 118 (117), 1-2. 16-17. 22-23',
       'Łk 24, 1-12',
     ],
+    links: [
+      { name: 'jutrznia', slug: 'wielka-sobota-jutrznia' },
+      { name: 'godzina czytań', slug: 'wielka-sobota-godzina-czytań' },
+      { name: 'w ciągu dnia', slug: 'wielka-sobota-w-ciagu-dnia' },
+      { name: 'nieszpory', slug: 'wielka-sobota-nieszpory' },
+      { name: 'kompleta', slug: 'wielka-sobota-kompleta' },
+    ],
   },
   {
     date: '2022-04-17',
@@ -172,6 +206,10 @@ export const April2022: CalendarType = [
     notes: [
       'Wieczorem kończy się Triduum Paschalna i rozpoczyna się Oktawa Paschalna',
     ],
+    links: [
+      { name: 'jutrznia', slug: 'niedziela-zmartwychwstania-jutrznia' },
+      { name: 'nieszpory', slug: 'niedziela-zmartwychwstania-nieszpory' },
+    ],
   },
   {
     date: '2022-04-18',
@@ -179,6 +217,10 @@ export const April2022: CalendarType = [
     season: 'pascha',
     holidays: ['PONIEDZIAŁEK PASCHALNY'],
     passages: ['Dz 2, 14. 22-33', 'Ps 16', 'Mt 28, 8-15'],
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
+    ],
   },
   {
     date: '2022-04-19',
@@ -186,6 +228,10 @@ export const April2022: CalendarType = [
     season: 'pascha',
     holidays: ['WTOREK PASCHALNY'],
     passages: ['Dz 2, 36-41', 'Ps 33', 'J 20, 11-18'],
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
+    ],
   },
   {
     date: '2022-04-20',
@@ -193,6 +239,10 @@ export const April2022: CalendarType = [
     season: 'pascha',
     holidays: ['ŚRODA PASCHALNA'],
     passages: ['Dz 3, 1-10', 'Ps 105', 'Łk 24, 13-35'],
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
+    ],
   },
   {
     date: '2022-04-21',
@@ -200,6 +250,10 @@ export const April2022: CalendarType = [
     season: 'pascha',
     holidays: ['CZWARTEK PASCHALNY'],
     passages: ['Dz 3, 11-26', 'Ps 8', 'Łk 24, 35-48'],
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
+    ],
   },
   {
     date: '2022-04-22',
@@ -207,6 +261,10 @@ export const April2022: CalendarType = [
     season: 'pascha',
     holidays: ['PIĄTEK PASCHALNY'],
     passages: ['Dz 4, 1-12', 'Ps 118', 'J 21, 1-14'],
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
+    ],
   },
   {
     date: '2022-04-23',
@@ -215,6 +273,10 @@ export const April2022: CalendarType = [
     holidays: ['SOBOTA PASCHALNA'],
     passages: ['Dz 4, 13-21', 'Ps 118', 'Mk 16, 9-15'],
     notes: ['[HTML]Wojciecha[HTML] bp. i m.'],
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
+    ],
   },
   {
     date: '2022-04-24',
@@ -226,6 +288,10 @@ export const April2022: CalendarType = [
       'Ps 118',
       'Ap 1, 9-11a. 12-13. 17-19',
       'J 20, 19-31',
+    ],
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
     ],
   },
   {
