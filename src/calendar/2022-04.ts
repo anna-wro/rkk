@@ -94,6 +94,7 @@ export const April2022: CalendarType = [
       { name: 'wigilia', slug: 'niedziela-palmowa-wigilia' },
       { name: 'jutrznia', slug: 'niedziela-palmowa-jutrznia' },
       { name: 'nieszpory', slug: 'niedziela-palmowa-nieszpory' },
+      { name: 'kompleta', slug: 'niedziela-palmowa-kompleta' },
     ],
   },
   {
@@ -105,6 +106,7 @@ export const April2022: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'wielki-poniedzialek-jutrznia' },
       { name: 'nieszpory', slug: 'wielki-poniedzialek-nieszpory' },
+      { name: 'kompleta', slug: 'wielki-poniedzialek-kompleta' },
     ],
   },
   {
@@ -116,6 +118,7 @@ export const April2022: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'wielki-wtorek-jutrznia' },
       { name: 'nieszpory', slug: 'wielki-wtorek-nieszpory' },
+      { name: 'kompleta', slug: 'wielki-wtorek-kompleta' },
     ],
   },
   {
@@ -127,6 +130,7 @@ export const April2022: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'wielka-sroda-jutrznia' },
       { name: 'nieszpory', slug: 'wielka-sroda-nieszpory' },
+      { name: 'kompleta', slug: 'wielka-sroda-kompleta' },
     ],
   },
   {
@@ -138,6 +142,7 @@ export const April2022: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'wielki-czwartek-jutrznia' },
       { name: 'wigilia Wielkiego Piątku', slug: 'wielki-piatek-wigilia' },
+      { name: 'kompleta', slug: 'wielki-piatek-kompleta-1' },
     ],
   },
   {
@@ -155,6 +160,7 @@ export const April2022: CalendarType = [
       { name: 'jutrznia', slug: 'wielki-piatek-jutrznia' },
       { name: 'godzina czytań', slug: 'wielki-piatek-godzina-czytań' },
       { name: 'nieszpory', slug: 'wielki-piatek-nieszpory' },
+      { name: 'kompleta', slug: 'wielki-piatek-kompleta-2' },
     ],
   },
   {
@@ -188,6 +194,7 @@ export const April2022: CalendarType = [
       { name: 'godzina czytań', slug: 'wielka-sobota-godzina-czytań' },
       { name: 'w ciągu dnia', slug: 'wielka-sobota-w-ciagu-dnia' },
       { name: 'nieszpory', slug: 'wielka-sobota-nieszpory' },
+      { name: 'kompleta', slug: 'wielka-sobota-kompleta' },
     ],
   },
   {
