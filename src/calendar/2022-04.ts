@@ -92,9 +92,10 @@ export const April2022: CalendarType = [
     ],
     links: [
       { name: 'wigilia', slug: 'niedziela-palmowa-wigilia' },
+      { name: 'kompleta', slug: 'niedziela-palmowa-kompleta-1' },
       { name: 'jutrznia', slug: 'niedziela-palmowa-jutrznia' },
       { name: 'nieszpory', slug: 'niedziela-palmowa-nieszpory' },
-      { name: 'kompleta', slug: 'niedziela-palmowa-kompleta' },
+      { name: 'kompleta', slug: 'niedziela-palmowa-kompleta-2' },
     ],
   },
   {
