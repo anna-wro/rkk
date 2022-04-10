@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
@@ -11,9 +12,17 @@ import { getCalendarData } from 'utils/date';
 export default function Home({ prayers }) {
   const calendar = getCalendarData();
 
+  // TODO add Banner component
   return (
     <Layout>
       {calendar && <InfoForToday data={calendar} />}
+      {calendar?.date === '2022-04-10' && (
+        <img
+          src="/banners/palm-sunday.jpg"
+          className="mt-6"
+          alt="Niedziela Palmowa"
+        />
+      )}
       <PrayersList prayers={prayers} />
     </Layout>
   );
