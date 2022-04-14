@@ -139,10 +139,11 @@ export const April2022: CalendarType = [
     week: 2,
     season: 'pascha',
     holidays: ['WIELKI CZWARTEK'],
-    passages: ['Iz 61, 1-3a.6a.8b-9', 'Ps 89', 'Ap 1, 5-8', 'Łk 4, 16-21'], // FIXME: passages for the liturgy
+    passages: ['Iz 61, 1-3a.6a.8b-9', 'Ps 89', 'Ap 1, 5-8', 'Łk 4, 16-21'],
     links: [
       { name: 'jutrznia', slug: 'wielki-czwartek-jutrznia' },
       { name: 'wigilia Wielkiego Piątku', slug: 'wielki-piatek-wigilia' },
+      { name: 'godzina czytań', slug: 'wielki-piatek-godzina-czytan' },
       { name: 'kompleta', slug: 'wielki-piatek-kompleta-1' },
     ],
   },
@@ -159,7 +160,7 @@ export const April2022: CalendarType = [
     ],
     links: [
       { name: 'jutrznia', slug: 'wielki-piatek-jutrznia' },
-      { name: 'godzina czytań', slug: 'wielki-piatek-godzina-czytań' },
+      { name: 'godzina czytań', slug: 'wielki-piatek-godzina-czytan' },
       { name: 'nieszpory', slug: 'wielki-piatek-nieszpory' },
       { name: 'kompleta', slug: 'wielki-piatek-kompleta-2' },
     ],
@@ -168,7 +169,7 @@ export const April2022: CalendarType = [
     date: '2022-04-16',
     week: 2,
     season: 'pascha',
-    holidays: ['WIELKA SOBOTA'],
+    holidays: ['WIGILIA PASCHALNA'],
     notes: [
       'Tego dnia sprawuje się wyłącznie Liturgię Godzin. Po zmroku rozpoczyna się Wigilia Paschalna',
     ],
@@ -190,12 +191,11 @@ export const April2022: CalendarType = [
       'Ps 118 (117), 1-2. 16-17. 22-23',
       'Łk 24, 1-12',
     ],
+    linksTitle: 'Wielka Sobota',
     links: [
       { name: 'jutrznia', slug: 'wielka-sobota-jutrznia' },
-      { name: 'godzina czytań', slug: 'wielka-sobota-godzina-czytań' },
+      { name: 'godzina czytań', slug: 'wielka-sobota-godzina-czytan' },
       { name: 'w ciągu dnia', slug: 'wielka-sobota-w-ciagu-dnia' },
-      { name: 'nieszpory', slug: 'wielka-sobota-nieszpory' },
-      { name: 'kompleta', slug: 'wielka-sobota-kompleta' },
     ],
   },
   {
@@ -208,6 +208,8 @@ export const April2022: CalendarType = [
       'Wieczorem kończy się Triduum Paschalna i rozpoczyna się Oktawa Paschalna',
     ],
     links: [
+      { name: 'nieszpory Wielkiej Soboty', slug: 'wielka-sobota-nieszpory' },
+      { name: 'kompleta', slug: 'wielka-sobota-kompleta' },
       { name: 'jutrznia', slug: 'niedziela-zmartwychwstania-jutrznia' },
       { name: 'nieszpory', slug: 'niedziela-zmartwychwstania-nieszpory' },
     ],
