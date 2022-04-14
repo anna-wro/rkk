@@ -23,6 +23,15 @@ export default function Home({ prayers }) {
           alt="Niedziela Palmowa"
         />
       )}
+      {(calendar?.date === '2022-04-14' ||
+        calendar?.date === '2022-04-15' ||
+        calendar?.date === '2022-04-16') && (
+        <img
+          src="/banners/triduum.jpg"
+          className="mt-6"
+          alt="Triduum Paschalne"
+        />
+      )}
       <PrayersList prayers={prayers} />
     </Layout>
   );
