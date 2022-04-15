@@ -201,7 +201,7 @@ export const April2022: CalendarType = [
   {
     date: '2022-04-17',
     week: 2,
-    season: 'pascha',
+    season: 'easter',
     holidays: ['PASCHA'],
     passages: ['Dz 10, 34a. 37-43', 'Ps 118', '1 Kor 5,6-8', 'J 20, 1-9'],
     notes: [
@@ -212,12 +212,13 @@ export const April2022: CalendarType = [
       { name: 'kompleta', slug: 'wielka-sobota-kompleta' },
       { name: 'jutrznia', slug: 'niedziela-zmartwychwstania-jutrznia' },
       { name: 'nieszpory', slug: 'niedziela-zmartwychwstania-nieszpory' },
+      { name: 'kompleta', slug: 'niedziela-zmartwychwstania-kompleta' },
     ],
   },
   {
     date: '2022-04-18',
     week: 2,
-    season: 'pascha',
+    season: 'easter',
     holidays: ['PONIEDZIAŁEK PASCHALNY'],
     passages: ['Dz 2, 14. 22-33', 'Ps 16', 'Mt 28, 8-15'],
     links: [
@@ -228,7 +229,7 @@ export const April2022: CalendarType = [
   {
     date: '2022-04-19',
     week: 2,
-    season: 'pascha',
+    season: 'easter',
     holidays: ['WTOREK PASCHALNY'],
     passages: ['Dz 2, 36-41', 'Ps 33', 'J 20, 11-18'],
     links: [
@@ -239,7 +240,7 @@ export const April2022: CalendarType = [
   {
     date: '2022-04-20',
     week: 2,
-    season: 'pascha',
+    season: 'easter',
     holidays: ['ŚRODA PASCHALNA'],
     passages: ['Dz 3, 1-10', 'Ps 105', 'Łk 24, 13-35'],
     links: [
@@ -250,7 +251,7 @@ export const April2022: CalendarType = [
   {
     date: '2022-04-21',
     week: 2,
-    season: 'pascha',
+    season: 'easter',
     holidays: ['CZWARTEK PASCHALNY'],
     passages: ['Dz 3, 11-26', 'Ps 8', 'Łk 24, 35-48'],
     links: [
@@ -261,7 +262,7 @@ export const April2022: CalendarType = [
   {
     date: '2022-04-22',
     week: 2,
-    season: 'pascha',
+    season: 'easter',
     holidays: ['PIĄTEK PASCHALNY'],
     passages: ['Dz 4, 1-12', 'Ps 118', 'J 21, 1-14'],
     links: [
@@ -272,7 +273,7 @@ export const April2022: CalendarType = [
   {
     date: '2022-04-23',
     week: 2,
-    season: 'pascha',
+    season: 'easter',
     holidays: ['SOBOTA PASCHALNA'],
     passages: ['Dz 4, 13-21', 'Ps 118', 'Mk 16, 9-15'],
     notes: ['[HTML]Wojciecha[HTML] bp. i m.'],
@@ -284,7 +285,7 @@ export const April2022: CalendarType = [
   {
     date: '2022-04-24',
     week: 1,
-    season: 'easter', // FIXME: discuss the naming - stay with Pascha in both cases?
+    season: 'easter',
     holidays: ['2. NIEDZIELA PASCHALNA'],
     passages: [
       'Dz 5, 12-16',
