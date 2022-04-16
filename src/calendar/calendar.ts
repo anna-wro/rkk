@@ -13,6 +13,7 @@ export type CalendarDayType = Readonly<{
   week: 1 | 2;
   season: SeasonType;
   holidays?: string[];
+  variant?: 1 | 2;
   links?: ReadonlyArray<{
     name: string;
     slug: string;
