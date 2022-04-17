@@ -225,7 +225,7 @@ export const April2022: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
-      { name: 'kompleta', slug: 'oktawa-paschalna-kompleta' },
+      { name: 'kompleta', slug: 'oktawa-paschalna-poniedzialek-kompleta' },
     ],
     variant: 1,
     lauds: {
@@ -252,7 +252,7 @@ export const April2022: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
-      { name: 'kompleta', slug: 'oktawa-paschalna-kompleta' },
+      { name: 'kompleta', slug: 'oktawa-paschalna-wtorek-kompleta' },
     ],
     variant: 2,
     lauds: {
@@ -278,7 +278,7 @@ export const April2022: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
-      { name: 'kompleta', slug: 'oktawa-paschalna-kompleta' },
+      { name: 'kompleta', slug: 'oktawa-paschalna-sroda-kompleta' },
     ],
     variant: 1,
     lauds: {
@@ -305,7 +305,7 @@ export const April2022: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
-      { name: 'kompleta', slug: 'oktawa-paschalna-kompleta' },
+      { name: 'kompleta', slug: 'oktawa-paschalna-czwartek-kompleta' },
     ],
     variant: 2,
     lauds: {
@@ -332,7 +332,7 @@ export const April2022: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
-      { name: 'kompleta', slug: 'oktawa-paschalna-kompleta' },
+      { name: 'kompleta', slug: 'oktawa-paschalna-piatek-kompleta' },
     ],
     variant: 1,
     lauds: {
@@ -360,7 +360,7 @@ export const April2022: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
-      { name: 'kompleta', slug: 'oktawa-paschalna-kompleta' },
+      { name: 'kompleta', slug: 'oktawa-paschalna-sobota-kompleta' },
     ],
     variant: 2,
     lauds: {
@@ -392,7 +392,7 @@ export const April2022: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
-      { name: 'kompleta', slug: 'oktawa-paschalna-kompleta' },
+      { name: 'kompleta', slug: 'oktawa-paschalna-niedziela-kompleta' },
     ],
     variant: 1,
     lauds: {
