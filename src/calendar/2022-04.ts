@@ -218,7 +218,7 @@ export const April2022: CalendarType = [
   },
   {
     date: '2022-04-18',
-    week: 2,
+    week: 1,
     season: 'easter',
     holidays: ['PONIEDZIAŁEK PASCHALNY'],
     passages: ['Dz 2, 14. 22-33', 'Ps 16', 'Mt 28, 8-15'],
@@ -245,7 +245,7 @@ export const April2022: CalendarType = [
   },
   {
     date: '2022-04-19',
-    week: 2,
+    week: 1,
     season: 'easter',
     holidays: ['WTOREK PASCHALNY'],
     passages: ['Dz 2, 36-41', 'Ps 33', 'J 20, 11-18'],
@@ -271,7 +271,7 @@ export const April2022: CalendarType = [
   },
   {
     date: '2022-04-20',
-    week: 2,
+    week: 1,
     season: 'easter',
     holidays: ['ŚRODA PASCHALNA'],
     passages: ['Dz 3, 1-10', 'Ps 105', 'Łk 24, 13-35'],
@@ -298,7 +298,7 @@ export const April2022: CalendarType = [
   },
   {
     date: '2022-04-21',
-    week: 2,
+    week: 1,
     season: 'easter',
     holidays: ['CZWARTEK PASCHALNY'],
     passages: ['Dz 3, 11-26', 'Ps 8', 'Łk 24, 35-48'],
@@ -325,7 +325,7 @@ export const April2022: CalendarType = [
   },
   {
     date: '2022-04-22',
-    week: 2,
+    week: 1,
     season: 'easter',
     holidays: ['PIĄTEK PASCHALNY'],
     passages: ['Dz 4, 1-12', 'Ps 118', 'J 21, 1-14'],
@@ -352,7 +352,7 @@ export const April2022: CalendarType = [
   },
   {
     date: '2022-04-23',
-    week: 2,
+    week: 1,
     season: 'easter',
     holidays: ['SOBOTA PASCHALNA'],
     passages: ['Dz 4, 13-21', 'Ps 118', 'Mk 16, 9-15'],
@@ -380,7 +380,7 @@ export const April2022: CalendarType = [
   },
   {
     date: '2022-04-24',
-    week: 1,
+    week: 2,
     season: 'easter',
     holidays: ['2. NIEDZIELA PASCHALNA'],
     passages: [
@@ -412,40 +412,40 @@ export const April2022: CalendarType = [
   },
   {
     date: '2022-04-25',
-    week: 1,
+    week: 2,
     season: 'easter',
     holidays: ['MARKA APOSTOŁA'],
     passages: ['1 P 5,5b-14', 'Ps 89', 'Mk 16, 15-20'],
   },
   {
     date: '2022-04-26',
-    week: 1,
+    week: 2,
     season: 'easter',
     passages: ['Dz 4, 32-37', 'Ps 93', 'J 3, 7b-15'],
   },
   {
     date: '2022-04-27',
-    week: 1,
+    week: 2,
     season: 'easter',
     passages: ['Dz 5, 17-26', 'Ps 34', 'J 3, 16-21'],
   },
   {
     date: '2022-04-28',
-    week: 1,
+    week: 2,
     season: 'easter',
     passages: ['Dz 5, 27-33', 'Ps 34', 'J 3, 31-36'],
     notes: ['[HTML]Joanny Beretty Molli [HTML] w.'],
   },
   {
     date: '2022-04-29',
-    week: 1,
+    week: 2,
     season: 'easter',
     passages: ['Dz 5, 34-42', 'Ps 27', 'J 6, 1-15'],
     notes: ['[HTML]Katarzyny ze Sieny [HTML] zak.'],
   },
   {
     date: '2022-04-30',
-    week: 1,
+    week: 2,
     season: 'easter',
     passages: ['Dz 6, 1-7', 'Ps 33', 'J 6, 16-21'],
     notes: ['[HTML]Jakuba z Paradyża [HTML] mn.'],
