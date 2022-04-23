@@ -1,7 +1,11 @@
 import { V, R, PrayerForPeace } from './index';
 import { getCalendarData } from 'utils/date';
 
-export const BlessingAndConcludingVersicle = () => {
+type PropsType = Readonly<{
+  withAlleluia?: boolean;
+}>;
+
+export const BlessingAndConcludingVersicle = ({ withAlleluia }: PropsType) => {
   const calendar = getCalendarData();
 
   return (
@@ -17,8 +21,16 @@ export const BlessingAndConcludingVersicle = () => {
           <R>Maranatha. Przyjdź Panie Jezu.</R>
         </div>
       )}
-      <V>Pomoc Boża niech będzie zawsze z nami.</V>
-      <R>I z naszymi braćmi i siostrami nieobecnymi. Amen.</R>
+      <V>
+        {`Pomoc Boża niech będzie zawsze z nami. ${
+          withAlleluia ? ' Alleluja.' : ''
+        }`}
+      </V>
+      <R>
+        {`I z naszymi braćmi i siostrami nieobecnymi. Amen. ${
+          withAlleluia ? ' Alleluja.' : ''
+        }`}
+      </R>
       <PrayerForPeace />
     </div>
   );
