@@ -21,9 +21,9 @@ export const getCurrentDate = () => {
   const dayOfWeek = dateNow.setLocale('pl').toFormat('cccc');
   const isSundayEve = dayOfWeek === 'sobota' && dateNow.hour >= 15;
 
-  if (isSundayEve) {
-    dateNow = dateNow.plus({ days: 1 });
-  }
+//   if (isSundayEve) {
+//     dateNow = dateNow.plus({ days: 1 });
+//   }
 
   return {
     dayOfWeek: isSundayEve ? 'niedziela' : dayOfWeek,
