@@ -15,6 +15,7 @@ export const May2022: CalendarType = [
     season: 'easter',
     passages: ['Dz 6, 8-15', 'Ps 119', 'J 6, 22-29'],
     notes: ['[HTML]Atanazego z Aleksandrii[HTML] bp. i teo.'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-03',
@@ -22,6 +23,7 @@ export const May2022: CalendarType = [
     season: 'easter',
     holidays: ['WSPOMNIENIE PIERWSZEGO NABOŻEŃSTWA RKK W POLSCE'],
     passages: ['Dz 7, 51-8,1a', 'Ps 31', 'J 6, 30-35'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-04',
@@ -29,12 +31,14 @@ export const May2022: CalendarType = [
     season: 'easter',
     passages: ['Dz 8, 1b-8', 'Ps 66', 'J 6, 35-40'],
     notes: ['[HTML]Michała Giedroycia[HTML] zak.'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-05',
     week: 1,
     season: 'easter',
     passages: ['Dz 8, 26-40', 'Ps 66', 'J 6, 44-51'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-06',
@@ -45,12 +49,14 @@ export const May2022: CalendarType = [
       '[HTML]Ewodiusza[HTML] bp.',
       '[HTML]Léona-Josepha Suenensa[HTML] bp.',
     ],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-07',
     week: 1,
     season: 'easter',
     passages: ['Dz 9, 31-42', 'Ps 116', 'J 6, 60-69'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-08',
@@ -59,12 +65,14 @@ export const May2022: CalendarType = [
     holidays: ['4. NIEDZIELA PASCHALNA'],
     passages: ['Dz 13, 14. 43-52', 'Ps 100', 'Ap 7, 9. 14b-17', 'J 10, 27-30'],
     notes: ['[HTML]Julianny z Norwich[HTML] mist.'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-09',
     week: 2,
     season: 'easter',
     passages: ['Dz 11, 1-18', 'Ps 42', 'J 10, 11-18'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-10',
@@ -72,24 +80,28 @@ export const May2022: CalendarType = [
     season: 'easter',
     passages: ['Dz 11, 19-26', 'Ps 87', 'J 10, 22-30'],
     notes: ['[HTML]Józefa Padewskiego-Podeszwy[HTML] bp. i m.'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-11',
     week: 2,
     season: 'easter',
     passages: ['Dz 12, 24-13, 5a ', 'Ps 67', 'J 12, 44-50'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-12',
     week: 2,
     season: 'easter',
     passages: ['Dz 13, 13-25', 'Ps 89', 'J 13, 16-20'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-13',
     week: 2,
     season: 'easter',
     passages: ['Dz 13, 26-33', 'Ps 2', 'J 14, 1-6'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-14',
@@ -97,6 +109,7 @@ export const May2022: CalendarType = [
     season: 'easter',
     holidays: ['MACIEJA APOSTOŁA'],
     passages: ['Dz 13, 44-52', 'Ps 98', 'J 14, 7-14'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-15',
@@ -104,12 +117,14 @@ export const May2022: CalendarType = [
     season: 'easter',
     holidays: ['5. NIEDZIELA PASCHALNA'],
     passages: ['Dz 14, 21-27', 'Ps 145', 'Ap 21, 1-5a', 'J 13, 31-33a. 34-35'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-16',
     week: 1,
     season: 'easter',
     passages: ['Dz 14, 5-18', 'Ps 115', 'J 14, 21-26'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-17',
@@ -117,25 +132,28 @@ export const May2022: CalendarType = [
     season: 'easter',
     passages: ['Dz 14, 19-28', 'Ps 145', 'J 14, 27-31a'],
     notes: ['[HTML]Junii ap.[HTML]', '[HTML]Andronika[HTML] ap.'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-18',
     week: 1,
     season: 'easter',
     passages: ['Dz 15, 1-6', 'Ps 122', 'J 15, 1-8'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-19',
     week: 1,
     season: 'easter',
     passages: ['Dz 15, 7-21 ', 'Ps 96', 'J 15, 9-11'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-20',
     week: 1,
     season: 'easter',
     passages: ['Dz 15, 22-31', 'Ps 57', 'J 15, 12-17'],
-
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
     notes: [
       '[HTML]I Sobór Ekumeniczny w Nicei[HTML]',
       'Tego dnia uroczyście odmawiamy Konstantynopolitańskie Wyznanie Wiary',
@@ -147,6 +165,7 @@ export const May2022: CalendarType = [
     season: 'easter',
     passages: ['Dz 16, 1-10', 'Ps 100', 'J 15, 18-21'],
     notes: ['[HTML]Jana Nepomucena[HTML] prezb. i m.'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-22',
@@ -160,12 +179,14 @@ export const May2022: CalendarType = [
       'J 14, 23-29',
     ],
     notes: ['[HTML]Rity[HTML] zak. i mist.'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-23',
     week: 2,
     season: 'easter',
     passages: ['Dz 16, 11-15', 'Ps 149', 'J 15, 26-16, 4a'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-24',
@@ -173,13 +194,14 @@ export const May2022: CalendarType = [
     season: 'easter',
     passages: ['Dz 16, 22-34', 'Ps 138', 'J 16, 5-11'],
     notes: ['[HTML]Wincentego z Lerynu[HTML] mn. i teo.'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-25',
     week: 2,
     season: 'easter',
     passages: ['Dz 17, 15, 22-18, 1', 'Ps 148', 'J 16, 12-15'],
-
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
     notes: ['[HTML]Bedy Czcigodneg[HTML] mn.'],
   },
   {
@@ -193,18 +215,21 @@ export const May2022: CalendarType = [
       '[HTML]Augustyna z Canterbury[HTML] bp.',
       '[HTML]Karpa z Berei[HTML] bp.',
     ],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-27',
     week: 2,
     season: 'pentecost',
     passages: ['Dz 18, 9-18', 'Ps 47', 'J 16, 20-23'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-28',
     week: 2,
     season: 'pentecost',
     passages: ['Dz 18, 23-28', 'Ps 47', 'J 16, 23b-28'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-29',
@@ -218,12 +243,14 @@ export const May2022: CalendarType = [
       'J 17, 20-26',
     ],
     notes: ['[HTML]Urszuli Ledóchowskiej[HTML] zak.'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-30',
     week: 1,
     season: 'pentecost',
     passages: ['Dz 19, 1-8', 'Ps 68', 'J 16, 29-33'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-31',
@@ -231,5 +258,6 @@ export const May2022: CalendarType = [
     season: 'pentecost',
     holidays: ['SPOTKANIE JEZUSA Z JANEM CHRZCICIELEM'],
     passages: ['Rz 12, 9-16', 'Iz 12', 'Łk 1, 39-56'],
+    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
 ];
