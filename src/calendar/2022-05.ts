@@ -230,6 +230,7 @@ export const May2022: CalendarType = [
     season: 'pentecost',
     passages: ['Dz 18, 23-28', 'Ps 47', 'J 16, 23b-28'],
     links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
+    notes: ['Świętych Kobiet Pielgrzymujących'],
   },
   {
     date: '2022-05-29',
