@@ -265,7 +265,6 @@ export const May2022: CalendarType = [
       'Ap 22, 12-14. 16-17. 20',
       'J 17, 20-26',
     ],
-    notes: ['[HTML]Urszuli Ledóchowskiej[HTML] zak.'],
     links: [
       { name: 'wigilia', slug: 'wniebowstapienie-nowenna-2-nieszpory' },
       { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-3-jutrznia' },
