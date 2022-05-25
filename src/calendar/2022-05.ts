@@ -201,7 +201,13 @@ export const May2022: CalendarType = [
     week: 2,
     season: 'easter',
     passages: ['Dz 17, 15, 22-18, 1', 'Ps 148', 'J 16, 12-15'],
-    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
+    links: [
+      {
+        name: 'Wniebowstąpienie Pańskie - wigilia',
+        slug: 'wniebowstapienie-panskie-wigilia',
+      },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+    ],
     notes: ['[HTML]Bedy Czcigodneg[HTML] mn.'],
   },
   {
@@ -215,21 +221,38 @@ export const May2022: CalendarType = [
       '[HTML]Augustyna z Canterbury[HTML] bp.',
       '[HTML]Karpa z Berei[HTML] bp.',
     ],
-    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
+    links: [
+      {
+        name: 'jutrznia',
+        slug: 'wniebowstapienie-panskie-jutrznia',
+      },
+      {
+        name: 'nieszpory',
+        slug: 'wniebowstapienie-panskie-nieszpory',
+      },
+      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+    ],
   },
   {
     date: '2022-05-27',
     week: 2,
     season: 'pentecost',
     passages: ['Dz 18, 9-18', 'Ps 47', 'J 16, 20-23'],
-    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
+    links: [
+      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-1-jutrznia' },
+      { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-1-nieszpory' },
+      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+    ],
   },
   {
     date: '2022-05-28',
     week: 2,
     season: 'pentecost',
     passages: ['Dz 18, 23-28', 'Ps 47', 'J 16, 23b-28'],
-    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
+    links: [
+      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-2-jutrznia' },
+      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+    ],
   },
   {
     date: '2022-05-29',
@@ -242,8 +265,13 @@ export const May2022: CalendarType = [
       'Ap 22, 12-14. 16-17. 20',
       'J 17, 20-26',
     ],
+    links: [
+      { name: 'wigilia', slug: 'wniebowstapienie-nowenna-2-nieszpory' },
+      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-3-jutrznia' },
+      { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-3-nieszpory' },
+      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+    ],
     notes: ['[HTML]Urszuli Ledóchowskiej[HTML] zak.', 'Świętych Kobiet Pielgrzymujących'],
-    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2022-05-30',
