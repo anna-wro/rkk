@@ -272,6 +272,7 @@ export const May2022: CalendarType = [
       { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-3-nieszpory' },
       { name: 'litanie maryjne', slug: 'litanie-maryjne' },
     ],
+    notes: ['[HTML]Urszuli Ledóchowskiej[HTML] zak.', 'Świętych Kobiet Pielgrzymujących'],
   },
   {
     date: '2022-05-30',
