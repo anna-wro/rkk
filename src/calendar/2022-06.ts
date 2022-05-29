@@ -7,6 +7,10 @@ export const June2022: CalendarType = [
     season: 'pentecost',
     passages: ['Dz 20, 28-38', 'Ps 68', 'J 17, 11b-19'],
     notes: ['[HTML]Justyna[HTML] m.'],
+    links: [
+      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-6-jutrznia' },
+      { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-6-nieszpory' },
+    ],
   },
   {
     date: '2022-06-02',
@@ -14,12 +18,20 @@ export const June2022: CalendarType = [
     season: 'pentecost',
     holidays: ['JORDANA'],
     passages: ['Iz 52, 7-10', 'Ps 19', '2 Kor 5, 14-20', 'Łk 5, 1-11'],
+    links: [
+      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-7-jutrznia' },
+      { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-7-nieszpory' },
+    ],
   },
   {
     date: '2022-06-03',
     week: 1,
     season: 'pentecost',
     passages: ['Dz 25, 13b-21', 'Ps 103', 'J 21, 15-19'],
+    links: [
+      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-8-jutrznia' },
+      { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-8-nieszpory' },
+    ],
   },
   {
     date: '2022-06-04',
@@ -27,6 +39,7 @@ export const June2022: CalendarType = [
     season: 'pentecost',
     holidays: ['WIGILIA PIĘĆDZIESIĄTNICY'],
     passages: ['Dz 28, 16-20. 30-31', 'Ps 11', 'J 21, 20-25'],
+    links: [{ name: 'jutrznia', slug: 'wniebowstapienie-nowenna-9-jutrznia' }],
   },
   {
     date: '2022-06-05',
@@ -35,6 +48,7 @@ export const June2022: CalendarType = [
     holidays: ['PIĘĆDZIESIĄTNICA'],
     passages: ['Dz 2, 1-11', 'Ps 104', '1 Kor 12, 3b-7. 12-13', 'J 20, 19-23'],
     notes: ['[HTML]Bonifacego Winfryda[HTML] bp.'],
+    // ADD: wigilia
   },
   {
     date: '2022-06-06',
