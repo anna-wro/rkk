@@ -48,7 +48,12 @@ export const June2022: CalendarType = [
     holidays: ['PIĘĆDZIESIĄTNICA'],
     passages: ['Dz 2, 1-11', 'Ps 104', '1 Kor 12, 3b-7. 12-13', 'J 20, 19-23'],
     notes: ['[HTML]Bonifacego Winfryda[HTML] bp.'],
-    // ADD: wigilia
+
+    links: [
+      { name: 'wigilia', slug: 'zeslanie-ducha-swietego-wigilia' },
+      { name: 'jutrznia', slug: 'zeslanie-ducha-swietego-jutrznia' },
+      { name: 'nieszpory', slug: 'zeslanie-ducha-swietego-nieszpory' },
+    ],
   },
   {
     date: '2022-06-06',
