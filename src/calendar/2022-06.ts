@@ -62,6 +62,21 @@ export const June2022: CalendarType = [
     holidays: ['OKTAWA PIĘĆDZIESIĄTNICY'],
     passages: ['Dz 10, 34. 42-48', 'Ps 87', 'J 3, 16-21'],
     notes: ['[HTML]Marii Karłowskiej[HTML] zak.'],
+    lauds: {
+      sigla: 'Rz 8, 14-16',
+      passage:
+        'Ci, których prowadzi Duch Boży, są synami Bożymi. Nie przyjęliście przecież ducha niewoli, aby trwać w lęku, ale przyjęliście Ducha, który czyni was dziećmi. W Nim wołamy: Abba, Ojcze! Właśnie ten Duch zaświadcza naszemu duchowi, że jesteśmy dziećmi Boga.',
+      antiphon:
+        'Bóg tak umiłował świat,* że Syna jednorodzonego wydał, / aby każdy wierzący w Niego nie zginął, / lecz otrzymał życie wieczne. / alleluja.',
+    },
+    vespers: {
+      sigla: 'Dz 2,2-4',
+      passage:
+        'Kiedy nadszedł dzień Pięćdziesiątnicy, byli wszyscy w tym samym miejscu. Nagle rozległ się szum z nieba, jakby gwałtownie wiejącego wiatru. I napełnił cały dom, w którym przebywali. Zobaczyli też języki podobne do ognia. Rozdzielały się one i na każdym z nich spoczął jeden. Wszystkich napełnił Duch Święty. Zaczęli mówić różnymi językami, tak jak im Duch pozwalał się wypowiadać.',
+      antiphon:
+        'Przybądź, Duchu Święty,* ześlij z nieba wzięty / światła Twego strumień. / Alleluja.',
+    },
+    variant: 1,
   },
   {
     date: '2022-06-07',
@@ -69,6 +84,21 @@ export const June2022: CalendarType = [
     season: 'pentecost',
     holidays: ['OKTAWA PIĘĆDZIESIĄTNICY'],
     passages: ['Dz 8, 14-17', 'Ps 33', 'J 10, 1-10'],
+    lauds: {
+      sigla: 'Ef 4,23-27',
+      passage:
+        'Pozwólcie się odnawiać Duchowi w waszym myśleniu i przyobleczcie się w nowego człowieka, stworzonego zamysłem Boga w sprawiedliwości i prawdziwej świętości. Dlatego odrzućcie kłamstwo i niech każdy mówi prawdę swemu bliźniemu, bo wszyscy tworzymy jedno. Gniewajcie się, ale nie grzeszcie: niech słońce nie zachodzi nad waszym gniewem. I nie dawajcie miejsca diabłu!',
+      antiphon:
+        'Chrystus jest bramą owiec * przyszedł, aby życie miały / i by miały bogato. / alleluja.',
+    },
+    vespers: {
+      sigla: '1Kor 2,9-12',
+      passage:
+        'Napisano bowiem: czego oko nie widziało ani ucho nie słyszało, w serce człowieka nie wstąpiło, to przygotował Bóg tym, którzy Go miłują. Bóg objawił nam to przez Ducha, a Duch przenika wszystko, nawet głębokości Boga. Któż bowiem wie, co kryje się w człowieku, jeśli nie duch człowieka, który w nim jest? Tak i Boga nikt by nie poznał, gdyby nie Duch Boży. My nie otrzymaliśmy ducha od świata, ale Ducha od Boga, aby poznać dary otrzymane od Boga.	',
+      antiphon:
+        'Przyjdź, Ojcze ubogich,* przyjdź, Dawco łask drogich, / przyjdź, Światłości sumień. / Alleluja.',
+    },
+    variant: 2,
   },
   {
     date: '2022-06-08',
@@ -76,6 +106,21 @@ export const June2022: CalendarType = [
     season: 'pentecost',
     holidays: ['OKTAWA PIĘĆDZIESIĄTNICY'],
     passages: ['Dz 2, 14-21', 'Ps 33', 'J 6, 44-52'],
+    lauds: {
+      sigla: '1 J 3,23-24',
+      passage:
+        'A to jest Jego przykazanie, abyśmy uwierzyli w imię Jego Syna Jezusa Chrystusai miłowali się wzajemnie zgodnie z przykazaniem, jakie nam dał. Kto więc przestrzega Jego przykazań, trwa w Bogu, a Bóg w nim. To, że Bóg w nas przebywa, rozpoznajemy dzięki Duchowi, którego nam dał.',
+      antiphon:
+        'Ja jestem chlebem żywym, który z nieba zstąpił. * Jeśli ktoś będzie z tego chleba spożywał, / na wieki żyć będzie. / alleluja.',
+    },
+    vespers: {
+      sigla: 'Rz 12,11-14',
+      passage:
+        'Nie traćcie gorliwości, bądźcie płomiennego ducha, służcie Panu. Radujcie się nadzieją, w ucisku bądźcie cierpliwi, w modlitwie wytrwali. Wspomagajcie świętych, przestrzegajcie gościnności. Błogosławcie tych, którzy was prześladują; błogosławcie, a nie złorzeczcie.	',
+      antiphon:
+        'Światłości najświętsza,* serc wierzących wnętrza poddaj Twej potędze. / Alleluja.',
+    },
+    variant: 1,
   },
   {
     date: '2022-06-09',
@@ -83,6 +128,21 @@ export const June2022: CalendarType = [
     season: 'pentecost',
     holidays: ['OKTAWA PIĘĆDZIESIĄTNICY'],
     passages: ['Dz 8, 5-8', 'Ps 104', 'Łk 9, 1-6'],
+    lauds: {
+      sigla: 'Rz 8,10-11',
+      passage:
+        'Lecz jeśli Chrystus jest w was, to chociaż ciało jest śmiertelne z powodu grzechu, Duch daje życie dzięki usprawiedliwieniu. Jeśli więc mieszka w was Duch Tego, który wskrzesił Jezusa z martwych, to Ten, który wskrzesił Chrystusa z martwych, ożywi wasze śmiertelne ciała dzięki mieszkającemu w was Jego Duchowi.',
+      antiphon:
+        'Jezus posłał nas,* abyśmy nieśli wiadomość o królestwie Bożym. / alleluja.',
+    },
+    vespers: {
+      sigla: '1 Kor 12,3-7',
+      passage:
+        'Nikt pod wpływem Ducha Bożego nie może mówić: „Niech Jezu będzie przeklęty” i nikt bez Ducha Świętego nie może mówić: „Jezus jest Panem”. Różne są dary, ale Duch jest jeden. Różne są posługi, ale Pan jest jeden. Różne są działania, ale jeden jest Bóg, który sprawia wszystko we wszystkich. W każdym uwidacznia się działanie Ducha dla wspólnego dobra.',
+      antiphon:
+        'Duchu Święty, obmyj, co nieświęte,* oschłym wlej zachętę, ulecz serca ranę. / Alleluja.',
+    },
+    variant: 2,
   },
   {
     date: '2022-06-10',
@@ -94,6 +154,21 @@ export const June2022: CalendarType = [
       '[HTML]Efrema Syryjczyka[HTML] dk. teo.',
       '[HTML]Bogumiła z Dobrowa[HTML] bp.',
     ],
+    lauds: {
+      sigla: 'Ga 5,16; 22-25',
+      passage:
+        'Otóż powiadam: Postępujcie według Ducha, a nie będziecie spełniali pożądań ciała. owocem Ducha jest: miłość, radość, pokój, cierpliwość, dobroć, życzliwość, wierność, łagodność, opanowanie. Prawo tu nie jest potrzebne. A ci, którzy należą do Chrystusa Jezusa, ukrzyżowali swoje ciało razem z namiętnościami i pożądliwościami. Skoro więc żyjemy mocą Ducha, postępujmy według Ducha.',
+      antiphon:
+        'Odpuszczone są tobie twoje grzechy, * wstań i chodź. / alleluja.',
+    },
+    vespers: {
+      sigla: '2 Tes 2,13-14',
+      passage:
+        'Umiłowani przez Pana! Powinniśmy dziękować Bogu zawsze za was wszystkich, za to, że wybrał was jako pierwszych, aby was zbawić przez uświęcenie w Duchu i wiarę w prawdę. Bóg wezwał was przez naszą Ewangelię do udziału w chwale naszego Pana, Jezusa Chrystusa. ',
+      antiphon:
+        'Wszystkich ogarnęło zdumienie i wysławiali Boga,* napełnieni bojaźnią mówili: Dzisiaj zobaczyliśmy coś nieprawdopodobnego. / Alleluja.',
+    },
+    variant: 1,
   },
   {
     date: '2022-06-11',
@@ -102,6 +177,15 @@ export const June2022: CalendarType = [
     holidays: ['OKTAWA PIĘĆDZIESIĄTNICY'],
     passages: ['Rz 5, 1-5', 'Tb 13', 'Łk 4, 38-44'],
     notes: ['[HTML]Barnaby[HTML] ap.'],
+    lauds: {
+      sigla: 'Ga 6,1-2',
+      passage:
+        'Siostry i bracia, nawet jeśli ktoś popadnie w grzech, wy, którzy trwacie w Duchu, podźwignijcie go z całą łagodnością. Uważaj jednak, abyś i ty nie uległ pokusie. Jedni drugim noście brzemiona, a tak wypełnicie prawo Chrystusa. ',
+      antiphon:
+        'Jezus został posłany,* aby głosić radosną nowinę o królestwie Boga. / alleluja.',
+    },
+    vespers: { sigla: '', passage: '', antiphon: '' },
+    variant: 2,
   },
   {
     date: '2022-06-12',
