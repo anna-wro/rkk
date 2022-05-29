@@ -77,6 +77,10 @@ export const June2022: CalendarType = [
         'Przybądź, Duchu Święty,* ześlij z nieba wzięty / światła Twego strumień. / Alleluja.',
     },
     variant: 1,
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+    ],
   },
   {
     date: '2022-06-07',
@@ -99,6 +103,10 @@ export const June2022: CalendarType = [
         'Przyjdź, Ojcze ubogich,* przyjdź, Dawco łask drogich, / przyjdź, Światłości sumień. / Alleluja.',
     },
     variant: 2,
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+    ],
   },
   {
     date: '2022-06-08',
@@ -121,6 +129,10 @@ export const June2022: CalendarType = [
         'Światłości najświętsza,* serc wierzących wnętrza poddaj Twej potędze. / Alleluja.',
     },
     variant: 1,
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+    ],
   },
   {
     date: '2022-06-09',
@@ -143,6 +155,10 @@ export const June2022: CalendarType = [
         'Duchu Święty, obmyj, co nieświęte,* oschłym wlej zachętę, ulecz serca ranę. / Alleluja.',
     },
     variant: 2,
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+    ],
   },
   {
     date: '2022-06-10',
@@ -169,6 +185,10 @@ export const June2022: CalendarType = [
         'Wszystkich ogarnęło zdumienie i wysławiali Boga,* napełnieni bojaźnią mówili: Dzisiaj zobaczyliśmy coś nieprawdopodobnego. / Alleluja.',
     },
     variant: 1,
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+    ],
   },
   {
     date: '2022-06-11',
@@ -184,7 +204,7 @@ export const June2022: CalendarType = [
       antiphon:
         'Jezus został posłany,* aby głosić radosną nowinę o królestwie Boga. / alleluja.',
     },
-    vespers: { sigla: '', passage: '', antiphon: '' },
+    links: [{ name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' }],
     variant: 2,
   },
   {
@@ -193,6 +213,11 @@ export const June2022: CalendarType = [
     season: 'pentecost',
     holidays: ['NAJŚWIĘTSZEJ TRÓJCY'],
     passages: ['Prz 8, 22-31', 'Ps 8', 'Rz 5, 1-5', 'J 16, 12-15'],
+    links: [
+      { name: 'wigilia', slug: 'niedziela-trojcy-swietej-wigilia' },
+      { name: 'jutrznia', slug: 'niedziela-trojcy-swietej-jutrznia' },
+      { name: 'nieszpory', slug: 'niedziela-trojcy-swietej-nieszpory' },
+    ],
   },
   {
     date: '2022-06-13',
