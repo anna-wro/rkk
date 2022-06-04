@@ -19,9 +19,11 @@ export const PrayerForPeace = () => {
       <p>
         Umocnij nas abyśmy wszyscy razem z Tobą dążyli do budowania
         sprawiedliwości, pokoju, pojednania i uzdrowienia w naszych sercach,
-        domach, sąsiedztwach, ulicach, społeczeństwach i narodach. Obdarz swoim
-        błogosławieństwem wszystkich tych, którzy poświęcają swoje życie misji
-        dla pokoju i pomocy innym, aby ich starania były owocne.
+        domach, sąsiedztwach, ulicach, społecznościach i narodach.
+      </p>
+      <p>
+        Obdarz swoim błogosławieństwem wszystkich tych, którzy poświęcają swoje
+        życie misji dla pokoju i pomocy innym, aby ich starania były owocne.
       </p>
       <p>
         Przez naszego Pana Jezusa Chrystusa, Twojego Syna, który z Tobą żyje i
