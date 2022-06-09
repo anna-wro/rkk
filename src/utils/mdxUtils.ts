@@ -1,9 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import { getCurrentSeason } from 'utils/date';
+// import { getCurrentSeason } from 'utils/date';
 
 // FIXME: this is a temporary solution to get the current season
-const currentSeason = 'easter';
+const currentSeason = 'ordinary';
 
 export const SEASON_PRAYERS_PATH = path.join(
   process.cwd(),
