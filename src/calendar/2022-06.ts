@@ -209,7 +209,7 @@ export const June2022: CalendarType = [
   },
   {
     date: '2022-06-12',
-    week: 1,
+    week: 2,
     season: 'pentecost',
     holidays: ['NAJŚWIĘTSZEJ TRÓJCY'],
     passages: ['Prz 8, 22-31', 'Ps 8', 'Rz 5, 1-5', 'J 16, 12-15'],
