@@ -338,6 +338,12 @@ export const June2022: CalendarType = [
     season: 'ordinary',
     passages: ['1 Krl 21, 17-29', 'Ps 51', 'Mt 5, 43-48'],
     notes: ['[HTML]Ireneusza[HTML] bp. m.'],
+    links: [
+      {
+        name: 'wigilia dnia Św. Apostołów Piotra i Pawła',
+        slug: 'piotra-i-pawla-wigilia',
+      },
+    ],
   },
   {
     date: '2022-06-29',
@@ -345,6 +351,10 @@ export const June2022: CalendarType = [
     season: 'ordinary',
     holidays: ['PIOTRA I PAWŁA'],
     passages: ['Dz 3, 1-10', 'Ps 19', 'Ga 1, 11-20', 'J 21, 15-19'],
+    // links: [
+    //   { name: 'jutrznia', slug: 'piotra-i-pawla-jutrznia' },
+    //   { name: 'nieszpory', slug: 'piotra-i-pawla-nieszpory' },
+    // ],
   },
   {
     date: '2022-06-30',
