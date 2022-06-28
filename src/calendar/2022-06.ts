@@ -338,10 +338,9 @@ export const June2022: CalendarType = [
     season: 'ordinary',
     passages: ['1 Krl 21, 17-29', 'Ps 51', 'Mt 5, 43-48'],
     notes: ['[HTML]Ireneusza[HTML] bp. m.'],
-    linksTitle: 'Św. Apostołów Piotra i Pawła',
     links: [
       {
-        name: 'wigilia ',
+        name: 'wigilia dnia Św. Apostołów Piotra i Pawła',
         slug: 'piotra-i-pawla-wigilia',
       },
     ],
