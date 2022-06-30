@@ -9,6 +9,8 @@ import { April2022 } from './2022-04';
 import { May2022 } from './2022-05';
 import { June2022 } from './2022-06';
 import { July2022 } from './2022-07';
+import { August2022 } from './2022-08';
+import { September2022 } from './2022-09';
 
 export type CalendarDayType = Readonly<{
   date: string;
@@ -61,4 +63,6 @@ export const calendar: CalendarType = [
   ...May2022,
   ...June2022,
   ...July2022,
+  ...August2022,
+  ...September2022,
 ];
