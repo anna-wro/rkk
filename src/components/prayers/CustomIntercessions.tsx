@@ -22,14 +22,6 @@ export const CustomIntercessions = ({ type }: PropsType) => {
           celu powstrzymanie wojny.
         </b>
       </div>
-      {type == 'lauds' && (
-        <div className="mt-2">
-          Ty wzbudzasz w nas chęci oraz popychasz do działania -{' '}
-          <b>
-            spraw, aby nam się chciało i umocnij w nas motywację do działania.
-          </b>
-        </div>
-      )}
       {isWeekOfPrayerForChristianUnity && <ChristianUnityWeek />}
     </>
   );
