@@ -1,4 +1,4 @@
-import { V, R, PrayerForPeace } from './index';
+import { V, R, SynodalPrayer } from './index';
 import { getCalendarData } from 'utils/date';
 
 type PropsType = Readonly<{
@@ -31,7 +31,7 @@ export const BlessingAndConcludingVersicle = ({ withAlleluia }: PropsType) => {
           withAlleluia ? ' Alleluja.' : ''
         }`}
       </R>
-      <PrayerForPeace />
+      <SynodalPrayer />
     </div>
   );
 };
