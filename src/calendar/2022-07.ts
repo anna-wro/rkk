@@ -3,7 +3,7 @@ import type { CalendarType } from './calendar';
 export const July2022: CalendarType = [
   {
     date: '2022-07-01',
-    week: 1,
+    week: 2,
     season: 'ordinary',
     passages: ['2 Krl 11, 1-4, 9-18, 20', 'Ps 132', 'Mt 6, 19-23'],
     notes: [
@@ -13,7 +13,7 @@ export const July2022: CalendarType = [
   },
   {
     date: '2022-07-02',
-    week: 1,
+    week: 2,
     season: 'ordinary',
     passages: ['2 Krn 24, 17-25', 'Ps 89', 'Mt 6, 24-34'],
     notes: ['[HTML]Jana z Szanghaju i San Francisco[HTML] bp.'],
@@ -55,13 +55,13 @@ export const July2022: CalendarType = [
   },
   {
     date: '2022-07-08',
-    week: 2,
+    week: 1,
     season: 'ordinary',
     passages: ['2 Krl 25, 1-12', 'Ps 137', 'Mt 8, 1-4'],
   },
   {
     date: '2022-07-09',
-    week: 2,
+    week: 1,
     season: 'ordinary',
     passages: ['Lm 2, 2, 10-14, 18-19', 'Ps 74', 'Mt 8, 5-17'],
   },
@@ -107,14 +107,14 @@ export const July2022: CalendarType = [
   },
   {
     date: '2022-07-15',
-    week: 1,
+    week: 2,
     season: 'ordinary',
     passages: ['Am 8, 4-6, 9-12', 'Ps 119', 'Mt 9, 9-13'],
     notes: ['[HTML]Bonawentury[HTML] zak. teo.', 'DZIEŃ WSPÓLNEGO POSTU'],
   },
   {
     date: '2022-07-16',
-    week: 1,
+    week: 2,
     season: 'ordinary',
     passages: ['Am 9, 11-15', 'Ps 85', 'Mt 9, 14-17'],
   },
@@ -158,7 +158,7 @@ export const July2022: CalendarType = [
   },
   {
     date: '2022-07-22',
-    week: 2,
+    week: 1,
     season: 'ordinary',
     holidays: ['MARII MAGDALENY'],
     passages: ['2 Kor 5, 14-17', 'Ps 63', 'J 20, 1-2, 11-18'],
@@ -169,7 +169,7 @@ export const July2022: CalendarType = [
   },
   {
     date: '2022-07-23',
-    week: 2,
+    week: 1,
     season: 'ordinary',
     passages: ['Iz 6, 1-8', 'Ps 93', 'Mt 10, 24-33'],
     notes: [
@@ -213,14 +213,14 @@ export const July2022: CalendarType = [
   },
   {
     date: '2022-07-29',
-    week: 1,
+    week: 2,
     season: 'ordinary',
     holidays: ['MARII, MARTY I ŁAZARZA Z BETANII'],
     passages: ['Iz 38, 1-6, 21-22, 7-8', 'Iz 38', 'Mt 12, 1-8'],
   },
   {
     date: '2022-07-30',
-    week: 1,
+    week: 2,
     season: 'ordinary',
     passages: ['Mi 2, 1-5', 'Ps 10', 'Mt 12, 14-21'],
     notes: ['[HTML]Piotra Chryzologa[HTML] bp. teo.'],

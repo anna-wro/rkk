@@ -43,7 +43,7 @@ export const August2022: CalendarType = [
   },
   {
     date: '2022-08-07',
-    week: 1,
+    week: 2,
     season: 'ordinary',
     holidays: ['9. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: ['Rdz 18, 20-32', 'Ps 138', 'Kol 2, 12-14', 'Łk 11, 1-13'],
@@ -100,7 +100,7 @@ export const August2022: CalendarType = [
   },
   {
     date: '2022-08-14',
-    week: 2,
+    week: 1,
     season: 'ordinary',
     holidays: ['10. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: [
@@ -157,7 +157,7 @@ export const August2022: CalendarType = [
   },
   {
     date: '2022-08-21',
-    week: 1,
+    week: 2,
     season: 'ordinary',
     holidays: ['11. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: ['Mdr 18, 6-9', 'Ps 33', 'Hbr 11, 1-2.8-19', 'Łk 12, 32-48'],
@@ -203,7 +203,7 @@ export const August2022: CalendarType = [
   },
   {
     date: '2022-08-28',
-    week: 2,
+    week: 1,
     season: 'ordinary',
     holidays: ['12. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: ['Jr 38, 4-6.8-10', 'Ps 40', 'Hbr 12, 1-4', 'Łk 12, 49-53'],
