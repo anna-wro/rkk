@@ -15,7 +15,7 @@ export const SynodalPrayer = () => {
       </p>
       <p>
         Ty jesteś Tym, który ożywia i oczyszcza. Ty jesteś Prawdą i Mądrością.
-        Jako Twoi uczniowie i uczennice, prosimy, uczyń nas gotowi do słuchania
+        Jako Twoi uczniowie i uczennice, prosimy, uczyń nas gotowymi do słuchania
         Nauki. Pouczaj nas, Twój Kościół, abyśmy rozpoznali drogę, na którą nas
         posyłasz i żyli życiem, do którego nas wzywasz.
       </p>
