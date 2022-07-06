@@ -70,6 +70,12 @@ export const July2022: CalendarType = [
     season: 'ordinary',
     holidays: ['5. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: ['Pwt 30, 10-14', 'Ps 69', 'Kol 1, 15-20', 'Łk 10, 25-37'],
+    links: [
+      {
+        name: 'wigilia dnia Św. Benedykta',
+        slug: 'benedykt-wigilia',
+      },
+    ],
   },
   {
     date: '2022-07-11',
@@ -78,6 +84,10 @@ export const July2022: CalendarType = [
     holidays: ['BENEDYKTA Z NURSJI'],
     passages: ['Prz 2, 1-9', 'Ps 34', 'Mt 19, 27-29'],
     notes: ['Święto Patronalne Benedyktynów Mądrości Bożej'],
+    links: [
+      { name: 'jutrznia', slug: 'benedykt-jutrznia' },
+      { name: 'nieszpory', slug: 'benedykt-nieszpory' },
+    ],
   },
   {
     date: '2022-07-12',
