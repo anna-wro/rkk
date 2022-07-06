@@ -4,9 +4,12 @@ const BASIC_TYPES = {
   wigilia: { name: 'wigilia', order: 3 },
   kompleta_1: { name: 'kompleta', order: 4 },
   jutrznia: { name: 'jutrznia', order: 5 },
-  nieszpory: { name: 'nieszpory', order: 6 },
-  kompleta: { name: 'kompleta', order: 7 },
-  kompleta_2: { name: 'kompleta', order: 7 },
+  przedpoludniowa: { name: 'przedpołudniowa', order: 6 },
+  poludniowa: { name: 'południowa', order: 7 },
+  popoludniowa: { name: 'popołudniowa', order: 8 },
+  nieszpory: { name: 'nieszpory', order: 9 },
+  kompleta: { name: 'kompleta', order: 10 },
+  kompleta_2: { name: 'kompleta', order: 10 },
 };
 
 const TYPES = {
