@@ -18,7 +18,10 @@ export const getCurrentDate = () => {
   }
 
   let dateNow = DateTime.now();
-  const dayOfWeek = dateNow.setLocale('pl').toFormat('cccc');
+  const dayOfWeek = dateNow.toLocaleString(
+    { weekday: 'long' },
+    { locale: 'pl-pl' },
+  );
   const isSundayEve = dayOfWeek === 'sobota' && dateNow.hour >= 15;
 
   if (isSundayEve) {
@@ -44,19 +47,13 @@ export const getCalendarData = (): CalendarDataType => {
   const { isoDate, prettyDate } = getCurrentDate();
 
   const currentCalendarItem = calendar.find(item => item.date === isoDate);
-  const calendarData = currentCalendarItem
-    ? { ...currentCalendarItem, prettyDate }
-    : null;
-
-  return calendarData;
+  return currentCalendarItem ? { ...currentCalendarItem, prettyDate } : null;
 };
 
 export const formatDate = (date: string) => {
   const dateTime = DateTime.fromISO(date);
 
-  const formattedDate = dateTime.isValid
+  return dateTime.isValid
     ? dateTime.setLocale('pl').toLocaleString({ day: 'numeric', month: 'long' })
     : null;
-
-  return formattedDate;
 };
