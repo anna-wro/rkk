@@ -20,7 +20,7 @@ O clemens, O pia, O dulcis Virgo Maria.`}
       <Or />
       <div className="italic font-light">
         {`Witaj Królowo Matko Miłosierdzia
-        Życie słodyczy i nadziejo nasza witaj
+        Życie, słodyczy i nadziejo nasza witaj
         Do Ciebie wołamy
         Wygnańcy synowie Ewy
         Do Ciebie wzdychamy jęcząc i płacząc
