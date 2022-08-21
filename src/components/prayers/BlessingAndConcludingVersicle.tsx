@@ -31,7 +31,6 @@ export const BlessingAndConcludingVersicle = ({ withAlleluia }: PropsType) => {
           withAlleluia ? ' Alleluja.' : ''
         }`}
       </R>
-      <SynodalPrayer />
     </div>
   );
 };
