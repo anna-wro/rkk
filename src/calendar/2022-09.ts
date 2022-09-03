@@ -19,7 +19,6 @@ export const September2022: CalendarType = [
     week: 1,
     season: 'ordinary',
     holidays: ['FEBE dk.'],
-    notes: ['[HTML]Roberta Schumana[HTML] w.'],
     passages: ['1 Kor 4, 6b-15', 'Ps 145', 'Łk 6, 1-5'],
   },
   {
@@ -27,6 +26,7 @@ export const September2022: CalendarType = [
     week: 2,
     season: 'ordinary',
     holidays: ['13. Niedziela po Pięćdziesiątnicy'],
+    notes: ['[HTML]Roberta Schumana[HTML] w.'],
     passages: ['Mdr 9, 13-18b', 'Ps 90', 'Flm 9-10, 12-17', 'Łk 14, 25-33'],
   },
   {
