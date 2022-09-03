@@ -122,6 +122,7 @@ export const August2022: CalendarType = [
       '1 Kor 15, 20-27',
       'Łk 1, 39-56',
     ],
+
     links: [
       {
         name: 'wezwanie',
