@@ -6,7 +6,7 @@ export const September2022: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['1 Kor 3, 18-23', 'Ps 24', 'Łk 5, 1-11'],
-    notes: ['[html]Rut[html] w.'],
+    notes: ['[HTML]Rut[HTML] w.'],
   },
   {
     date: '2022-09-02',
@@ -19,7 +19,7 @@ export const September2022: CalendarType = [
     week: 1,
     season: 'ordinary',
     holidays: ['FEBE dk.'],
-    notes: ['[html]Roberta Schumana[html] w.'],
+    notes: ['[HTML]Roberta Schumana[HTML] w.'],
     passages: ['1 Kor 4, 6b-15', 'Ps 145', 'Łk 6, 1-5'],
   },
   {
