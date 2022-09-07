@@ -54,6 +54,16 @@ export const September2022: CalendarType = [
     season: 'ordinary',
     holidays: ['Narodzenie Bogurodzicy'],
     passages: ['Rz 8, 28-30', 'Ps 13', 'Mt 1, 1-16, 18-23'],
+    links: [
+      {
+        name: 'jutrznia',
+        slug: 'narodzenie-bogurodzicy-jutrznia',
+      },
+      {
+        name: 'nieszpory',
+        slug: 'narodzenie-bogurodzicy-nieszpory',
+      },
+    ],
   },
   {
     date: '2022-09-09',
