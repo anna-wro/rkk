@@ -103,6 +103,16 @@ export const September2022: CalendarType = [
     season: 'ordinary',
     holidays: ['Uroczystość Krzyża Świętego'],
     passages: ['Lb 21, 4b-9', 'Ps 78', 'Flp 2, 6-11', 'J 3, 13-17'],
+    links: [
+      {
+        name: 'jutrznia',
+        slug: 'krzyza-swietego-jutrznia',
+      },
+      {
+        name: 'nieszpory',
+        slug: 'krzyza-swietego-nieszpory',
+      },
+    ],
   },
   {
     date: '2022-09-15',
