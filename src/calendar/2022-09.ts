@@ -229,6 +229,16 @@ export const September2022: CalendarType = [
     season: 'ordinary',
     holidays: ['Świętych Archaniołów i Aniołów Bożych'],
     passages: ['Ap 12, 7-12a', 'Ps 138', 'J 1, 47-51'],
+    links: [
+      {
+        name: 'jutrznia',
+        slug: 'archaniolow-i-aniolow-jutrznia',
+      },
+      {
+        name: 'nieszpory',
+        slug: 'archaniolow-i-aniolow-nieszpory',
+      },
+    ],
   },
   {
     date: '2022-09-30',
