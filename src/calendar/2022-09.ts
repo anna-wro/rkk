@@ -163,6 +163,16 @@ export const September2022: CalendarType = [
     season: 'ordinary',
     holidays: ['Mateusza Apostoła'],
     passages: ['Ef 4, 1-7, 11-13', 'Ps 19', 'Mt 9, 9-13'],
+    links: [
+      {
+        name: 'jutrznia',
+        slug: 'mateusza-jutrznia',
+      },
+      {
+        name: 'nieszpory',
+        slug: 'mateusza-nieszpory',
+      },
+    ],
   },
   {
     date: '2022-09-22',
