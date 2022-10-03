@@ -25,3 +25,4 @@ export { ReginaCaeli } from './ReginaCaeli';
 export { SynodalPrayer } from './SynodalPrayer';
 export { MiddayPassagePrayer } from './MiddayPassagePrayer';
 export { WeeklyRotation } from './WeeklyRotation';
+export { SaintFrancisPrayer } from './SaintFrancisPrayer';
