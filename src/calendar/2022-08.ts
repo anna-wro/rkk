@@ -104,6 +104,12 @@ export const August2022: CalendarType = [
     season: 'ordinary',
     holidays: ['10. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: ['Jr 38, 4-6.8-10', 'Ps 40', 'Hbr 12, 1-4', 'Łk 12, 49-53'],
+    links: [
+      {
+        name: 'wigilia Uroczystości Zaśnięcia Bogurodzicy',
+        slug: 'zasniecie-bogurodzicy-wigilia',
+      },
+    ],
   },
   {
     date: '2022-08-15',
@@ -115,6 +121,25 @@ export const August2022: CalendarType = [
       'Ps 45',
       '1 Kor 15, 20-27',
       'Łk 1, 39-56',
+    ],
+
+    links: [
+      {
+        name: 'wezwanie',
+        slug: 'zasniecie-bogurodzicy-wezwanie',
+      },
+      {
+        name: 'jutrznia',
+        slug: 'zasniecie-bogurodzicy-jutrznia',
+      },
+      {
+        name: 'w ciągu dnia',
+        slug: 'zasniecie-bogurodzicy-w-ciagu-dnia',
+      },
+      {
+        name: 'nieszpory',
+        slug: 'zasniecie-bogurodzicy-nieszpory',
+      },
     ],
   },
   {

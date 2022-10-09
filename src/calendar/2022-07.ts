@@ -159,6 +159,12 @@ export const July2022: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['Jr 2, 1-3.7-8.12-13', 'Ps 36', 'Mt 13, 10-17'],
+    links: [
+      {
+        name: 'wigilia dnia Św. Marii Magdaleny',
+        slug: 'maria-magdalena-wigilia',
+      },
+    ],
   },
   {
     date: '2022-07-22',
@@ -169,6 +175,16 @@ export const July2022: CalendarType = [
     notes: [
       'Dzień szczególnej modlitwy za kobiety w służbie apostolskiej.',
       'Święto patronalne misji we Wrocławiu.',
+    ],
+    links: [
+      {
+        name: 'jutrznia',
+        slug: 'maria-magdalena-jutrznia',
+      },
+      {
+        name: 'nieszpory',
+        slug: 'maria-magdalena-nieszpory',
+      },
     ],
   },
   {
