@@ -120,14 +120,14 @@ export const October2022: CalendarType = [
   {
     date: '2022-10-17',
     week: 2,
-    season: 'easter',
+    season: 'ordinary',
     notes: ['[HTML]Ignacego[HTML] bp. i m.'],
     passages: ['Ef 2, 1-10', 'Ps 100', 'Łk 12, 13-21'],
   },
   {
     date: '2022-10-18',
     week: 2,
-    season: 'christmas',
+    season: 'ordinary',
     holidays: ['ŁUKASZA EWANGELISTY'],
     passages: ['2 Tm 4, 10-17b', 'Ps 145', 'Łk 10, 1-9'],
   },
@@ -140,13 +140,13 @@ export const October2022: CalendarType = [
   {
     date: '2022-10-20',
     week: 2,
-    season: 'easter',
+    season: 'ordinary',
     passages: ['Ef 3, 14-21', 'Ps 33', 'Łk 12, 49-53'],
   },
   {
     date: '2022-10-21',
     week: 2,
-    season: 'christmas',
+    season: 'ordinary',
     notes: ['DZIEŃ WSPÓLNEGO POSTU'],
     passages: ['Ef 4, 1-6', 'Ps 24', 'Łk 12, 54-59'],
   },
