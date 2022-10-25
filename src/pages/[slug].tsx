@@ -53,6 +53,7 @@ export const getStaticProps = async ({ params }) => {
     props: {
       prayer: { source: mdxSource, meta: data },
     },
+    revalidate: 3600,
   };
 };
 

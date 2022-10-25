@@ -23,7 +23,9 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
     <div className="font-light md:mb-4 mt-3 text-sm more-info">
       <div className="md:flex justify-between items-center">
         <div>
-          <div className="font-medium">{makeStartCase(data.prettyDate)}</div>
+          <div className="font-medium">
+            {makeStartCase(data.prettyDate)} - {data?.season}
+          </div>
           {data?.holidays?.map(holiday => (
             <div className="font-bold" key={holiday}>
               {holiday.toUpperCase()}
