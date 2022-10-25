@@ -24,7 +24,7 @@ export default function InfoForToday({ data }: { data: CalendarDataType }) {
       <div className="md:flex justify-between items-center">
         <div>
           <div className="font-medium">
-            {makeStartCase(data.prettyDate)} - {data?.season}
+            {makeStartCase(data.prettyDate)}
           </div>
           {data?.holidays?.map(holiday => (
             <div className="font-bold" key={holiday}>
