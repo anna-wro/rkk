@@ -38,6 +38,11 @@ export const November2022: CalendarType = [
     week: 2,
     season: 'ordinary',
     passages: ['Flp 4, 10-19', 'Ps 112', 'Łk 16, 9-15'],
+    links: [
+      { name: 'biogram', slug: 'wilibrord-biogram' },
+      { name: 'wigilia', slug: 'wilibrord-wigilia' },
+    ],
+    linksTitle: '[HTML]Wilibrorda bp. Utrechtu[HTML]',
   },
   {
     date: '2022-11-06',
@@ -50,6 +55,11 @@ export const November2022: CalendarType = [
       '2 Tes 2, 16-3, 5',
       'Łk 20, 27-38',
     ],
+    links: [
+      { name: 'biogram', slug: 'wilibrord-biogram' },
+      { name: 'wigilia', slug: 'wilibrord-wigilia' },
+    ],
+    linksTitle: '[HTML]Wilibrorda bp. Utrechtu[HTML]',
   },
   {
     date: '2022-11-07',

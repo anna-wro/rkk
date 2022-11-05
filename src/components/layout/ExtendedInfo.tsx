@@ -10,11 +10,13 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
   const [intro, linkToReadings] = copy.sundayReadings.split('[HTML]');
 
   const [passages, setPassages] = useState([]);
+  const [linksTitle, setLinksTitle] = useState('');
   const [linksToDisplay, setLinksToDisplay] = useState([]);
   const hasLinks = linksToDisplay.length > 0;
 
   useEffect(() => {
     setPassages(data?.passages);
+    setLinksTitle(data?.linksTitle ?? copy.linksTitle);
     setLinksToDisplay([
       ...(data?.links?.length > 0 ? data.links : []),
       ...(data?.holidays?.length > 0
@@ -39,7 +41,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
         </ul>
         {hasLinks && (
           <ul className="border-l-1 border-gray-50 pl-4 mb-1">
-            <div>{formatCalendarNotes(copy.linksTitle)}</div>
+            <div>{formatCalendarNotes(linksTitle)}</div>
             {linksToDisplay.map((link, index) => (
               <li key={index}>
                 <StyledLink name={link.name} href={link.slug} />
