@@ -211,6 +211,7 @@ export const November2022: CalendarType = [
     passages: ['Iz 2, 1-5', 'Ps 122', 'Rz 13, 11-14', 'Mt 24, 37-44'],
     holidays: ['1. NIEDZIELA ADWENTU'],
     notes: ['[HTML]Grzegorza Palamasa[HTML] bp.'],
+    links: [{ name: 'Lucenarium', slug: 'lucenarium-1' }],
   },
   {
     date: '2022-11-28',
