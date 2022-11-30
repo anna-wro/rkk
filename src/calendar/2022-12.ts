@@ -26,6 +26,7 @@ export const December2022: CalendarType = [
     season: 'advent',
     passages: ['Iz 11, 1-10', 'Ps 72', 'Rz 15, 4-9', 'Mt 3, 1-12'],
     holidays: ['2. NIEDZIELA ADWENTU'],
+    links: [{ name: 'Lucenarium', slug: 'lucenarium-2' }],
   },
   {
     date: '2022-12-05',
@@ -73,6 +74,7 @@ export const December2022: CalendarType = [
     season: 'advent',
     passages: ['Iz 35, 1-6a, 10', 'Ps 146', 'Jk 5, 7-10', 'Mt 11, 2-11'],
     holidays: ['3. NIEDZIELA ADWENTU'],
+    links: [{ name: 'Lucenarium', slug: 'lucenarium-3' }],
   },
   {
     date: '2022-12-12',
@@ -126,9 +128,10 @@ export const December2022: CalendarType = [
     passages: ['Iz 7, 10-14', 'Ps 24', 'Rz 1, 1-7', 'Mt 1, 18-24'],
     vespers: {
       antiphon:
-        'O Adonai, Wodzu Izraela, / Tyś w krzaku gorejącym objawił się Mojżeszowi / i na Synaju dałeś mu Prawo; / przyjdź nas wyzwolić swym potężnym ramieniem.',
+        'O Adonai, Wodzu Izraela, / Tyś w krzaku gorejącym objawił się Mojżeszowi / i na Synaju dałeś mu Prawo; / przyjdź nas wyzwolić swym potężnym ramieniem.',
     },
     holidays: ['4. NIEDZIELA ADWENTU'],
+    links: [{ name: 'Lucenarium', slug: 'lucenarium-4' }],
   },
   {
     date: '2022-12-19',
@@ -157,7 +160,7 @@ export const December2022: CalendarType = [
     passages: ['Pnp 2, 8-14', 'Ps 33', 'Łk 1, 39-45'],
     vespers: {
       antiphon:
-        'O Wschodzie, / blasku Światła wiecznego i Słońce sprawiedliwości, / przyjdź i oświeć siedzących w mroku i cieniu śmierci.',
+        'O Wschodzie, / blasku Światła wiecznego i Słońce sprawiedliwości, / przyjdź i oświeć siedzących w mroku i cieniu śmierci.',
     },
   },
   {
