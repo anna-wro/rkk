@@ -22,7 +22,7 @@ export const December2022: CalendarType = [
   },
   {
     date: '2022-12-04',
-    week: 1,
+    week: 2,
     season: 'advent',
     passages: ['Iz 11, 1-10', 'Ps 72', 'Rz 15, 4-9', 'Mt 3, 1-12'],
     holidays: ['2. NIEDZIELA ADWENTU'],
@@ -70,7 +70,7 @@ export const December2022: CalendarType = [
   },
   {
     date: '2022-12-11',
-    week: 2,
+    week: 1,
     season: 'advent',
     passages: ['Iz 35, 1-6a, 10', 'Ps 146', 'Jk 5, 7-10', 'Mt 11, 2-11'],
     holidays: ['3. NIEDZIELA ADWENTU'],
@@ -123,7 +123,7 @@ export const December2022: CalendarType = [
   },
   {
     date: '2022-12-18',
-    week: 1,
+    week: 2,
     season: 'advent',
     passages: ['Iz 7, 10-14', 'Ps 24', 'Rz 1, 1-7', 'Mt 1, 18-24'],
     vespers: {
