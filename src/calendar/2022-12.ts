@@ -216,6 +216,7 @@ export const December2022: CalendarType = [
         'To wam oznajmiamy, co było od początku, cośmy słyszeli o Słowie życia, co ujrzeliśmy własnymi oczami, na co patrzyliśmy i czego dotykały nasze ręce, bo życie objawiło się. Myśmy je widzieli, o nim świadczymy i głosimy wam życie wieczne, które było w Ojcu, a nam zostało objawione. Oznajmiamy wam, cośmy ujrzeli i słyszeli, abyście i wy mieli łączność z nami. A mieć z nami łączność znaczy: mieć ją z Ojcem i z Jego Synem Jezusem Chrystusem.',
     },
     links: [
+{name: 'wigilia', slug: 'narodzenie-panskie-wigilia'},
       { name: 'jutrznia', slug: 'narodzenie-panskie-jutrznia' },
       { name: 'nieszpory', slug: 'narodzenie-panskie-nieszpory' },
     ],
