@@ -195,7 +195,7 @@ export const December2021: CalendarType = [
   {
     date: '2021-12-24',
     week: 1,
-    season: 'christmas',
+    season: 'advent',
     passages: [
       'Sm 7,1-5.8b-12.14a.16',
       'Ps 89,2-3.20a . 4-5.27 . 29',
