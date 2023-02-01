@@ -121,7 +121,7 @@ export const February2023: CalendarType = [
     notes: ['DZIEŃ WSPÓLNEGO POSTU'],
   },
   {
-    date: '2022-02-18',
+    date: '2023-02-18',
     week: 1,
     season: 'ordinary',
     passages: ['Hbr 11, 1-7', 'Ps 145', 'Mk 9, 2-13'],
