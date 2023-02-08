@@ -59,7 +59,7 @@ export function getPrayerDataFromMeta({ meta, filePath }: PropsType) {
       ? { ISO: meta.date, formatted: formatDate(meta.date) }
       : null,
     type: mappedType.name,
-    week: meta?.week ?? 1,
+    week: meta?.week ?? 3,
     recurring: meta?.recurring ?? false,
   };
 }

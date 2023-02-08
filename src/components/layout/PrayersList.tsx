@@ -8,7 +8,9 @@ type PropsType = Readonly<{
 }>;
 
 export default function PrayersList({ prayers }: PropsType) {
-  const { week: currentWeek } = getCalendarData();
+  const calendar = getCalendarData();
+  const currentWeek = calendar?.week || 3;
+
   const firstWeek = prayers.filter(prayer => prayer.week === 1);
   const secondWeek = prayers.filter(prayer => prayer.week === 2);
 
