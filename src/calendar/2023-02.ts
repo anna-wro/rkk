@@ -1,7 +1,7 @@
 import type { CalendarType } from './calendar';
 
 export const February2023: CalendarType = [
-   {
+  {
     date: '2023-02-01',
     week: 1,
     season: 'christmas',
@@ -20,7 +20,7 @@ export const February2023: CalendarType = [
       { name: 'nieszpory', slug: 'hypapante-nieszpory' },
     ],
   },
- {
+  {
     date: '2023-02-03',
     week: 1,
     season: 'ordinary',
@@ -33,7 +33,7 @@ export const February2023: CalendarType = [
     season: 'ordinary',
     passages: ['Hbr 13, 15-17, 20-21', 'Ps 23', 'Mk 6, 30-34'],
   },
-   {
+  {
     date: '2023-02-05',
     week: 2,
     season: 'ordinary',
@@ -60,7 +60,7 @@ export const February2023: CalendarType = [
     passages: ['Rdz 2, 4b-9, 15-17', 'Ps 104', 'Mk 7, 14-23'],
     notes: ['[HTML]Józefiny Bakhity[HTML] zak.'],
   },
-   {
+  {
     date: '2023-02-09',
     week: 2,
     season: 'ordinary',
@@ -73,7 +73,7 @@ export const February2023: CalendarType = [
     passages: ['Rdz 3, 1-8', 'Ps 32', 'Mk 7, 31-37'],
     notes: ['[HTML]Scholastyki[HTML] mn.'],
   },
-   {
+  {
     date: '2023-02-11',
     week: 2,
     season: 'ordinary',
@@ -89,7 +89,7 @@ export const February2023: CalendarType = [
   },
   {
     date: '2023-02-13',
-    week: 1, 
+    week: 1,
     season: 'ordinary',
     passages: ['Rdz 4, 1-15, 25', 'Ps 50', 'Mk 8, 11-13'],
   },
@@ -98,7 +98,11 @@ export const February2023: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['Dz 13, 46-49', 'Ps 117', 'Łk 10, 1-9'],
-    notes: ['[HTML]Cyryla[HTML] mn.', '[HTML]Metodego[HTML] bp.', 'Święto patronalne Parafii w Poznaniu'],
+    notes: [
+      '[HTML]Cyryla[HTML] mn.',
+      '[HTML]Metodego[HTML] bp.',
+      'Święto patronalne Parafii w Poznaniu',
+    ],
   },
   {
     date: '2023-02-15',
