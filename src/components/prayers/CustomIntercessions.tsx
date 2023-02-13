@@ -1,11 +1,11 @@
 import { ChristianUnityWeek } from './ChristianUnityWeek';
-import { getCurrentDate } from 'utils/date';
+import { getSelectedDate } from 'utils/date';
 type PropsType = Readonly<{
   type: 'lauds' | 'vespers' | 'eve' | 'compline';
 }>;
 
 export const CustomIntercessions = ({ type }: PropsType) => {
-  const { isoDate } = getCurrentDate();
+  const { isoDate } = getSelectedDate();
   const [, month, day] = isoDate.split('-').map(Number);
   const isWeekOfPrayerForChristianUnity = month === 1 && day >= 18 && day <= 25;
 
