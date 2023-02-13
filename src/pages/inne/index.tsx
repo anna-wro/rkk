@@ -2,17 +2,15 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import Layout from 'components/layout/Layout';
-import InfoForToday from 'components/layout/InfoForToday';
+import { InfoForDayFacade } from 'components/layout/InfoForDayFacade';
 import { CustomPrayersList } from 'components/layout/CustomPrayersList';
 import { CUSTOM_PRAYERS_PATH, customPrayersFilePaths } from 'utils/mdxUtils';
-import { getCalendarData } from 'utils/date';
 import { getPrayerDataFromMeta } from 'utils/getPrayerDataFromMeta';
 
 export default function CustomPrayersIndex({ prayers }) {
-  const calendar = getCalendarData();
   return (
     <Layout>
-      {calendar && <InfoForToday data={calendar} />}
+      {<InfoForDayFacade />}
       <CustomPrayersList prayers={prayers} />
     </Layout>
   );

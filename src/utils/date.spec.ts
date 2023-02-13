@@ -1,10 +1,10 @@
-import { getCurrentDate, getCurrentSeason } from './date';
+import { getSelectedDate, getCurrentSeason } from './date';
 import { mockDate } from './mocks';
 
-describe('getCurrentDate()', () => {
+describe('getSelectedDate()', () => {
   it('returns proper value', () => {
     mockDate(2021, 9, 7);
-    const { dayOfWeek, isoDate } = getCurrentDate();
+    const { dayOfWeek, isoDate } = getSelectedDate();
 
     expect(dayOfWeek).toEqual('wtorek');
     expect(isoDate).toEqual('2021-09-07');
@@ -12,7 +12,7 @@ describe('getCurrentDate()', () => {
 
   it('returns proper value when early Saturday', () => {
     mockDate(2021, 9, 4, 9);
-    const { dayOfWeek, isSundayEve, isoDate } = getCurrentDate();
+    const { dayOfWeek, isSundayEve, isoDate } = getSelectedDate();
 
     expect(dayOfWeek).toEqual('sobota');
     expect(isSundayEve).toEqual(false);
@@ -22,7 +22,7 @@ describe('getCurrentDate()', () => {
   it('returns proper value when Saturday evening', () => {
     mockDate(2021, 9, 4, 18);
 
-    const { dayOfWeek, isSundayEve, isoDate } = getCurrentDate();
+    const { dayOfWeek, isSundayEve, isoDate } = getSelectedDate();
 
     expect(dayOfWeek).toEqual('niedziela');
     expect(isSundayEve).toEqual(true);

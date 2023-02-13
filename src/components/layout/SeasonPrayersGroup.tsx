@@ -1,8 +1,8 @@
-import { getCurrentDate } from 'utils/date';
+import { getSelectedDate } from 'utils/date';
 import LinksGroup from 'components/layout/LinksGroup';
 
 export default function SeasonPrayersGroup({ prayers, isCurrentWeek }) {
-  const { dayOfWeek: currentDayOfWeek } = getCurrentDate();
+  const { dayOfWeek: currentDayOfWeek } = getSelectedDate();
   const [groupName, prayersInGroup] = prayers;
   const isToday = isCurrentWeek && groupName === currentDayOfWeek;
 

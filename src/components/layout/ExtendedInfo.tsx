@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
-import { CalendarDataType, getCurrentDate } from 'utils/date';
+import { CalendarDataType, getSelectedDate } from 'utils/date';
 import { formatCalendarNotes } from 'utils/text';
 import { copy } from 'consts/copy';
 import cx from 'classnames';
 import StyledLink from './StyledLink';
 
 export function ExtendedInfo({ data }: { data: CalendarDataType }) {
-  const { dayOfWeek } = getCurrentDate();
+  const { dayOfWeek } = getSelectedDate();
   const [intro, linkToReadings] = copy.sundayReadings.split('[HTML]');
 
   const [passages, setPassages] = useState([]);
@@ -26,8 +26,12 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
   }, [data]);
 
   return (
-    <div>
-      <div className={cx('mt-2', { 'extended-info': hasLinks })}>
+    <div className="font-light text-sm">
+      <div
+        className={cx('mt-2 ', {
+          'extended-info': hasLinks,
+        })}
+      >
         <ul style={{ minWidth: 120 }}>
           {passages?.map((passage, index) => (
             <li key={index}>
@@ -40,7 +44,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
           ))}
         </ul>
         {hasLinks && (
-          <ul className="border-l-1 border-gray-50 pl-4 mb-1">
+          <ul className="'mt-2 border-l-1 border-gray-50 pl-4 mb-1">
             <div>{formatCalendarNotes(linksTitle)}</div>
             {linksToDisplay.map((link, index) => (
               <li key={index}>
@@ -61,7 +65,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
           </span>
         </div>
       )}
-      <ul className="mt-1">
+      <ul className="mt-1 'mt-2">
         {data?.notes?.map((note, index) => (
           <li key={index}>{formatCalendarNotes(note)}</li>
         ))}
