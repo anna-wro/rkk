@@ -182,6 +182,18 @@ export const February2023: CalendarType = [
     season: 'ordinary',
     passages: ['Rdz 2, 7-9; 3, 1-7', 'Ps 51', 'Rz 5, 12-19', 'Mt 4, 1-11'],
     holidays: ['1. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
+    lauds: {
+      antiphon:
+        'Duch wyprowadził Jezusa na pustynię, * aby kuszony był przez diabła. / A gdy przepościł czterdzieści dni i nocy, / głód wielki potem odczuwał.',
+    },
+    eve: {
+      antiphon:
+        'Nie samym chlebem żyje człowiek, * lecz każdym słowem, / które pochodzi z ust Bożych.',
+    },
+    vespers: {
+      antiphon:
+        'Czuwaj nad nami, o Zbawicielu, * by nas nie pochwycił przebiegły kusiciel; / Ty bowiem jesteś naszą odwieczną pomocą.',
+    },
   },
   {
     date: '2023-02-27',
