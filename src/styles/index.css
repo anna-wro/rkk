@@ -15,6 +15,10 @@
   @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-green-500 focus-visible:ring-offset-2 rounded-sm;
 }
 
+.focus-visible--controls {
+  @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-green-500 rounded-full;
+}
+
 .extended-info {
   @apply grid gap-6;
   grid-template-columns: fit-content(40%) 1fr;
@@ -25,5 +29,5 @@
   float: left;
   font-size: 3em;
   line-height: 1;
-  margin-right: .2em;
+  margin-right: 0.2em;
 }
