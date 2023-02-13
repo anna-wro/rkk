@@ -21,7 +21,7 @@ export function ChangeDateButton({
       tabIndex={disabled ? undefined : 0}
       style={{ paddingTop: 1 }}
       className={cx('inline-block rounded-full select-none pl-2 w-6 h-6 mx-1', {
-        'cursor-pointer hover:bg-green-200focus-visible--controls ': !disabled,
+        'cursor-pointer hover:bg-green-200 focus-visible--controls ': !disabled,
         'text-gray-200': disabled,
       })}
       onClick={disabled ? undefined : onClick}
