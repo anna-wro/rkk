@@ -1,4 +1,4 @@
-import { getCurrentDate } from 'utils/date';
+import { getSelectedDate } from 'utils/date';
 import LinksGroup from 'components/layout/LinksGroup';
 
 export function CustomPrayersGroup({ prayers }) {
@@ -10,7 +10,7 @@ export function CustomPrayersGroup({ prayers }) {
     isRecurring = prayersInGroup[0]?.recurring;
     formattedPrayerDate = prayersInGroup[0]?.date.formatted;
   }
-  const { isoDate: currentISODate } = getCurrentDate();
+  const { isoDate: currentISODate } = getSelectedDate();
 
   if (isRecurring) {
     const [, prayerMonth, prayerDay] = prayerISODate.split('-');

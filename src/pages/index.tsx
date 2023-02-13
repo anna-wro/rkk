@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import Layout from 'components/layout/Layout';
-import InfoForToday from 'components/layout/InfoForToday';
+import { InfoForDayFacade } from 'components/layout/InfoForDayFacade';
 import PrayersList from 'components/layout/PrayersList';
 import { getPrayerDataFromMeta } from 'utils/getPrayerDataFromMeta';
 import { SEASON_PRAYERS_PATH, seasonPrayersFilePaths } from 'utils/mdxUtils';
@@ -15,7 +15,7 @@ export default function Home({ prayers }) {
   // TODO add Banner component
   return (
     <Layout>
-      {calendar && <InfoForToday data={calendar} />}
+      <InfoForDayFacade />
       {calendar?.date === '2022-04-10' && (
         <img
           src="/banners/palm-sunday.jpg"
