@@ -199,7 +199,7 @@ export const February2023: CalendarType = [
     date: '2023-02-27',
     week: 1,
     season: 'ordinary',
-    passages: ['Kpł 19, 1-2, 11-18', 'Ps 19', 'Mt 25, 31-46'],
+    passages: ['Kpł 19, 1-2. 11-18', 'Ps 19', 'Mt 25, 31-46'],
   },
   {
     date: '2023-02-28',
