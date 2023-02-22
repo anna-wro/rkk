@@ -19,7 +19,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
     setLinksTitle(data?.linksTitle ?? copy.linksTitle);
     setLinksToDisplay([
       ...(data?.links?.length > 0 ? data.links : []),
-      ...(data?.holidays?.length > 0
+      ...(data?.holidays?.length > 0 && data?.season !== 'lent'
         ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino' }]
         : []),
     ]);
