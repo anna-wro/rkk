@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react';
-import { CalendarDataType, getSelectedDate } from 'utils/date';
+import { CalendarDataType } from 'utils/date';
 import { formatCalendarNotes } from 'utils/text';
 import { copy } from 'consts/copy';
 import cx from 'classnames';
 import StyledLink from './StyledLink';
 
 export function ExtendedInfo({ data }: { data: CalendarDataType }) {
-  const { dayOfWeek } = getSelectedDate();
   const [intro, linkToReadings] = copy.sundayReadings.split('[HTML]');
 
   const [passages, setPassages] = useState([]);
@@ -19,6 +18,15 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
     setLinksTitle(data?.linksTitle ?? copy.linksTitle);
     setLinksToDisplay([
       ...(data?.links?.length > 0 ? data.links : []),
+      ...(data?.season === 'lent' && data?.dayOfWeek === 'piątek'
+        ? [
+            { name: 'Droga krzyżowa klasyczna', slug: 'droga-krzyzowa' },
+            {
+              name: 'Droga krzyżowa biblijna',
+              slug: 'droga-krzyzowa-biblijna',
+            },
+          ]
+        : []),
       ...(data?.holidays?.length > 0 && data?.season !== 'lent'
         ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino' }]
         : []),
@@ -54,7 +62,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
           </ul>
         )}
       </div>
-      {dayOfWeek === 'niedziela' && (
+      {data?.dayOfWeek === 'niedziela' && (
         <div className="mt-1">
           {intro}{' '}
           <span className="font-medium">

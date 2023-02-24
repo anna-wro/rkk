@@ -6,6 +6,7 @@ import type { CalendarDayType, SeasonType } from 'calendar/calendar';
 export type CalendarDataType = Readonly<
   {
     prettyDate: string;
+    dayOfWeek: string;
   } & CalendarDayType
 >;
 export const getCurrentSeason = (): SeasonType => {
@@ -18,10 +19,12 @@ export const getCurrentSeason = (): SeasonType => {
 export const getCalendarData = (): CalendarDataType => {
   // const dateParam = getQueryParam('date');
   //TODO allow mocking date
-  const { isoDate, prettyDate } = getSelectedDate();
+  const { isoDate, prettyDate, dayOfWeek } = getSelectedDate();
 
   const currentCalendarItem = calendar.find(item => item.date === isoDate);
-  return currentCalendarItem ? { ...currentCalendarItem, prettyDate } : null;
+  return currentCalendarItem
+    ? { ...currentCalendarItem, prettyDate, dayOfWeek }
+    : null;
 };
 
 export const getSelectedDate = (date?: DateTime) => {
@@ -49,10 +52,14 @@ export const getDataForDay = ({
 }: {
   date?: DateTime;
 }): CalendarDataType | null => {
-  const { isoDate, prettyDate } = getSelectedDate(date || DateTime.now());
+  const { isoDate, prettyDate, dayOfWeek } = getSelectedDate(
+    date || DateTime.now(),
+  );
   const currentCalendarItem = calendar.find(item => item.date === isoDate);
 
-  return currentCalendarItem ? { ...currentCalendarItem, prettyDate } : null;
+  return currentCalendarItem
+    ? { ...currentCalendarItem, prettyDate, dayOfWeek }
+    : null;
 };
 
 export const formatDate = (date: string) => {

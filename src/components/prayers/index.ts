@@ -26,3 +26,6 @@ export { SynodalPrayer } from './SynodalPrayer';
 export { MiddayPassagePrayer } from './MiddayPassagePrayer';
 export { WeeklyRotation } from './WeeklyRotation';
 export { SaintFrancisPrayer } from './SaintFrancisPrayer';
+export { Silence } from './Silence';
+export { ViaCrucisSong } from './ViaCrucisSong';
+export { ViaCrucisResponsory } from './ViaCrucisResponsory';
