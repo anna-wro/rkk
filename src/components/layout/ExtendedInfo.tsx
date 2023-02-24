@@ -6,7 +6,6 @@ import cx from 'classnames';
 import StyledLink from './StyledLink';
 
 export function ExtendedInfo({ data }: { data: CalendarDataType }) {
-  const { dayOfWeek } = getSelectedDate();
   const [intro, linkToReadings] = copy.sundayReadings.split('[HTML]');
 
   const [passages, setPassages] = useState([]);
@@ -19,7 +18,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
     setLinksTitle(data?.linksTitle ?? copy.linksTitle);
     setLinksToDisplay([
       ...(data?.links?.length > 0 ? data.links : []),
-      ...(data?.season === 'lent' && dayOfWeek === 'piątek'
+      ...(data?.season === 'lent' && data?.dayOfWeek === 'piątek'
         ? [
             { name: 'Droga krzyżowa klasyczna', slug: 'droga-krzyzowa' },
             {
@@ -32,7 +31,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
         ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino' }]
         : []),
     ]);
-  }, [data, dayOfWeek]);
+  }, [data]);
 
   return (
     <div className="font-light text-sm">
@@ -63,7 +62,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
           </ul>
         )}
       </div>
-      {dayOfWeek === 'niedziela' && (
+      {data?.dayOfWeek === 'niedziela' && (
         <div className="mt-1">
           {intro}{' '}
           <span className="font-medium">
