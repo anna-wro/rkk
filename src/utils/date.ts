@@ -19,10 +19,12 @@ export const getCurrentSeason = (): SeasonType => {
 export const getCalendarData = (): CalendarDataType => {
   // const dateParam = getQueryParam('date');
   //TODO allow mocking date
-  const { isoDate, prettyDate } = getSelectedDate();
+  const { isoDate, prettyDate, dayOfWeek } = getSelectedDate();
 
   const currentCalendarItem = calendar.find(item => item.date === isoDate);
-  return currentCalendarItem ? { ...currentCalendarItem, prettyDate } : null;
+  return currentCalendarItem
+    ? { ...currentCalendarItem, prettyDate, dayOfWeek }
+    : null;
 };
 
 export const getSelectedDate = (date?: DateTime) => {
