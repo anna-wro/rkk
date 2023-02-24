@@ -19,11 +19,20 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
     setLinksTitle(data?.linksTitle ?? copy.linksTitle);
     setLinksToDisplay([
       ...(data?.links?.length > 0 ? data.links : []),
+      ...(data?.season === 'lent' && dayOfWeek === 'piątek'
+        ? [
+            { name: 'Droga krzyżowa klasyczna', slug: 'droga-krzyzowa' },
+            {
+              name: 'Droga krzyżowa biblijna',
+              slug: 'droga-krzyzowa-biblijna',
+            },
+          ]
+        : []),
       ...(data?.holidays?.length > 0 && data?.season !== 'lent'
         ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino' }]
         : []),
     ]);
-  }, [data]);
+  }, [data, dayOfWeek]);
 
   return (
     <div className="font-light text-sm">
