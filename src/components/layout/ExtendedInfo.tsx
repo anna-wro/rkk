@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { CalendarDataType, getSelectedDate } from 'utils/date';
+import { CalendarDataType } from 'utils/date';
 import { formatCalendarNotes } from 'utils/text';
 import { copy } from 'consts/copy';
 import cx from 'classnames';
