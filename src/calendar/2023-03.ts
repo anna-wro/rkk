@@ -44,7 +44,7 @@ export const March2023: CalendarType = [
     vespers: {
       antiphon:
         'Nie mówcie nikomu o tym widzeniu, * aż Syn Człowieczy zmartwychwstanie.',
-    }
+    },
   },
   {
     date: '2023-03-06',
@@ -146,7 +146,13 @@ export const March2023: CalendarType = [
     date: '2023-03-19',
     week: 2,
     season: 'lent',
-    passages: ['1Sm 16, 1-13', 'Ps 23', 'Ef 5, 8-14', 'Ef 5, 8-14', 'J 9, 1-41'],
+    passages: [
+      '1Sm 16, 1-13',
+      'Ps 23',
+      'Ef 5, 8-14',
+      'Ef 5, 8-14',
+      'J 9, 1-41',
+    ],
     holidays: ['4. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
     eve: {
       antiphon:
@@ -165,7 +171,12 @@ export const March2023: CalendarType = [
     date: '2023-03-20',
     week: 2,
     season: 'lent',
-    passages: ['2Sm 7, 4-5a.12-14a.16', 'Ps 89', 'Rz 4, 13.16-18.22', 'Mt 1, 16.18-21.24'],
+    passages: [
+      '2Sm 7, 4-5a.12-14a.16',
+      'Ps 89',
+      'Rz 4, 13.16-18.22',
+      'Mt 1, 16.18-21.24',
+    ],
     holidays: ['JÓZEFA Z NAZARETU'],
   },
   {
@@ -205,9 +216,8 @@ export const March2023: CalendarType = [
     week: 1,
     season: 'lent',
     passages: ['Ez 37, 12-14', 'Ps 130', 'Rz 8, 8-11', 'J 11, 1-45'],
-    notes: ['[HTML]Dobrego Łotra[HTML]']
+    notes: ['[HTML]Dobrego Łotra[HTML]'],
     holidays: ['5. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
-    passages: ['Ez 37, 12-14', 'Ps 130', 'Rz 8, 8-11', 'J 11, 1-45'],
     eve: {
       antiphon:
         'Jeśli ziarno pszenicy * nie wpadnie w ziemię i nie obumrze, / zostanie tylko samo; / lecz jeśli obumrze, / przynosi plon obfity.',
