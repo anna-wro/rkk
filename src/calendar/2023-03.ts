@@ -150,7 +150,6 @@ export const March2023: CalendarType = [
       '1Sm 16, 1-13',
       'Ps 23',
       'Ef 5, 8-14',
-      'Ef 5, 8-14',
       'J 9, 1-41',
     ],
     holidays: ['4. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
