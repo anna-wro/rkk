@@ -51,7 +51,6 @@ export const March2023: CalendarType = [
     week: 2,
     season: 'lent',
     passages: ['Dn 9, 4b-10', 'Ps 78', 'Łk 6, 36-38'],
-    },
   },
   {
     date: '2023-03-07',
