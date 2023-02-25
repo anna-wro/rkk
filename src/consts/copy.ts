@@ -22,6 +22,7 @@ export const copy = {
   settings: { headline: 'Ustawienia', goBackButton: 'wróć na stronę główną' },
   linksTitle: '[HTML]Modlitwy na dziś: [HTML]',
   notToday: 'Wybiegłeś/aś za daleko w przyszłość. Zawróć!',
+  silence: 'Chwila ciszy...',
 };
 
 export default copy;

@@ -153,7 +153,7 @@ export const February2023: CalendarType = [
   {
     date: '2023-02-22',
     week: 2,
-    season: 'ordinary',
+    season: 'lent',
     passages: ['Jl 2, 12-18', 'Ps 51', '2 Kor 5, 20-6, 2', 'Mt 6, 1-6, 16-18'],
     holidays: ['ŚRODA POPIELCOWA'],
     notes: ['[HTML]Polikarpa[HTML] bp. i m.'],
@@ -161,38 +161,50 @@ export const February2023: CalendarType = [
   {
     date: '2023-02-23',
     week: 2,
-    season: 'ordinary',
+    season: 'lent',
     passages: ['Pwt 30, 15-20', 'Ps 1', 'Łk 9, 22-25'],
   },
   {
     date: '2023-02-24',
     week: 2,
-    season: 'ordinary',
+    season: 'lent',
     passages: ['Iz 58, 1-9a', 'Ps 51', 'Mt 9, 14-15'],
   },
   {
     date: '2023-02-25',
     week: 2,
-    season: 'ordinary',
+    season: 'lent',
     passages: ['Iz 58, 9b-14', 'Ps 86', 'Łk 5, 27-32'],
   },
   {
     date: '2023-02-26',
     week: 1,
-    season: 'ordinary',
+    season: 'lent',
     passages: ['Rdz 2, 7-9; 3, 1-7', 'Ps 51', 'Rz 5, 12-19', 'Mt 4, 1-11'],
     holidays: ['1. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
+    lauds: {
+      antiphon:
+        'Duch wyprowadził Jezusa na pustynię, * aby kuszony był przez diabła. / A gdy przepościł czterdzieści dni i nocy, / głód wielki potem odczuwał.',
+    },
+    eve: {
+      antiphon:
+        'Nie samym chlebem żyje człowiek, * lecz każdym słowem, / które pochodzi z ust Bożych.',
+    },
+    vespers: {
+      antiphon:
+        'Czuwaj nad nami, o Zbawicielu, * by nas nie pochwycił przebiegły kusiciel; / Ty bowiem jesteś naszą odwieczną pomocą.',
+    },
   },
   {
     date: '2023-02-27',
     week: 1,
-    season: 'ordinary',
-    passages: ['Kpł 19, 1-2, 11-18', 'Ps 19', 'Mt 25, 31-46'],
+    season: 'lent',
+    passages: ['Kpł 19, 1-2. 11-18', 'Ps 19', 'Mt 25, 31-46'],
   },
   {
     date: '2023-02-28',
     week: 1,
-    season: 'ordinary',
+    season: 'lent',
     passages: ['Iz 55, 10-11', 'Ps 34', 'Mt 6, 7-15'],
     notes: ['[HTML]Johanna Josepha Ignazego von Döllingera[HTML] prezb.'],
   },
