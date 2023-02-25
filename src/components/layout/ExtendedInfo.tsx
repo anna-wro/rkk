@@ -27,6 +27,9 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
             },
           ]
         : []),
+      ...(data?.holidays?.length > 0 && data?.season === 'lent'
+        ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino-opp' }]
+        : []),
       ...(data?.holidays?.length > 0 && data?.season !== 'lent'
         ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino' }]
         : []),
