@@ -146,12 +146,7 @@ export const March2023: CalendarType = [
     date: '2023-03-19',
     week: 2,
     season: 'lent',
-    passages: [
-      '1Sm 16, 1-13',
-      'Ps 23',
-      'Ef 5, 8-14',
-      'J 9, 1-41',
-    ],
+    passages: ['1Sm 16, 1-13', 'Ps 23', 'Ef 5, 8-14', 'J 9, 1-41'],
     holidays: ['4. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
     eve: {
       antiphon:
