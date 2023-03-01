@@ -3,26 +3,26 @@ import type { CalendarType } from './calendar';
 export const March2023: CalendarType = [
   {
     date: '2023-03-01',
-    week: 2,
+    week: 1,
     season: 'lent',
     passages: ['Jon 3, 1-10', 'Ps 51', 'Łk 11, 29-32'],
   },
   {
     date: '2023-03-02',
-    week: 2,
+    week: 1,
     season: 'lent',
     passages: ['Est 4, 17k.l-m.r-u', 'Ps 138', 'Mt 7, 7-12'],
   },
   {
     date: '2023-03-03',
-    week: 2,
+    week: 1,
     season: 'lent',
     passages: ['Ez 18, 21-28', 'Ps 130', 'Mt 5, 20-265'],
     notes: ['[HTML]Jana i Karola Wesleyów[HTML] prezb.'],
   },
   {
     date: '2023-03-04',
-    week: 2,
+    week: 1,
     season: 'lent',
     passages: ['Pwt 26, 16-19', 'Ps 119', 'Mt 5, 43-48'],
   },
