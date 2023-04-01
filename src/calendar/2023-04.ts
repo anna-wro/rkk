@@ -137,7 +137,7 @@ export const April2023: CalendarType = [
     holidays: ['PASCHA'],
     passages: ['Dz 10, 34a. 37-43', 'Ps 118', '1 Kor 5,6-8', 'J 20, 1-9'],
     notes: [
-      'Wieczorem kończy się Triduum Paschalna i rozpoczyna się Oktawa Paschalna',
+      'Wieczorem kończy się Triduum Paschalna i rozpoczyna się Oktawa Paschalna ',
     ],
     links: [
       { name: 'nieszpory Wielkiej Soboty', slug: 'wielka-sobota-nieszpory' },
