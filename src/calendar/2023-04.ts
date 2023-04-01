@@ -4,10 +4,14 @@ export const April2023: CalendarType = [
   {
     date: '2023-04-01',
     week: 1,
-    season: 'lent',
+    season: 'pascha',
     notes: [
       '[HTML]Marii Egipcjanki[HTML] mn.',
       '[HTML]Melitona z Sardes[HTML] bp.',
+    ],
+    links: [
+      { name: 'wigilia Niedzieli Palmowej', slug: 'niedziela-palmowa-wigilia' },
+      { name: 'kompleta', slug: 'niedziela-palmowa-kompleta-1' },
     ],
   },
   {
