@@ -5,6 +5,13 @@ export const April2023: CalendarType = [
     date: '2023-04-01',
     week: 1,
     season: 'pascha',
+    passages: [
+      'Łk 19, 28-40',
+      'Iz 50, 4-7',
+      'Ps 22',
+      'Flp 2, 6-11',
+      'Łk 22, 14-23, 56',
+    ],
     notes: [
       '[HTML]Marii Egipcjanki[HTML] mn.',
       '[HTML]Melitona z Sardes[HTML] bp.',
