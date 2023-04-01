@@ -4,13 +4,13 @@ export const April2023: CalendarType = [
   {
     date: '2023-04-01',
     week: 1,
-    season: 'pascha',
+    season: 'pascha', // HOTFIX for season not changins, should be lent and different readings!
     passages: [
-      'Łk 19, 28-40',
+      'Mt 21, 1-11',
       'Iz 50, 4-7',
       'Ps 22',
       'Flp 2, 6-11',
-      'Łk 22, 14-23, 56',
+      'Mt 26, 14-27, 66fc',
     ],
     notes: [
       '[HTML]Marii Egipcjanki[HTML] mn.',
@@ -27,11 +27,11 @@ export const April2023: CalendarType = [
     season: 'pascha',
     holidays: ['NIEDZIELA PALMOWA'],
     passages: [
-      'Łk 19, 28-40',
+      'Mt 21, 1-11',
       'Iz 50, 4-7',
       'Ps 22',
       'Flp 2, 6-11',
-      'Łk 22, 14-23, 56',
+      'Mt 26, 14-27, 66',
     ],
     links: [
       { name: 'wigilia', slug: 'niedziela-palmowa-wigilia' },
@@ -42,7 +42,7 @@ export const April2023: CalendarType = [
     ],
   },
   {
-    date: '2023-04-11',
+    date: '2023-04-03',
     week: 2,
     holidays: ['WIELKI PONIEDZIAŁEK'],
     season: 'pascha',
@@ -54,7 +54,7 @@ export const April2023: CalendarType = [
     ],
   },
   {
-    date: '2023-04-12',
+    date: '2023-04-04',
     week: 2,
     season: 'pascha',
     holidays: ['WIELKI WTOREK'],
@@ -66,7 +66,7 @@ export const April2023: CalendarType = [
     ],
   },
   {
-    date: '2023-04-13',
+    date: '2023-04-05',
     week: 2,
     season: 'pascha',
     holidays: ['WIELKA ŚRODA'],
@@ -78,7 +78,7 @@ export const April2023: CalendarType = [
     ],
   },
   {
-    date: '2023-04-14',
+    date: '2023-04-06',
     week: 2,
     season: 'pascha',
     holidays: ['WIELKI CZWARTEK'],
@@ -91,7 +91,7 @@ export const April2023: CalendarType = [
     ],
   },
   {
-    date: '2023-04-15',
+    date: '2023-04-07',
     week: 2,
     season: 'pascha',
     holidays: ['WIELKI PIĄTEK', 'LITURGIA MĘKI PAŃSKIEJ'],
@@ -109,7 +109,7 @@ export const April2023: CalendarType = [
     ],
   },
   {
-    date: '2023-04-16',
+    date: '2023-04-08',
     week: 2,
     season: 'pascha',
     holidays: ['WIGILIA PASCHALNA'],
@@ -142,7 +142,7 @@ export const April2023: CalendarType = [
     ],
   },
   {
-    date: '2023-04-17',
+    date: '2023-04-09',
     week: 2,
     season: 'easter',
     holidays: ['PASCHA'],
@@ -160,7 +160,7 @@ export const April2023: CalendarType = [
     ],
   },
   {
-    date: '2023-04-18',
+    date: '2023-04-10',
     week: 1,
     season: 'easter',
     holidays: ['PONIEDZIAŁEK PASCHALNY'],
@@ -187,7 +187,7 @@ export const April2023: CalendarType = [
     },
   },
   {
-    date: '2023-04-19',
+    date: '2023-04-11',
     week: 1,
     season: 'easter',
     holidays: ['WTOREK PASCHALNY'],
@@ -213,7 +213,7 @@ export const April2023: CalendarType = [
     },
   },
   {
-    date: '2023-04-20',
+    date: '2023-04-12',
     week: 1,
     season: 'easter',
     holidays: ['ŚRODA PASCHALNA'],
@@ -240,7 +240,7 @@ export const April2023: CalendarType = [
     },
   },
   {
-    date: '2023-04-21',
+    date: '2023-04-13',
     week: 1,
     season: 'easter',
     holidays: ['CZWARTEK PASCHALNY'],
@@ -267,7 +267,7 @@ export const April2023: CalendarType = [
     },
   },
   {
-    date: '2023-04-22',
+    date: '2023-04-14',
     week: 1,
     season: 'easter',
     holidays: ['PIĄTEK PASCHALNY'],
@@ -294,7 +294,7 @@ export const April2023: CalendarType = [
     },
   },
   {
-    date: '2023-04-23',
+    date: '2023-04-15',
     week: 1,
     season: 'easter',
     holidays: ['SOBOTA PASCHALNA'],
@@ -322,7 +322,7 @@ export const April2023: CalendarType = [
     },
   },
   {
-    date: '2023-04-24',
+    date: '2023-04-16',
     week: 2,
     season: 'easter',
     holidays: ['2. NIEDZIELA PASCHALNA'],
@@ -354,43 +354,29 @@ export const April2023: CalendarType = [
     },
   },
   {
-    date: '2023-04-25',
+    date: '2023-04-17',
     week: 2,
     season: 'easter',
     holidays: ['MARKA APOSTOŁA'],
     passages: ['1 P 5,5b-14', 'Ps 89', 'Mk 16, 15-20'],
   },
   {
-    date: '2023-04-26',
+    date: '2023-04-18',
     week: 2,
     season: 'easter',
     passages: ['Dz 4, 32-37', 'Ps 93', 'J 3, 7b-15'],
   },
   {
-    date: '2023-04-27',
+    date: '2023-04-19',
     week: 2,
     season: 'easter',
     passages: ['Dz 5, 17-26', 'Ps 34', 'J 3, 16-21'],
   },
   {
-    date: '2023-04-28',
+    date: '2023-04-20',
     week: 2,
     season: 'easter',
     passages: ['Dz 5, 27-33', 'Ps 34', 'J 3, 31-36'],
     notes: ['[HTML]Joanny Beretty Molli [HTML] w.'],
-  },
-  {
-    date: '2023-04-29',
-    week: 2,
-    season: 'easter',
-    passages: ['Dz 5, 34-42', 'Ps 27', 'J 6, 1-15'],
-    notes: ['[HTML]Katarzyny ze Sieny [HTML] zak.'],
-  },
-  {
-    date: '2023-04-30',
-    week: 2,
-    season: 'easter',
-    passages: ['Dz 6, 1-7', 'Ps 33', 'J 6, 16-21'],
-    notes: ['[HTML]Jakuba z Paradyża [HTML] mn.'],
   },
 ];
