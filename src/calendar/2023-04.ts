@@ -4,7 +4,7 @@ export const April2023: CalendarType = [
   {
     date: '2023-04-01',
     week: 1,
-    season: 'pascha', // HOTFIX for season not changins, should be lent and different readings!
+    season: 'pascha',
     passages: [
       'Mt 21, 1-11',
       'Iz 50, 4-7',
@@ -24,7 +24,7 @@ export const April2023: CalendarType = [
   {
     date: '2023-04-02',
     week: 2,
-    season: 'pascha',
+    season: 'lent',
     holidays: ['NIEDZIELA PALMOWA'],
     passages: [
       'Mt 21, 1-11',
@@ -45,7 +45,7 @@ export const April2023: CalendarType = [
     date: '2023-04-03',
     week: 2,
     holidays: ['WIELKI PONIEDZIAŁEK'],
-    season: 'pascha',
+    season: 'lent',
     passages: ['Iz 42, 1-7', 'Ps 27', 'J 12, 1-11'],
     links: [
       { name: 'jutrznia', slug: 'wielki-poniedzialek-jutrznia' },
@@ -56,7 +56,7 @@ export const April2023: CalendarType = [
   {
     date: '2023-04-04',
     week: 2,
-    season: 'pascha',
+    season: 'lent',
     holidays: ['WIELKI WTOREK'],
     passages: ['Iz 49, 1-6', 'Ps 71', 'J 13, 21-33. 36-38'],
     links: [
@@ -68,7 +68,7 @@ export const April2023: CalendarType = [
   {
     date: '2023-04-05',
     week: 2,
-    season: 'pascha',
+    season: 'lent',
     holidays: ['WIELKA ŚRODA'],
     passages: ['Iz 50, 4-9a', 'Ps 69', 'Mt 26, 14-25'],
     links: [
@@ -80,7 +80,7 @@ export const April2023: CalendarType = [
   {
     date: '2023-04-06',
     week: 2,
-    season: 'pascha',
+    season: 'lent',
     holidays: ['WIELKI CZWARTEK'],
     passages: ['Iz 61, 1-3a.6a.8b-9', 'Ps 89', 'Ap 1, 5-8', 'Łk 4, 16-21'],
     links: [
@@ -93,7 +93,7 @@ export const April2023: CalendarType = [
   {
     date: '2023-04-07',
     week: 2,
-    season: 'pascha',
+    season: 'lent',
     holidays: ['WIELKI PIĄTEK', 'LITURGIA MĘKI PAŃSKIEJ'],
     passages: [
       'Iz 52, 13-53, 12',
@@ -111,7 +111,7 @@ export const April2023: CalendarType = [
   {
     date: '2023-04-08',
     week: 2,
-    season: 'pascha',
+    season: 'lent',
     holidays: ['WIGILIA PASCHALNA'],
     notes: [
       'Tego dnia sprawuje się wyłącznie Liturgię Godzin. Po zmroku rozpoczyna się Wigilia Paschalna',
