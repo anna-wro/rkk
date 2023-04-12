@@ -299,7 +299,6 @@ export const April2023: CalendarType = [
     season: 'easter',
     holidays: ['SOBOTA PASCHALNA'],
     passages: ['Dz 4, 13-21', 'Ps 118', 'Mk 16, 9-15'],
-    notes: ['[HTML]Wojciecha[HTML] bp. i m.'],
     links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
