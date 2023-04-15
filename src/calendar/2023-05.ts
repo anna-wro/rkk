@@ -48,8 +48,7 @@ export const May2023: CalendarType = [
     passages: ['Dz 13, 44-52', 'Ps 98', 'J 14, 7-14'],
     notes: [
       '[HTML]Ewodiusza[HTML] bp.',
-      '[HTML]Léona-Josepha Suenensa[HTML] bp.',
-    ],
+      '[HTML]Léona-Josepha Suenensa[HTML] bp.'],
     links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
