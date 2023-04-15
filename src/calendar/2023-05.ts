@@ -318,6 +318,7 @@ export const May2023: CalendarType = [
     date: '2023-05-30',
     week: 2,
     season: 'pentecost',
+    holidays: ['OKTAWA PIĘĆDZIESIĄTNICY'],
     passages: ['Dz 8, 14-17', 'Ps 33', 'J 10, 1-10'],
     lauds: {
       sigla: 'Ef 4,23-27',
