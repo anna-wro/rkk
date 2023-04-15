@@ -326,10 +326,10 @@ export const April2023: CalendarType = [
     season: 'easter',
     holidays: ['2. NIEDZIELA PASCHALNA'],
     passages: [
-      'Dz 5, 12-16',
-      'Ps 118',
-      'Ap 1, 9-11a. 12-13. 17-19',
-      'J 20, 19-31',
+     'Dz 2, 42-47',
+     'Ps 118',
+     '1 P 1, 3-9',
+     'J 20, 19-31',
     ],
     links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
@@ -356,26 +356,149 @@ export const April2023: CalendarType = [
     date: '2023-04-17',
     week: 2,
     season: 'easter',
-    holidays: ['MARKA APOSTOŁA'],
-    passages: ['1 P 5,5b-14', 'Ps 89', 'Mk 16, 15-20'],
+    passages: [
+      'Dz 4, 23-31',
+      'Ps 2',
+      'J 3, 1-8'
+    ],
   },
   {
     date: '2023-04-18',
     week: 2,
     season: 'easter',
-    passages: ['Dz 4, 32-37', 'Ps 93', 'J 3, 7b-15'],
+    passages: [
+      'Dz 4, 32-37',
+      'Ps 93',
+      'J 3, 7b-15'
+],
   },
   {
     date: '2023-04-19',
     week: 2,
     season: 'easter',
-    passages: ['Dz 5, 17-26', 'Ps 34', 'J 3, 16-21'],
+    passages: [
+      'Dz 5, 17-26',
+      'Ps 34',
+      'J 3, 16-21'
+],
   },
   {
     date: '2023-04-20',
     week: 2,
     season: 'easter',
-    passages: ['Dz 5, 27-33', 'Ps 34', 'J 3, 31-36'],
+    passages: [
+      'Dz 5, 27-33',
+      'Ps 34',
+      'J 3, 31-36'
+],
+  },
+  {
+    date: '2023-04-21',
+    week: 2,
+    season: 'easter',
+    passages: [
+      'Dz 5, 34-42',
+      'Ps 27',
+      'J 6, 1-15'
+],
+  },
+  {
+    date: '2023-04-22',
+    week: 2,
+    season: 'easter',
+    passages: [
+      'Dz 6, 1-7',
+      'Ps 33',
+      'J 6, 16-21'
+],
+  },
+   {
+    date: '2023-04-23',
+    week: 1,
+    season: 'easter',
+    holidays: ['3. NIEDZIELA PASCHALNA'],
+    passages: [
+      'Dz 2, 14, 22-32',
+      'Ps 16',
+      '1 P 1, 17-21',
+      'Łk 24, 13-35'
+    ],
+    notes: ['[HTML]Wojciecha[HTML] bp. i m.'],
+  },
+   {
+    date: '2023-04-24',
+    week: 1,
+    season: 'easter',
+    passages: [
+      'Dz 6, 8-15',
+      'Ps 119',
+      'J 6, 22-29'
+],
+  },
+  {
+    date: '2023-04-25',
+    week: 1,
+    season: 'easter',
+    passages: [
+      'Dz 6, 8-15',
+      'Ps 119',
+      'J 6, 22-29'
+],
+    holidays: ['MARKA EWANGELISTY'],
+  },
+  {
+    date: '2023-04-26',
+    week: 1,
+    season: 'easter',
+    passages: [
+      'Dz 8, 1b-8',
+      'Ps 66',
+      'J 6, 35-40'
+],
+  },
+  {
+    date: '2023-04-27',
+    week: 1,
+    season: 'easter',
+    passages: [
+      'Dz 8, 26-40',
+      'Ps 66',
+      'J 6, 44-51'
+],
+  },
+  {
+    date: '2023-04-28',
+    week: 1,
+    season: 'easter',
+    passages: [
+     'Dz 9, 1-20',
+     'Ps 117',
+     'J 6, 52-59'
+],
     notes: ['[HTML]Joanny Beretty Molli [HTML] w.'],
   },
+  {
+    date: '2023-04-29',
+    week: 1,
+    season: 'easter',
+    passages: [
+      'Dz 9, 31-42',
+      'Ps 116',
+      'J 6, 60-69'
+],
+  },
+   {
+    date: '2023-04-30',
+    week: 2,
+    season: 'easter',
+    holidays: ['3. NIEDZIELA PASCHALNA'],
+    passages: [
+      'Dz 2, 14a.36-41',
+      'Ps 23',
+      '1 P 2, 20b-25',
+      'J 10, 1-10'
+ ],
+    notes: ['[HTML]Jakuba z Paradyża[HTML] mn.']],
+  },
+ 
 ];
