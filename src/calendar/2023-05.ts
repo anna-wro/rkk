@@ -265,7 +265,7 @@ export const May2023: CalendarType = [
     passages: ['Dz 28, 16-20.30-31', 'Ps 11', 'J 21, 20-25'],
     holidays: ['WIGILIA PIĘĆDZIESIĄTNICY'],
     links: [
-      [{ name: 'jutrznia', slug: 'wniebowstapienie-nowenna-9-jutrznia' },
+      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-9-jutrznia' },
       { name: 'litanie maryjne', slug: 'litanie-maryjne' },
     ],
     notes: ['Wieczorem rozpoczyna się Wigilia Pięćdziesiątnicy. Czytania wg lekcjonarza Tom 2 str. 209-218'],
