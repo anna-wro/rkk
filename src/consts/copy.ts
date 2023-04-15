@@ -21,7 +21,8 @@ export const copy = {
   or: 'Albo:',
   settings: { headline: 'Ustawienia', goBackButton: 'wróć na stronę główną' },
   linksTitle: '[HTML]Modlitwy na dziś: [HTML]',
-  notToday: 'Wybiegłeś/aś za daleko w przyszłość. Zawróć!',
+  notToday:
+    'Upsi! Ktoś zapomniał o kalendarzu na ten miesiąc 🙁. Jeżeli to pomoże - poniżej znajdują się teksty na okres w ciągu roku.',
   silence: 'Chwila ciszy...',
 };
 
