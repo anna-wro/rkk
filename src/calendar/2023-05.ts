@@ -48,7 +48,8 @@ export const May2023: CalendarType = [
     passages: ['Dz 13, 44-52', 'Ps 98', 'J 14, 7-14'],
     notes: [
       '[HTML]Ewodiusza[HTML] bp.',
-      '[HTML]Léona-Josepha Suenensa[HTML] bp.'],
+      '[HTML]Léona-Josepha Suenensa[HTML] bp.',
+    ],
     links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
@@ -138,7 +139,8 @@ export const May2023: CalendarType = [
         name: 'Wniebowstąpienie Pańskie - wigilia',
         slug: 'wniebowstapienie-panskie-wigilia',
       },
-      { name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+    ],
   },
   {
     date: '2023-05-18',
@@ -168,15 +170,17 @@ export const May2023: CalendarType = [
       { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-1-jutrznia' },
       { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-1-nieszpory' },
       { name: 'litanie maryjne', slug: 'litanie-maryjne' },
-    ]
+    ],
   },
   {
     date: '2023-05-20',
     week: 2,
     season: 'pentecost',
     passages: ['Dz 18, 23-28', 'Ps 47', 'J 16, 23b-28'],
-    links: [{ name: 'jutrznia', slug: 'wniebowstapienie-nowenna-2-jutrznia' },
-    { name: 'litanie maryjne', slug: 'litanie-maryjne' },],
+    links: [
+      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-2-jutrznia' },
+      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+    ],
     notes: [
       '[HTML]I Sobór Ekumeniczny w Nicei[HTML]',
       'Tego dnia uroczyście odmawiamy Konstantynopolitańskie Wyznanie Wiary',
@@ -229,7 +233,7 @@ export const May2023: CalendarType = [
       { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-6-jutrznia' },
       { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-6-nieszpory' },
       { name: 'litanie maryjne', slug: 'litanie-maryjne' },
-    ]
+    ],
   },
   {
     date: '2023-05-25',
@@ -239,7 +243,8 @@ export const May2023: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-7-jutrznia' },
       { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-7-nieszpory' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },],
+      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+    ],
     notes: ['[HTML]Bedy Czcigodneg[HTML] mn.'],
   },
   {
@@ -268,7 +273,9 @@ export const May2023: CalendarType = [
       { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-9-jutrznia' },
       { name: 'litanie maryjne', slug: 'litanie-maryjne' },
     ],
-    notes: ['Wieczorem rozpoczyna się Wigilia Pięćdziesiątnicy. Czytania wg lekcjonarza Tom 2 str. 209-218'],
+    notes: [
+      'Wieczorem rozpoczyna się Wigilia Pięćdziesiątnicy. Czytania wg lekcjonarza Tom 2 str. 209-218',
+    ],
   },
   {
     date: '2023-05-28',
