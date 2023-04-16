@@ -29,3 +29,4 @@ export { SaintFrancisPrayer } from './SaintFrancisPrayer';
 export { Silence } from './Silence';
 export { ViaCrucisSong } from './ViaCrucisSong';
 export { ViaCrucisResponsory } from './ViaCrucisResponsory';
+export { ViaLucisResponsory } from './ViaLucisResponsory';
