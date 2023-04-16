@@ -33,6 +33,8 @@ export const getStaticProps = async ({ params }) => {
   );
 
   let source;
+
+  // TODO: add path for readings
   try {
     source = fs.readFileSync(customPrayerFilePath);
   } catch {
