@@ -6,9 +6,11 @@ import Prayer from 'components/layout/PrayerPage';
 import Layout from 'components/layout/Layout';
 import {
   SEASON_PRAYERS_PATH,
-  CUSTOM_PRAYERS_PATH,
+  // CUSTOM_PRAYERS_PATH,
   seasonPrayersFilePaths,
   customPrayersFilePaths,
+  READINGS_PATH,
+  readingsFilePaths,
 } from 'utils/mdxUtils';
 import { useWakeLock } from 'utils/useWakeLock';
 
@@ -27,16 +29,18 @@ export const getStaticProps = async ({ params }) => {
     SEASON_PRAYERS_PATH,
     `${params.slug}.mdx`,
   );
-  const customPrayerFilePath = path.join(
-    CUSTOM_PRAYERS_PATH,
-    `${params.slug}.mdx`,
-  );
+
+  // Nie wiem co z tym zrobić, bo nie wiem jak to zrobić
+  // const customPrayerFilePath = path.join(
+  //   CUSTOM_PRAYERS_PATH,
+  //   `${params.slug}.mdx`,
+  // );
+  const readingsFilePath = path.join(READINGS_PATH, `${params.slug}.mdx`);
 
   let source;
 
-  // TODO: add path for readings
   try {
-    source = fs.readFileSync(customPrayerFilePath);
+    source = fs.readFileSync(readingsFilePath);
   } catch {
     source = fs.readFileSync(seasonPrayerFilePath);
   }
@@ -60,7 +64,11 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export const getStaticPaths = async () => {
-  const paths = [...seasonPrayersFilePaths, ...customPrayersFilePaths]
+  const paths = [
+    ...seasonPrayersFilePaths,
+    ...customPrayersFilePaths,
+    ...readingsFilePaths,
+  ]
     .map(path => path.replace(/\.mdx?$/, ''))
     .map(slug => ({ params: { slug } }));
 
