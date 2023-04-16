@@ -38,7 +38,7 @@ export const May2023: CalendarType = [
     week: 2,
     season: 'easter',
     passages: ['Dz 13, 26-33', 'Ps 2', 'J 14, 1-6'],
-    notes: ['[HTML]Pauli z Rzymu[HTML] w.'],          
+    notes: ['[HTML]Pauli z Rzymu[HTML] w.'],
     links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
@@ -168,7 +168,7 @@ export const May2023: CalendarType = [
       { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-1-jutrznia' },
       { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-1-nieszpory' },
       { name: 'litanie maryjne', slug: 'litanie-maryjne' },
-      ]
+    ]
   },
   {
     date: '2023-05-20',
@@ -176,7 +176,7 @@ export const May2023: CalendarType = [
     season: 'pentecost',
     passages: ['Dz 18, 23-28', 'Ps 47', 'J 16, 23b-28'],
     links: [{ name: 'jutrznia', slug: 'wniebowstapienie-nowenna-2-jutrznia' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },],
+    { name: 'litanie maryjne', slug: 'litanie-maryjne' },],
     notes: [
       '[HTML]I Sobór Ekumeniczny w Nicei[HTML]',
       'Tego dnia uroczyście odmawiamy Konstantynopolitańskie Wyznanie Wiary',
@@ -274,7 +274,7 @@ export const May2023: CalendarType = [
     date: '2023-05-28',
     week: 2,
     season: 'pentecost',
-    passages: ['Dz 2, 1-11', 'Ps 104', '1 Kor 12, 3b-7.12-13','J 20, 19-23'],
+    passages: ['Dz 2, 1-11', 'Ps 104', '1 Kor 12, 3b-7.12-13', 'J 20, 19-23'],
     holidays: ['PIĘĆDZIESIĄTNICA'],
     links: [
       { name: 'wigilia', slug: 'zeslanie-ducha-swietego-wigilia' },
