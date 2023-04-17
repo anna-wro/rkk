@@ -1,5 +1,6 @@
 import { Section } from 'components/mdxOverrides';
 import React from 'react';
+import { Note } from './Note';
 
 type PassageType = Readonly<{
   sigla: string;
@@ -11,6 +12,7 @@ type PassageType = Readonly<{
   intro?: string;
   outro?: string;
   acclamation?: string;
+  title?: string;
   children?: React.ReactNode;
 }>;
 
@@ -23,6 +25,7 @@ export const Passage = ({
   intro,
   outro,
   acclamation,
+  title,
   children,
   className,
 }: PassageType) => {
@@ -54,6 +57,7 @@ export const Passage = ({
           <div className="ml-2">{acclamation}</div>
         </div>
       )}
+      {title && <Note>{title}</Note>}
       <div className="space-y-2">
         {intro && <p>{intro}</p>}
         {passage}
