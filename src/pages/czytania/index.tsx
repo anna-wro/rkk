@@ -3,30 +3,30 @@ import path from 'path';
 import matter from 'gray-matter';
 import Layout from 'components/layout/Layout';
 import { InfoForDayFacade } from 'components/layout/InfoForDayFacade';
-import { CustomPrayersList } from 'components/layout/CustomPrayersList';
+import { ReadingsList } from 'components/layout/ReadingsList';
 import { READINGS_PATH, readingsFilePaths } from 'utils/mdxUtils';
-import { getPrayerDataFromMeta } from 'utils/getPrayerDataFromMeta';
+import { getReadingDataFromMeta } from 'utils/getReadingDataFromMeta';
 
-export default function CustomPrayersIndex({ prayers }) {
+export default function CustomPrayersIndex({ readings }) {
   return (
     <Layout>
       {<InfoForDayFacade />}
-      <CustomPrayersList prayers={prayers} />
+      <ReadingsList readings={readings} />
     </Layout>
   );
 }
 
 export function getStaticProps() {
-  const prayers = readingsFilePaths
+  const readings = readingsFilePaths
     .map(filePath => {
       const source = fs.readFileSync(path.join(READINGS_PATH, filePath));
       const { content, data } = matter(source);
 
-      const prayerData = getPrayerDataFromMeta({ meta: data, filePath });
+      const readingsData = getReadingDataFromMeta({ meta: data, filePath });
 
-      return { content, data, ...prayerData };
+      return { content, data, ...readingsData };
     })
-    .sort((a, b) => a.ID - b.ID);
+    .sort((a, b) => a.page - b.page);
 
-  return { props: { prayers } };
+  return { props: { readings } };
 }
