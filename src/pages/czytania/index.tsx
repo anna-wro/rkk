@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import Layout from 'components/layout/Layout';
 import { InfoForDayFacade } from 'components/layout/InfoForDayFacade';
 import { CustomPrayersList } from 'components/layout/CustomPrayersList';
-import { CUSTOM_PRAYERS_PATH, customPrayersFilePaths } from 'utils/mdxUtils';
+import { READINGS_PATH, readingsFilePaths } from 'utils/mdxUtils';
 import { getPrayerDataFromMeta } from 'utils/getPrayerDataFromMeta';
 
 export default function CustomPrayersIndex({ prayers }) {
@@ -17,10 +17,9 @@ export default function CustomPrayersIndex({ prayers }) {
 }
 
 export function getStaticProps() {
-  // TODO change paths here
-  const prayers = customPrayersFilePaths
+  const prayers = readingsFilePaths
     .map(filePath => {
-      const source = fs.readFileSync(path.join(CUSTOM_PRAYERS_PATH, filePath));
+      const source = fs.readFileSync(path.join(READINGS_PATH, filePath));
       const { content, data } = matter(source);
 
       const prayerData = getPrayerDataFromMeta({ meta: data, filePath });
