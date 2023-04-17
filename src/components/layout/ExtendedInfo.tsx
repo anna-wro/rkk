@@ -27,6 +27,15 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
             },
           ]
         : []),
+      ...(data?.season === 'easter'
+        ? [
+            { name: 'Droga Światła', slug: 'droga-swiatla' },
+            {
+              name: 'Litania do Chrystusa Zmartwychwstałego',
+              slug: 'litania-zmartwychwstanie',
+            },
+          ]
+        : []),
       ...(data?.holidays?.length > 0 && data?.season === 'lent'
         ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino-opp' }]
         : []),
