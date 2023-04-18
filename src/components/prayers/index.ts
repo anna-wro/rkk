@@ -22,6 +22,7 @@ export { PsalmSectionTitle } from './PsalmSectionTitle';
 export { Antiphon } from './Antiphon';
 export { PrayerForPeace } from './PrayerForPeace';
 export { ReginaCaeli } from './ReginaCaeli';
+export { ResponsorialPsalm } from './ResponsorialPsalm';
 export { SynodalPrayer } from './SynodalPrayer';
 export { MiddayPassagePrayer } from './MiddayPassagePrayer';
 export { WeeklyRotation } from './WeeklyRotation';

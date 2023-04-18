@@ -330,6 +330,10 @@ export const April2023: CalendarType = [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
       { name: 'kompleta', slug: 'oktawa-paschalna-niedziela-kompleta' },
+      {
+        name: 'liturgia słowa',
+        slug: 'czytania/niedziela-w-oktawie-zmartwychwstania-panskiego-rok-a',
+      },
     ],
     variant: 1,
     lauds: {
@@ -390,6 +394,12 @@ export const April2023: CalendarType = [
     holidays: ['3. NIEDZIELA PASCHALNA'],
     passages: ['Dz 2, 14, 22-32', 'Ps 16', '1 P 1, 17-21', 'Łk 24, 13-35'],
     notes: ['[HTML]Wojciecha[HTML] bp. i m.'],
+    links: [
+      {
+        name: 'liturgia słowa',
+        slug: 'czytania/3-niedziela-zmartwychwstania-panskiego-rok-a',
+      },
+    ],
   },
   {
     date: '2023-04-24',

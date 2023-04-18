@@ -24,6 +24,7 @@ export const copy = {
   notToday:
     'Upsi! Ktoś zapomniał o kalendarzu na ten miesiąc 🙁. Jeżeli to pomoże - poniżej znajdują się teksty na okres w ciągu roku.',
   silence: 'Chwila ciszy...',
+  readingsHeadline: 'Czytania liturgiczne',
 };
 
 export default copy;

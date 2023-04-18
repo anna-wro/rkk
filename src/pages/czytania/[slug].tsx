@@ -4,12 +4,7 @@ import matter from 'gray-matter';
 import { serialize } from 'next-mdx-remote/serialize';
 import Prayer from 'components/layout/PrayerPage';
 import Layout from 'components/layout/Layout';
-import {
-  SEASON_PRAYERS_PATH,
-  CUSTOM_PRAYERS_PATH,
-  seasonPrayersFilePaths,
-  customPrayersFilePaths,
-} from 'utils/mdxUtils';
+import { READINGS_PATH, readingsFilePaths } from 'utils/mdxUtils';
 import { useWakeLock } from 'utils/useWakeLock';
 
 export default function PrayerPage({ prayer }) {
@@ -23,23 +18,13 @@ export default function PrayerPage({ prayer }) {
 }
 
 export const getStaticProps = async ({ params }) => {
-  const seasonPrayerFilePath = path.join(
-    SEASON_PRAYERS_PATH,
-    `${params.slug}.mdx`,
-  );
-
-  const customPrayerFilePath = path.join(
-    CUSTOM_PRAYERS_PATH,
-    `${params.slug}.mdx`,
-  );
+  const readingsFilePath = path.join(READINGS_PATH, `${params.slug}.mdx`);
 
   let source;
 
   try {
-    source = fs.readFileSync(customPrayerFilePath);
-  } catch {
-    source = fs.readFileSync(seasonPrayerFilePath);
-  }
+    source = fs.readFileSync(readingsFilePath);
+  } catch {}
 
   const { content, data } = matter(source);
   const mdxSource = await serialize(content, {
@@ -60,7 +45,7 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export const getStaticPaths = async () => {
-  const paths = [...seasonPrayersFilePaths, ...customPrayersFilePaths]
+  const paths = readingsFilePaths
     .map(path => path.replace(/\.mdx?$/, ''))
     .map(slug => ({ params: { slug } }));
 
