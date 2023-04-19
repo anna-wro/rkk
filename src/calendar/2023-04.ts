@@ -392,7 +392,7 @@ export const April2023: CalendarType = [
     week: 1,
     season: 'easter',
     holidays: ['3. NIEDZIELA PASCHALNA'],
-    passages: ['Dz 2, 14, 22-32', 'Ps 16', '1 P 1, 17-21', 'Łk 24, 13-35'],
+    passages: ['Dz 2, 14.22-32', 'Ps 16', '1 P 1, 17-21', 'Łk 24, 13-35'],
     notes: ['[HTML]Wojciecha[HTML] bp. i m.'],
     links: [
       {
@@ -443,7 +443,7 @@ export const April2023: CalendarType = [
     date: '2023-04-30',
     week: 2,
     season: 'easter',
-    holidays: ['3. NIEDZIELA PASCHALNA'],
+    holidays: ['4. NIEDZIELA PASCHALNA'],
     passages: ['Dz 2, 14a.36-41', 'Ps 23', '1 P 2, 20b-25', 'J 10, 1-10'],
     notes: ['[HTML]Jakuba z Paradyża[HTML] mn.'],
   },
