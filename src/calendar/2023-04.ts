@@ -396,7 +396,7 @@ export const April2023: CalendarType = [
     notes: ['[HTML]Wojciecha[HTML] bp. i m.'],
     links: [
       {
-        name: 'liturgia słowa',
+        name: 'Liturgia słowa',
         slug: 'czytania/3-niedziela-zmartwychwstania-panskiego-rok-a',
       },
     ],
