@@ -151,14 +151,14 @@ export const May2023: CalendarType = [
     passages: ['Dz 1, 1-11', 'Ps 47', 'Ef 1, 17-23', 'Mt 28, 16-20'],
     links: [
       {
-        name: 'jutrznia',
+        name: 'Jutrznia',
         slug: 'wniebowstapienie-panskie-jutrznia',
       },
       {
-        name: 'nieszpory',
+        name: 'Nieszpory',
         slug: 'wniebowstapienie-panskie-nieszpory',
       },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
   },
   {
@@ -167,9 +167,9 @@ export const May2023: CalendarType = [
     season: 'pentecost',
     passages: ['Dz 18, 9-18', 'Ps 47', 'J 16, 20-23'],
     links: [
-      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-1-jutrznia' },
-      { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-1-nieszpory' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-1-jutrznia' },
+      { name: 'Nieszpory', slug: 'wniebowstapienie-nowenna-1-nieszpory' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
   },
   {
@@ -178,8 +178,8 @@ export const May2023: CalendarType = [
     season: 'pentecost',
     passages: ['Dz 18, 23-28', 'Ps 47', 'J 16, 23b-28'],
     links: [
-      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-2-jutrznia' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-2-jutrznia' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
     notes: [
       '[HTML]I Sobór Ekumeniczny w Nicei[HTML]',
@@ -194,10 +194,10 @@ export const May2023: CalendarType = [
     passages: ['Dz 1, 12-14', 'Ps 27', '1 P 4, 13-16', 'J 17, 1-11a'],
     notes: ['[HTML]Jana Nepomucena[HTML] prezb. i m.'],
     links: [
-      { name: 'wigilia', slug: 'wniebowstapienie-nowenna-2-nieszpory' },
-      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-3-jutrznia' },
-      { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-3-nieszpory' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Wigilia', slug: 'wniebowstapienie-nowenna-2-nieszpory' },
+      { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-3-jutrznia' },
+      { name: 'Nieszpory', slug: 'wniebowstapienie-nowenna-3-nieszpory' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
   },
   {
@@ -207,9 +207,9 @@ export const May2023: CalendarType = [
     passages: ['Dz 19, 1-8', 'Ps 68', 'J 16, 29-33'],
     notes: ['[HTML]Rity[HTML] zak. i mist.'],
     links: [
-      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-4-jutrznia' },
-      { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-4-nieszpory' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-4-jutrznia' },
+      { name: 'Nieszpory', slug: 'wniebowstapienie-nowenna-4-nieszpory' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
   },
   {
@@ -218,9 +218,9 @@ export const May2023: CalendarType = [
     season: 'pentecost',
     passages: ['Dz 20, 17-27', 'Ps 68', 'J 17, 1-11a'],
     links: [
-      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-5-jutrznia' },
-      { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-5-nieszpory' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-5-jutrznia' },
+      { name: 'Nieszpory', slug: 'wniebowstapienie-nowenna-5-nieszpory' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
   },
   {
@@ -230,9 +230,9 @@ export const May2023: CalendarType = [
     passages: ['Dz 20, 28-38', 'Ps 68', 'J 17, 11b-19'],
     notes: ['[HTML]Wincentego z Lerynu[HTML] mn. i teo.'],
     links: [
-      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-6-jutrznia' },
-      { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-6-nieszpory' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-6-jutrznia' },
+      { name: 'Nieszpory', slug: 'wniebowstapienie-nowenna-6-nieszpory' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
   },
   {
@@ -241,9 +241,9 @@ export const May2023: CalendarType = [
     season: 'pentecost',
     passages: ['Dz 22, 30; 23, 6-11', 'Ps 16', 'J 17, 20-26'],
     links: [
-      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-7-jutrznia' },
-      { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-7-nieszpory' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-7-jutrznia' },
+      { name: 'Nieszpory', slug: 'wniebowstapienie-nowenna-7-nieszpory' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
     notes: ['[HTML]Bedy Czcigodneg[HTML] mn.'],
   },
@@ -258,9 +258,9 @@ export const May2023: CalendarType = [
       '[HTML]Karpa z Berei[HTML] bp.',
     ],
     links: [
-      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-8-jutrznia' },
-      { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-8-nieszpory' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-8-jutrznia' },
+      { name: 'Nieszpory', slug: 'wniebowstapienie-nowenna-8-nieszpory' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
   },
   {
@@ -270,8 +270,8 @@ export const May2023: CalendarType = [
     passages: ['Dz 28, 16-20.30-31', 'Ps 11', 'J 21, 20-25'],
     holidays: ['WIGILIA PIĘĆDZIESIĄTNICY'],
     links: [
-      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-9-jutrznia' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-9-jutrznia' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
     notes: [
       'Wieczorem rozpoczyna się Wigilia Pięćdziesiątnicy. Czytania wg lekcjonarza Tom 2 str. 209-218',
@@ -284,10 +284,10 @@ export const May2023: CalendarType = [
     passages: ['Dz 2, 1-11', 'Ps 104', '1 Kor 12, 3b-7.12-13', 'J 20, 19-23'],
     holidays: ['PIĘĆDZIESIĄTNICA'],
     links: [
-      { name: 'wigilia', slug: 'zeslanie-ducha-swietego-wigilia' },
-      { name: 'jutrznia', slug: 'zeslanie-ducha-swietego-jutrznia' },
-      { name: 'nieszpory', slug: 'zeslanie-ducha-swietego-nieszpory' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Wigilia', slug: 'zeslanie-ducha-swietego-wigilia' },
+      { name: 'Jutrznia', slug: 'zeslanie-ducha-swietego-jutrznia' },
+      { name: 'Nieszpory', slug: 'zeslanie-ducha-swietego-nieszpory' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
   },
   {
@@ -312,9 +312,9 @@ export const May2023: CalendarType = [
     },
     variant: 1,
     links: [
-      { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
-      { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Jutrznia', slug: 'oktawa-zeslania-jutrznia' },
+      { name: 'Nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
     notes: [
       '[HTML]Urszuli Ledóchowskiej[HTML] zak.',
@@ -343,9 +343,9 @@ export const May2023: CalendarType = [
     },
     variant: 2,
     links: [
-      { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
-      { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Jutrznia', slug: 'oktawa-zeslania-jutrznia' },
+      { name: 'Nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
   },
   {
@@ -371,9 +371,9 @@ export const May2023: CalendarType = [
     },
     variant: 1,
     links: [
-      { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
-      { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
-      { name: 'litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Jutrznia', slug: 'oktawa-zeslania-jutrznia' },
+      { name: 'Nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
     ],
   },
 ];
