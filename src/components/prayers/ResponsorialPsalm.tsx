@@ -1,5 +1,4 @@
 import { Children } from 'react';
-import { Note } from './Note';
 import { Section } from '../mdxOverrides';
 
 type ResponsorialPsalmType = Readonly<{
@@ -13,16 +12,16 @@ export const ResponsorialPsalm = ({
   responsorials,
   children,
 }: ResponsorialPsalmType) => {
-  const elements = responsorials.map(responsorialVariant => (
+  const elements = responsorials.map((responsorialVariant, index) => (
     <>
-      <span className="font-bold">Refren:</span> {responsorialVariant} <br />
+      <span className="font-bold">{index == 0 ? 'Refren: ' : 'albo: '}</span>{' '}
+      {responsorialVariant} <br />
     </>
   ));
 
   const responsorial = Children.toArray(elements).reduce((prev, curr) => (
     <>
       {prev}
-      <Note>Albo:</Note>
       {curr}
     </>
   ));
