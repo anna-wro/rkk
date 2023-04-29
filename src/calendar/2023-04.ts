@@ -446,5 +446,11 @@ export const April2023: CalendarType = [
     holidays: ['4. NIEDZIELA PASCHALNA'],
     passages: ['Dz 2, 14a.36-41', 'Ps 23', '1 P 2, 20b-25', 'J 10, 1-10'],
     notes: ['[HTML]Jakuba z Paradyża[HTML] mn.'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/4-niedziela-zmartwychwstania-panskiego-rok-a',
+      },
+    ],
   },
 ];
