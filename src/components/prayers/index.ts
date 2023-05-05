@@ -11,6 +11,7 @@ export { KyrieEleison } from './KyrieEleison';
 export { SalveRegina } from './SalveRegina';
 export { CustomIntercessions } from './CustomIntercessions';
 export { EasterSequence } from './EasterSequence';
+export { HolySpiritSequence } from './HolySpiritSequence';
 export { ExaminationOfConscience } from './ExaminationOfConscience';
 export { ComplineBlessingAndConcludingVersicle } from './ComplineBlessingAndConcludingVersicle';
 export { Passage } from './Passage';

@@ -4,12 +4,14 @@ import { Section } from '../mdxOverrides';
 type ResponsorialPsalmType = Readonly<{
   sigla: string;
   responsorials: string[];
+  headline: string;
   children: React.ReactNode;
 }>;
 
 export const ResponsorialPsalm = ({
   sigla,
   responsorials,
+  headline,
   children,
 }: ResponsorialPsalmType) => {
   const elements = responsorials.map((responsorialVariant, index) => (
@@ -39,7 +41,9 @@ export const ResponsorialPsalm = ({
 
   return (
     <div className="mb-6 space-y-2">
-      <Section sigla={sigla}>Psalm Responsoryjny</Section>
+      <Section sigla={sigla}>
+        {headline ? headline : 'Psalm Responsoryjny'}
+      </Section>
       {responsorialWithChildren}
     </div>
   );
