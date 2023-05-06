@@ -58,7 +58,13 @@ export const May2023: CalendarType = [
     season: 'easter',
     passages: ['Dz 6, 1-7', 'Ps 33', '1 P 2, 4-9', 'J 14, 1-12'],
     holidays: ['5. NIEDZIELA PASCHALNA'],
-    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
+    links: [
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/5-niedziela-zmartwychwstania-panskiego-rok-a',
+      },
+    ],
   },
   {
     date: '2023-05-08',
@@ -111,7 +117,13 @@ export const May2023: CalendarType = [
     holidays: ['6. NIEDZIELA PASCHALNA'],
     notes: ['[HTML]MACIEJA[HTML] ap.'],
     passages: ['Dz 8, 5-8.14-17', 'Ps 66', '1 P 3, 15-18', 'J 14, 15-21'],
-    links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
+    links: [
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/6-niedziela-zmartwychwstania-panskiego-rok-a',
+      },
+    ],
   },
   {
     date: '2023-05-15',
@@ -159,6 +171,10 @@ export const May2023: CalendarType = [
         slug: 'wniebowstapienie-panskie-nieszpory',
       },
       { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/wniebowstapienie-panskie-rok-a',
+      },
     ],
   },
   {
@@ -198,6 +214,10 @@ export const May2023: CalendarType = [
       { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-3-jutrznia' },
       { name: 'Nieszpory', slug: 'wniebowstapienie-nowenna-3-nieszpory' },
       { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/7-niedziela-zmartwychwstania-panskiego-rok-a',
+      },
     ],
   },
   {
@@ -272,6 +292,10 @@ export const May2023: CalendarType = [
     links: [
       { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-9-jutrznia' },
       { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/zeslanie-ducha-swietego-wigilia',
+      },
     ],
     notes: [
       'Wieczorem rozpoczyna się Wigilia Pięćdziesiątnicy. Czytania wg lekcjonarza Tom 2 str. 209-218',
@@ -288,6 +312,10 @@ export const May2023: CalendarType = [
       { name: 'Jutrznia', slug: 'zeslanie-ducha-swietego-jutrznia' },
       { name: 'Nieszpory', slug: 'zeslanie-ducha-swietego-nieszpory' },
       { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/zeslanie-ducha-swietego',
+      },
     ],
   },
   {
@@ -315,6 +343,10 @@ export const May2023: CalendarType = [
       { name: 'Jutrznia', slug: 'oktawa-zeslania-jutrznia' },
       { name: 'Nieszpory', slug: 'oktawa-zeslania-nieszpory' },
       { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/poniedzialek-w-oktawie-zeslania-ducha-swietego',
+      },
     ],
     notes: [
       '[HTML]Urszuli Ledóchowskiej[HTML] zak.',
@@ -346,6 +378,10 @@ export const May2023: CalendarType = [
       { name: 'Jutrznia', slug: 'oktawa-zeslania-jutrznia' },
       { name: 'Nieszpory', slug: 'oktawa-zeslania-nieszpory' },
       { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/wtorek-w-oktawie-zeslania-ducha-swietego',
+      },
     ],
   },
   {
@@ -374,6 +410,10 @@ export const May2023: CalendarType = [
       { name: 'Jutrznia', slug: 'oktawa-zeslania-jutrznia' },
       { name: 'Nieszpory', slug: 'oktawa-zeslania-nieszpory' },
       { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/sroda-w-oktawie-zeslania-ducha-swietego',
+      },
     ],
   },
 ];
