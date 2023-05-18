@@ -145,7 +145,7 @@ export const May2023: CalendarType = [
     week: 2,
     season: 'easter',
     passages: ['Dz 17, 15.22-18.1', 'Ps 148', 'J 16, 12-15'],
-    notes: ['[HTML]Junii ap.[HTML]', '[HTML]Andronika[HTML] ap.'],
+    notes: ['[HTML]Junii[HTML]ap.', '[HTML]Andronika[HTML] ap.'],
     links: [
       {
         name: 'Wniebowstąpienie Pańskie - wigilia',
