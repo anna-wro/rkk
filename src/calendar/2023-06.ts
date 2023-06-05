@@ -103,7 +103,7 @@ export const June2023: CalendarType = [
     date: '2023-06-06',
     week: 2,
     season: 'ordinary',
-    notes: ['[HTML]Marii Karłowskiej[HTML] zak.'],
+    notes: ['[HTML]Marii Karłowskiej[HTML] zak. '],
     passages: ['Tb 2, 9-14',
                'Ps 112',
                'Mk 12, 13-17'],
