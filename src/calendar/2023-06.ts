@@ -126,5 +126,43 @@ export const June2023: CalendarType = [
                '1 Kor 10, 16-17',
                'J 6, 51-58'],
   },
-  
+  {
+    date: '2023-06-09',
+    week: 2,
+    season: 'ordinary',
+    passages: ['Tb 11, 5-17',
+               'Ps 146',
+               'Mk 12, 35-37'],
+  },
+   {
+    date: '2023-06-10',
+    week: 2,
+    season: 'ordinary',
+    notes: ['[HTML]Efrema Syryjczyka[HTML] dk. teo.', 
+            '[HTML]Bogumiła z Bobrowa[HTML] bp.'],
+    passages: ['Tb 12, 1.5-15.20',
+               'Tb 13',
+               'Mk 12, 38-44'],
+  },
+   {
+    date: '2022-06-11',
+    week: 1,
+    season: 'ordinary',
+    holidays: ['2. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
+    notes: ['[HTML]BARNABY[HTML] ap.'],
+    passages: ['Oz 6, 3-6',
+               'Ps 50',
+               'Rz 4, 18-25',
+               'Mt 9, 9-13']
+  },
+   {
+    date: '2022-06-12',
+    week: 1,
+    season: 'ordinary',
+    holidays: ['2. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
+    notes: ['[HTML]BARNABY[HTML] ap.'],
+    passages: ['2 Kor 1, 1-7',
+               'Ps 34',
+               'Mt 5, 1-12']
+  },
 ];
