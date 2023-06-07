@@ -142,8 +142,6 @@ export const June2023: CalendarType = [
     date: '2023-06-12',
     week: 1,
     season: 'ordinary',
-    holidays: ['2. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
-    notes: ['[HTML]BARNABY[HTML] ap.'],
-    passages: ['2 Kor 1, 1-7', 'Ps 34', 'Mt 5, 1-12'],
+    passages: ['2Kor 1,1-7', 'Ps 34', 'Mt 5,1-12'],
   },
 ];
