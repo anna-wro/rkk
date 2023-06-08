@@ -26,6 +26,10 @@ export const June2023: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/czwartek-w-oktawie-zeslania-ducha-swietego',
+      },
     ],
   },
   {
@@ -53,6 +57,10 @@ export const June2023: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/piatek-w-oktawie-zeslania-ducha-swietego',
+      },
     ],
   },
   {
@@ -71,6 +79,10 @@ export const June2023: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/sobota-w-oktawie-zeslania-ducha-swietego',
+      },
     ],
     variant: 2,
   },
@@ -85,6 +97,10 @@ export const June2023: CalendarType = [
       { name: 'wigilia', slug: 'niedziela-trojcy-swietej-wigilia' },
       { name: 'jutrznia', slug: 'niedziela-trojcy-swietej-jutrznia' },
       { name: 'nieszpory', slug: 'niedziela-trojcy-swietej-nieszpory' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/najswietszej-trojcy-rok-a',
+      },
     ],
   },
   {
@@ -113,6 +129,12 @@ export const June2023: CalendarType = [
     season: 'ordinary',
     holidays: ['NAJŚWIĘTSZEGO CIAŁA I KRWI PAŃSKIEJ'],
     passages: ['Pwt 8, 2-3.14b-16a', 'Ps 147', '1 Kor 10, 16-17', 'J 6, 51-58'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/najswietszego-ciala-i-krwi-panskiej-rok-a',
+      },
+    ],
   },
   {
     date: '2023-06-09',
@@ -137,6 +159,12 @@ export const June2023: CalendarType = [
     holidays: ['2. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     notes: ['[HTML]BARNABY[HTML] ap.'],
     passages: ['Oz 6, 3-6', 'Ps 50', 'Rz 4, 18-25', 'Mt 9, 9-13'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/10-niedziela-w-ciagu-roku-rok-a',
+      },
+    ],
   },
   {
     date: '2023-06-12',
