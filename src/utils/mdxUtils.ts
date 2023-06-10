@@ -10,9 +10,10 @@ export const SEASON_PRAYERS_PATH = path.join(
 );
 
 export const CUSTOM_PRAYERS_PATH = path.join(process.cwd(), `src/data/custom`);
+// FIXME - this is hardcoded to vol-3
 export const READINGS_PATH = path.join(
   process.cwd(),
-  `src/data/readings/vol-2`,
+  `src/data/readings/vol-3`,
 );
 
 export const seasonPrayersFilePaths = fs
