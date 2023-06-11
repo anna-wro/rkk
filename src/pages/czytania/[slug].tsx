@@ -4,8 +4,8 @@ import matter from 'gray-matter';
 import { serialize } from 'next-mdx-remote/serialize';
 import Prayer from 'components/layout/PrayerPage';
 import Layout from 'components/layout/Layout';
-import { READINGS_PATH, readingsFilePaths } from 'utils/mdxUtils';
 import { useWakeLock } from 'utils/useWakeLock';
+import { READINGS_PATH, getReadingsFilePaths } from 'utils/mdxUtils';
 
 export default function PrayerPage({ prayer }) {
   useWakeLock();
@@ -18,15 +18,25 @@ export default function PrayerPage({ prayer }) {
 }
 
 export const getStaticProps = async ({ params }) => {
-  const readingsFilePath = path.join(READINGS_PATH, `${params.slug}.mdx`);
-
   let source;
+  let { content, data } = { content: '', data: {} }; // initialize values
 
-  try {
-    source = fs.readFileSync(readingsFilePath);
-  } catch {}
+  // Check for the file path in multiple folders
+  const volumes = ['vol-2', 'vol-3', 'vol-6'];
+  for (let i = 0; i < volumes.length; i++) {
+    const readingsFilePath = path.join(
+      READINGS_PATH,
+      volumes[i],
+      `${params.slug}.mdx`,
+    );
 
-  const { content, data } = matter(source);
+    try {
+      source = fs.readFileSync(readingsFilePath);
+      ({ content, data } = matter(source));
+      break; // exit the loop if file is found
+    } catch (error) {}
+  }
+
   const mdxSource = await serialize(content, {
     // Optionally pass remark/rehype plugins
     mdxOptions: {
@@ -45,9 +55,20 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export const getStaticPaths = async () => {
+  const readingsFilePaths = getReadingsFilePaths();
+
+  // Extract the slug property from the front matter data of each .mdx file
   const paths = readingsFilePaths
-    .map(path => path.replace(/\.mdx?$/, ''))
-    .map(slug => ({ params: { slug } }));
+    .map(filePath => {
+      const fileDirectory = path.dirname(filePath);
+      const slug = path.basename(filePath).replace(/\.mdx?$/, '');
+      return { params: { slug }, fileDirectory };
+    })
+    .map(({ fileDirectory, params }) => {
+      const slug = params.slug;
+      const volume = path.relative(READINGS_PATH, fileDirectory);
+      return { params: { slug, volume } };
+    });
 
   return {
     paths,
