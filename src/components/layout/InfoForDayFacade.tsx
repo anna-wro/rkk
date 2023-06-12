@@ -42,6 +42,6 @@ export function InfoForDayFacade() {
       />
     </div>
   ) : (
-    <>{copy.notToday}</>
+    <div>{copy.notToday}</div>
   );
 }
