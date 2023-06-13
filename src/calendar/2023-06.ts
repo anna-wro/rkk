@@ -172,4 +172,38 @@ export const June2023: CalendarType = [
     season: 'ordinary',
     passages: ['2Kor 1,1-7', 'Ps 34', 'Mt 5,1-12'],
   },
+  {
+    date: '2023-06-13',
+    week: 1,
+    season: 'ordinary',
+    passages: ['2 Kor 1, 18-22', 'Ps 119', 'Mt 5, 13-16'],
+    notes: ['[HTML]Antoniego z Padwy[HTML] prezb. zak.'],
+  },
+  {
+    date: '2023-06-14',
+    week: 1,
+    season: 'ordinary',
+    passages: ['2Kor 3, 4-11', 'Ps 99', 'Mt 5, 17-19'],
+  },
+  {
+    date: '2023-06-15',
+    week: 1,
+    season: 'ordinary',
+    passages: ['2Kor 3, 15-4.1.3-6', 'Ps 85', 'Mt 5, 20-26'],
+    notes: ['[HTML]Jolanty z Gniezna[HTML] mn.'],
+  },
+  {
+    date: '2023-06-16',
+    week: 1,
+    season: 'ordinary',
+    passages: ['2 Kor 4, 7-15', 'Ps 116', 'Mt 5, 27-32'],
+    notes: ['[HTML]DZIEŃ WSPÓLNEGO POSTU[HTML]'],
+  },
+  {
+    date: '2023-06-17',
+    week: 1,
+    season: 'ordinary',
+    passages: ['2Kor 5, 14-21', 'Ps 103', 'Mt 5, 33-37'],
+    notes: ['[HTML]Alberta Chmielowskiego[HTML] zak.'],
+  },
 ];
