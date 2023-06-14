@@ -206,7 +206,7 @@ export const June2023: CalendarType = [
     passages: ['2Kor 5, 14-21', 'Ps 103', 'Mt 5, 33-37'],
     notes: ['[HTML]Alberta Chmielowskiego[HTML] zak.'],
   },
-   {
+  {
     date: '2023-06-18',
     week: 2,
     season: 'ordinary',
@@ -219,14 +219,14 @@ export const June2023: CalendarType = [
       },
     ],
   },
-   {
+  {
     date: '2023-06-19',
     week: 2,
     season: 'ordinary',
     passages: ['2 Kor 6, 1-10', 'Ps 98', 'Mt 5, 38-42'],
     notes: ['[HTML]Romualda[HTML] mn.'],
   },
-   {
+  {
     date: '2023-06-20',
     week: 2,
     season: 'ordinary',
@@ -244,12 +244,12 @@ export const June2023: CalendarType = [
     season: 'ordinary',
     passages: ['2 Kor 11, 1-11', 'Ps 111', 'Mt 6, 7-15'],
   },
-   {
+  {
     date: '2023-06-23',
     week: 2,
     season: 'ordinary',
     passages: ['2 Kor 11, 18.21-30', 'Ps 34', 'Mt 6, 19-23'],
-    notes: ['[HTML]222 męczenników chińskich[HTML]'], 
+    notes: ['[HTML]222 męczenników chińskich[HTML]'],
   },
   {
     date: '2023-06-24',
@@ -277,25 +277,25 @@ export const June2023: CalendarType = [
       },
     ],
   },
-   {
+  {
     date: '2023-06-26',
     week: 1,
     season: 'ordinary',
     passages: ['Rdz 12, 1-9', 'Ps 33', 'Mt 7, 1-5'],
   },
-   {
+  {
     date: '2023-06-27',
     week: 1,
     season: 'ordinary',
     passages: ['Rdz 13, 2.5-18', 'Ps 15', 'Mt 7, 6.12-14'],
-    notes: ['[HTML]Cyryla z Aleksandrii[HTML] bp.']
+    notes: ['[HTML]Cyryla z Aleksandrii[HTML] bp.'],
   },
-   {
+  {
     date: '2023-06-28',
     week: 1,
     season: 'ordinary',
     passages: ['Rdz 15, 1-12.17-18', 'Ps 105', 'Mt 7, 15-20'],
-    notes: ['[HTML]Ireneusza[HTML] bp. m.']
+    notes: ['[HTML]Ireneusza[HTML] bp. m.'],
   },
   {
     date: '2023-06-29',
@@ -315,6 +315,6 @@ export const June2023: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['Rdz 17, 1.9-10.15-22', 'Ps 128', 'Mt 8, 1-4'],
-    notes: ['[HTML]Ottona z Bambergu[HTML] ap.']
+    notes: ['[HTML]Ottona z Bambergu[HTML] ap.'],
   },
 ];
