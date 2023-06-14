@@ -206,4 +206,115 @@ export const June2023: CalendarType = [
     passages: ['2Kor 5, 14-21', 'Ps 103', 'Mt 5, 33-37'],
     notes: ['[HTML]Alberta Chmielowskiego[HTML] zak.'],
   },
+   {
+    date: '2023-06-18',
+    week: 2,
+    season: 'ordinary',
+    holidays: ['3. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
+    passages: ['Wj 19, 2-6a', 'Ps 100', 'Rz 5, 6-11', 'Mt 9, 36-10.8'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/11-niedziela-w-ciagu-roku-rok-a',
+      },
+    ],
+  },
+   {
+    date: '2023-06-19',
+    week: 2,
+    season: 'ordinary',
+    passages: ['2 Kor 6, 1-10', 'Ps 98', 'Mt 5, 38-42'],
+    notes: ['[HTML]Romualda[HTML] mn.'],
+  },
+   {
+    date: '2023-06-20',
+    week: 2,
+    season: 'ordinary',
+    passages: ['2 Kor 8, 1-9', 'Ps 146', 'Mt 5, 43-48'],
+  },
+  {
+    date: '2023-06-21',
+    week: 2,
+    season: 'ordinary',
+    passages: ['2 Kor 9, 6-11', 'Ps 112', 'Mt 6, 1-6, 16-18'],
+  },
+  {
+    date: '2023-06-22',
+    week: 2,
+    season: 'ordinary',
+    passages: ['2 Kor 11, 1-11', 'Ps 111', 'Mt 6, 7-15'],
+  },
+   {
+    date: '2023-06-23',
+    week: 2,
+    season: 'ordinary',
+    passages: ['2 Kor 11, 18.21-30', 'Ps 34', 'Mt 6, 19-23'],
+    notes: ['[HTML]222 męczenników chińskich[HTML]'], 
+  },
+  {
+    date: '2023-06-24',
+    week: 2,
+    season: 'ordinary',
+    passages: ['Jr 1, 4-10', 'Ps 71', '1 P 1, 8-12', 'Łk 1, 5-17'],
+    holidays: ['NARODZENIE JANA CHRZCICIELA'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/narodzenie-jana-chrzciciela',
+      },
+    ],
+  },
+  {
+    date: '2023-06-25',
+    week: 1,
+    season: 'ordinary',
+    passages: ['Jr 20, 10-13', 'Ps 69', 'Rz 5, 12-15', 'Mt 10, 26-33'],
+    holidays: ['4. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/12-niedziela-w-ciagu-roku-rok-a',
+      },
+    ],
+  },
+   {
+    date: '2023-06-26',
+    week: 1,
+    season: 'ordinary',
+    passages: ['Rdz 12, 1-9', 'Ps 33', 'Mt 7, 1-5'],
+  },
+   {
+    date: '2023-06-27',
+    week: 1,
+    season: 'ordinary',
+    passages: ['Rdz 13, 2.5-18', 'Ps 15', 'Mt 7, 6.12-14'],
+    notes: ['[HTML]Cyryla z Aleksandrii[HTML] bp.']
+  },
+   {
+    date: '2023-06-28',
+    week: 1,
+    season: 'ordinary',
+    passages: ['Rdz 15, 1-12.17-18', 'Ps 105', 'Mt 7, 15-20'],
+    notes: ['[HTML]Ireneusza[HTML] bp. m.']
+  },
+  {
+    date: '2023-06-29',
+    week: 1,
+    season: 'ordinary',
+    passages: ['Dz 3, 1-10', 'Ps 19', 'Ga 1, 11-20', 'J 21, 15-19'],
+    holidays: ['PIOTRA I PAWŁA APOSTOŁÓW'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/piotra-i-pawla-apostolow',
+      },
+    ],
+  },
+  {
+    date: '2023-06-30',
+    week: 1,
+    season: 'ordinary',
+    passages: ['Rdz 17, 1.9-10.15-22', 'Ps 128', 'Mt 8, 1-4'],
+    notes: ['[HTML]Ottona z Bambergu[HTML] ap.']
+  },
 ];
