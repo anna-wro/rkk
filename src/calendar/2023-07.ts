@@ -45,7 +45,7 @@ export const July2023: CalendarType = [
     passages: ['Rdz 21, 5.8-20a', 'Ps 34', 'Mt 8, 28-34'],
   },
   {
-    date: '2022-07-06',
+    date: '2023-07-06',
     week: 2,
     season: 'ordinary',
     passages: ['Rdz 22, 1b-19', 'Ps 115', 'Mt 9, 1-8'],
