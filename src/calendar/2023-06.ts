@@ -296,6 +296,12 @@ export const June2023: CalendarType = [
     season: 'ordinary',
     passages: ['Rdz 15, 1-12.17-18', 'Ps 105', 'Mt 7, 15-20'],
     notes: ['[HTML]Ireneusza[HTML] bp. m.'],
+    links: [
+      {
+        name: 'Wigilia Piotra i Pawła',
+        slug: 'piotra-i-pawla-wigilia',
+      },
+    ],
   },
   {
     date: '2023-06-29',
@@ -304,6 +310,14 @@ export const June2023: CalendarType = [
     passages: ['Dz 3, 1-10', 'Ps 19', 'Ga 1, 11-20', 'J 21, 15-19'],
     holidays: ['PIOTRA I PAWŁA APOSTOŁÓW'],
     links: [
+      {
+        name: 'Jutrznia',
+        slug: 'piotra-i-pawla-jutrznia',
+      },
+      {
+        name: 'Nieszpory',
+        slug: 'piotra-i-pawla-nieszpory',
+      },
       {
         name: 'Liturgia słowa',
         slug: 'czytania/piotra-i-pawla-apostolow',
