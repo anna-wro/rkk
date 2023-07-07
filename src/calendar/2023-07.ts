@@ -56,7 +56,7 @@ export const July2023: CalendarType = [
     week: 2,
     season: 'ordinary',
     passages: ['Rdz 23, 1-4.19; 24, 1-8.62-67', 'Ps 106', 'Mt 9, 9-13'],
-    notes: ['[HTML]Atemagprasa I [HTML] bp.', 'DZIEŃ WSPÓLNEGO POSTU'],
+    notes: ['[HTML]Atemagprasa I [HTML] bp.'],
   },
   {
     date: '2023-07-08',
