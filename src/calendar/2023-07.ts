@@ -125,4 +125,24 @@ export const July2023: CalendarType = [
     passages: ['Rdz 49, 29-32; 50, 15-26a', 'Ps 105', 'Mt 10, 24-33'],
     notes: ['[HTML]Bonawentury[HTML] zak. teo.'],
   },
+  {
+    date: '2023-07-16',
+    week: 2,
+    season: 'ordinary',
+    holidays: ['7. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
+    passages: ['Iz 55, 10-11', 'Ps 65', 'Rz 8, 18-23', 'Mt 13, 1-23'],
+  },
+  {
+    date: '2023-07-17',
+    week: 2,
+    season: 'ordinary',
+    passages: ['Wj 1, 8-14, 22', 'Ps 124', 'Mt 10, 34-11, 1'],
+    notes: ['[HTML]Andrzeja Świerada[HTML] mn.'],
+  },
+  {
+    date: '2023-07-18',
+    week: 2,
+    season: 'ordinary',
+    passages: ['Wj 2, 1-15a', 'Ps 69', 'Mt 11, 20-24'],
+  },
 ];
