@@ -179,6 +179,6 @@ export const July2023: CalendarType = [
     season: 'ordinary',
     passages: ['Mdr 12, 13.16-19', 'Ps 86', 'Rz 8, 26-27', 'Mt 13, 24-43'],
     holidays: ['8. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
-    notes: ['[HTML]Jana Kasjana[HTML] mn.', ['[HTML]Brygidy Szwedzkiej[HTML] mn.'],
+    notes: ['[HTML]Jana Kasjana[HTML] mn.', '[HTML]Brygidy Szwedzkiej[HTML] mn.'],
   },
 ];
