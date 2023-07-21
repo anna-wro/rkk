@@ -181,4 +181,61 @@ export const July2023: CalendarType = [
     holidays: ['8. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     notes: ['[HTML]Jana Kasjana[HTML] mn.', '[HTML]Brygidy Szwedzkiej[HTML] mn.'],
   },
+  {
+    date: '2023-07-24',
+    week: 1,
+    season: 'ordinary',
+    passages: ['Wj 14, 5-18', 'Wj 15', 'Mt 12, 38-42'],
+  },
+  {
+    date: '2023-07-25',
+    week: 1,
+    season: 'ordinary',
+    passages: ['Wj 14, 21-15.1', 'Wj 15', 'Mt 12, 46-50'],
+    holidays: [' JAKUBA APOSTOŁA'],
+    notes: ['[HTML]Olimpii[HTML] dk.'],
+  },
+  {
+    date: '2023-07-26',
+    week: 1,
+    season: 'ordinary',
+    passages: ['Wj 16, 1-5.9-15', 'Ps 78', 'Mt 13, 1-9'],
+    notes: ['[HTML]Rodziców Bogurodzicy[HTML]'],
+  },
+  {
+    date: '2023-07-27',
+    week: 1,
+    season: 'ordinary',
+    passages: ['Wj 19, 1-2.9-11.16-20b', 'Dn 3', 'Mt 13, 10-17'],
+  },
+   {
+    date: '2023-07-28',
+    week: 1,
+    season: 'ordinary',
+    passages: ['Wj 20, 1-17', 'Ps 19', 'Mt 13, 18-23'],
+  },
+  {
+    date: '2023-07-29',
+    week: 1,
+    season: 'ordinary',
+    passages: ['Wj 24, 3-8', 'Ps 50', 'Mt 13, 24-30'],
+    notes: ['[HTML]Marii, Marty i Łazarza z Betanii[HTML]'],
+  },
+   {
+    date: '2023-07-30',
+    week: 2,
+    season: 'ordinary',
+    passages: ['1 Krl 3, 5.7-12', 'Ps 119', 'Rz 8, 28-30', 'Mt 13, 44-52'],
+    holidays: ['9. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
+    notes: ['[HTML]Piotra Chryzologa[HTML] bp. teo.'],
+  },
+  {
+    date: '2023-07-31',
+    week: 2,
+    season: 'ordinary',
+    passages: ['Wj 32, 15-24.30-34', 'Ps 106', 'Mt 13, 31-35'],
+    notes: ['[HTML]Bartoloméa de Las Casa[HTML] zak.'],
+  },
+  
+  
 ];
