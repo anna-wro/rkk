@@ -21,6 +21,7 @@ import { April2023 } from './2023-04';
 import { May2023 } from './2023-05';
 import { June2023 } from './2023-06';
 import { July2023 } from './2023-07';
+import { August2023 } from './2023-08';
 
 export type CalendarDayType = Readonly<{
   date: string;
@@ -85,4 +86,5 @@ export const calendar: CalendarType = [
   ...May2023,
   ...June2023,
   ...July2023,
+  ...August2023,
 ];

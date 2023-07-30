@@ -150,7 +150,11 @@ export const July2023: CalendarType = [
     week: 2,
     season: 'ordinary',
     passages: ['Wj 3, 1-6.9-12', 'Ps 103', 'Mt 11, 25-27'],
-    notes: ['[HTML]Grzegorza z Nyssy[HTML] bp.','[HTML]Makaryny[HTML] dk.','[HTML]Serafina z Sarowa[HTML] mn.'],
+    notes: [
+      '[HTML]Grzegorza z Nyssy[HTML] bp.',
+      '[HTML]Makaryny[HTML] dk.',
+      '[HTML]Serafina z Sarowa[HTML] mn.',
+    ],
   },
   {
     date: '2023-07-20',
@@ -166,7 +170,7 @@ export const July2023: CalendarType = [
     passages: ['Wj 11, 10-12.14', 'Ps 116', 'Mt 12, 1-8'],
     notes: ['[HTML]DZIEŃ WSPÓLNEGO POSTU[HTML]'],
   },
-   {
+  {
     date: '2023-07-22',
     week: 2,
     season: 'ordinary',
@@ -179,7 +183,10 @@ export const July2023: CalendarType = [
     season: 'ordinary',
     passages: ['Mdr 12, 13.16-19', 'Ps 86', 'Rz 8, 26-27', 'Mt 13, 24-43'],
     holidays: ['8. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
-    notes: ['[HTML]Jana Kasjana[HTML] mn.', '[HTML]Brygidy Szwedzkiej[HTML] mn.'],
+    notes: [
+      '[HTML]Jana Kasjana[HTML] mn.',
+      '[HTML]Brygidy Szwedzkiej[HTML] mn.',
+    ],
   },
   {
     date: '2023-07-24',
@@ -208,7 +215,7 @@ export const July2023: CalendarType = [
     season: 'ordinary',
     passages: ['Wj 19, 1-2.9-11.16-20b', 'Dn 3', 'Mt 13, 10-17'],
   },
-   {
+  {
     date: '2023-07-28',
     week: 1,
     season: 'ordinary',
@@ -221,7 +228,7 @@ export const July2023: CalendarType = [
     passages: ['Wj 24, 3-8', 'Ps 50', 'Mt 13, 24-30'],
     notes: ['[HTML]Marii, Marty i Łazarza z Betanii[HTML]'],
   },
-   {
+  {
     date: '2023-07-30',
     week: 2,
     season: 'ordinary',
@@ -236,6 +243,4 @@ export const July2023: CalendarType = [
     passages: ['Wj 32, 15-24.30-34', 'Ps 106', 'Mt 13, 31-35'],
     notes: ['[HTML]Bartoloméa de Las Casa[HTML] zak.'],
   },
-  
-  
 ];
