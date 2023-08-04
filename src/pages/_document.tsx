@@ -67,7 +67,7 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#ffffff" />
           <AppleSplashScreenLinks />
         </Head>
-        <body className="dark:bg-gray-900 dark:text-white/90 font-main selection:bg-green-200">
+        <body className="dark:bg-gray-900 dark:text-white/90 selection:bg-green-200">
           <Main />
           <NextScript />
         </body>

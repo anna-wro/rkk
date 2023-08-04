@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 
 const useFontSize = () => {
+  const defaultFontSize = 16;
+
   const getItem = key => {
     try {
       return localStorage.getItem(key);
@@ -13,12 +15,11 @@ const useFontSize = () => {
     } catch {}
   };
 
-  const [fontSize, setFontSize] = useState(16); // Set a default font size
+  const [fontSize, setFontSize] = useState(defaultFontSize);
 
   useEffect(() => {
-    // Update the font size from local storage after the component has mounted
     const storedFontSize = getItem('fontSize');
-    setFontSize(storedFontSize ? Number(storedFontSize) : 16);
+    setFontSize(storedFontSize ? Number(storedFontSize) : defaultFontSize);
   }, []);
 
   useEffect(() => {
@@ -31,8 +32,9 @@ const useFontSize = () => {
     setFontSize(prevFontSize => Number(prevFontSize) + 2);
   const decreaseFontSize = () =>
     setFontSize(prevFontSize => Number(prevFontSize) - 2);
+  const resetFontSize = () => setFontSize(defaultFontSize);
 
-  return { fontSize, increaseFontSize, decreaseFontSize };
+  return { fontSize, increaseFontSize, decreaseFontSize, resetFontSize };
 };
 
 export default useFontSize;

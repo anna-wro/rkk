@@ -25,6 +25,7 @@ export const copy = {
     'Upsi! Ktoś zapomniał o kalendarzu na ten miesiąc 🙁. Jeżeli to pomoże - poniżej znajdują się teksty na okres w ciągu roku.',
   silence: 'Chwila ciszy...',
   readingsHeadline: 'Czytania liturgiczne',
+  resetSettings: 'Resetuj ustawienia',
 };
 
 export default copy;

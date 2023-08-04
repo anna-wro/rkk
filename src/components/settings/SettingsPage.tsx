@@ -6,13 +6,21 @@ import useFontSize from 'utils/useFontSize';
 import useFontFamily from 'utils/useFontFamily';
 
 export default function SettingsPage() {
-  const { fontSize, increaseFontSize, decreaseFontSize } = useFontSize();
-  const { fontFamily, setSerif, setSansSerif } = useFontFamily();
+  const { fontSize, increaseFontSize, decreaseFontSize, resetFontSize } =
+    useFontSize();
+  const { fontFamily, setSerif, setSansSerif, resetFontFamily } =
+    useFontFamily();
+  const resetSettings = () => {
+    resetFontSize();
+    resetFontFamily();
+  };
 
   const buttonClass =
     'flex items-center content-center text-white bg-green hover:bg-green-600 rounded-full p-2 w-6 h-6 cursor-pointer';
   const fontButtonClass =
     'text-white bg-green hover:bg-green-600 cursor-pointer p-2 rounded-lg';
+  const resetButtonClass =
+    'text-red-500 bg-white hover:text-red-600 hover:bg-gray-50 cursor-pointer p-2 rounded-lg mb-20';
 
   return (
     <>
@@ -34,7 +42,7 @@ export default function SettingsPage() {
             +
           </button>
         </div>
-        <div className="flex items-center content-center space-x-2">
+        <div className="flex items-center content-center space-x-2 mb-5">
           <div className="flex items-center content-center bg-gray-50 bg-opacity-60 p-4 rounded-lg">
             <div>Font: {fontFamily}</div>
           </div>
@@ -45,6 +53,9 @@ export default function SettingsPage() {
             Sans-Serif
           </button>
         </div>
+        <button className={resetButtonClass} onClick={resetSettings}>
+          {copy.resetSettings}
+        </button>
         <GoBackButton />
       </div>
     </>
