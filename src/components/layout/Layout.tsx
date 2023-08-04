@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Title from 'components/layout/Title';
 
 import copy from 'consts/copy';
+import useFontSize from 'utils/useFontSize';
 
 type LayoutPropsType = Readonly<{
   children: React.ReactNode;
@@ -10,6 +11,7 @@ type LayoutPropsType = Readonly<{
 }>;
 
 export default function Layout({ children, title }: LayoutPropsType) {
+  useFontSize();
   useEffect(() => {
     if (
       typeof window !== 'undefined' &&
