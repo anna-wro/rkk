@@ -7,13 +7,19 @@ const useFontSize = () => {
     } catch {}
   };
 
-  const setItem = (key: string, value: string) => {
+  const setItem = (key, value) => {
     try {
       return localStorage.setItem(key, value);
     } catch {}
   };
 
-  const [fontSize, setFontSize] = useState(() => getItem('fontSize') ?? 16);
+  const [fontSize, setFontSize] = useState(16); // Set a default font size
+
+  useEffect(() => {
+    // Update the font size from local storage after the component has mounted
+    const storedFontSize = getItem('fontSize');
+    setFontSize(storedFontSize ? Number(storedFontSize) : 16);
+  }, []);
 
   useEffect(() => {
     const root = document.getElementsByTagName('html')[0];

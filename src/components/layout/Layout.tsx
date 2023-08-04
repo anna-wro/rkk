@@ -4,6 +4,7 @@ import Title from 'components/layout/Title';
 
 import copy from 'consts/copy';
 import useFontSize from 'utils/useFontSize';
+import useFontFamily from 'utils/useFontFamily';
 
 type LayoutPropsType = Readonly<{
   children: React.ReactNode;
@@ -12,6 +13,8 @@ type LayoutPropsType = Readonly<{
 
 export default function Layout({ children, title }: LayoutPropsType) {
   useFontSize();
+  useFontFamily();
+
   useEffect(() => {
     if (
       typeof window !== 'undefined' &&
