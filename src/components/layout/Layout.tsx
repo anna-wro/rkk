@@ -5,6 +5,7 @@ import Title from 'components/layout/Title';
 import copy from 'consts/copy';
 import useFontSize from 'utils/useFontSize';
 import useFontFamily from 'utils/useFontFamily';
+import Link from 'next/link';
 
 type LayoutPropsType = Readonly<{
   children: React.ReactNode;
@@ -37,7 +38,15 @@ export default function Layout({ children, title }: LayoutPropsType) {
         <div className="px-8 md:px-20  mb-3 md:mb-8">
           <Title />
         </div>
-        <div className="px-8 md:px-20 ">{children}</div>
+        <div className="px-8 md:px-20 ">
+          {children}
+          {/* TODO move to separate component */}
+          <div className="my-10 margin-auto text-center text-gray-700 cursor-pointer hover:text-green-500">
+            <Link href="/ustawienia" passHref>
+              {copy.settings.headline}
+            </Link>
+          </div>
+        </div>
       </main>
     </div>
   );
