@@ -22,13 +22,13 @@ export default function Layout({ children, title }: LayoutPropsType) {
       window.workbox !== undefined
     ) {
       const wb = window.workbox;
-      // wb.register();
+      wb.register();
     }
   }, []);
 
-  // const showSettingsLink =
-  //   typeof window !== 'undefined' &&
-  //   window?.location?.pathname !== '/ustawienia';
+  const showSettingsLink =
+    typeof window !== 'undefined' &&
+    window?.location?.pathname !== '/ustawienia';
 
   return (
     <div className="py-4">
@@ -43,7 +43,7 @@ export default function Layout({ children, title }: LayoutPropsType) {
         </div>
         <div className="px-8 md:px-20 ">
           {children}
-          {true && <SettingsLink />}
+          {/* {true && <SettingsLink />} */}
         </div>
       </main>
     </div>
