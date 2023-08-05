@@ -13,14 +13,19 @@ const useFontSize = () => {
     } catch {}
   };
 
-  const initialFontSize = Number(getItem('fontSize')) || 16;
-
-  const [fontSize, setFontSize] = useState(initialFontSize);
+  const [fontSize, setFontSize] = useState(null);
 
   useEffect(() => {
-    const root = document.getElementsByTagName('html')[0];
-    root.style.setProperty('font-size', `${fontSize}px`);
-    setItem('fontSize', fontSize);
+    const initialFontSize = Number(getItem('fontSize')) || 16;
+    setFontSize(initialFontSize);
+  }, []);
+
+  useEffect(() => {
+    if (fontSize !== null) {
+      const root = document.getElementsByTagName('html')[0];
+      root.style.setProperty('font-size', `${fontSize}px`);
+      setItem('fontSize', fontSize);
+    }
   }, [fontSize]);
 
   const increaseFontSize = () => {
