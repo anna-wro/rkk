@@ -16,11 +16,14 @@ export default function SettingsPage() {
   };
 
   const buttonClass =
-    'flex items-center justify-center text-white bg-green-500 hover:bg-green-600 rounded-full p-2 w-8 h-8 cursor-pointer';
+    'flex items-center justify-center text-white rounded-full p-2 w-8 h-8';
   const fontButtonClass =
     'text-white bg-green-500 hover:bg-green-600 cursor-pointer p-2 rounded-lg';
   const resetButtonClass =
     'text-red-500 bg-white hover:text-red-600 hover:bg-gray-50 cursor-pointer p-2 rounded-lg mb-20';
+
+  const isMaxSize = fontSize >= 60;
+  const isMinSize = fontSize <= 10;
 
   return (
     <>
@@ -36,19 +39,47 @@ export default function SettingsPage() {
             <div>{copy.preview}</div>
           </div>
           <div className="flex space-x-4">
-            <button className={buttonClass} onClick={decreaseFontSize}>
+            <button
+              className={`${buttonClass} ${
+                isMinSize
+                  ? 'bg-gray-400'
+                  : 'bg-green-500 hover:bg-green-600 cursor-pointer'
+              }`}
+              onClick={decreaseFontSize}
+              disabled={isMinSize}
+            >
               -
             </button>
             <span className="text-lg">{fontSize} px</span>
-            <button className={buttonClass} onClick={increaseFontSize}>
+            <button
+              className={`${buttonClass} ${
+                isMaxSize
+                  ? 'bg-gray-400'
+                  : 'bg-green-500 hover:bg-green-600 cursor-pointer'
+              }`}
+              onClick={increaseFontSize}
+              disabled={isMaxSize}
+            >
               +
             </button>
           </div>
           <div className="flex space-x-4">
-            <button className={fontButtonClass} onClick={setSerif}>
+            <button
+              className={`${fontButtonClass} ${
+                fontFamily.includes('NotoSerif') ? 'bg-green-700' : ''
+              }`}
+              style={{ fontFamily: 'NotoSerif, serif' }}
+              onClick={setSerif}
+            >
               Serif
             </button>
-            <button className={fontButtonClass} onClick={setSansSerif}>
+            <button
+              className={`${fontButtonClass} ${
+                fontFamily.includes('Lato') ? 'bg-green-700' : ''
+              }`}
+              style={{ fontFamily: 'Lato, sans-serif' }}
+              onClick={setSansSerif}
+            >
               Sans-Serif
             </button>
           </div>
