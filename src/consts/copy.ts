@@ -26,8 +26,7 @@ export const copy = {
   silence: 'Chwila ciszy...',
   readingsHeadline: 'Czytania liturgiczne',
   resetSettings: 'Resetuj ustawienia',
-  preview:
-    'Niech nas Pan błogosławi, broni od wszelkiego zła i doprowadzi do życia wiecznego.',
+  preview: `Tutaj możesz na bieżąco obserwować efekty wprowadzanych zmian. Dzięki temu masz pełną kontrolę nad wyglądem tekstu ✨`,
   fontSizeLabel: 'Rozmiar fontu',
   fontLabel: 'Font',
 };
