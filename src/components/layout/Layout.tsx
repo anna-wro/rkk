@@ -27,7 +27,8 @@ export default function Layout({ children, title }: LayoutPropsType) {
   }, []);
 
   const showSettingsLink =
-    typeof window !== 'undefined' && window.location.pathname !== '/ustawienia';
+    typeof window !== 'undefined' &&
+    window?.location?.pathname !== '/ustawienia';
 
   return (
     <div className="py-4">
