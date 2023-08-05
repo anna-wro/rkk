@@ -40,7 +40,7 @@ export default function SettingsPage() {
       </div>
       <div className="section">
         <div className="flex flex-col items-center content-center space-y-5 mb-20">
-          <div className="flex items-center content-center bg-gray-50 bg-opacity-60 p-4 rounded-lg">
+          <div className="flex items-center content-center bg-gray-50 bg-opacity-60 p-4 rounded-lg mb-2">
             <div>{copy.preview}</div>
           </div>
           <div className="mb-2 font-semibold self-start">
