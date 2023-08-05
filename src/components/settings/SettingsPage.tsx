@@ -5,22 +5,27 @@ import copy from 'consts/copy';
 import useFontSize from 'utils/useFontSize';
 import useFontFamily from 'utils/useFontFamily';
 
+const cssClasses = {
+  fontSizeButton:
+    'flex items-center justify-center text-white rounded-full p-2 w-8 h-8',
+  enabledButton: 'bg-green-500 hover:bg-green-600 cursor-pointer',
+  disabledButton: 'bg-gray-400 cursor-default',
+  fontButton:
+    'text-white bg-green-500 hover:bg-green-600 cursor-pointer p-2 rounded-lg',
+  resetButton:
+    'text-red-500 bg-white hover:text-red-600 hover:bg-gray-50 cursor-pointer p-2 rounded-lg mb-20',
+};
+
 export default function SettingsPage() {
   const { fontSize, increaseFontSize, decreaseFontSize, resetFontSize } =
     useFontSize();
   const { fontFamily, setSerif, setSansSerif, resetFontFamily } =
     useFontFamily();
+
   const resetSettings = () => {
     resetFontSize();
     resetFontFamily();
   };
-
-  const buttonClass =
-    'flex items-center justify-center text-white rounded-full p-2 w-8 h-8';
-  const fontButtonClass =
-    'text-white bg-green-500 hover:bg-green-600 cursor-pointer p-2 rounded-lg';
-  const resetButtonClass =
-    'text-red-500 bg-white hover:text-red-600 hover:bg-gray-50 cursor-pointer p-2 rounded-lg mb-20';
 
   const isMaxSize = fontSize >= 60;
   const isMinSize = fontSize <= 10;
@@ -40,10 +45,8 @@ export default function SettingsPage() {
           </div>
           <div className="flex space-x-4">
             <button
-              className={`${buttonClass} ${
-                isMinSize
-                  ? 'bg-gray-400'
-                  : 'bg-green-500 hover:bg-green-600 cursor-pointer'
+              className={`${cssClasses.fontSizeButton} ${
+                isMinSize ? cssClasses.disabledButton : cssClasses.enabledButton
               }`}
               onClick={decreaseFontSize}
               disabled={isMinSize}
@@ -52,10 +55,8 @@ export default function SettingsPage() {
             </button>
             <span className="text-lg">{fontSize} px</span>
             <button
-              className={`${buttonClass} ${
-                isMaxSize
-                  ? 'bg-gray-400'
-                  : 'bg-green-500 hover:bg-green-600 cursor-pointer'
+              className={`${cssClasses.fontSizeButton} ${
+                isMaxSize ? cssClasses.disabledButton : cssClasses.enabledButton
               }`}
               onClick={increaseFontSize}
               disabled={isMaxSize}
@@ -65,26 +66,24 @@ export default function SettingsPage() {
           </div>
           <div className="flex space-x-4">
             <button
-              className={`${fontButtonClass} ${
-                fontFamily.includes('NotoSerif') ? 'bg-green-700' : ''
-              }`}
-              style={{ fontFamily: 'NotoSerif, serif' }}
-              onClick={setSerif}
-            >
-              Serif
-            </button>
-            <button
-              className={`${fontButtonClass} ${
+              className={`${cssClasses.fontButton} ${
                 fontFamily.includes('Lato') ? 'bg-green-700' : ''
               }`}
-              style={{ fontFamily: 'Lato, sans-serif' }}
               onClick={setSansSerif}
             >
-              Sans-Serif
+              Lato
+            </button>
+            <button
+              className={`${cssClasses.fontButton} ${
+                fontFamily.includes('NotoSerif') ? 'bg-green-700' : ''
+              }`}
+              onClick={setSerif}
+            >
+              NotoSerif
             </button>
           </div>
         </div>
-        <button className={resetButtonClass} onClick={resetSettings}>
+        <button className={cssClasses.resetButton} onClick={resetSettings}>
           {copy.resetSettings}
         </button>
         <GoBackButton />
