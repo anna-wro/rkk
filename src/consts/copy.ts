@@ -25,10 +25,6 @@ export const copy = {
     'Upsi! Ktoś zapomniał o kalendarzu na ten miesiąc 🙁. Jeżeli to pomoże - poniżej znajdują się teksty na okres w ciągu roku.',
   silence: 'Chwila ciszy...',
   readingsHeadline: 'Czytania liturgiczne',
-  resetSettings: 'Resetuj ustawienia',
-  preview: `Tutaj możesz na bieżąco obserwować efekty wprowadzanych zmian. Dzięki temu masz pełną kontrolę nad wyglądem tekstu ✨`,
-  fontSizeLabel: 'Rozmiar fontu',
-  fontLabel: 'Font',
 };
 
 export default copy;
