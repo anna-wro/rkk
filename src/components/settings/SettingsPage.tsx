@@ -69,6 +69,7 @@ export default function SettingsPage() {
               className={`${cssClasses.fontButton} ${
                 fontFamily.includes('Lato') ? 'bg-green-700' : ''
               }`}
+              style={{ fontFamily: 'Lato, sans-serif' }}
               onClick={setSansSerif}
             >
               Lato
@@ -77,6 +78,7 @@ export default function SettingsPage() {
               className={`${cssClasses.fontButton} ${
                 fontFamily.includes('NotoSerif') ? 'bg-green-700' : ''
               }`}
+              style={{ fontFamily: 'NotoSerif, serif' }}
               onClick={setSerif}
             >
               NotoSerif
