@@ -43,7 +43,7 @@ export default function Layout({ children, title }: LayoutPropsType) {
         </div>
         <div className="px-8 md:px-20 ">
           {children}
-          {/* {true && <SettingsLink />} */}
+          {showSettingsLink && <SettingsLink />}
         </div>
       </main>
     </div>

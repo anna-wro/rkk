@@ -13,9 +13,9 @@ const useFontSize = () => {
     } catch {}
   };
 
-  const [fontSize, setFontSize] = useState(
-    () => Number(getItem('fontSize')) ?? 16,
-  );
+  const initialFontSize = Number(getItem('fontSize')) || 16;
+
+  const [fontSize, setFontSize] = useState(initialFontSize);
 
   useEffect(() => {
     const root = document.getElementsByTagName('html')[0];
