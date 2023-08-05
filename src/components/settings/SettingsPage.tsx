@@ -16,9 +16,9 @@ export default function SettingsPage() {
   };
 
   const buttonClass =
-    'flex items-center content-center text-white bg-green hover:bg-green-600 rounded-full p-2 w-6 h-6 cursor-pointer';
+    'flex items-center justify-center text-white bg-green-500 hover:bg-green-600 rounded-full p-2 w-8 h-8 cursor-pointer';
   const fontButtonClass =
-    'text-white bg-green hover:bg-green-600 cursor-pointer p-2 rounded-lg';
+    'text-white bg-green-500 hover:bg-green-600 cursor-pointer p-2 rounded-lg';
   const resetButtonClass =
     'text-red-500 bg-white hover:text-red-600 hover:bg-gray-50 cursor-pointer p-2 rounded-lg mb-20';
 
@@ -31,27 +31,27 @@ export default function SettingsPage() {
         <Header>{copy.settings.headline}</Header>
       </div>
       <div className="section">
-        <div className="flex items-center content-center space-x-2 mb-5">
+        <div className="flex flex-col items-center content-center space-y-5 mb-5">
           <div className="flex items-center content-center bg-gray-50 bg-opacity-60 p-4 rounded-lg">
-            <div>Rozmiar tekstu: {fontSize}px</div>
+            <div className="text-lg">{copy.preview}</div>
           </div>
-          <button className={buttonClass} onClick={decreaseFontSize}>
-            -
-          </button>
-          <button className={buttonClass} onClick={increaseFontSize}>
-            +
-          </button>
-        </div>
-        <div className="flex items-center content-center space-x-2 mb-5">
-          <div className="flex items-center content-center bg-gray-50 bg-opacity-60 p-4 rounded-lg">
-            <div>Font: {fontFamily}</div>
+          <div className="flex space-x-4">
+            <button className={buttonClass} onClick={decreaseFontSize}>
+              -
+            </button>
+            <span className="text-lg">{fontSize} px</span>
+            <button className={buttonClass} onClick={increaseFontSize}>
+              +
+            </button>
           </div>
-          <button className={fontButtonClass} onClick={setSerif}>
-            Serif
-          </button>
-          <button className={fontButtonClass} onClick={setSansSerif}>
-            Sans-Serif
-          </button>
+          <div className="flex space-x-4">
+            <button className={fontButtonClass} onClick={setSerif}>
+              Serif
+            </button>
+            <button className={fontButtonClass} onClick={setSansSerif}>
+              Sans-Serif
+            </button>
+          </div>
         </div>
         <button className={resetButtonClass} onClick={resetSettings}>
           {copy.resetSettings}
