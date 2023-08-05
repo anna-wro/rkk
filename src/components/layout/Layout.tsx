@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import Head from 'next/head';
-import { useRouter } from 'next/router';
 import Title from 'components/layout/Title';
 import copy from 'consts/copy';
 import useFontSize from 'utils/useFontSize';
@@ -16,8 +15,6 @@ export default function Layout({ children, title }: LayoutPropsType) {
   useFontSize();
   useFontFamily();
 
-  const router = useRouter();
-
   useEffect(() => {
     if (
       typeof window !== 'undefined' &&
@@ -28,6 +25,9 @@ export default function Layout({ children, title }: LayoutPropsType) {
       wb.register();
     }
   }, []);
+
+  const showSettingsLink =
+    typeof window !== 'undefined' && window.location.pathname !== '/ustawienia';
 
   return (
     <div className="py-4">
@@ -42,7 +42,7 @@ export default function Layout({ children, title }: LayoutPropsType) {
         </div>
         <div className="px-8 md:px-20 ">
           {children}
-          {router.pathname !== '/ustawienia' && <SettingsLink />}
+          {showSettingsLink && <SettingsLink />}
         </div>
       </main>
     </div>
