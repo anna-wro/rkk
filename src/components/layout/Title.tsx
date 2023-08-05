@@ -5,7 +5,7 @@ import logo from '../../../public/logo.svg';
 
 export default function Title() {
   return (
-    <div className="flex items-center">
+    <div className="flex items-center font-main">
       <Link href="/" passHref>
         <div>
           <Image

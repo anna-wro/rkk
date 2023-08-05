@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import Head from 'next/head';
 import Title from 'components/layout/Title';
-
 import copy from 'consts/copy';
+import useFontSize from 'utils/useFontSize';
+import useFontFamily from 'utils/useFontFamily';
+import { SettingsLink } from './SettingsLink';
 
 type LayoutPropsType = Readonly<{
   children: React.ReactNode;
@@ -10,6 +12,9 @@ type LayoutPropsType = Readonly<{
 }>;
 
 export default function Layout({ children, title }: LayoutPropsType) {
+  useFontSize();
+  useFontFamily();
+
   useEffect(() => {
     if (
       typeof window !== 'undefined' &&
@@ -20,6 +25,10 @@ export default function Layout({ children, title }: LayoutPropsType) {
       wb.register();
     }
   }, []);
+
+  const showSettingsLink =
+    typeof window !== 'undefined' &&
+    window?.location?.pathname !== '/ustawienia';
 
   return (
     <div className="py-4">
@@ -32,7 +41,10 @@ export default function Layout({ children, title }: LayoutPropsType) {
         <div className="px-8 md:px-20  mb-3 md:mb-8">
           <Title />
         </div>
-        <div className="px-8 md:px-20 ">{children}</div>
+        <div className="px-8 md:px-20 ">
+          {children}
+          {showSettingsLink && <SettingsLink />}
+        </div>
       </main>
     </div>
   );
