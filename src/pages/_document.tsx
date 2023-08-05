@@ -7,18 +7,8 @@ class MyDocument extends Document {
     return (
       <Html lang="pl-PL">
         <Head>
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
-            rel="preconnect"
-            href="https://fonts.gstatic.com"
-            crossOrigin=""
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap"
-            rel="stylesheet"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
             rel="stylesheet"
           />
           <link rel="manifest" href="/manifest.json" />
@@ -67,7 +57,7 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#ffffff" />
           <AppleSplashScreenLinks />
         </Head>
-        <body className="dark:bg-gray-900 dark:text-white/90 selection:bg-green-200">
+        <body className="dark:bg-gray-900 dark:text-white/90 font-main selection:bg-green-200">
           <Main />
           <NextScript />
         </body>
