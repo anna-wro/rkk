@@ -28,6 +28,8 @@ export const copy = {
   resetSettings: 'Resetuj ustawienia',
   preview:
     'Niech nas Pan błogosławi, broni od wszelkiego zła i doprowadzi do życia wiecznego.',
+  fontSizeLabel: 'Rozmiar fontu',
+  fontLabel: 'Font',
 };
 
 export default copy;

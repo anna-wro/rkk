@@ -43,6 +43,7 @@ export default function SettingsPage() {
           <div className="flex items-center content-center bg-gray-50 bg-opacity-60 p-4 rounded-lg">
             <div>{copy.preview}</div>
           </div>
+          <div className="mb-2 font-semibold">{copy.fontSizeLabel}</div>
           <div className="flex space-x-4">
             <button
               className={`${cssClasses.fontSizeButton} ${
@@ -64,6 +65,7 @@ export default function SettingsPage() {
               +
             </button>
           </div>
+          <div className="mb-2 font-semibold">{copy.fontLabel}</div>
           <div className="flex space-x-4">
             <button
               className={`${cssClasses.fontButton} ${
