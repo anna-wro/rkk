@@ -26,9 +26,9 @@ export default function Layout({ children, title }: LayoutPropsType) {
     }
   }, []);
 
-  const showSettingsLink =
-    typeof window !== 'undefined' &&
-    window?.location?.pathname !== '/ustawienia';
+  // const showSettingsLink =
+  //   typeof window !== 'undefined' &&
+  //   window?.location?.pathname !== '/ustawienia';
 
   return (
     <div className="py-4">
@@ -43,7 +43,7 @@ export default function Layout({ children, title }: LayoutPropsType) {
         </div>
         <div className="px-8 md:px-20 ">
           {children}
-          {showSettingsLink && <SettingsLink />}
+          {true && <SettingsLink />}
         </div>
       </main>
     </div>
