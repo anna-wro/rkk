@@ -22,7 +22,7 @@ export default function Layout({ children, title }: LayoutPropsType) {
       window.workbox !== undefined
     ) {
       const wb = window.workbox;
-      wb.register();
+      // wb.register();
     }
   }, []);
 
