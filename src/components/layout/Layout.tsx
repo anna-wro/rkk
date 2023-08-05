@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import Title from 'components/layout/Title';
-
 import copy from 'consts/copy';
 import useFontSize from 'utils/useFontSize';
 import useFontFamily from 'utils/useFontFamily';
-import Link from 'next/link';
+import { SettingsLink } from './SettingsLink';
 
 type LayoutPropsType = Readonly<{
   children: React.ReactNode;
@@ -15,6 +15,8 @@ type LayoutPropsType = Readonly<{
 export default function Layout({ children, title }: LayoutPropsType) {
   useFontSize();
   useFontFamily();
+
+  const router = useRouter();
 
   useEffect(() => {
     if (
@@ -40,12 +42,7 @@ export default function Layout({ children, title }: LayoutPropsType) {
         </div>
         <div className="px-8 md:px-20 ">
           {children}
-          {/* TODO move to separate component */}
-          <div className="my-10 margin-auto text-center text-gray-700 cursor-pointer hover:text-green-500">
-            <Link href="/ustawienia" passHref>
-              {copy.settings.headline}
-            </Link>
-          </div>
+          {router.pathname !== '/ustawienia' && <SettingsLink />}
         </div>
       </main>
     </div>

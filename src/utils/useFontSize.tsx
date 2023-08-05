@@ -24,7 +24,7 @@ const useFontSize = () => {
   }, [fontSize]);
 
   const increaseFontSize = () => {
-    if (fontSize < 40) {
+    if (fontSize < 60) {
       setFontSize(prevFontSize => prevFontSize + 2);
     }
   };

@@ -8,12 +8,12 @@ import useFontFamily from 'utils/useFontFamily';
 const cssClasses = {
   fontSizeButton:
     'flex items-center justify-center text-white rounded-full p-2 w-8 h-8',
-  enabledButton: 'bg-green-500 hover:bg-green-600 cursor-pointer',
+  enabledButton: 'bg-blue-500 hover:bg-blue-600 cursor-pointer',
   disabledButton: 'bg-gray-400 cursor-default',
   fontButton:
-    'text-white bg-green-500 hover:bg-green-600 cursor-pointer p-2 rounded-lg',
+    'text-white bg-blue-500 hover:bg-blue-600 cursor-pointer p-2 rounded-lg',
   resetButton:
-    'text-red-500 bg-white hover:text-red-600 hover:bg-gray-50 cursor-pointer p-2 rounded-lg mb-20',
+    'bg-orange-500 text-white hover:bg-orange-600 cursor-pointer p-2 rounded-lg mb-20',
 };
 
 export default function SettingsPage() {
@@ -39,7 +39,7 @@ export default function SettingsPage() {
         <Header>{copy.settings.headline}</Header>
       </div>
       <div className="section">
-        <div className="flex flex-col items-center content-center space-y-5 mb-5">
+        <div className="flex flex-col items-center content-center space-y-5 mb-20">
           <div className="flex items-center content-center bg-gray-50 bg-opacity-60 p-4 rounded-lg">
             <div>{copy.preview}</div>
           </div>
@@ -67,7 +67,7 @@ export default function SettingsPage() {
           <div className="flex space-x-4">
             <button
               className={`${cssClasses.fontButton} ${
-                fontFamily.includes('Lato') ? 'bg-green-700' : ''
+                fontFamily.includes('Lato') ? 'bg-blue-700' : ''
               }`}
               style={{ fontFamily: 'Lato, sans-serif' }}
               onClick={setSansSerif}
@@ -76,7 +76,7 @@ export default function SettingsPage() {
             </button>
             <button
               className={`${cssClasses.fontButton} ${
-                fontFamily.includes('NotoSerif') ? 'bg-green-700' : ''
+                fontFamily.includes('NotoSerif') ? 'bg-blue-700' : ''
               }`}
               style={{ fontFamily: 'NotoSerif, serif' }}
               onClick={setSerif}
