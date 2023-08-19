@@ -29,7 +29,7 @@ export default function Layout({ children, title }: LayoutPropsType) {
   const showSettingsLink =
     typeof window !== 'undefined' && window?.location?.pathname === '/';
 
-  ret urn (
+  return (
     <div className="py-4">
       <Head>
         <title>{title ?? copy.title}</title>
