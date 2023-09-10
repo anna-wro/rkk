@@ -68,6 +68,10 @@ export const September2023: CalendarType = [
         name: 'nieszpory',
         slug: 'narodzenie-bogurodzicy-nieszpory',
       },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/narodzenie-bogurodzicy',
+      },
     ],
   },
   {
