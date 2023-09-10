@@ -277,6 +277,10 @@ export const September2023: CalendarType = [
         name: 'nieszpory',
         slug: 'archaniolow-i-aniolow-nieszpory',
       },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/swietych-archaniolow-i-aniolow-bozych-rok-1',
+      },
     ],
   },
   {
