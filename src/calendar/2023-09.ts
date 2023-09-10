@@ -127,6 +127,10 @@ export const September2023: CalendarType = [
         name: 'nieszpory',
         slug: 'krzyza-swietego-nieszpory',
       },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/krzyza-swietego',
+      },
     ],
   },
   {
