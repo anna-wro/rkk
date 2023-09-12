@@ -263,8 +263,6 @@ export const September2023: CalendarType = [
     holidays: ['Świętych Archaniołów i Aniołów Bożych'],
     passages: [
       'Dn 7, 9-10.13-14',
-      'albo',
-      'Ap 12, 7-12a',
       'Ps 138',
       'J 1, 47-51',
     ],
