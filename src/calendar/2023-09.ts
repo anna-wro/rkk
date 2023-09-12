@@ -20,6 +20,12 @@ export const September2023: CalendarType = [
     season: 'ordinary',
     holidays: ['14. Niedziela po Pięćdziesiątnicy', 'FEBE dk.'],
     passages: ['Jr 20, 7-9', 'Ps 63', 'Rz 12, 1-2', 'Mt 16, 21-27'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/22-niedziela-w-ciagu-roku-rok-a',
+      },
+      ],
   },
   {
     date: '2023-09-04',
@@ -62,6 +68,10 @@ export const September2023: CalendarType = [
         name: 'nieszpory',
         slug: 'narodzenie-bogurodzicy-nieszpory',
       },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/narodzenie-bogurodzicy',
+      },
     ],
   },
   {
@@ -77,6 +87,12 @@ export const September2023: CalendarType = [
     season: 'ordinary',
     holidays: ['15. Niedziela po Pięćdziesiątnicy'],
     passages: ['Ez 33, 7-9', 'Ps 95', 'Rz 13, 8-10', 'Mt 18, 15-20'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/23-niedziela-w-ciagu-roku-rok-a',
+      },
+    ],
   },
   {
     date: '2023-09-11',
@@ -111,6 +127,10 @@ export const September2023: CalendarType = [
         name: 'nieszpory',
         slug: 'krzyza-swietego-nieszpory',
       },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/krzyza-swietego',
+      },
     ],
   },
   {
@@ -130,12 +150,18 @@ export const September2023: CalendarType = [
     date: '2023-09-17',
     week: 1,
     season: 'ordinary',
-    holidays: ['15. Niedziela po Pięćdziesiątnicy'],
+    holidays: ['16. Niedziela po Pięćdziesiątnicy'],
     passages: ['Syr 27, 30-28.7', 'Ps 103', 'Rz 14, 7-9', 'Mt 18, 21-35'],
     notes: [
       '[HTML]Hildegardy z Bingen[HTML] mn. i mis.',
       'Święto patronalne wspólnoty w Łodzi',
     ],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/24-niedziela-w-ciagu-roku-rok-a',
+      },
+      ],
   },
   {
     date: '2023-09-18',
@@ -197,6 +223,12 @@ export const September2023: CalendarType = [
     notes: [
       'Rocznica podpisania Deklaracji Utrechckiej Kościołów starokatolickich (1889)',
     ],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/25-niedziela-w-ciagu-roku-rok-a',
+      },
+    ],
   },
   {
     date: '2023-09-25',
@@ -244,6 +276,10 @@ export const September2023: CalendarType = [
       {
         name: 'nieszpory',
         slug: 'archaniolow-i-aniolow-nieszpory',
+      },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/swietych-archaniolow-i-aniolow-bozych-rok-1',
       },
     ],
   },
