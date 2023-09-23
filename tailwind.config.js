@@ -101,7 +101,7 @@ module.exports = {
       borderWidth: { 1: '1px' },
     },
   },
-  darkMode: 'media',
+  darkMode: 'class',
   variants: {},
   plugins: [],
 };

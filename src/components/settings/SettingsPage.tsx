@@ -4,6 +4,7 @@ import { Header } from 'components/mdxOverrides';
 import copy from 'consts/copy';
 import useFontSize from 'utils/useFontSize';
 import useFontFamily from 'utils/useFontFamily';
+import useTheme from 'utils/useTheme';
 
 const cssClasses = {
   fontSizeButton:
@@ -14,6 +15,8 @@ const cssClasses = {
     'text-white bg-blue-500 hover:bg-blue-600 cursor-pointer p-2 rounded-lg',
   resetButton:
     'bg-orange-500 text-white hover:bg-orange-600 cursor-pointer p-2 rounded-lg mb-20',
+  themeButton:
+    'text-white bg-blue-500 hover:bg-blue-600 cursor-pointer p-2 rounded-lg',
 };
 
 export default function SettingsPage() {
@@ -21,14 +24,13 @@ export default function SettingsPage() {
     useFontSize();
   const { fontFamily, setSerif, setSansSerif, resetFontFamily } =
     useFontFamily();
+  const { theme, resetTheme, toggleTheme } = useTheme();
 
   const resetSettings = () => {
     resetFontSize();
     resetFontFamily();
+    resetTheme();
   };
-
-  const isMaxSize = fontSize >= 60;
-  const isMinSize = fontSize <= 10;
 
   return (
     <>
@@ -49,20 +51,24 @@ export default function SettingsPage() {
           <div className="flex space-x-4">
             <button
               className={`${cssClasses.fontSizeButton} ${
-                isMinSize ? cssClasses.disabledButton : cssClasses.enabledButton
+                fontSize <= 10
+                  ? cssClasses.disabledButton
+                  : cssClasses.enabledButton
               }`}
               onClick={decreaseFontSize}
-              disabled={isMinSize}
+              disabled={fontSize <= 10}
             >
               -
             </button>
             <span className="text-lg">{fontSize} px</span>
             <button
               className={`${cssClasses.fontSizeButton} ${
-                isMaxSize ? cssClasses.disabledButton : cssClasses.enabledButton
+                fontSize >= 60
+                  ? cssClasses.disabledButton
+                  : cssClasses.enabledButton
               }`}
               onClick={increaseFontSize}
-              disabled={isMaxSize}
+              disabled={fontSize >= 60}
             >
               +
             </button>
@@ -88,6 +94,10 @@ export default function SettingsPage() {
               NotoSerif
             </button>
           </div>
+          <div className="mb-2 font-semibold self-start">{copy.theme}</div>
+          <button className={cssClasses.themeButton} onClick={toggleTheme}>
+            {theme === 'light' ? copy.switchToDark : copy.switchToLight}
+          </button>
         </div>
         <button className={cssClasses.resetButton} onClick={resetSettings}>
           {copy.resetSettings}
