@@ -3,7 +3,7 @@ import { copy } from 'consts/copy';
 
 export function SettingsLink() {
   return (
-    <div className="my-10 margin-auto text-center text-gray-700 cursor-pointer hover:text-blue-500">
+    <div className="my-10 margin-auto text-center text-gray-700 cursor-pointer dark:text-white dark:hover:text-blue-500 hover:text-blue-500">
       <Link href="/ustawienia" passHref>
         {copy.settings.headline}
       </Link>
