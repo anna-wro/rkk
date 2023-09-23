@@ -292,7 +292,7 @@ export const January2022: CalendarType = [
     week: 2,
     season: 'christmas',
     passages: ['1 Sm 24, 3-21', 'Ps 57', 'Mk 3, 13-19'],
-    isFastDay: true,
+    isFastingDay: true,
   },
   {
     date: '2022-01-22',

@@ -125,7 +125,7 @@ export const February2022: CalendarType = [
     week: 2,
     season: 'ordinary',
     passages: ['Jk 2, 14-24, 26', 'Ps 112', 'Mk 8, 34-9, 1'],
-    isFastDay: true,
+    isFastingDay: true,
   },
   {
     date: '2022-02-19',

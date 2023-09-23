@@ -114,7 +114,7 @@ export const October2021: CalendarType = [
       '[HTML]Samuela Szereszewskiego [HTML] bp.',
     ],
     passages: ['Rz 4,1-8', 'Ps 32,1-2.5.10-11', 'Łk 12,1-7'],
-    isFastDay: true,
+    isFastingDay: true,
   },
   {
     date: '2021-10-16',

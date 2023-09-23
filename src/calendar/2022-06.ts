@@ -256,7 +256,7 @@ export const June2022: CalendarType = [
       'Mt 6,19-23',
     ],
     notes: ['[HTML]Alberta Chmielowskiego[HTML] zak.'],
-    isFastDay: true,
+    isFastingDay: true,
   },
   {
     date: '2022-06-18',

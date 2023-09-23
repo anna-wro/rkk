@@ -125,7 +125,7 @@ export const December2021: CalendarType = [
     season: 'advent',
     passages: ['Rdz 49,2.8-10', 'Ps 72,1-2.3-4b.7-8.17', 'Mt 1,1-17'],
     notes: ['[HTML]Jana de Matha[HTML] zak.'],
-    isFastDay: true,
+    isFastingDay: true,
     vespers: {
       antiphon:
         'O Mądrości, która wyszłaś z ust Najwyższego, / obejmując wszechświat od krańca do krańca, / i wszystkim rządzisz z mocą i słodyczą; / przyjdź i naucz nas dróg roztropności.',

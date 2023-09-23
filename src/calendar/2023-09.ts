@@ -139,7 +139,7 @@ export const September2023: CalendarType = [
     season: 'ordinary',
     passages: ['1 Tm 1, 1-2.12-14', 'Ps 16', 'Łk 6, 39-42'],
     notes: ['[HTML]Cypriana[HTML] bp. i m.'],
-    isFastDay: true,
+    isFastingDay: true,
   },
   {
     date: '2023-09-16',
@@ -207,7 +207,7 @@ export const September2023: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['1 Tm 6, 2c-12', 'Ps 49', 'Łk 8, 1-3'],
-    isFastDay: true,
+    isFastingDay: true,
   },
   {
     date: '2023-09-23',

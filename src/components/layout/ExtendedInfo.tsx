@@ -46,7 +46,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
     ]);
     setNotesToDisplay([
       ...(data?.notes?.length > 0 ? data.notes : []),
-      ...(data?.isFastDay ? [copy.fastDay] : []),
+      ...(data?.isFastingDay ? [copy.fastDay] : []),
     ]);
   }, [data]);
 

@@ -152,7 +152,7 @@ export const November2021: CalendarType = [
     season: 'ordinary',
     passages: ['1 Mch 4,36-37.52-59', '1 Krn 29,10-13', 'Łk 19,45-48'],
     notes: ['[HTML]Hildy[HTML] mn.', '[HTML]Mechtyldy[HTML] mist.'],
-    isFastDay: true,
+    isFastingDay: true,
   },
   {
     date: '2021-11-20',

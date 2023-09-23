@@ -285,7 +285,7 @@ export const January2023: CalendarType = [
     season: 'christmas',
     passages: ['Hbr 8, 6-13', 'Ps 85', 'Mk 3, 13-19'],
     notes: ['[HTML]Sebastiana[HTML] m.'],
-    isFastDay: true,
+    isFastingDay: true,
   },
   {
     date: '2023-01-21',

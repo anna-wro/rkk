@@ -36,7 +36,7 @@ export type CalendarDayType = Readonly<{
   }>;
   linksTitle?: string;
   notes?: string[];
-  isFastDay?: boolean;
+  isFastingDay?: boolean;
   passages?: string[];
   lauds?: {
     sigla?: string;

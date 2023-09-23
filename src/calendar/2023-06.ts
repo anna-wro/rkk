@@ -197,7 +197,7 @@ export const June2023: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['2 Kor 4, 7-15', 'Ps 116', 'Mt 5, 27-32'],
-    isFastDay: true,
+    isFastingDay: true,
   },
   {
     date: '2023-06-17',

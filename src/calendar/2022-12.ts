@@ -108,7 +108,7 @@ export const December2022: CalendarType = [
     week: 1,
     season: 'advent',
     passages: ['Iz 56, 1-3a, 6-8', 'Ps 67', 'J 5, 33-36'],
-    isFastDay: true,
+    isFastingDay: true,
   },
   {
     date: '2022-12-17',

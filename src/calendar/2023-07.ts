@@ -117,7 +117,7 @@ export const July2023: CalendarType = [
     season: 'ordinary',
     passages: ['Rdz 46, 1-7.28-30', 'Ps 37', 'Mt 10, 16-23'],
     notes: ['[HTML]Cicely Saunders[HTML]'],
-    isFastDay: true,
+    isFastingDay: true,
   },
   {
     date: '2023-07-15',
@@ -169,7 +169,7 @@ export const July2023: CalendarType = [
     week: 2,
     season: 'ordinary',
     passages: ['Wj 11, 10-12.14', 'Ps 116', 'Mt 12, 1-8'],
-    isFastDay: true,
+    isFastingDay: true,
   },
   {
     date: '2023-07-22',

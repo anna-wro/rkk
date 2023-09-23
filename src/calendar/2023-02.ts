@@ -122,7 +122,7 @@ export const February2023: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['Rdz 11, 1-9', 'Ps 33', 'Mk 8, 34-9, 1'],
-    isFastDay: true,
+    isFastingDay: true,
   },
   {
     date: '2023-02-18',
