@@ -25,7 +25,7 @@ export const September2023: CalendarType = [
         name: 'Liturgia słowa',
         slug: 'czytania/22-niedziela-w-ciagu-roku-rok-a',
       },
-      ],
+    ],
   },
   {
     date: '2023-09-04',
@@ -138,7 +138,8 @@ export const September2023: CalendarType = [
     week: 2,
     season: 'ordinary',
     passages: ['1 Tm 1, 1-2.12-14', 'Ps 16', 'Łk 6, 39-42'],
-    notes: ['[HTML]Cypriana[HTML] bp. i m.', 'DZIEŃ WSPÓLNEGO POSTU'],
+    notes: ['[HTML]Cypriana[HTML] bp. i m.'],
+    isFastDay: true,
   },
   {
     date: '2023-09-16',
@@ -161,7 +162,7 @@ export const September2023: CalendarType = [
         name: 'Liturgia słowa',
         slug: 'czytania/24-niedziela-w-ciagu-roku-rok-a',
       },
-      ],
+    ],
   },
   {
     date: '2023-09-18',
@@ -206,6 +207,7 @@ export const September2023: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['1 Tm 6, 2c-12', 'Ps 49', 'Łk 8, 1-3'],
+    isFastDay: true,
   },
   {
     date: '2023-09-23',
@@ -261,11 +263,7 @@ export const September2023: CalendarType = [
     week: 2,
     season: 'ordinary',
     holidays: ['Świętych Archaniołów i Aniołów Bożych'],
-    passages: [
-      'Dn 7, 9-10.13-14',
-      'Ps 138',
-      'J 1, 47-51',
-    ],
+    passages: ['Dn 7, 9-10.13-14', 'Ps 138', 'J 1, 47-51'],
     links: [
       {
         name: 'jutrznia',

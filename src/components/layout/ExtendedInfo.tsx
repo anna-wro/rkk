@@ -11,6 +11,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
   const [passages, setPassages] = useState([]);
   const [linksTitle, setLinksTitle] = useState('');
   const [linksToDisplay, setLinksToDisplay] = useState([]);
+  const [notesToDisplay, setNotesToDisplay] = useState([]);
   const hasLinks = linksToDisplay.length > 0;
 
   useEffect(() => {
@@ -42,6 +43,10 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
       ...(data?.holidays?.length > 0 && data?.season !== 'lent'
         ? [{ name: 'Iubilate Domino', slug: 'iubilate-domino' }]
         : []),
+    ]);
+    setNotesToDisplay([
+      ...(data?.notes?.length > 0 ? data.notes : []),
+      ...(data?.isFastDay ? [copy.fastDay] : []),
     ]);
   }, [data]);
 
@@ -86,7 +91,7 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
         </div>
       )}
       <ul className="mt-1 'mt-2">
-        {data?.notes?.map((note, index) => (
+        {notesToDisplay.map((note, index) => (
           <li key={index}>{formatCalendarNotes(note)}</li>
         ))}
       </ul>

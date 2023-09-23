@@ -29,6 +29,7 @@ export const copy = {
   preview: `Tutaj możesz na bieżąco obserwować efekty wprowadzanych zmian. Dzięki temu masz pełną kontrolę nad wyglądem tekstu ✨`,
   fontSizeLabel: 'Rozmiar fontu',
   fontLabel: 'Font',
+  fastDay: 'DZIEŃ WSPÓLNEGO POSTU',
 };
 
 export default copy;
