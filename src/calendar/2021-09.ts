@@ -132,10 +132,8 @@ export const September2021: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['1 Tm 6,3b-12', 'Ps 49,6-7.8-9.17-18.19-20', 'Łk 8, 1-3'],
-    notes: [
-      '[HTML]Hildegardy z Bingen[HTML] mn. i mis.',
-      'DZIEŃ WSPÓLNEGO POSTU',
-    ],
+    notes: ['[HTML]Hildegardy z Bingen[HTML] mn. i mis.'],
+    isFastDay: true,
   },
   {
     date: '2021-09-18',

@@ -164,7 +164,7 @@ export const August2023: CalendarType = [
     week: 2,
     season: 'ordinary',
     passages: ['Joz 24, 1-13', 'Ps 136', 'Mt 19, 3-12'],
-    notes: ['DZIEŃ WSPÓLNEGO POSTU'],
+    isFastDay: true,
   },
   {
     date: '2023-08-19',
