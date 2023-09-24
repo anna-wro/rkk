@@ -5,24 +5,7 @@ import copy from 'consts/copy';
 import useFontSize from 'utils/useFontSize';
 import useFontFamily from 'utils/useFontFamily';
 import useTheme from 'utils/useTheme';
-
-const createCssClasses = () => {
-  const button = 'text-white cursor-pointer px-4 py-2 rounded-lg';
-  const blue = 'bg-blue-500 hover:bg-blue-600';
-  const orange = 'bg-orange-500 hover:bg-orange-600';
-  const gray = 'bg-gray-400';
-
-  return {
-    fontSizeButton: 'flex items-center justify-center rounded-full w-8 h-8',
-    enabledButton: `${button} ${blue}`,
-    disabledButton: `${gray} cursor-default`,
-    fontButton: `${button} ${blue}`,
-    resetButton: `${button} ${orange} mb-20`,
-    themeButton: `${button} ${blue}`,
-  };
-};
-
-const cssClasses = createCssClasses();
+import { styles } from './styles';
 
 export default function SettingsPage() {
   const { fontSize, increaseFontSize, decreaseFontSize, resetFontSize } =
@@ -55,10 +38,8 @@ export default function SettingsPage() {
           </div>
           <div className="flex space-x-4">
             <button
-              className={`${cssClasses.fontSizeButton} ${
-                fontSize <= 10
-                  ? cssClasses.disabledButton
-                  : cssClasses.enabledButton
+              className={`${styles.fontSizeButton} ${
+                fontSize <= 10 ? styles.disabledButton : styles.enabledButton
               }`}
               onClick={decreaseFontSize}
               disabled={fontSize <= 10}
@@ -67,10 +48,8 @@ export default function SettingsPage() {
             </button>
             <span className="text-lg">{fontSize} px</span>
             <button
-              className={`${cssClasses.fontSizeButton} ${
-                fontSize >= 60
-                  ? cssClasses.disabledButton
-                  : cssClasses.enabledButton
+              className={`${styles.fontSizeButton} ${
+                fontSize >= 60 ? styles.disabledButton : styles.enabledButton
               }`}
               onClick={increaseFontSize}
               disabled={fontSize >= 60}
@@ -81,7 +60,7 @@ export default function SettingsPage() {
           <div className="mb-2 font-semibold self-start">{copy.fontLabel}</div>
           <div className="flex space-x-4">
             <button
-              className={`${cssClasses.fontButton} ${
+              className={`${styles.fontButton} ${
                 fontFamily.includes('Lato') ? 'bg-blue-700' : ''
               }`}
               style={{ fontFamily: 'Lato, sans-serif' }}
@@ -90,7 +69,7 @@ export default function SettingsPage() {
               Lato
             </button>
             <button
-              className={`${cssClasses.fontButton} ${
+              className={`${styles.fontButton} ${
                 fontFamily.includes('NotoSerif') ? 'bg-blue-700' : ''
               }`}
               style={{ fontFamily: 'NotoSerif, serif' }}
@@ -100,11 +79,11 @@ export default function SettingsPage() {
             </button>
           </div>
           <div className="mb-2 font-semibold self-start">{copy.theme}</div>
-          <button className={cssClasses.themeButton} onClick={toggleTheme}>
+          <button className={styles.themeButton} onClick={toggleTheme}>
             {theme === 'light' ? copy.switchToDark : copy.switchToLight}
           </button>
         </div>
-        <button className={cssClasses.resetButton} onClick={resetSettings}>
+        <button className={styles.resetButton} onClick={resetSettings}>
           {copy.resetSettings}
         </button>
         <GoBackButton />
