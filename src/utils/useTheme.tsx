@@ -24,16 +24,25 @@ const useTheme = () => {
     } catch {}
   };
 
-  const [theme, setThemeState] = useState(getItem('theme') || defaultTheme);
+  const [theme, setThemeState] = useState(undefined);
+  const [isInitialized, setIsInitialized] = useState(false);
 
   useEffect(() => {
-    const root = document.documentElement;
-    if (theme === 'dark') {
-      root.classList.add('dark');
-    } else {
-      root.classList.remove('dark');
+    const storedTheme = getItem('theme');
+    setThemeState(storedTheme || defaultTheme);
+    setIsInitialized(true);
+  }, [defaultTheme]);
+
+  useEffect(() => {
+    if (theme) {
+      const root = document.documentElement;
+      if (theme === 'dark') {
+        root.classList.add('dark');
+      } else {
+        root.classList.remove('dark');
+      }
+      setItem('theme', theme);
     }
-    setItem('theme', theme);
   }, [theme]);
 
   const setLight = () => setThemeState('light');
@@ -43,7 +52,7 @@ const useTheme = () => {
     theme === 'light' ? setDark() : setLight();
   };
 
-  return { theme, setLight, setDark, resetTheme, toggleTheme };
+  return { theme, isInitialized, setLight, setDark, resetTheme, toggleTheme };
 };
 
 export default useTheme;

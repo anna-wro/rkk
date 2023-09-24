@@ -16,10 +16,12 @@ const useFontFamily = () => {
   };
 
   const [fontFamily, setFontFamily] = useState(defaultFontFamily);
+  const [isInitialized, setIsInitialized] = useState(false);
 
   useEffect(() => {
     const storedFontFamily = getItem('fontFamily');
     setFontFamily(storedFontFamily ? storedFontFamily : defaultFontFamily);
+    setIsInitialized(true);
   }, []);
 
   useEffect(() => {
@@ -32,7 +34,7 @@ const useFontFamily = () => {
   const setSansSerif = () => setFontFamily('Lato, sans-serif');
   const resetFontFamily = () => setFontFamily(defaultFontFamily);
 
-  return { fontFamily, setSerif, setSansSerif, resetFontFamily };
+  return { fontFamily, setSerif, setSansSerif, resetFontFamily, isInitialized };
 };
 
 export default useFontFamily;
