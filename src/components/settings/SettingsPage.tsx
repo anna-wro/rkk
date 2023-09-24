@@ -6,18 +6,23 @@ import useFontSize from 'utils/useFontSize';
 import useFontFamily from 'utils/useFontFamily';
 import useTheme from 'utils/useTheme';
 
-const cssClasses = {
-  fontSizeButton:
-    'flex items-center justify-center text-white rounded-full p-2 w-8 h-8',
-  enabledButton: 'bg-blue-500 hover:bg-blue-600 cursor-pointer',
-  disabledButton: 'bg-gray-400 cursor-default',
-  fontButton:
-    'text-white bg-blue-500 hover:bg-blue-600 cursor-pointer p-2 rounded-lg',
-  resetButton:
-    'bg-orange-500 text-white hover:bg-orange-600 cursor-pointer p-2 rounded-lg mb-20',
-  themeButton:
-    'text-white bg-blue-500 hover:bg-blue-600 cursor-pointer p-2 rounded-lg',
+const createCssClasses = () => {
+  const button = 'text-white cursor-pointer px-4 py-2 rounded-lg';
+  const blue = 'bg-blue-500 hover:bg-blue-600';
+  const orange = 'bg-orange-500 hover:bg-orange-600';
+  const gray = 'bg-gray-400';
+
+  return {
+    fontSizeButton: 'flex items-center justify-center rounded-full w-8 h-8',
+    enabledButton: `${button} ${blue}`,
+    disabledButton: `${gray} cursor-default`,
+    fontButton: `${button} ${blue}`,
+    resetButton: `${button} ${orange} mb-20`,
+    themeButton: `${button} ${blue}`,
+  };
 };
+
+const cssClasses = createCssClasses();
 
 export default function SettingsPage() {
   const { fontSize, increaseFontSize, decreaseFontSize, resetFontSize } =
