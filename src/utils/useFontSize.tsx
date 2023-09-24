@@ -14,10 +14,12 @@ const useFontSize = () => {
   };
 
   const [fontSize, setFontSize] = useState(null);
+  const [isInitialized, setIsInitialized] = useState(false);
 
   useEffect(() => {
     const initialFontSize = Number(getItem('fontSize')) || 16;
     setFontSize(initialFontSize);
+    setIsInitialized(true);
   }, []);
 
   useEffect(() => {
@@ -42,7 +44,13 @@ const useFontSize = () => {
 
   const resetFontSize = () => setFontSize(16);
 
-  return { fontSize, increaseFontSize, decreaseFontSize, resetFontSize };
+  return {
+    fontSize,
+    increaseFontSize,
+    decreaseFontSize,
+    resetFontSize,
+    isInitialized,
+  };
 };
 
 export default useFontSize;
