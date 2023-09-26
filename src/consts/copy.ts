@@ -30,7 +30,7 @@ export const copy = {
   fontSizeLabel: 'Rozmiar fontu',
   fontLabel: 'Font',
   fastDay: 'DZIEŃ WSPÓLNEGO POSTU',
-  theme: 'Tryb',
+  theme: 'Motyw',
   switchToLight: 'Przełącz na tryb dzienny',
   switchToDark: 'Przełącz na tryb nocny',
   optionalContentLabel: 'Opcjonalne treści',

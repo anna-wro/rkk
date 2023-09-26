@@ -9,6 +9,6 @@ export const ResetControls: React.FC<ResetControlsProps> = ({
   resetSettings,
 }) => (
   <button className={styles.resetButton} onClick={resetSettings}>
-    Reset Settings
+    Przywróć domyślne ustawienia
   </button>
 );

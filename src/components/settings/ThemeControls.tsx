@@ -11,6 +11,6 @@ export const ThemeControls: React.FC<ThemeControlsProps> = ({
   toggleTheme,
 }) => (
   <button className={styles.themeButton} onClick={toggleTheme}>
-    {theme === 'light' ? 'Switch to Dark' : 'Switch to Light'}
+    {theme === 'light' ? 'Przełącz na ciemny' : 'Przełącz na jasny'}
   </button>
 );
