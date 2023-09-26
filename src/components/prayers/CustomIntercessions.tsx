@@ -28,7 +28,7 @@ export const CustomIntercessions = ({ type }: PropsType) => {
         emigracji. -{' '}
         <b>
           Wspieraj tych, którzy pragną pokoju i podejmują inicjatywy mające na
-          celu powstrzymanie wojny.
+          celu powstrzymanie i zakończenie wojny.
         </b>
       </div>
       {type == 'lauds' && (

@@ -18,8 +18,12 @@ export default function SettingsPageFacade() {
   const { fontFamily, setSerif, setSansSerif, resetFontFamily } =
     useFontFamily();
   const { theme, resetTheme, toggleTheme } = useTheme();
-  const { optionalContent, toggleIntercessions, resetOptionalContent } =
-    useOptionalContent();
+  const {
+    optionalContent,
+    toggleIntercessions,
+    toggleExaminationOfConscience,
+    resetOptionalContent,
+  } = useOptionalContent();
 
   const resetSettings = () => {
     resetFontSize();
@@ -63,6 +67,8 @@ export default function SettingsPageFacade() {
           <OptionalContentControls
             intercessions={optionalContent.intercessions}
             toggleIntercessions={toggleIntercessions}
+            examinationOfConscience={optionalContent.examinationOfConscience}
+            toggleExaminationOfConscience={toggleExaminationOfConscience}
           />
         </div>
         <ResetControls resetSettings={resetSettings} />
