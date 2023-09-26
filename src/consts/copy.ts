@@ -33,6 +33,9 @@ export const copy = {
   theme: 'Tryb',
   switchToLight: 'Przełącz na tryb dzienny',
   switchToDark: 'Przełącz na tryb nocny',
+  optionalContentLabel: 'Opcjonalne treści',
+  displayIntercessions: 'Intencje modlitewne',
+  displayExaminationOfConscience: 'Rachunek sumienia',
 };
 
 export default copy;
