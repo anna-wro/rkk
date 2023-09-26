@@ -3,27 +3,26 @@ import copy from 'consts/copy';
 import { CustomCheckbox } from './CustomCheckbox';
 
 type PropsType = {
-  intercessions: boolean;
+  optionalContent: { intercessions: boolean; examinationOfConscience: boolean };
   toggleIntercessions: () => void;
-  examinationOfConscience: boolean;
+
   toggleExaminationOfConscience: () => void;
 };
 
 export const OptionalContentControls: React.FC<PropsType> = ({
-  intercessions,
+  optionalContent,
   toggleIntercessions,
-  examinationOfConscience,
   toggleExaminationOfConscience,
 }) => {
   return (
     <div className="flex flex-col space-y-3">
       <CustomCheckbox
-        isChecked={intercessions}
+        isChecked={optionalContent.intercessions}
         onToggle={toggleIntercessions}
         label={copy.displayIntercessions}
       />
       <CustomCheckbox
-        isChecked={examinationOfConscience}
+        isChecked={optionalContent.examinationOfConscience}
         onToggle={toggleExaminationOfConscience}
         label={copy.displayExaminationOfConscience}
       />

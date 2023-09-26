@@ -65,9 +65,8 @@ export default function SettingsPageFacade() {
             {copy.optionalContentLabel}
           </div>
           <OptionalContentControls
-            intercessions={optionalContent.intercessions}
+            optionalContent={optionalContent}
             toggleIntercessions={toggleIntercessions}
-            examinationOfConscience={optionalContent.examinationOfConscience}
             toggleExaminationOfConscience={toggleExaminationOfConscience}
           />
         </div>
