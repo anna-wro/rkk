@@ -9,6 +9,8 @@ import { FontSizeControls } from './FontSizeControls';
 import { FontFamilyControls } from './FontFamilyControls';
 import { ThemeControls } from './ThemeControls';
 import { ResetControls } from './ResetControls';
+import { OptionalContentControls } from './OptionalContentControls';
+import useOptionalContent from 'utils/useOptionalContent';
 
 export default function SettingsPageFacade() {
   const { fontSize, increaseFontSize, decreaseFontSize, resetFontSize } =
@@ -16,11 +18,14 @@ export default function SettingsPageFacade() {
   const { fontFamily, setSerif, setSansSerif, resetFontFamily } =
     useFontFamily();
   const { theme, resetTheme, toggleTheme } = useTheme();
+  const { optionalContent, toggleIntercessions, resetOptionalContent } =
+    useOptionalContent();
 
   const resetSettings = () => {
     resetFontSize();
     resetFontFamily();
     resetTheme();
+    resetOptionalContent();
   };
 
   return (
@@ -52,6 +57,13 @@ export default function SettingsPageFacade() {
           />
           <div className="mb-2 font-semibold self-start">{copy.theme}</div>
           <ThemeControls theme={theme} toggleTheme={toggleTheme} />
+          <div className="mb-2 font-semibold self-start">
+            {copy.optionalContentLabel}
+          </div>
+          <OptionalContentControls
+            intercessions={optionalContent.intercessions}
+            toggleIntercessions={toggleIntercessions}
+          />
         </div>
         <ResetControls resetSettings={resetSettings} />
         <GoBackButton />

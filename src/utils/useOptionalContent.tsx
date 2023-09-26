@@ -50,10 +50,15 @@ const useOptionalContent = () => {
     }));
   };
 
+  const resetOptionalContent = () => {
+    setOptionalContentState(defaultOptionalContent);
+  };
+
   return {
     optionalContent,
     toggleExaminationOfConscience,
     toggleIntercessions,
+    resetOptionalContent,
   };
 };
 
