@@ -1,5 +1,8 @@
+import React from 'react';
 import { ChristianUnityWeek } from './ChristianUnityWeek';
 import { getSelectedDate } from 'utils/date';
+import useOptionalContent from 'utils/useOptionalContent';
+
 type PropsType = Readonly<{
   type: 'lauds' | 'vespers' | 'eve' | 'compline';
 }>;
@@ -8,6 +11,12 @@ export const CustomIntercessions = ({ type }: PropsType) => {
   const { isoDate } = getSelectedDate();
   const [, month, day] = isoDate.split('-').map(Number);
   const isWeekOfPrayerForChristianUnity = month === 1 && day >= 18 && day <= 25;
+
+  const { optionalContent } = useOptionalContent();
+
+  if (!optionalContent.intercessions) {
+    return null;
+  }
 
   return (
     <>
