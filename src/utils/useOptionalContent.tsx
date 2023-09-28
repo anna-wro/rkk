@@ -1,40 +1,27 @@
 import { useState, useEffect } from 'react';
-
+import { useLocalStorage } from './useLocalStorage';
 const useOptionalContent = () => {
   const defaultOptionalContent = {
     examinationOfConscience: false,
     intercessions: true,
   };
 
-  const getItem = key => {
-    try {
-      const storedValue = localStorage.getItem(key);
-      return storedValue ? JSON.parse(storedValue) : null;
-    } catch {
-      return null;
-    }
-  };
-
-  const setItem = (key, value) => {
-    try {
-      localStorage.setItem(key, JSON.stringify(value));
-    } catch {}
-  };
+  const { getItem, setItem } = useLocalStorage();
 
   const [optionalContent, setOptionalContentState] = useState(
     defaultOptionalContent,
   );
-
   useEffect(() => {
-    const storedOptionalContent = getItem('optionalContent');
-    if (storedOptionalContent) {
+    const storedOptionalContentString = getItem('optionalContent');
+    if (storedOptionalContentString) {
+      const storedOptionalContent = JSON.parse(storedOptionalContentString);
       setOptionalContentState(storedOptionalContent);
     }
-  }, []);
+  }, [getItem]);
 
   useEffect(() => {
-    setItem('optionalContent', optionalContent);
-  }, [optionalContent]);
+    setItem('optionalContent', JSON.stringify(optionalContent));
+  }, [optionalContent, setItem]);
 
   const toggleExaminationOfConscience = () => {
     setOptionalContentState(prevState => ({

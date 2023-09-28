@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-
+import { useLocalStorage } from './useLocalStorage';
 const useTheme = () => {
+  const { getItem, setItem } = useLocalStorage();
   const isBrowser = typeof window !== 'undefined';
 
   const prefersDarkScheme = () => {
@@ -12,18 +13,6 @@ const useTheme = () => {
 
   const defaultTheme = prefersDarkScheme() ? 'dark' : 'light';
 
-  const getItem = key => {
-    try {
-      return localStorage.getItem(key);
-    } catch {}
-  };
-
-  const setItem = (key, value) => {
-    try {
-      return localStorage.setItem(key, value);
-    } catch {}
-  };
-
   const [theme, setThemeState] = useState(undefined);
   const [isInitialized, setIsInitialized] = useState(false);
 
@@ -31,7 +20,7 @@ const useTheme = () => {
     const storedTheme = getItem('theme');
     setThemeState(storedTheme || defaultTheme);
     setIsInitialized(true);
-  }, [defaultTheme]);
+  }, [defaultTheme, getItem]);
 
   useEffect(() => {
     if (theme) {
@@ -43,7 +32,7 @@ const useTheme = () => {
       }
       setItem('theme', theme);
     }
-  }, [theme]);
+  }, [theme, setItem]);
 
   const setLight = () => setThemeState('light');
   const setDark = () => setThemeState('dark');
