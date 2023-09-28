@@ -36,6 +36,7 @@ export const copy = {
   optionalContentLabel: 'Opcjonalne treści',
   displayIntercessions: 'Intencje modlitewne',
   displayExaminationOfConscience: 'Rachunek sumienia',
+  settingsSaved: ' Ustawienia zapisane!'
 };
 
 export default copy;
