@@ -23,6 +23,7 @@ import { June2023 } from './2023-06';
 import { July2023 } from './2023-07';
 import { August2023 } from './2023-08';
 import { September2023 } from './2023-09';
+import { October2023 } from './2023-10';
 
 export type CalendarDayType = Readonly<{
   date: string;
@@ -90,4 +91,5 @@ export const calendar: CalendarType = [
   ...July2023,
   ...August2023,
   ...September2023,
+  ...October2023,
 ];
