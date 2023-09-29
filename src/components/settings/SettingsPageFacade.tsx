@@ -43,26 +43,30 @@ export default function SettingsPageFacade() {
       <div className="section">
         <div className="flex flex-col items-center content-center space-y-5 mb-20">
           <div className="flex items-center content-center bg-gray-50 bg-opacity-60 p-4 rounded-lg mb-2">
-            <div>{copy.preview}</div>
+            <div>{copy.settings.preview}</div>
           </div>
           <div className="mb-2 font-semibold self-start">
-            {copy.fontSizeLabel}
+            {copy.settings.fontSizeLabel}
           </div>
           <FontSizeControls
             fontSize={fontSize}
             increaseFontSize={increaseFontSize}
             decreaseFontSize={decreaseFontSize}
           />
-          <div className="mb-2 font-semibold self-start">{copy.fontLabel}</div>
+          <div className="mb-2 font-semibold self-start">
+            {copy.settings.fontLabel}
+          </div>
           <FontFamilyControls
             fontFamily={fontFamily}
             setSerif={setSerif}
             setSansSerif={setSansSerif}
           />
-          <div className="mb-2 font-semibold self-start">{copy.theme}</div>
+          <div className="mb-2 font-semibold self-start">
+            {copy.settings.theme}
+          </div>
           <ThemeControls theme={theme} toggleTheme={toggleTheme} />
           <div className="mb-2 font-semibold self-start">
-            {copy.optionalContentLabel}
+            {copy.settings.optionalContentLabel}
           </div>
           <OptionalContentControls
             optionalContent={optionalContent}
