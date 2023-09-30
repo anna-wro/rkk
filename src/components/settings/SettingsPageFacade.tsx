@@ -11,10 +11,11 @@ import { ThemeControls } from './ThemeControls';
 import { ResetControls } from './ResetControls';
 import { OptionalContentControls } from './OptionalContentControls';
 import useOptionalContent from 'utils/useOptionalContent';
-import { useFlashMessage } from 'components/FlashMessageContext';
+import { useFlashMessage } from 'components/useFlashMessage';
+import { FlashMessage } from './FlashMessage';
 
 export default function SettingsPageFacade() {
-  const showFlashMessage = useFlashMessage();
+  const { message, showFlashMessage } = useFlashMessage();
   const { fontSize, increaseFontSize, decreaseFontSize, resetFontSize } =
     useFontSize();
   const { fontFamily, setSerif, setSansSerif, resetFontFamily } =
@@ -72,6 +73,7 @@ export default function SettingsPageFacade() {
 
   return (
     <>
+      {message && <FlashMessage text={message} />}
       <div className="relative whitespace-pre-line">
         <div className="md:absolute top-0 right-0 mb-4">
           <GoBackButton title={copy.settings.goBackButton} />
