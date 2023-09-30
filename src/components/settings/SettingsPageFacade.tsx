@@ -11,8 +11,20 @@ import { ThemeControls } from './ThemeControls';
 import { ResetControls } from './ResetControls';
 import { OptionalContentControls } from './OptionalContentControls';
 import useOptionalContent from 'utils/useOptionalContent';
+import { useFlashMessage } from 'components/FlashMessageContext';
+import { useDebounce } from 'utils/useDebounce';
 
 export default function SettingsPageFacade() {
+  const showFlashMessage = useFlashMessage();
+
+  const debouncedShowSavedMessage = useDebounce(() => {
+    showFlashMessage(copy.settings.preferencesSaved);
+  }, 300);
+
+  const debouncedShowDefaultMessage = useDebounce(() => {
+    showFlashMessage(copy.settings.preferencesDefault);
+  }, 300);
+
   const { fontSize, increaseFontSize, decreaseFontSize, resetFontSize } =
     useFontSize();
   const { fontFamily, setSerif, setSansSerif, resetFontFamily } =
@@ -25,11 +37,47 @@ export default function SettingsPageFacade() {
     resetOptionalContent,
   } = useOptionalContent();
 
+  const handleIncreaseFontSize = () => {
+    increaseFontSize();
+    debouncedShowSavedMessage();
+  };
+
+  const handleDecreaseFontSize = () => {
+    decreaseFontSize();
+    debouncedShowSavedMessage();
+  };
+
+  const handleSetSerif = () => {
+    setSerif();
+    debouncedShowSavedMessage();
+  };
+
+  const handleSetSansSerif = () => {
+    setSansSerif();
+    debouncedShowSavedMessage();
+  };
+
+  const handleToggleTheme = () => {
+    toggleTheme();
+    debouncedShowSavedMessage();
+  };
+
+  const handleToggleIntercessions = () => {
+    toggleIntercessions();
+    debouncedShowSavedMessage();
+  };
+
+  const handleToggleExaminationOfConscience = () => {
+    toggleExaminationOfConscience();
+    debouncedShowSavedMessage();
+  };
+
   const resetSettings = () => {
     resetFontSize();
     resetFontFamily();
     resetTheme();
     resetOptionalContent();
+    debouncedShowDefaultMessage();
   };
 
   return (
@@ -50,28 +98,28 @@ export default function SettingsPageFacade() {
           </div>
           <FontSizeControls
             fontSize={fontSize}
-            increaseFontSize={increaseFontSize}
-            decreaseFontSize={decreaseFontSize}
+            increaseFontSize={handleIncreaseFontSize}
+            decreaseFontSize={handleDecreaseFontSize}
           />
           <div className="mb-2 font-semibold self-start">
             {copy.settings.fontLabel}
           </div>
           <FontFamilyControls
             fontFamily={fontFamily}
-            setSerif={setSerif}
-            setSansSerif={setSansSerif}
+            setSerif={handleSetSerif}
+            setSansSerif={handleSetSansSerif}
           />
           <div className="mb-2 font-semibold self-start">
             {copy.settings.theme}
           </div>
-          <ThemeControls theme={theme} toggleTheme={toggleTheme} />
+          <ThemeControls theme={theme} toggleTheme={handleToggleTheme} />
           <div className="mb-2 font-semibold self-start">
             {copy.settings.optionalContentLabel}
           </div>
           <OptionalContentControls
             optionalContent={optionalContent}
-            toggleIntercessions={toggleIntercessions}
-            toggleExaminationOfConscience={toggleExaminationOfConscience}
+            toggleIntercessions={handleToggleIntercessions}
+            toggleExaminationOfConscience={handleToggleExaminationOfConscience}
           />
         </div>
         <ResetControls resetSettings={resetSettings} />

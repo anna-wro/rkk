@@ -38,7 +38,8 @@ export const copy = {
     optionalContentLabel: 'Opcjonalne treści',
     displayIntercessions: 'Intencje modlitewne',
     displayExaminationOfConscience: 'Rachunek sumienia',
-    settingsSaved: ' Ustawienia zapisane!',
+    preferencesSaved: ' Ustawienia zapisane!',
+    preferencesDefault: 'Przywrócono ustawienia domyślne',
   },
 };
 
