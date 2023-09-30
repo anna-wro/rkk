@@ -12,19 +12,9 @@ import { ResetControls } from './ResetControls';
 import { OptionalContentControls } from './OptionalContentControls';
 import useOptionalContent from 'utils/useOptionalContent';
 import { useFlashMessage } from 'components/FlashMessageContext';
-import { useDebounce } from 'utils/useDebounce';
 
 export default function SettingsPageFacade() {
   const showFlashMessage = useFlashMessage();
-
-  const debouncedShowSavedMessage = useDebounce(() => {
-    showFlashMessage(copy.settings.preferencesSaved);
-  }, 300);
-
-  const debouncedShowDefaultMessage = useDebounce(() => {
-    showFlashMessage(copy.settings.preferencesDefault);
-  }, 300);
-
   const { fontSize, increaseFontSize, decreaseFontSize, resetFontSize } =
     useFontSize();
   const { fontFamily, setSerif, setSansSerif, resetFontFamily } =
@@ -39,37 +29,37 @@ export default function SettingsPageFacade() {
 
   const handleIncreaseFontSize = () => {
     increaseFontSize();
-    debouncedShowSavedMessage();
+    showFlashMessage(copy.settings.preferencesSaved);
   };
 
   const handleDecreaseFontSize = () => {
     decreaseFontSize();
-    debouncedShowSavedMessage();
+    showFlashMessage(copy.settings.preferencesSaved);
   };
 
   const handleSetSerif = () => {
     setSerif();
-    debouncedShowSavedMessage();
+    showFlashMessage(copy.settings.preferencesSaved);
   };
 
   const handleSetSansSerif = () => {
     setSansSerif();
-    debouncedShowSavedMessage();
+    showFlashMessage(copy.settings.preferencesSaved);
   };
 
   const handleToggleTheme = () => {
     toggleTheme();
-    debouncedShowSavedMessage();
+    showFlashMessage(copy.settings.preferencesSaved);
   };
 
   const handleToggleIntercessions = () => {
     toggleIntercessions();
-    debouncedShowSavedMessage();
+    showFlashMessage(copy.settings.preferencesSaved);
   };
 
   const handleToggleExaminationOfConscience = () => {
     toggleExaminationOfConscience();
-    debouncedShowSavedMessage();
+    showFlashMessage(copy.settings.preferencesSaved);
   };
 
   const resetSettings = () => {
@@ -77,7 +67,7 @@ export default function SettingsPageFacade() {
     resetFontFamily();
     resetTheme();
     resetOptionalContent();
-    debouncedShowDefaultMessage();
+    showFlashMessage(copy.settings.preferencesDefault);
   };
 
   return (
