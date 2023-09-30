@@ -53,7 +53,7 @@ export const October2023: CalendarType = [
     week: 2,
     season: 'ordinary',
     notes: ['[HTML]Chiary Luce Badano[HTML] w.'],
-    passages: ['Ba 4, 5-12.27-29','Ps 69', 'Łk 10, 17-24'],
+    passages: ['Ba 4, 5-12.27-29', 'Ps 69', 'Łk 10, 17-24'],
   },
   {
     date: '2023-10-08',
@@ -86,7 +86,7 @@ export const October2023: CalendarType = [
     week: 1,
     season: 'ordinary',
     notes: ['[HTML]Filipa[HTML] dk.'],
-    passages: ['Jon 4, 1-11', 'Ps 86',  'Łk 11, 1-4'],
+    passages: ['Jon 4, 1-11', 'Ps 86', 'Łk 11, 1-4'],
   },
   {
     date: '2023-10-12',
@@ -99,7 +99,7 @@ export const October2023: CalendarType = [
     date: '2023-10-13',
     week: 1,
     season: 'ordinary',
-    passages: '[Jl 1, 13-15; 2, 1-2', 'Ps 9', 'Łk 11, 15-26'],
+    passages: ['Jl 1, 13-15; 2, 1-2', 'Ps 9', 'Łk 11, 15-26'],
   },
   {
     date: '2023-10-14',
@@ -142,7 +142,7 @@ export const October2023: CalendarType = [
     week: 2,
     season: 'ordinary',
     holidays: ['ŁUKASZA EWANGELISTY'],
-    passages: ['2 Tm 4, 10-17b','Ps 145', 'Łk 10, 1-9'],
+    passages: ['2 Tm 4, 10-17b', 'Ps 145', 'Łk 10, 1-9'],
   },
   {
     date: '2023-10-19',
@@ -239,7 +239,7 @@ export const October2023: CalendarType = [
     date: '2023-10-31',
     week: 2,
     season: 'ordinary',
-    passages: [Rz 8, 18-25', 'Ps 126', 'Łk 13, 18-21'],
+    passages: ['Rz 8, 18 - 25', 'Ps 126', 'Łk 13, 18 - 21'],
     links: [
       { name: 'Wigilia dnia Wszystkich Świętych', slug: 'wigilia-o-swietych' },
     ],
