@@ -1,18 +1,8 @@
 import { useState, useEffect } from 'react';
+import { useLocalStorage } from './useLocalStorage';
 
 const useFontSize = () => {
-  const getItem = key => {
-    try {
-      return localStorage.getItem(key);
-    } catch {}
-  };
-
-  const setItem = (key, value) => {
-    try {
-      return localStorage.setItem(key, value);
-    } catch {}
-  };
-
+  const { getItem, setItem } = useLocalStorage();
   const [fontSize, setFontSize] = useState(null);
   const [isInitialized, setIsInitialized] = useState(false);
 
@@ -20,7 +10,7 @@ const useFontSize = () => {
     const initialFontSize = Number(getItem('fontSize')) || 16;
     setFontSize(initialFontSize);
     setIsInitialized(true);
-  }, []);
+  }, [getItem]);
 
   useEffect(() => {
     if (fontSize !== null) {
@@ -28,7 +18,7 @@ const useFontSize = () => {
       root.style.setProperty('font-size', `${fontSize}px`);
       setItem('fontSize', fontSize);
     }
-  }, [fontSize]);
+  }, [fontSize, setItem]);
 
   const increaseFontSize = () => {
     if (fontSize < 60) {

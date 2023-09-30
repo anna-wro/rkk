@@ -19,12 +19,12 @@ export const OptionalContentControls: React.FC<PropsType> = ({
       <CustomCheckbox
         isChecked={optionalContent.intercessions}
         onToggle={toggleIntercessions}
-        label={copy.displayIntercessions}
+        label={copy.settings.displayIntercessions}
       />
       <CustomCheckbox
         isChecked={optionalContent.examinationOfConscience}
         onToggle={toggleExaminationOfConscience}
-        label={copy.displayExaminationOfConscience}
+        label={copy.settings.displayExaminationOfConscience}
       />
     </div>
   );
