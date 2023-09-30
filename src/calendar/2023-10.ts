@@ -181,7 +181,7 @@ export const October2023: CalendarType = [
     week: 1,
     season: 'ordinary',
     holidays: ['[HTML]Jakuba[HTML] ap. bp. m'],
-    passages: ['Rz 4, 20-25', 'Łk 1', 'Łk 12, 13-21',],
+    passages: ['Rz 4, 20-25', 'Łk 1', 'Łk 12, 13-21'],
   },
   {
     date: '2023-10-24',
