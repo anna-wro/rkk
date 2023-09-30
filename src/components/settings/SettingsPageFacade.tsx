@@ -72,7 +72,7 @@ export default function SettingsPageFacade() {
   };
 
   return (
-    <>
+    <div className="mt-4">
       {message && <FlashMessage text={message} />}
       <div className="relative whitespace-pre-line">
         <div className="md:absolute top-0 right-0 mb-4">
@@ -117,6 +117,6 @@ export default function SettingsPageFacade() {
         <ResetControls resetSettings={resetSettings} />
         <GoBackButton />
       </div>
-    </>
+    </div>
   );
 }
