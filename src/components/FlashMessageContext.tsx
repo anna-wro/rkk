@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState } from 'react';
 import { FlashMessage } from './settings/FlashMessage';
 
+let messageTimeout;
 const FlashMessageContext = createContext(null);
 
 export const useFlashMessage = () => {
@@ -11,8 +12,11 @@ export const FlashMessageProvider = ({ children }) => {
   const [message, setMessage] = useState(null);
 
   const showFlashMessage = (msg: string) => {
+    if (messageTimeout) {
+      clearTimeout(messageTimeout);
+    }
     setMessage(msg);
-    setTimeout(() => {
+    messageTimeout = setTimeout(() => {
       setMessage(null);
     }, 3000);
   };
