@@ -124,7 +124,8 @@ export const December2021: CalendarType = [
     week: 1,
     season: 'advent',
     passages: ['Rdz 49,2.8-10', 'Ps 72,1-2.3-4b.7-8.17', 'Mt 1,1-17'],
-    notes: ['[HTML]Jana de Matha[HTML] zak.', 'DZIEŃ WSPÓLNEGO POSTU'],
+    notes: ['[HTML]Jana de Matha[HTML] zak.'],
+    isFastingDay: true,
     vespers: {
       antiphon:
         'O Mądrości, która wyszłaś z ust Najwyższego, / obejmując wszechświat od krańca do krańca, / i wszystkim rządzisz z mocą i słodyczą; / przyjdź i naucz nas dróg roztropności.',
@@ -195,7 +196,7 @@ export const December2021: CalendarType = [
   {
     date: '2021-12-24',
     week: 1,
-    season: 'christmas',
+    season: 'advent',
     passages: [
       'Sm 7,1-5.8b-12.14a.16',
       'Ps 89,2-3.20a . 4-5.27 . 29',

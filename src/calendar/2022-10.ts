@@ -147,7 +147,7 @@ export const October2022: CalendarType = [
     date: '2022-10-21',
     week: 2,
     season: 'ordinary',
-    notes: ['DZIEŃ WSPÓLNEGO POSTU'],
+    isFastingDay: true,
     passages: ['Ef 4, 1-6', 'Ps 24', 'Łk 12, 54-59'],
   },
   {

@@ -112,9 +112,9 @@ export const October2021: CalendarType = [
     notes: [
       '[HTML]Teresy z Avila[HTML] mn.',
       '[HTML]Samuela Szereszewskiego [HTML] bp.',
-      'DZIEŃ WSPÓLNEGO POSTU',
     ],
     passages: ['Rz 4,1-8', 'Ps 32,1-2.5.10-11', 'Łk 12,1-7'],
+    isFastingDay: true,
   },
   {
     date: '2021-10-16',

@@ -166,7 +166,7 @@ export const August2022: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['Ez 37, 1-14', 'Ps 107', 'Mt 22, 34-40'],
-    notes: ['DZIEŃ WSPÓLNEGO POSTU'],
+    isFastingDay: true,
   },
   {
     date: '2022-08-20',

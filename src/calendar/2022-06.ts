@@ -255,10 +255,8 @@ export const June2022: CalendarType = [
       'Ps 132.11.12.13-14.17-18 ',
       'Mt 6,19-23',
     ],
-    notes: [
-      'DZIEŃ WSPÓLNEGO POSTU W INTENCJI BISKUPA',
-      '[HTML]Alberta Chmielowskiego[HTML] zak.',
-    ],
+    notes: ['[HTML]Alberta Chmielowskiego[HTML] zak.'],
+    isFastingDay: true,
   },
   {
     date: '2022-06-18',

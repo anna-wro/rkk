@@ -19,8 +19,28 @@ export const copy = {
     'Uruchom ponownie aplikację, aby zobaczyć najnowszą wersję.',
   customPrayerHeadline: 'Modlitwy na święta',
   or: 'Albo:',
-  settings: { headline: 'Ustawienia', goBackButton: 'wróć na stronę główną' },
   linksTitle: '[HTML]Modlitwy na dziś: [HTML]',
+  notToday:
+    'Upsi! Ktoś zapomniał o kalendarzu na ten miesiąc 🙁. Jeżeli to pomoże - poniżej znajdują się teksty na okres w ciągu roku.',
+  silence: 'Chwila ciszy...',
+  readingsHeadline: 'Czytania liturgiczne',
+  fastDay: 'DZIEŃ WSPÓLNEGO POSTU',
+  settings: {
+    headline: 'Ustawienia',
+    goBackButton: 'wróć na stronę główną',
+    resetSettings: 'Resetuj ustawienia',
+    preview: `Tutaj możesz na bieżąco obserwować efekty wprowadzanych zmian. Dzięki temu masz pełną kontrolę nad wyglądem tekstu ✨`,
+    fontSizeLabel: 'Rozmiar fontu',
+    fontLabel: 'Font',
+    theme: 'Motyw',
+    switchToLight: 'Przełącz na tryb dzienny',
+    switchToDark: 'Przełącz na tryb nocny',
+    optionalContentLabel: 'Opcjonalne treści',
+    displayIntercessions: 'Intencje modlitewne',
+    displayExaminationOfConscience: 'Rachunek sumienia',
+    preferencesSaved: ' Ustawienia zapisane!',
+    preferencesDefault: 'Przywrócono ustawienia domyślne',
+  },
 };
 
 export default copy;

@@ -1,28 +1,39 @@
 import { DateTime } from 'luxon';
 import { calendar } from 'calendar/calendar';
 import type { CalendarDayType, SeasonType } from 'calendar/calendar';
-import { getQueryParam } from 'utils/url';
-import { mockDate } from './mocks';
+// import { getQueryParam } from 'utils/url';
 
 export type CalendarDataType = Readonly<
   {
     prettyDate: string;
+    dayOfWeek: string;
   } & CalendarDayType
 >;
+export const getCurrentSeason = (): SeasonType => {
+  const { isoDate } = getSelectedDate();
+  const currentCalendarItem = calendar.find(item => item.date === isoDate);
 
-export const getCurrentDate = () => {
-  const dateToMock = getQueryParam('date')?.split('-').map(Number);
+  return currentCalendarItem?.season ?? 'ordinary';
+};
 
-  if (dateToMock) {
-    mockDate.apply(this, dateToMock);
-  }
+export const getCalendarData = (): CalendarDataType => {
+  // const dateParam = getQueryParam('date');
+  //TODO allow mocking date
+  const { isoDate, prettyDate, dayOfWeek } = getSelectedDate();
 
-  let dateNow = DateTime.now();
+  const currentCalendarItem = calendar.find(item => item.date === isoDate);
+  return currentCalendarItem
+    ? { ...currentCalendarItem, prettyDate, dayOfWeek }
+    : null;
+};
+
+export const getSelectedDate = (date?: DateTime) => {
+  let dateNow = date?.isValid ? date : DateTime.now();
   const dayOfWeek = dateNow.toLocaleString(
     { weekday: 'long' },
     { locale: 'pl-pl' },
   );
-  const isSundayEve = dayOfWeek === 'sobota' && dateNow.hour >= 15;
+  const isSundayEve = !date && dayOfWeek === 'sobota' && dateNow.hour >= 15;
 
   if (isSundayEve) {
     dateNow = dateNow.plus({ days: 1 });
@@ -36,18 +47,19 @@ export const getCurrentDate = () => {
   };
 };
 
-export const getCurrentSeason = (): SeasonType => {
-  const { isoDate } = getCurrentDate();
+export const getDataForDay = ({
+  date,
+}: {
+  date?: DateTime;
+}): CalendarDataType | null => {
+  const { isoDate, prettyDate, dayOfWeek } = getSelectedDate(
+    date || DateTime.now(),
+  );
   const currentCalendarItem = calendar.find(item => item.date === isoDate);
 
-  return currentCalendarItem?.season ?? 'ordinary';
-};
-
-export const getCalendarData = (): CalendarDataType => {
-  const { isoDate, prettyDate } = getCurrentDate();
-
-  const currentCalendarItem = calendar.find(item => item.date === isoDate);
-  return currentCalendarItem ? { ...currentCalendarItem, prettyDate } : null;
+  return currentCalendarItem
+    ? { ...currentCalendarItem, prettyDate, dayOfWeek }
+    : null;
 };
 
 export const formatDate = (date: string) => {

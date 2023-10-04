@@ -27,12 +27,14 @@ export const getStaticProps = async ({ params }) => {
     SEASON_PRAYERS_PATH,
     `${params.slug}.mdx`,
   );
+
   const customPrayerFilePath = path.join(
     CUSTOM_PRAYERS_PATH,
     `${params.slug}.mdx`,
   );
 
   let source;
+
   try {
     source = fs.readFileSync(customPrayerFilePath);
   } catch {

@@ -22,7 +22,7 @@ export const December2022: CalendarType = [
   },
   {
     date: '2022-12-04',
-    week: 1,
+    week: 2,
     season: 'advent',
     passages: ['Iz 11, 1-10', 'Ps 72', 'Rz 15, 4-9', 'Mt 3, 1-12'],
     holidays: ['2. NIEDZIELA ADWENTU'],
@@ -70,7 +70,7 @@ export const December2022: CalendarType = [
   },
   {
     date: '2022-12-11',
-    week: 2,
+    week: 1,
     season: 'advent',
     passages: ['Iz 35, 1-6a, 10', 'Ps 146', 'Jk 5, 7-10', 'Mt 11, 2-11'],
     holidays: ['3. NIEDZIELA ADWENTU'],
@@ -108,7 +108,7 @@ export const December2022: CalendarType = [
     week: 1,
     season: 'advent',
     passages: ['Iz 56, 1-3a, 6-8', 'Ps 67', 'J 5, 33-36'],
-    notes: ['DZIEŃ WSPÓLNEGO POSTU'],
+    isFastingDay: true,
   },
   {
     date: '2022-12-17',
@@ -123,7 +123,7 @@ export const December2022: CalendarType = [
   },
   {
     date: '2022-12-18',
-    week: 1,
+    week: 2,
     season: 'advent',
     passages: ['Iz 7, 10-14', 'Ps 24', 'Rz 1, 1-7', 'Mt 1, 18-24'],
     vespers: {
@@ -186,7 +186,7 @@ export const December2022: CalendarType = [
   {
     date: '2022-12-24',
     week: 1,
-    season: 'christmas',
+    season: 'advent',
     passages: ['2 Sm 7, 1-5, 8b-12, 14a, 16', 'Ps 89', 'Łk 1, 67-79'],
     notes: [
       '[HTML]Adama i Ewy[HTML] pierwszych rodziców',
@@ -216,6 +216,7 @@ export const December2022: CalendarType = [
         'To wam oznajmiamy, co było od początku, cośmy słyszeli o Słowie życia, co ujrzeliśmy własnymi oczami, na co patrzyliśmy i czego dotykały nasze ręce, bo życie objawiło się. Myśmy je widzieli, o nim świadczymy i głosimy wam życie wieczne, które było w Ojcu, a nam zostało objawione. Oznajmiamy wam, cośmy ujrzeli i słyszeli, abyście i wy mieli łączność z nami. A mieć z nami łączność znaczy: mieć ją z Ojcem i z Jego Synem Jezusem Chrystusem.',
     },
     links: [
+      { name: 'wigilia', slug: 'narodzenie-panskie-wigilia' },
       { name: 'jutrznia', slug: 'narodzenie-panskie-jutrznia' },
       { name: 'nieszpory', slug: 'narodzenie-panskie-nieszpory' },
     ],

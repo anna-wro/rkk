@@ -126,7 +126,7 @@ export const September2022: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['1 Kor 15, 12-20', 'Ps 17', 'Łk 8, 1-3'],
-    notes: ['DZIEŃ WSPÓLNEGO POSTU'],
+    isFastingDay: true,
   },
   {
     date: '2022-09-17',

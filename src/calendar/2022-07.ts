@@ -114,7 +114,8 @@ export const July2022: CalendarType = [
     week: 2,
     season: 'ordinary',
     passages: ['Iz 38, 1-6, 21-22, 7-8', 'Iz 38', 'Mt 12, 1-8'],
-    notes: ['[HTML]Bonawentury[HTML] zak. teo.', 'DZIEŃ WSPÓLNEGO POSTU'],
+    notes: ['[HTML]Bonawentury[HTML] zak. teo.'],
+    isFastingDay: true,
   },
   {
     date: '2022-07-16',

@@ -145,7 +145,7 @@ export const November2022: CalendarType = [
     week: 2,
     season: 'ordinary',
     passages: ['Ap 10, 8-11', 'Ps 119', 'Łk 19, 45-48'],
-    notes: ['DZIEŃ WSPÓLNEGO POSTU'],
+    isFastingDay: true,
   },
   {
     date: '2022-11-19',

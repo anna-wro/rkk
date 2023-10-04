@@ -14,6 +14,16 @@ import { September2022 } from './2022-09';
 import { October2022 } from './2022-10';
 import { November2022 } from './2022-11';
 import { December2022 } from './2022-12';
+import { January2023 } from './2023-01';
+import { February2023 } from './2023-02';
+import { March2023 } from './2023-03';
+import { April2023 } from './2023-04';
+import { May2023 } from './2023-05';
+import { June2023 } from './2023-06';
+import { July2023 } from './2023-07';
+import { August2023 } from './2023-08';
+import { September2023 } from './2023-09';
+import { October2023 } from './2023-10';
 
 export type CalendarDayType = Readonly<{
   date: string;
@@ -27,6 +37,7 @@ export type CalendarDayType = Readonly<{
   }>;
   linksTitle?: string;
   notes?: string[];
+  isFastingDay?: boolean;
   passages?: string[];
   lauds?: {
     sigla?: string;
@@ -71,4 +82,14 @@ export const calendar: CalendarType = [
   ...October2022,
   ...November2022,
   ...December2022,
+  ...January2023,
+  ...February2023,
+  ...March2023,
+  ...April2023,
+  ...May2023,
+  ...June2023,
+  ...July2023,
+  ...August2023,
+  ...September2023,
+  ...October2023,
 ];
