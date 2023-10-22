@@ -55,14 +55,17 @@ export type CalendarDayType = Readonly<{
   };
 }>;
 
-export type SeasonType =
-  | 'ordinary'
-  | 'advent'
-  | 'christmas'
-  | 'lent'
-  | 'pascha'
-  | 'easter'
-  | 'pentecost';
+export const ALL_SEASONS = [
+  'ordinary',
+  'advent',
+  'christmas',
+  'lent',
+  'pascha',
+  'easter',
+  'pentecost',
+] as const;
+
+export type SeasonType = typeof ALL_SEASONS[number];
 
 export type CalendarType = ReadonlyArray<CalendarDayType>;
 
