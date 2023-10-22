@@ -1,7 +1,8 @@
 import cx from 'classnames';
+import CurrentTimeDot from 'components/layout/CurrentTimeDot';
 import StyledLink from 'components/layout/StyledLink';
 import { makeStartCase } from 'utils/text';
-import CurrentTimeDot from 'components/layout/CurrentTimeDot';
+import { getQueryParam } from 'utils/url';
 
 type LinkPropsType = Readonly<{ ID: string; slug: string; type: string }>;
 
@@ -20,6 +21,9 @@ export function LinksGroup({
   links,
   className,
 }: LinksGroupPropsType) {
+  const dateParam = getQueryParam('date');
+  const dateQueryParam = dateParam ? `?date=${dateParam}` : '';
+
   return (
     <div className="flex">
       <div className={cx('relative mr-3 border-r-1 border-gray-50', className)}>
@@ -34,7 +38,10 @@ export function LinksGroup({
       <div className="pb-4 md:pb-6">
         {links?.map((link: LinkPropsType) => (
           <div key={link.ID} className="font-light">
-            <StyledLink href={`/${link.slug}`} name={link.type} />
+            <StyledLink
+              href={`/${link.slug}${dateQueryParam}`}
+              name={link.type}
+            />
           </div>
         ))}
       </div>
