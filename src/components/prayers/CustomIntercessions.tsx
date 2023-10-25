@@ -22,10 +22,10 @@ export const CustomIntercessions = ({ type }: PropsType) => {
     <>
       <div className="mt-3 font-bold">[miejsce na Twoją prośbę]</div>
       <div className="mt-2">
-        Ojcze, niech ustaną ataki zbrojne w Ukrainie i Ziemi Świętej! Przyjmij w swojej miłości
-        tych, którzy umierają wskutek wojny, pociesz pogrążonych w żałobie, okaż
-        swoją obecność tym, którzy są w udręce lub którzy podjęli decyzję o
-        emigracji. -{' '}
+        Ojcze, niech ustaną ataki zbrojne w Ukrainie i Ziemi Świętej! Przyjmij w
+        swojej miłości tych, którzy umierają wskutek wojny, pociesz pogrążonych
+        w żałobie, okaż swoją obecność tym, którzy są w udręce lub którzy
+        podjęli decyzję o emigracji. -{' '}
         <b>
           Wspieraj tych, którzy pragną pokoju i podejmują inicjatywy mające na
           celu powstrzymanie i zakończenie wojny.
