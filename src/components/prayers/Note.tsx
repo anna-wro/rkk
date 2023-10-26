@@ -7,5 +7,5 @@ export const Note = ({
   children: React.ReactNode;
   className?: string;
 }) => {
-  return <p className={cx('italic text-sm mb-2', className)}>{children}</p>;
+  return <div className={cx('italic text-sm mb-2', className)}>{children}</div>;
 };

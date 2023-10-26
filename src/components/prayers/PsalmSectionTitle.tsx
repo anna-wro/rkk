@@ -13,7 +13,7 @@ export const PsalmSectionTitle = ({
     <div className="font-light">
       <p className="text-center">{title}</p>
       {subtitle && <p className="text-center mb-2">{subtitle}</p>}
-      <p className="mb-2">{children}</p>
+      <div className="mb-2">{children}</div>
     </div>
   );
 };

@@ -38,6 +38,8 @@ const components = {
   Intercessions,
   StyledLink,
   Section,
+  List,
+  ListItem,
   ...Components,
 };
 

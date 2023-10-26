@@ -12,5 +12,5 @@ export const WeeklyRotation = ({ children }: WeeklyRotationType) => {
   );
   const weekNumber = Math.ceil(days / 14);
 
-  return children[weekNumber % children.length];
+  return <>{children[weekNumber % children.length]}</>;
 };

@@ -155,30 +155,28 @@ Baranku Boży, który gładzisz grzechy świata,
   zmiłuj się nad nami.
 </div>
 
-<div>{calendar?.season === 'easter' && <div>
+{calendar?.season === 'easter' && (
 
-<div className="mt-2" />
+  <div>
+    <div className="mt-2" />
+    <V>Raduj się i wesel, Panno Maryjo, alleluja.</V>
+    <R>Bo zmartwychwstał Pan prawdziwie, alleluja.</R>
+    <div className="mt-2" />
+    <V>
+      {`Módlmy się.
+    Boże, Ty przez zmartwychwstanie Twojego Syna, naszego Pana, Jezusa Chrystusa, przywróciłeś radość światu, † spraw, abyśmy razem z Jego Matką, Dziewicą Maryją, * cieszyli się życiem wiecznym.
+    Przez Chrystusa, Pana naszego.`}
+    </V>
 
-<V>Raduj się i wesel, Panno Maryjo, alleluja.</V>
-<R>Bo zmartwychwstał Pan prawdziwie, alleluja.</R>
+    <div className="mt-2" />
 
-<div className="mt-2" />
+    <Amen />
 
-<V>
-  {`Módlmy się.
-Boże, Ty przez zmartwychwstanie Twojego Syna, naszego Pana, Jezusa Chrystusa, przywróciłeś radość światu, † spraw, abyśmy razem z Jego Matką, Dziewicą Maryją, * cieszyli się życiem wiecznym.
-Przez Chrystusa, Pana naszego.`}
-</V>
+    <Or />
 
-<div className="mt-2" />
+  </div>)}
 
-<Amen />
-
-<Or />
-
-</div>}</div>
-
-<div>{calendar?.season === 'advent' && <div>
+{calendar?.season === 'advent' && (<div>
 
 <div className="mt-2" />
 
@@ -200,9 +198,9 @@ wierzymy. Przez Chrystusa, Pana naszego.`}
 
 <Or />
 
-</div>}</div>
+</div>)}
 
-<div>{calendar?.season === 'christmas' && <div>
+{calendar?.season === 'christmas' && (<div>
 
 <div className="mt-2" />
 
@@ -222,7 +220,7 @@ Boże, Ty przez macierzyństwo Najświętszej Maryi Panny obdarzyłeś ludzi ła
 
 <Or />
 
-</div>}</div>
+</div>)}
 
 <div className="mt-2" />
 
@@ -342,7 +340,7 @@ Baranku Boży, który gładzisz grzechy świata,
   zmiłuj się nad nami.
 </div>
 
-<div>{calendar?.season === 'easter' && <div>
+{calendar?.season === 'easter' && (<div>
 
 <div className="mt-2" />
 
@@ -363,9 +361,9 @@ Przez Chrystusa, Pana naszego.`}
 
 <Or />
 
-</div>}</div>
+</div>)}
 
-<div>{calendar?.season === 'advent' && <div>
+{calendar?.season === 'advent' && (<div>
 
 <div className="mt-2" />
 
@@ -387,9 +385,9 @@ wierzymy. Przez Chrystusa, Pana naszego.`}
 
 <Or />
 
-</div>}</div>
+</div>)}
 
-<div>{calendar?.season === 'christmas' && <div>
+{calendar?.season === 'christmas' && (<div>
 
 <div className="mt-2" />
 
@@ -409,7 +407,7 @@ Boże, Ty przez macierzyństwo Najświętszej Maryi Panny obdarzyłeś ludzi ła
 
 <Or />
 
-</div>}</div>
+</div>)}
 
 <div className="mt-2" />
 
