@@ -1,12 +1,16 @@
-const withPWA = require('next-pwa');
+const nextConfig = {
+  reactStrictMode: true,
+  compiler: {
+    removeConsole: process.env.NODE_ENV !== 'development',
+  },
+};
 
-module.exports = withPWA({
-  pwa: {
-    dest: 'public',
+const withPWA = require('next-pwa')({
+  dest: 'public',
     disable: process.env.NODE_ENV === 'development',
     dynamicStartUrl: false,
     register: false,
     skipWaiting: false,
-  },
-  reactStrictMode: true,
 });
+
+module.exports = withPWA(nextConfig);

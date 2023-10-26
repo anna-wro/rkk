@@ -65,7 +65,7 @@ export const ALL_SEASONS = [
   'pentecost',
 ] as const;
 
-export type SeasonType = typeof ALL_SEASONS[number];
+export type SeasonType = (typeof ALL_SEASONS)[number];
 
 export type CalendarType = ReadonlyArray<CalendarDayType>;
 

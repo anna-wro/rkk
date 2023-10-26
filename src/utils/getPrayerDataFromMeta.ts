@@ -44,9 +44,9 @@ export function getPrayerDataFromMeta({ meta, filePath }: PropsType) {
 
   const ID = meta?.date
     ? Number(
-        `${meta?.date?.substring(4).replace(/-/g, '') ?? '0'}${
-          mappedType?.order
-        }`,
+        `${
+          meta?.date?.substring(4).replace(/-/g, '') ?? '0'
+        }${mappedType?.order}`,
       )
     : Number(`${meta?.week}${mappedDay.order}${mappedType.order}`);
 

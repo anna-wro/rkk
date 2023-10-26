@@ -13,12 +13,9 @@ export default function StyledLink({
 }: LinkPropsType) {
   return internal ? (
     <Link href={href} passHref>
-      <a
-        href={href}
-        className="inline-block hover:underline cursor-pointer focus-visible"
-      >
+      <span className="inline-block hover:underline cursor-pointer focus-visible">
         {name}
-      </a>
+      </span>
     </Link>
   ) : (
     <a

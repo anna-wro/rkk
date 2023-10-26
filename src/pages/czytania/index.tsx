@@ -8,7 +8,7 @@ import { getReadingDataFromMeta } from 'utils/getReadingDataFromMeta';
 
 export default function CustomPrayersIndex({ readings }) {
   return (
-    <Layout>
+    <Layout showSettingsLink>
       {<InfoForDayFacade />}
       <ReadingsList readings={readings} />
     </Layout>
