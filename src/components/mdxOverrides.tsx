@@ -30,7 +30,11 @@ export const Section = ({
   </h2>
 );
 
-export const ListItem = ({ children }) => <li className="pl-3">{children}</li>;
+export const ListItem = ({ children }) => (
+  <li className="pl-3">
+    <div className="flex items-center">{children}</div>
+  </li>
+);
 
 export const Intercessions = ({ children }) => (
   <ol className="space-y-2 -ml-3">{children}</ol>
