@@ -29,6 +29,8 @@ type PropsType = Readonly<{
   prayer: PrayerType;
 }>;
 
+type ComponentElementMap = Record<string, JSX.Element>;
+
 const components = {
   h1: Header,
   h2: Section,
@@ -54,7 +56,7 @@ export default function PrayerPage({ prayer }: PropsType) {
         </div>
         <MDXRemote
           {...prayer.source}
-          components={components}
+          components={components as unknown as ComponentElementMap}
           scope={{ calendar }}
         />
       </div>
