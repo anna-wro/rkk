@@ -40,6 +40,9 @@ export function getReadingsFilePaths() {
 
 const currentSeason = getCurrentSeason();
 
+export const getPathForSeason = (season: string) =>
+  path.join(process.cwd(), `src/data/${season}`);
+
 export const SEASON_PRAYERS_PATH = path.join(
   process.cwd(),
   `src/data/${currentSeason}`,

@@ -1,7 +1,7 @@
 import { DateTime } from 'luxon';
 import { calendar } from 'calendar/calendar';
 import type { CalendarDayType, SeasonType } from 'calendar/calendar';
-// import { getQueryParam } from 'utils/url';
+import { getQueryParam } from 'utils/url';
 
 export type CalendarDataType = Readonly<
   {
@@ -17,9 +17,10 @@ export const getCurrentSeason = (): SeasonType => {
 };
 
 export const getCalendarData = (): CalendarDataType => {
-  // const dateParam = getQueryParam('date');
-  //TODO allow mocking date
-  const { isoDate, prettyDate, dayOfWeek } = getSelectedDate();
+  const dateParam = getQueryParam('date');
+  const selectedDate = dateParam ? DateTime.fromISO(dateParam) : undefined;
+
+  const { isoDate, prettyDate, dayOfWeek } = getSelectedDate(selectedDate);
 
   const currentCalendarItem = calendar.find(item => item.date === isoDate);
   return currentCalendarItem
@@ -28,7 +29,16 @@ export const getCalendarData = (): CalendarDataType => {
 };
 
 export const getSelectedDate = (date?: DateTime) => {
-  let dateNow = date?.isValid ? date : DateTime.now();
+  const dateParam = getQueryParam('date');
+  let dateNow;
+
+  if (dateParam) {
+    const parsedDate = DateTime.fromISO(dateParam);
+    dateNow = parsedDate.isValid ? parsedDate : DateTime.now();
+  } else {
+    dateNow = date?.isValid ? date : DateTime.now();
+  }
+
   const dayOfWeek = dateNow.toLocaleString(
     { weekday: 'long' },
     { locale: 'pl-pl' },

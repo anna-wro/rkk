@@ -24,6 +24,7 @@ import { July2023 } from './2023-07';
 import { August2023 } from './2023-08';
 import { September2023 } from './2023-09';
 import { October2023 } from './2023-10';
+import { November2023 } from './2023-11';
 
 export type CalendarDayType = Readonly<{
   date: string;
@@ -54,14 +55,17 @@ export type CalendarDayType = Readonly<{
   };
 }>;
 
-export type SeasonType =
-  | 'ordinary'
-  | 'advent'
-  | 'christmas'
-  | 'lent'
-  | 'pascha'
-  | 'easter'
-  | 'pentecost';
+export const ALL_SEASONS = [
+  'ordinary',
+  'advent',
+  'christmas',
+  'lent',
+  'pascha',
+  'easter',
+  'pentecost',
+] as const;
+
+export type SeasonType = typeof ALL_SEASONS[number];
 
 export type CalendarType = ReadonlyArray<CalendarDayType>;
 
@@ -92,4 +96,5 @@ export const calendar: CalendarType = [
   ...August2023,
   ...September2023,
   ...October2023,
+  ...November2023,
 ];
