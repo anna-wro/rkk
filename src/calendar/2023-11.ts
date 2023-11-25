@@ -226,7 +226,6 @@ export const November2023: CalendarType = [
       '1 Kor 15, 20-26, 28',
       'Mt 25, 31-46',
     ],
-    notes: ['Po zachodzie słońca zaczyna się Adwent'],
     links: [
       {
         name: 'Liturgia słowa',
