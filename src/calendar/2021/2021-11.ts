@@ -1,4 +1,4 @@
-import type { CalendarType } from './calendar';
+import type { CalendarType } from '../calendar';
 
 export const November2021: CalendarType = [
   {
