@@ -9,9 +9,14 @@ import { SettingsLink } from './SettingsLink';
 type LayoutPropsType = Readonly<{
   children: React.ReactNode;
   title?: string;
+  showSettingsLink?: boolean;
 }>;
 
-export default function Layout({ children, title }: LayoutPropsType) {
+export default function Layout({
+  children,
+  title,
+  showSettingsLink,
+}: LayoutPropsType) {
   useFontSize();
   useFontFamily();
 
@@ -25,9 +30,6 @@ export default function Layout({ children, title }: LayoutPropsType) {
       wb.register();
     }
   }, []);
-
-  const showSettingsLink =
-    typeof window !== 'undefined' && window?.location?.pathname === '/';
 
   return (
     <div className="py-4">

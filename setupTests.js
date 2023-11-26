@@ -1,5 +1,3 @@
-import '@testing-library/jest-dom/extend-expect';
-
 process.env = {
   ...process.env,
   __NEXT_IMAGE_OPTS: {

@@ -18,7 +18,7 @@ export default function Home({ prayers }) {
   );
 
   return (
-    <Layout>
+    <Layout showSettingsLink>
       <InfoForDayFacade />
       {calendar?.date === '2022-04-10' && (
         <img

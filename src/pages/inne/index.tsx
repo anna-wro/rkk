@@ -9,7 +9,7 @@ import { getPrayerDataFromMeta } from 'utils/getPrayerDataFromMeta';
 
 export default function CustomPrayersIndex({ prayers }) {
   return (
-    <Layout>
+    <Layout showSettingsLink>
       {<InfoForDayFacade />}
       <CustomPrayersList prayers={prayers} />
     </Layout>
