@@ -13,6 +13,7 @@ export const December2023: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['Dn 7, 15-27', 'Dn 3', 'Łk 21, 34-36'],
+    notes: ['Po zachodzie słońca zaczyna się Adwent'],
   },
   {
     date: '2023-12-03',
