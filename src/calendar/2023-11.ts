@@ -43,6 +43,12 @@ export const November2023: CalendarType = [
       '1 Tes 2, 7b-9, 13',
       'Mt 23, 1-12',
     ],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/31-niedziela-w-ciagu-roku-rok-a',
+      },
+    ],
   },
   {
     date: '2023-11-06',
@@ -66,6 +72,7 @@ export const November2023: CalendarType = [
       { name: 'biogram', slug: 'wilibrord-biogram' },
       { name: 'jutrznia', slug: 'wilibrord-jutrznia' },
       { name: 'nieszpory', slug: 'wilibrord-nieszpory' },
+      { name: 'liturgia słowa', slug: 'czytania/wilibrorda-7-listopada' },
     ],
     linksTitle: '[HTML]Wilibrorda bp. Utrechtu[HTML]',
   },
@@ -102,6 +109,12 @@ export const November2023: CalendarType = [
     holidays: ['24. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: ['Mdr 6, 12-16', 'Ps 63', '1 Tes 4, 13-18', 'Mt 25, 1-13'],
     notes: ['[HTML]Pierwszych pięciu męczenników polskich[HTML] mn. i misj.'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/32-niedziela-w-ciagu-roku-rok-a',
+      },
+    ],
   },
   {
     date: '2023-11-13',
@@ -156,6 +169,12 @@ export const November2023: CalendarType = [
       '[HTML]Hildy z Whitby[HTML] mn.',
       '[HTML]Mechtyldy z Magdeburga[HTML] mist.',
     ],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/33-niedziela-w-ciagu-roku-rok-a',
+      },
+    ],
   },
   {
     date: '2023-11-20',
@@ -207,7 +226,12 @@ export const November2023: CalendarType = [
       '1 Kor 15, 20-26, 28',
       'Mt 25, 31-46',
     ],
-    notes: ['Po zachodzie słońca zaczyna się Adwent'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/chrystusa-pantokratora-rok-a',
+      },
+    ],
   },
   {
     date: '2023-11-27',
@@ -235,5 +259,11 @@ export const November2023: CalendarType = [
     season: 'ordinary',
     passages: ['Dn 6, 12-28', 'Dn 3', 'Łk 21, 20-28'],
     holidays: ['ANDRZEJA APOSTOŁA'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/andrzeja-apostola-30-listopada',
+      },
+    ],
   },
 ];
