@@ -4,6 +4,7 @@ import { InfoForDay } from './InfoForDay';
 import { getDataForDay } from 'utils/date';
 import { calendar as ReadingsCalendar } from 'calendar/calendar';
 import Calendar from 'react-calendar';
+import { copy } from 'consts/copy';
 import 'react-calendar/dist/Calendar.css';
 
 export function CalendarFacade() {
@@ -32,8 +33,11 @@ export function CalendarFacade() {
         maxDate={lastDate}
         className="calendar"
       />
-      {/* TODO handle case when no data */}
-      <InfoForDay data={dataToDisplay} />
+      {dataToDisplay ? (
+        <InfoForDay data={dataToDisplay} />
+      ) : (
+        <div>{copy.notToday}</div>
+      )}
     </div>
   );
 }
