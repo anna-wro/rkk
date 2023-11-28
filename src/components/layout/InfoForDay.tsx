@@ -7,7 +7,7 @@ export function InfoForDay({
   controls,
 }: {
   data: CalendarDataType;
-  controls: React.ReactNode;
+  controls?: React.ReactNode;
 }) {
   return (
     <>
