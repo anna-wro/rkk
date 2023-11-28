@@ -31,3 +31,53 @@
   line-height: 1;
   margin-right: 0.2em;
 }
+
+/* TODO match RKK color palette */
+.react-calendar {
+  width: 100%;
+  background-color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  background-color: #f5f5f5;
+  padding: 8px 10px;
+}
+
+.react-calendar__navigation button {
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: text-accent;
+}
+
+.react-calendar__tile {
+  max-width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  background-color: #fafafa;
+  color: #444;
+  border-radius: 4px;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+.react-calendar__tile--active {
+  background-color: #666;
+  color: white;
+}
