@@ -22,7 +22,7 @@ export const getStaticProps = async ({ params }) => {
   let { content, data } = { content: '', data: {} }; // initialize values
 
   // Check for the file path in multiple folders
-  const volumes = ['vol-2', 'vol-3', 'vol-6'];
+  const volumes = ['vol-1', 'vol-2', 'vol-3', 'vol-6'];
   for (let i = 0; i < volumes.length; i++) {
     const readingsFilePath = path.join(
       READINGS_PATH,
