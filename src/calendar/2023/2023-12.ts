@@ -237,7 +237,7 @@ export const December2023: CalendarType = [
       { name: 'wigilia', slug: 'narodzenie-panskie-wigilia' },
       { name: 'jutrznia', slug: 'narodzenie-panskie-jutrznia' },
       { name: 'nieszpory', slug: 'narodzenie-panskie-nieszpory' },
-      { name: 'liturgia słowa', slug: 'narodzenie-panskie-wigilia-fix' },
+      { name: 'liturgia słowa', slug: 'narodzenie-panskie-wigilia-liturgia-slowa' },
     ],
   },
   {
