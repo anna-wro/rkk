@@ -7,7 +7,7 @@ export const READINGS_PATH = path.join(process.cwd(), 'src/data/readings');
 // Get all reading file paths recursively
 export function getReadingsFilePaths() {
   const readingsFilePaths = [];
-  const volumes = ['vol-1', 'vol-2', 'vol-3', 'vol-6'];
+  const volumes = ['vol-1', 'vol-2', 'vol-3', 'vol-4', 'vol-6'];
 
   volumes.forEach(volume => {
     const volumePath = path.join(READINGS_PATH, volume);
