@@ -239,7 +239,7 @@ export const December2023: CalendarType = [
       { name: 'nieszpory', slug: 'narodzenie-panskie-nieszpory' },
       {
         name: 'liturgia słowa',
-        slug: 'narodzenie-panskie-wigilia-liturgia-slowa',
+        slug: 'czytania/narodzenie-panskie-wigilia-liturgia-slowa',
       },
     ],
   },
