@@ -225,7 +225,10 @@ export const January2024: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'epifania-jutrznia' },
       { name: 'nieszpory', slug: 'epifania-nieszpory' },
-      { name: 'liturgia słowa', slug: 'czytania/epifania-nad-jordanem-13-stycznia-rok-a' }
+      {
+        name: 'liturgia słowa',
+        slug: 'czytania/epifania-nad-jordanem-13-stycznia-rok-a',
+      },
     ],
     notes: ['[HTML]Hilarego[HTML] bp i teo'],
   },
@@ -236,9 +239,7 @@ export const January2024: CalendarType = [
     season: 'christmas',
     passages: ['Iz 62, 1-5', 'Ps 96', '1 Kor 12, 4-11', 'J 2, 1-12'],
     notes: ['[HTML]Nino[HTML] ap'],
-   links: [
-          { name: 'liturgia słowa', slug: 'czytania/epifania-w-kanie' },
-     ],
+    links: [{ name: 'liturgia słowa', slug: 'czytania/epifania-w-kanie' }],
     vespers: {
       antiphon:
         'Kiedy zabrakło wina, * Jezus kazał napełnić stągwie wodą, / a ona stała się winem, / alleluja.',
