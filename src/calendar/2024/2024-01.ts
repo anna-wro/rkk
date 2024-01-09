@@ -302,7 +302,7 @@ export const January2024: CalendarType = [
         name: 'liturgia słowa',
         slug: 'czytania/3-niedziela-w-ciagu-roku-rok-b',
       },
-    ]
+    ],
   },
   {
     date: '2024-01-22',
@@ -356,7 +356,7 @@ export const January2024: CalendarType = [
         name: 'liturgia słowa',
         slug: 'czytania/4-niedziela-w-ciagu-roku-rok-b',
       },
-    ]
+    ],
   },
   {
     date: '2024-01-29',
