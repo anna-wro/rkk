@@ -227,7 +227,7 @@ export const January2024: CalendarType = [
       { name: 'nieszpory', slug: 'epifania-nieszpory' },
       {
         name: 'liturgia słowa',
-        slug: 'czytania/epifania-nad-jordanem-13-stycznia-rok-a',
+        slug: 'czytania/epifania-nad-jordanem-13-stycznia-rok-b',
       },
     ],
     notes: ['[HTML]Hilarego[HTML] bp i teo'],
@@ -297,6 +297,12 @@ export const January2024: CalendarType = [
     season: 'christmas',
     holidays: ['3. NIEDZIELA PO EPIFANII'],
     passages: ['Jon 3, 1-5, 10', 'Ps 25', '1 Kor 7, 29-31', 'Mk 1, 14-20'],
+    links: [
+      {
+        name: 'liturgia słowa',
+        slug: 'czytania/3-niedziela-w-ciagu-roku-rok-b',
+      },
+    ],
   },
   {
     date: '2024-01-22',
@@ -345,6 +351,12 @@ export const January2024: CalendarType = [
     passages: ['Pwt 18, 15-20', 'Ps 95', '1 Kor 7, 32-35', 'Mk 1, 21-28'],
     holidays: ['4. NIEDZIELA PO EPIFANII'],
     notes: ['[HTML]Tomasza z Akwinu[HTML] prezb. teo'],
+    links: [
+      {
+        name: 'liturgia słowa',
+        slug: 'czytania/4-niedziela-w-ciagu-roku-rok-b',
+      },
+    ],
   },
   {
     date: '2024-01-29',
