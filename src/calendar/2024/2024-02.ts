@@ -216,7 +216,12 @@ export const February2024: CalendarType = [
     week: 2,
     season: 'lent',
     // eslint-disable-next-line prettier/prettier
-    passages: ['Rdz 22, 1-2.9a.10-13.15-18', 'Ps 116', 'Rz 8, 31b-34', 'Mk 9, 2-10'],
+    passages: [
+      'Rdz 22, 1-2.9a.10-13.15-18',
+      'Ps 116',
+      'Rz 8, 31b-34',
+      'Mk 9, 2-10',
+    ],
     holidays: ['2. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
     eve: {
       antiphon:
