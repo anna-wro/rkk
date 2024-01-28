@@ -215,7 +215,6 @@ export const February2024: CalendarType = [
     date: '2024-02-25',
     week: 2,
     season: 'lent',
-    // eslint-disable-next-line prettier/prettier
     passages: [
       'Rdz 22, 1-2.9a.10-13.15-18',
       'Ps 116',
