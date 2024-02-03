@@ -3,7 +3,7 @@
 
 [![wakatime](https://wakatime.com/badge/github/anna-wro/rkk.svg)](https://wakatime.com/badge/github/anna-wro/rkk)
 
-Welcome to the repository of Oficjum, a web application that provides daily liturgical texts for the Liturgy of the Hours, also known as the Divine Office. This application is designed to serve the community of Reformed Catholic Church in Poland and is currently available in the Polish language.
+Welcome to the repository of Oficjum, a web application that provides daily liturgical texts for the Liturgy of the Hours, also known as the Divine Office. This application is designed to serve the community of Reformed Catholic Church in Poland and is currently available in the Polish language. 
 
 ## Overview
 
