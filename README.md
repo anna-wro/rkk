@@ -8,7 +8,7 @@ Welcome to the repository of Oficjum, a web application that provides daily litu
 ## Overview
 
 Oficjum is a React application that uses TypeScript and Next.js for its development. The application is designed to provide daily liturgical texts based on the liturgical calendar. The texts include prayers, readings, psalms, and other components of the Liturgy of the Hours.
-
+ 
 ## Features
 
 - **Daily Liturgical Texts**: The application provides the liturgical texts for each day based on the liturgical calendar. The texts include prayers, readings, psalms, and other components of the Liturgy of the Hours.
