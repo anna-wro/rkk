@@ -111,7 +111,7 @@ export const February2024: CalendarType = [
   },
   {
     date: '2024-02-14',
-    week: 1,
+    week: 2,
     season: 'lent',
     passages: ['Jl 2, 12-18', 'Ps 51', '2 Kor 5, 20-6.2', 'Mt 6, 1-6, 16-18'],
     holidays: ['ŚRODA POPIELCOWA'],
@@ -125,21 +125,21 @@ export const February2024: CalendarType = [
   },
   {
     date: '2024-02-15',
-    week: 1,
+    week: 2,
     season: 'lent',
     passages: ['Pwt 30, 15-20', 'Ps 1', 'Łk 9, 22-25'],
     notes: ['[HTML]Filemona[HTML] misj.', '[HTML]Onezyma[HTML] bp.'],
   },
   {
     date: '2024-02-16',
-    week: 1,
+    week: 2,
     season: 'lent',
     passages: ['Iz 58, 1-9a', 'Ps 51', 'Mt 9, 14-15'],
     isFastingDay: true,
   },
   {
     date: '2024-02-17',
-    week: 1,
+    week: 2,
     season: 'lent',
     passages: ['Dz 13, 46-49', 'Ps 117 (116), 1-2', 'Łk 10, 1-9'],
     notes: [
@@ -150,7 +150,7 @@ export const February2024: CalendarType = [
   },
   {
     date: '2024-02-18',
-    week: 2,
+    week: 1,
     season: 'lent',
     passages: ['Rdz 9, 8-15', 'Ps 25', '1 P 3, 18-22', ' Mk 1, 12-15'],
     holidays: ['1. NIEDZIELA PRZYGOTOWANIA PASCHALNEGO'],
