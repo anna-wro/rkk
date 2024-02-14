@@ -3,12 +3,12 @@
 
 [![wakatime](https://wakatime.com/badge/github/anna-wro/rkk.svg)](https://wakatime.com/badge/github/anna-wro/rkk)
 
-Welcome to the repository of Oficjum, a web application that provides daily liturgical texts for the Liturgy of the Hours, also known as the Divine Office. This application is designed to serve the community of Reformed Catholic Church in Poland and is currently available in the Polish language.
+Welcome to the repository of Oficjum, a web application that provides daily liturgical texts for the Liturgy of the Hours, also known as the Divine Office. This application is designed to serve the community of Reformed Catholic Church in Poland and is currently available in the Polish language. 
 
 ## Overview
 
 Oficjum is a React application that uses TypeScript and Next.js for its development. The application is designed to provide daily liturgical texts based on the liturgical calendar. The texts include prayers, readings, psalms, and other components of the Liturgy of the Hours.
-
+ 
 ## Features
 
 - **Daily Liturgical Texts**: The application provides the liturgical texts for each day based on the liturgical calendar. The texts include prayers, readings, psalms, and other components of the Liturgy of the Hours.
