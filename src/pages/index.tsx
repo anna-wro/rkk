@@ -17,19 +17,27 @@ export default function Home({ prayers }) {
     prayer => prayer.data.season === seasonToDisplay,
   );
 
+  function isNiedzielaPalmowa(date: string | undefined) {
+    return date === '2022-04-10' || date === '2024-03-24';
+  }
+
+  function isTriduum(date: string | undefined) {
+    return (
+      date === '2024-03-28' || date === '2024-03-29' || date === '2024-03-30'
+    );
+  }
+
   return (
     <Layout showSettingsLink>
       <InfoForDayFacade />
-      {calendar?.date === '2022-04-10' && (
+      {isNiedzielaPalmowa(calendar?.date) && (
         <img
           src="/banners/palm-sunday.jpg"
           className="mt-6"
           alt="Niedziela Palmowa"
         />
       )}
-      {(calendar?.date === '2022-04-14' ||
-        calendar?.date === '2022-04-15' ||
-        calendar?.date === '2022-04-16') && (
+      {isTriduum(calendar?.date) && (
         <img
           src="/banners/triduum.jpg"
           className="mt-6"

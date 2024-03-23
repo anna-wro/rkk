@@ -192,6 +192,10 @@ export const March2024: CalendarType = [
     week: 1,
     season: 'lent',
     passages: ['Ez 37, 21-28', 'Jr 31', 'J 11, 45-56'],
+    links: [
+      { name: 'wigilia Niedzieli Palmowej', slug: 'niedziela-palmowa-wigilia' },
+      { name: 'kompleta', slug: 'niedziela-palmowa-kompleta-1' },
+    ],
   },
   {
     date: '2024-03-24',
