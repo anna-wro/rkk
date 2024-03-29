@@ -11,7 +11,7 @@ export const April2024: CalendarType = [
       '[HTML]Marii Egipcjanki[HTML] mn.',
       '[HTML]Melitona z Sardes[HTML] bp.',
     ],
-     links: [
+    links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
       { name: 'kompleta', slug: 'oktawa-paschalna-poniedzialek-kompleta' },
@@ -38,8 +38,7 @@ export const April2024: CalendarType = [
     season: 'easter',
     holidays: ['WTOREK PASCHALNY'],
     passages: ['Dz 2, 36-41', 'Ps 33', 'J 20, 11-18'],
-    notes: [
-      '[HTML]Franciszka z Paoli[HTML] mn.'],
+    notes: ['[HTML]Franciszka z Paoli[HTML] mn.'],
     links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
@@ -93,7 +92,7 @@ export const April2024: CalendarType = [
     season: 'easter',
     holidays: ['CZWARTEK PASCHALNY'],
     passages: ['Dz 3, 11-26', 'Ps 8', 'Łk 24, 35-48'],
-    notes: [ '[HTML]Izydora z Sewilli[HTML]  bp.' ],
+    notes: ['[HTML]Izydora z Sewilli[HTML]  bp.'],
     links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
