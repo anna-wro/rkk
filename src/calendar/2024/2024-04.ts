@@ -141,6 +141,7 @@ export const April2024: CalendarType = [
         'Powiedział uczeń, którego Jezus miłował: * To jest nasz Pan, / alleluja.',
     },
   },
+  {
     date: '2023-04-06',
     week: 1,
     season: 'easter',
@@ -168,7 +169,7 @@ export const April2024: CalendarType = [
         'Po ośmiu dniach, mimo drzwi zamkniętych, * Jezus stanął pośród uczniów / i rzekł do nich: Pokój wam, alleluja.',
     },
   },
-           {
+  {
     date: '2023-04-07',
     week: 2,
     season: 'easter',
@@ -182,7 +183,7 @@ export const April2024: CalendarType = [
         name: 'liturgia słowa',
         slug: 'czytania/niedziela-w-oktawie-zmartwychwstania-panskiego-rok-a',
       },
-        ],
+    ],
     variant: 1,
     lauds: {
       sigla: 'Dz 10, 40-43',
@@ -206,7 +207,7 @@ export const April2024: CalendarType = [
     holidays: ['ZWIASTOWANIE PAŃSKIE'],
     passages: ['Iz 7, 10-14.8.10', 'Ps 40', 'Hbr 10, 4-10', 'Łk 1, 26-38'],
   },
- {
+  {
     date: '2023-04-09',
     week: 2,
     season: 'easter',
@@ -216,19 +217,19 @@ export const April2024: CalendarType = [
     ],
     passages: ['Dz 4, 32-37', 'Ps 93', 'J 3, 7b-15'],
   },
-   {
+  {
     date: '2023-04-10',
     week: 2,
     season: 'easter',
     passages: ['Dz 5, 17-26', 'Ps 34', 'J 3, 16-21'],
   },
-   {
+  {
     date: '2023-04-11',
     week: 2,
     season: 'easter',
     passages: ['Dz 5, 27-33', 'Ps 34', 'J 3, 31-36'],
   },
-   {
+  {
     date: '2023-04-12',
     week: 2,
     season: 'easter',
@@ -239,8 +240,8 @@ export const April2024: CalendarType = [
     week: 2,
     season: 'easter',
     passages: ['Dz 6, 1-7', 'Ps 33', 'J 6, 16-21'],
-  },     
-   {
+  },
+  {
     date: '2023-04-14',
     week: 1,
     season: 'easter',
@@ -259,7 +260,7 @@ export const April2024: CalendarType = [
     season: 'easter',
     passages: ['Dz 6, 8-15', 'Ps 119', 'J 6, 22-29'],
   },
-   {
+  {
     date: '2023-04-16',
     week: 1,
     season: 'easter',
@@ -277,7 +278,7 @@ export const April2024: CalendarType = [
     season: 'easter',
     passages: ['Dz 8, 26-40', 'Ps 66', 'J 6, 44-51'],
   },
-   {
+  {
     date: '2023-04-19',
     week: 1,
     season: 'easter',
@@ -289,7 +290,4 @@ export const April2024: CalendarType = [
     season: 'easter',
     passages: ['Dz 9, 31-42', 'Ps 116', 'J 6, 60-69'],
   },
-  
-  
-          
 ];
