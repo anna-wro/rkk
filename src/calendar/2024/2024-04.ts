@@ -141,4 +141,153 @@ export const April2024: CalendarType = [
         'Powiedział uczeń, którego Jezus miłował: * To jest nasz Pan, / alleluja.',
     },
   },
+  {
+    date: '2024-04-06',
+    week: 1,
+    season: 'easter',
+    holidays: ['SOBOTA PASCHALNA'],
+    passages: ['Dz 4, 13-21', 'Ps 118', 'Mk 16, 9-15'],
+    notes: ['[HTML]Jacquesa Fescha[HTML]'],
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
+      { name: 'kompleta', slug: 'oktawa-paschalna-sobota-kompleta' },
+    ],
+    variant: 2,
+    lauds: {
+      sigla: 'Rz 14, 7-9',
+      passage:
+        'Nikt z nas nie żyje dla siebie i nikt nie umiera dla siebie: jeżeli bowiem żyjemy, żyjemy dla Pana; jeżeli zaś umieramy, umieramy dla Pana. I w życiu więc, i w śmierci należymy do Pana. Po to bowiem Chrystus umarł i powrócił do życia, by zapanować tak nad umarłymi, jak i nad żywymi.',
+      antiphon:
+        'Po swoim zmartwychwstaniu * wczesnym rankiem w pierwszy dzień tygodnia, / Jezus ukazał się najpierw Marii Magdalenie, / z której wyrzucił siedem złych duchów, / alleluja.',
+    },
+    vespers: {
+      sigla: '1 P 2, 9-10',
+      passage:
+        'Wy jesteście wybranym plemieniem, królewskim kapłaństwem, świętym narodem, ludem Bogu na własność przeznaczonym, abyście ogłaszali dzieła potęgi Tego, który was wezwał z ciemności do przedziwnego swojego światła, wy, którzyście byli nie-ludem, teraz zaś jesteście ludem Bożym, którzyście nie dostąpili miłosierdzia, teraz zaś jako ci, którzy miłosierdzia doznali.',
+      antiphon:
+        'Po ośmiu dniach, mimo drzwi zamkniętych, * Jezus stanął pośród uczniów / i rzekł do nich: Pokój wam, alleluja.',
+    },
+  },
+  {
+    date: '2024-04-07',
+    week: 2,
+    season: 'easter',
+    holidays: ['2. NIEDZIELA PASCHALNA'],
+    passages: ['Dz 4, 32-35', 'Ps 118', '1 J 5, 1-6', 'J 20, 19-31'],
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
+      { name: 'kompleta', slug: 'oktawa-paschalna-niedziela-kompleta' },
+      {
+        name: 'liturgia słowa',
+        slug: 'czytania/niedziela-w-oktawie-zmartwychwstania-panskiego-rok-a',
+      },
+    ],
+    variant: 1,
+    lauds: {
+      sigla: 'Dz 10, 40-43',
+      passage:
+        'Bóg wskrzesił Jezusa trzeciego dnia i pozwolił Mu ukazać się nie całemu ludowi, ale nam, wybranym uprzednio przez Boga na świadków, którzyśmy z Nim jedli i pili po Jego zmartwychwstaniu. On nam rozkazał ogłosić ludowi i dać świadectwo, że Bóg ustanowił Go sędzią żywych i umarłych. Wszyscy prorocy świadczą o tym, że każdy, kto w Niego wierzy, w Jego imię otrzymuje odpuszczenie grzechów.',
+      antiphon:
+        'Wyciągnij rękę i dotknij miejsca gwoździ, * i nie bądź niedowiarkiem, lecz wierzącym, / alleluja.',
+    },
+    vespers: {
+      sigla: 'Hbr 10, 12-14',
+      passage:
+        'Chrystus złożywszy raz na zawsze jedną ofiarę za grzechy, zasiadł po prawicy Boga, oczekując tylko, aż nieprzyjaciele Jego staną się podnóżkiem nóg Jego. Jedną bowiem ofiarą udoskonalił na wieki tych, którzy są uświęceni.',
+      antiphon:
+        'Uwierzyłeś, bo Mnie ujrzałeś, Tomaszu, * błogosławieni, którzy nie widzieli, a uwierzyli, / alleluja.',
+    },
+  },
+  {
+    date: '2024-04-08',
+    week: 2,
+    season: 'easter',
+    holidays: ['ZWIASTOWANIE PAŃSKIE'],
+    passages: ['Iz 7, 10-14.8.10', 'Ps 40', 'Hbr 10, 4-10', 'Łk 1, 26-38'],
+  },
+  {
+    date: '2024-04-09',
+    week: 2,
+    season: 'easter',
+    notes: [
+      '[HTML]Achacego z Amidy[HTML] bp.',
+      '[HTML]Dietricha Bonhoeffera [HTML] prezb. m. teo.',
+    ],
+    passages: ['Dz 4, 32-37', 'Ps 93', 'J 3, 7b-15'],
+  },
+  {
+    date: '2024-04-10',
+    week: 2,
+    season: 'easter',
+    passages: ['Dz 5, 17-26', 'Ps 34', 'J 3, 16-21'],
+  },
+  {
+    date: '2024-04-11',
+    week: 2,
+    season: 'easter',
+    passages: ['Dz 5, 27-33', 'Ps 34', 'J 3, 31-36'],
+  },
+  {
+    date: '2024-04-12',
+    week: 2,
+    season: 'easter',
+    passages: ['Dz 5, 34-42', 'Ps 27', 'J 6, 1-15'],
+  },
+  {
+    date: '2024-04-13',
+    week: 2,
+    season: 'easter',
+    passages: ['Dz 6, 1-7', 'Ps 33', 'J 6, 16-21'],
+  },
+  {
+    date: '2024-04-14',
+    week: 1,
+    season: 'easter',
+    holidays: ['3. NIEDZIELA PASCHALNA'],
+    passages: ['Dz 3, 13-15.17-19', 'Ps 4', '1 J 2.1-5a', 'Łk 24, 35-48'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/3-niedziela-zmartwychwstania-panskiego-rok-b',
+      },
+    ],
+  },
+  {
+    date: '2024-04-15',
+    week: 1,
+    season: 'easter',
+    passages: ['Dz 6, 8-15', 'Ps 119', 'J 6, 22-29'],
+  },
+  {
+    date: '2024-04-16',
+    week: 1,
+    season: 'easter',
+    passages: ['Dz 7, 51-8.1a', 'Ps 31', 'J 6, 30-35'],
+  },
+  {
+    date: '2024-04-17',
+    week: 1,
+    season: 'easter',
+    passages: ['Dz 8, 1b-8', 'Ps 66', 'J 6, 35-40'],
+  },
+  {
+    date: '2024-04-18',
+    week: 1,
+    season: 'easter',
+    passages: ['Dz 8, 26-40', 'Ps 66', 'J 6, 44-51'],
+  },
+  {
+    date: '2024-04-19',
+    week: 1,
+    season: 'easter',
+    passages: ['Dz 9, 1-20', 'Ps 117', 'J 6, 52-59'],
+  },
+  {
+    date: '2024-04-20',
+    week: 1,
+    season: 'easter',
+    passages: ['Dz 9, 31-42', 'Ps 116', 'J 6, 60-69'],
+  },
 ];
