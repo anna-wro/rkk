@@ -290,33 +290,33 @@ export const April2024: CalendarType = [
     season: 'easter',
     passages: ['Dz 9, 31-42', 'Ps 116', 'J 6, 60-69'],
   },
-    {
+  {
     date: '2024-04-21',
     week: 2,
     season: 'easter',
     holidays: ['4. NIEDZIELA PASCHALNA'],
     passages: ['Dz 4, 8-12', 'Ps 118', '1 J 3, 1-2', 'J 10, 11-18'],
   },
-    {
+  {
     date: '2024-04-22',
     week: 2,
     season: 'easter',
     passages: ['Dz 11, 1-18', 'Ps 42', 'J 10, 11-18'],
   },
-      {
+  {
     date: '2024-04-23',
     week: 2,
     season: 'easter',
     holidays: ['WOJCIECHA bp. m.'],
     passages: ['Dz 1, 3-8', 'Ps 126', 'Flp 1, 20c-30', 'J 12, 24-26'],
   },
-   {
+  {
     date: '2024-04-24',
     week: 2,
     season: 'easter',
     passages: ['Dz 12, 24-13.5a', 'Ps 67', 'J 12, 44-50'],
   },
-     {
+  {
     date: '2024-04-25',
     week: 2,
     season: 'easter',
@@ -329,13 +329,13 @@ export const April2024: CalendarType = [
     season: 'easter',
     passages: ['Dz 13, 26-33', 'Ps 2', 'J 14, 1-6'],
   },
-    {
+  {
     date: '2024-04-27',
     week: 2,
     season: 'easter',
     passages: ['Dz 13, 44-52', 'Ps 98', 'J 14, 7-14'],
   },
-      {
+  {
     date: '2024-04-28',
     week: 1,
     season: 'easter',
@@ -350,7 +350,7 @@ export const April2024: CalendarType = [
     passages: ['Dz 14, 5-18', 'Ps 115', 'J 14, 21-26'],
     notes: ['[HTML]Katarzyny z Sieny[HTML] zak.'],
   },
-   {
+  {
     date: '2024-04-30',
     week: 1,
     season: 'easter',
