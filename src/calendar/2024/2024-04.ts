@@ -342,6 +342,12 @@ export const April2024: CalendarType = [
     holidays: ['5. NIEDZIELA PASCHALNA'],
     passages: ['Dz 9, 26-31', 'Ps 22', '1 J 3, 18-24', 'J 15, 1-8'],
     notes: ['[HTML]Joanny Beretty Molli[HTML]'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/5-niedziela-zmartwychwstania-panskiego-rok-b',
+      },
+    ],
   },
   {
     date: '2024-04-29',
