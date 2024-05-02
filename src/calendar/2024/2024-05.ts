@@ -3,7 +3,7 @@ import type { CalendarType } from '../calendar';
 export const May2024: CalendarType = [
   {
     date: '2024-05-01',
-    week: 2,
+    week: 1,
     season: 'easter',
     passages: ['Dz 15, 1-6', 'Ps 122', 'J 15, 1-8'],
     notes: ['[HTML]Filipa[HTML] ap.', '[HTML]Jakuba[HTML] ap.'],
@@ -11,7 +11,7 @@ export const May2024: CalendarType = [
   },
   {
     date: '2024-05-02',
-    week: 2,
+    week: 1,
     season: 'easter',
     passages: ['Dz 15, 7-21', 'Ps 96', 'J 15, 9-11'],
     notes: ['[HTML]Atanazego z Aleksandrii[HTML] bp. i teo.'],
@@ -19,7 +19,7 @@ export const May2024: CalendarType = [
   },
   {
     date: '2024-05-03',
-    week: 2,
+    week: 1,
     season: 'easter',
     holidays: ['WSPOMNIENIE PIERWSZEGO NABOŻEŃSTWA RKK W POLSCE'],
     passages: ['1 P 2, 4-9', 'J 4, 19-24'],
@@ -33,7 +33,7 @@ export const May2024: CalendarType = [
   },
   {
     date: '2024-05-04',
-    week: 2,
+    week: 1,
     season: 'easter',
     passages: ['Dz 16, 1-10', 'Ps 100', 'J 15, 18-21'],
     notes: ['[HTML]Michała Giedroycia[HTML] zak.'],
@@ -41,7 +41,7 @@ export const May2024: CalendarType = [
   },
   {
     date: '2024-05-05',
-    week: 1,
+    week: 2,
     season: 'easter',
     passages: ['Dz 10 25-26.34-35.44-48', 'Ps 98', '1 J 4, 7-10', 'J 15, 9-17'],
     notes: ['[HTML]Pauli z Rzymu[HTML] w.'],
@@ -56,7 +56,7 @@ export const May2024: CalendarType = [
   },
   {
     date: '2024-05-06',
-    week: 1,
+    week: 2,
     season: 'easter',
     passages: ['Dz 16, 11-15', 'Ps 149', 'J 15, 26-16, 4a'],
     notes: [
@@ -67,14 +67,14 @@ export const May2024: CalendarType = [
   },
   {
     date: '2024-05-07',
-    week: 1,
+    week: 2,
     season: 'easter',
     passages: ['Dz 16, 22-34', 'Ps 138', 'J 16, 5-11'],
     links: [{ name: 'Litanie maryjne', slug: 'litanie-maryjne' }],
   },
   {
     date: '2024-05-08',
-    week: 1,
+    week: 2,
     season: 'easter',
     passages: ['Dz 17, 15.22-18.1', 'Ps 148', 'J 16, 12-15'],
     notes: ['[HTML]Julianny z Norwich[HTML] mist.'],
