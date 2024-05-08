@@ -174,6 +174,7 @@ export const May2024: CalendarType = [
       { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-5-jutrznia' },
       { name: 'Nieszpory', slug: 'wniebowstapienie-nowenna-5-nieszpory' },
       { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+      { name: 'Liturgia słowa', slug: 'czytania/macieja-apostola-14-maja' },
     ],
   },
   {
@@ -209,6 +210,10 @@ export const May2024: CalendarType = [
       { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-8-jutrznia' },
       { name: 'Nieszpory', slug: 'wniebowstapienie-nowenna-8-nieszpory' },
       { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/junii-i-andronika-apostolow-17-maja',
+      },
     ],
   },
   {
