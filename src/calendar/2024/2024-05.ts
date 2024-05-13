@@ -318,4 +318,185 @@ export const May2024: CalendarType = [
     ],
     notes: ['[HTML]Jana Nepomucena[HTML] prezb. i m.'],
   },
+  {
+    date: '2024-05-22',
+    week: 2,
+    season: 'pentecost',
+    passages: ['Dz 2, 14-21', 'Ps 33', ' J 6, 44-52'],
+    holidays: ['OKTAWA PIĘĆDZIESIĄTNICY'],
+    notes: ['[HTML]Rity[HTML] zak. i mist.'],
+    lauds: {
+      sigla: '1 J 3,23-24',
+      passage:
+        'A to jest Jego przykazanie, abyśmy uwierzyli w imię Jego Syna Jezusa Chrystusai miłowali się wzajemnie zgodnie z przykazaniem, jakie nam dał. Kto więc przestrzega Jego przykazań, trwa w Bogu, a Bóg w nim. To, że Bóg w nas przebywa, rozpoznajemy dzięki Duchowi, którego nam dał.',
+      antiphon:
+        'Ja jestem chlebem żywym, który z nieba zstąpił. * Jeśli ktoś będzie z tego chleba spożywał, / na wieki żyć będzie. / alleluja.',
+    },
+    vespers: {
+      sigla: 'Rz 12,11-14',
+      passage:
+        'Nie traćcie gorliwości, bądźcie płomiennego ducha, służcie Panu. Radujcie się nadzieją, w ucisku bądźcie cierpliwi, w modlitwie wytrwali. Wspomagajcie świętych, przestrzegajcie gościnności. Błogosławcie tych, którzy was prześladują; błogosławcie, a nie złorzeczcie.	',
+      antiphon:
+        'Światłości najświętsza,* serc wierzących wnętrza poddaj Twej potędze. / Alleluja.',
+    },
+    variant: 1,
+    links: [
+      { name: 'Jutrznia', slug: 'oktawa-zeslania-jutrznia' },
+      { name: 'Nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/sroda-w-oktawie-zeslania-ducha-swietego',
+      },
+    ],
+  },
+  {
+    date: '2024-05-23',
+    week: 2,
+    season: 'pentecost',
+    holidays: ['OKTAWA PIĘĆDZIESIĄTNICY'],
+    passages: ['Dz 8, 5-8', 'Ps 104', 'Łk 9, 1-6'],
+    lauds: {
+      sigla: 'Rz 8,10-11',
+      passage:
+        'Lecz jeśli Chrystus jest w was, to chociaż ciało jest śmiertelne z powodu grzechu, Duch daje życie dzięki usprawiedliwieniu. Jeśli więc mieszka w was Duch Tego, który wskrzesił Jezusa z martwych, to Ten, który wskrzesił Chrystusa z martwych, ożywi wasze śmiertelne ciała dzięki mieszkającemu w was Jego Duchowi.',
+      antiphon:
+        'Jezus posłał nas,* abyśmy nieśli wiadomość o królestwie Bożym. / alleluja.',
+    },
+    vespers: {
+      sigla: '1 Kor 12,3-7',
+      passage:
+        'Nikt pod wpływem Ducha Bożego nie może mówić: „Niech Jezu będzie przeklęty” i nikt bez Ducha Świętego nie może mówić: „Jezus jest Panem”. Różne są dary, ale Duch jest jeden. Różne są posługi, ale Pan jest jeden. Różne są działania, ale jeden jest Bóg, który sprawia wszystko we wszystkich. W każdym uwidacznia się działanie Ducha dla wspólnego dobra.',
+      antiphon:
+        'Duchu Święty, obmyj, co nieświęte,* oschłym wlej zachętę, ulecz serca ranę. / Alleluja.',
+    },
+    notes: ['[HTML]Justyna[HTML] m.'],
+    variant: 2,
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/czwartek-w-oktawie-zeslania-ducha-swietego',
+      },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+    ],
+  },
+  {
+    date: '2024-05-24',
+    week: 2,
+    season: 'pentecost',
+    holidays: ['OKTAWA PIĘĆDZIESIĄTNICY'],
+    passages: ['Jl 2, 23-24. 26-27', 'Mdr 11', 'Łk 5, 17-26'],
+    notes: ['[HTML]Wincentego z Lerynu[HTML] mn. i teo.'],
+    lauds: {
+      sigla: 'Ga 5,16; 22-25',
+      passage:
+        'Otóż powiadam: Postępujcie według Ducha, a nie będziecie spełniali pożądań ciała. owocem Ducha jest: miłość, radość, pokój, cierpliwość, dobroć, życzliwość, wierność, łagodność, opanowanie. Prawo tu nie jest potrzebne. A ci, którzy należą do Chrystusa Jezusa, ukrzyżowali swoje ciało razem z namiętnościami i pożądliwościami. Skoro więc żyjemy mocą Ducha, postępujmy według Ducha.',
+      antiphon:
+        'Odpuszczone są tobie twoje grzechy, * wstań i chodź. / alleluja.',
+    },
+    vespers: {
+      sigla: '2 Tes 2,13-14',
+      passage:
+        'Umiłowani przez Pana! Powinniśmy dziękować Bogu zawsze za was wszystkich, za to, że wybrał was jako pierwszych, aby was zbawić przez uświęcenie w Duchu i wiarę w prawdę. Bóg wezwał was przez naszą Ewangelię do udziału w chwale naszego Pana, Jezusa Chrystusa. ',
+      antiphon:
+        'Wszystkich ogarnęło zdumienie i wysławiali Boga,* napełnieni bojaźnią mówili: Dzisiaj zobaczyliśmy coś nieprawdopodobnego. / Alleluja.',
+    },
+    variant: 1,
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/piatek-w-oktawie-zeslania-ducha-swietego',
+      },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+    ],
+  },
+  {
+    date: '2024-05-25',
+    week: 2,
+    season: 'easter',
+    holidays: ['OKTAWA PIĘĆDZIESIĄTNICY'],
+    passages: ['Rz 5, 1-5', 'Tb 13', 'Łk 4, 38-44'],
+    lauds: {
+      sigla: 'Ga 6,1-2',
+      passage:
+        'Siostry i bracia, nawet jeśli ktoś popadnie w grzech, wy, którzy trwacie w Duchu, podźwignijcie go z całą łagodnością. Uważaj jednak, abyś i ty nie uległ pokusie. Jedni drugim noście brzemiona, a tak wypełnicie prawo Chrystusa. ',
+      antiphon:
+        'Jezus został posłany,* aby głosić radosną nowinę o królestwie Boga. / alleluja.',
+    },
+    links: [
+      { name: 'jutrznia', slug: 'oktawa-zeslania-jutrznia' },
+      { name: 'nieszpory', slug: 'oktawa-zeslania-nieszpory' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/sobota-w-oktawie-zeslania-ducha-swietego',
+      },
+      { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
+    ],
+    notes: ['[HTML]Bedy Czcigodnego[HTML] mn.'],
+    variant: 2,
+  },
+  {
+    date: '2024-05-26',
+    week: 1,
+    season: 'pentecost',
+    holidays: ['NAJŚWIĘTSZEJ TRÓJCY'],
+    passages: ['Pwt 4, 32-34.39-40', 'Ps 33', 'Rz 8, 14-17', 'Mt 28, 16-20'],
+    links: [
+      { name: 'wigilia', slug: 'niedziela-trojcy-swietej-wigilia' },
+      { name: 'jutrznia', slug: 'niedziela-trojcy-swietej-jutrznia' },
+      { name: 'nieszpory', slug: 'niedziela-trojcy-swietej-nieszpory' },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/najswietszej-trojcy-rok-b',
+      },
+    ],
+    notes: [
+      '[HTML]Kwadrata Apologety[HTML] bp.',
+      '[HTML]Augustyna z Canterbury[HTML] bp.',
+      '[HTML]Karpa z Berei[HTML] bp.',
+    ],
+  },
+  {
+    date: '2024-05-27',
+    week: 1,
+    season: 'ordinary',
+    passages: ['1 P 1, 3-9', 'Ps 111', 'Mk 10, 17-27'],
+  },
+  {
+    date: '2024-05-28',
+    week: 1,
+    season: 'ordinary',
+    passages: ['1 P 1, 10-16', 'Ps 98', 'Mk 10, 28-31'],
+  },
+  {
+    date: '2024-05-29',
+    week: 1,
+    season: 'ordinary',
+    passages: ['1 P 1, 18-25', 'Ps 147', 'Mk 10, 32-45'],
+    notes: ['[HTML]Urszuli Ledóchowskiej[HTML] zak.'],
+  },
+  {
+    date: '2024-05-30',
+    week: 1,
+    season: 'ordinary',
+    passages: ['Wj 24, 3-8', 'Ps 116', 'Hbr 9, 11-15', 'Mk 14, 12-16.22-26'],
+    holidays: ['NAJŚWIĘTSZEGO CIAŁA I KRWI PAŃSKIEJ'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/najswietszego-ciala-i-krwi-panskiej-rok-b',
+      },
+    ],
+  },
+  {
+    date: '2024-05-31',
+    week: 1,
+    season: 'ordinary',
+    notes: ['Wspomnienie spotkania Marii', 'Bogurodzicy i Elżbiety'],
+    passages: ['So 3, 14-18a', 'Iz 12', 'Łk 1, 39-56'],
+  },
 ];
