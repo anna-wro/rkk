@@ -12,7 +12,7 @@ export const June2024: CalendarType = [
     date: '2024-06-02',
     week: 2,
     season: 'ordinary',
-    passages: ['Iz 52, 7-10, Ps 19, 2 Kor 5, 14-20, Łk 5, 1-11'],
+    passages: ['Iz 52, 7-10', 'Ps 19', '2 Kor 5, 14-20', 'Łk 5, 1-11'],
     notes: ['JORDANA Z POZNANIA'],
   },
   {
