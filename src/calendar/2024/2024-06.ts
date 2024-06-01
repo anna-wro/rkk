@@ -14,6 +14,12 @@ export const June2024: CalendarType = [
     season: 'ordinary',
     passages: ['Iz 52, 7-10', 'Ps 19', '2 Kor 5, 14-20', 'Łk 5, 1-11'],
     notes: ['JORDANA Z POZNANIA'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/jordana-z-poznania-2-czerwca',
+      },
+    ],
   },
   {
     date: '2024-06-03',
@@ -40,6 +46,12 @@ export const June2024: CalendarType = [
     season: 'ordinary',
     notes: ['[HTML]Marii Karłowskiej[HTML] zak. '],
     passages: ['2 Tm 2, 8-15', 'Ps 25', 'Mk 12, 28b-34'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/marii-karlowskiej-6-czerwca',
+      },
+    ],
   },
   {
     date: '2024-06-07',
@@ -59,6 +71,12 @@ export const June2024: CalendarType = [
     season: 'ordinary',
     holidays: ['3. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: ['Rdz 3, 9-15', 'Ps 130', '2 Kor 4, 13-5, 1', 'Mk 3, 20-35'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/10-niedziela-w-ciagu-roku-rok-b',
+      },
+    ],
   },
   {
     date: '2024-06-10',
@@ -79,6 +97,12 @@ export const June2024: CalendarType = [
       'Dz 11, 21b-26; 13, 1-3',
       'Ps 98, 1.2-3ab.3c-4.5-6',
       'Mt 10, 7-13',
+    ],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/barnaby-apostola-11-czerwca',
+      },
     ],
   },
   {
@@ -114,6 +138,12 @@ export const June2024: CalendarType = [
     season: 'ordinary',
     holidays: ['4. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: ['Ez 17, 22-24', 'Ps 92', '2 Kor 5, 6-10', 'Mk 4, 26-34'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/11-niedziela-w-ciagu-roku-rok-b',
+      },
+    ],
   },
   {
     date: '2024-06-17',
@@ -162,6 +192,12 @@ export const June2024: CalendarType = [
     holidays: ['5. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: ['Hi 38, 1.8-11', 'Ps 107', '2 Kor 5, 14-17', 'Mk 4, 35-41'],
     notes: ['[HTML]222 męczenników chińskich[HTML]'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/12-niedziela-w-ciagu-roku-rok-b',
+      },
+    ],
   },
   {
     date: '2024-06-24',
@@ -241,5 +277,11 @@ export const June2024: CalendarType = [
       'Mk 5, 21-43',
     ],
     notes: ['[HTML]Ottona z Bambergu[HTML] ap.'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/13-niedziela-w-ciagu-roku-rok-b',
+      },
+    ],
   },
 ];
