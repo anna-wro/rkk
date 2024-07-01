@@ -40,7 +40,7 @@ To get the application up and running locally, follow these steps:
 3. Install the project dependencies by running `npm install`.
 4. Start the development server by running `npm run dev`.
 
-The application should now be accessible at `http://localhost:3000`.
+The application should now be accessible at `http://localhost:3000` in development mode.
 
 ## Contributing
 
