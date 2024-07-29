@@ -70,14 +70,14 @@ export const August2024: CalendarType = [
     date: '2024-08-10',
     week: 1,
     season: 'ordinary',
-    passages: ['Ha 1, 12-2.4', 'Ps 9', 'Mt 17, 14-20'],
+    passages: ['Ha 1, 12-2, 4', 'Ps 9', 'Mt 17, 14-20'],
     notes: ['[HTML]Wawrzyńca[HTML] dk. m.'],
   },
   {
     date: '2024-08-11',
     week: 2,
     season: 'ordinary',
-    passages: ['1 Krl 19, 4-8', 'Ps 34', 'Ef 4, 30-5.2', 'J 6, 41-51'],
+    passages: ['1 Krl 19, 4-8', 'Ps 34', 'Ef 4, 30-5, 2', 'J 6, 41-51'],
     holidays: ['12. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     notes: [
       '[HTML]Klary[HTML] zak.',
@@ -98,7 +98,7 @@ export const August2024: CalendarType = [
     date: '2024-08-13',
     week: 2,
     season: 'ordinary',
-    passages: ['Ez 2, 8-3.4', 'Ps 119', 'Mt 18, 1-5.10.12-14'],
+    passages: ['Ez 2, 8-3, 4', 'Ps 119', 'Mt 18, 1-5.10.12-14'],
   },
   {
     date: '2024-08-14',
@@ -222,7 +222,7 @@ export const August2024: CalendarType = [
     date: '2024-08-26',
     week: 2,
     season: 'ordinary',
-    passages: ['2 Tes 1, 1-5, 11-12', 'Ps 96', 'Mt 23, 13-22'],
+    passages: ['2 Tes 1, 1-5.11-12', 'Ps 96', 'Mt 23, 13-22'],
     notes: ['[HTML]Marii od Jezusa Ukrzyżowanego[HTML] mn.'],
   },
   {
@@ -236,7 +236,7 @@ export const August2024: CalendarType = [
     date: '2024-08-28',
     week: 2,
     season: 'ordinary',
-    passages: ['2 Tes 3, 6-10, 16-18', 'Ps 128', 'Mt 23, 27-32'],
+    passages: ['2 Tes 3, 6-10.16-18', 'Ps 128', 'Mt 23, 27-32'],
     notes: ['[HTML]Augustyna z Hippony[HTML] bp.'],
   },
   {
