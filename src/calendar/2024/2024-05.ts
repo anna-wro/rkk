@@ -11,7 +11,7 @@ export const May2024: CalendarType = [
   },
   {
     date: '2024-05-02',
-    week: 1,
+    week: 2,
     season: 'easter',
     passages: ['Dz 15, 7-21', 'Ps 96', 'J 15, 9-11'],
     notes: ['[HTML]Atanazego z Aleksandrii[HTML] bp. i teo.'],
@@ -168,13 +168,12 @@ export const May2024: CalendarType = [
     date: '2024-05-14',
     week: 1,
     season: 'pentecost',
-    notes: ['[HTML]MACIEJA[HTML] ap.'],
+    holidays: ['[HTML]MACIEJA[HTML] ap.'],
     passages: ['Ps 145, 10-11.12-13ab.17-18', 'J 15, 9-17'],
     links: [
       { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-5-jutrznia' },
       { name: 'Nieszpory', slug: 'wniebowstapienie-nowenna-5-nieszpory' },
       { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
-      { name: 'Liturgia słowa', slug: 'czytania/macieja-apostola-14-maja' },
     ],
   },
   {
@@ -210,10 +209,6 @@ export const May2024: CalendarType = [
       { name: 'Jutrznia', slug: 'wniebowstapienie-nowenna-8-jutrznia' },
       { name: 'Nieszpory', slug: 'wniebowstapienie-nowenna-8-nieszpory' },
       { name: 'Litanie maryjne', slug: 'litanie-maryjne' },
-      {
-        name: 'Liturgia słowa',
-        slug: 'czytania/junii-i-andronika-apostolow-17-maja',
-      },
     ],
   },
   {
@@ -318,6 +313,7 @@ export const May2024: CalendarType = [
     ],
     notes: ['[HTML]Jana Nepomucena[HTML] prezb. i m.'],
   },
+
   {
     date: '2024-05-22',
     week: 2,
