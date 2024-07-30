@@ -27,6 +27,12 @@ export const August2024: CalendarType = [
     season: 'ordinary',
     passages: ['Wj 16, 2-4.12-15', 'Ps 78', 'Ef 4, 17.20-24', 'J 6, 24-35'],
     holidays: ['11. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/18-niedziela-w-ciagu-roku-rok-b',
+      },
+    ],
   },
   {
     date: '2024-08-05',
@@ -41,6 +47,12 @@ export const August2024: CalendarType = [
     season: 'ordinary',
     holidays: ['UROCZYSTOŚĆ PRZEMIENIENIA PAŃSKIEGO'],
     passages: ['Dn 7, 9-10.13-14', 'Ps 97', '2 P 1, 16-19', 'Mk 9, 2-10'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/przemienienie-panskie-6-sierpnia-rok-b',
+      },
+    ],
   },
   {
     date: '2024-08-07',
@@ -72,6 +84,12 @@ export const August2024: CalendarType = [
     season: 'ordinary',
     passages: ['Ha 1, 12-2, 4', 'Ps 9', 'Mt 17, 14-20'],
     notes: ['[HTML]Wawrzyńca[HTML] dk. m.'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/wawrzynca-10-sierpnia',
+      },
+    ],
   },
   {
     date: '2024-08-11',
@@ -82,6 +100,12 @@ export const August2024: CalendarType = [
     notes: [
       '[HTML]Klary[HTML] zak.',
       '[HTML]Johna Henry’ego Newmana[HTML] prezb. teo.',
+    ],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/19-niedziela-w-ciagu-roku-rok-b',
+      },
     ],
   },
   {
@@ -141,6 +165,10 @@ export const August2024: CalendarType = [
         name: 'nieszpory',
         slug: 'zasniecie-bogurodzicy-nieszpory',
       },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/zasniecie-bogurodzicy-15-sierpnia',
+      },
     ],
   },
   {
@@ -163,6 +191,12 @@ export const August2024: CalendarType = [
     season: 'ordinary',
     passages: ['Prz 9, 1-6', 'Ps 34', 'Ef 5, 15-20', 'J 6, 51-58'],
     holidays: ['13. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/20-niedziela-w-ciagu-roku-rok-b',
+      },
+    ],
   },
   {
     date: '2024-08-19',
@@ -205,6 +239,12 @@ export const August2024: CalendarType = [
     season: 'ordinary',
     holidays: ['BARTŁOMIEJA APOSTOŁA'],
     passages: ['Ap 21, 9-14', 'Ps 145', ' J 1, 45-51'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/bartlomieja-24-sierpnia',
+      },
+    ],
   },
   {
     date: '2024-08-25',
@@ -217,6 +257,12 @@ export const August2024: CalendarType = [
       'J 6, 54. 60-69',
     ],
     holidays: ['14. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/21-niedziela-w-ciagu-roku-rok-b',
+      },
+    ],
   },
   {
     date: '2024-08-26',
