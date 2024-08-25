@@ -6,6 +6,7 @@ import { May2024 } from './2024-05';
 import { June2024 } from './2024-06';
 import { July2024 } from './2024-07';
 import { August2024 } from './2024-08';
+import { September2024 } from './2024-09';
 
 export const Calendar2024 = [
   January2024,
@@ -16,4 +17,5 @@ export const Calendar2024 = [
   June2024,
   July2024,
   August2024,
+  September2024,
 ];
