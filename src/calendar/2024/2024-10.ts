@@ -124,7 +124,6 @@ export const October2024: CalendarType = [
     season: 'ordinary',
     holidays: ['ŁUKASZA EWANGELISTY'],
     passages: ['2 Tm 4, 10-17b', 'Ps 145', 'Łk 10, 1-9'],
-    isFastingDay: true,
   },
   {
     date: '2024-10-19',
@@ -169,6 +168,7 @@ export const October2024: CalendarType = [
     week: 2,
     season: 'ordinary',
     passages: ['Ef 4, 1-6', 'Ps 24', 'Łk 12, 54-59'],
+    isFastingDay: true,
   },
   {
     date: '2024-10-26',
