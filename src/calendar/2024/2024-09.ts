@@ -4,7 +4,7 @@ export const September2024: CalendarType = [
   {
     date: '2024-09-01',
     week: 1,
-    holidays: ['14. Niedziela po Pięćdziesiątnicy', 'FEBE dk.'],
+    holidays: ['14. Niedziela po Pięćdziesiątnicy'],
     season: 'ordinary',
     passages: [
       'Pwt 4, 1-2, 6-8',
