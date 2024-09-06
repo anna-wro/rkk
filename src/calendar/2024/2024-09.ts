@@ -13,6 +13,12 @@ export const September2024: CalendarType = [
       'Mk 7, 1-8, 14-15, 21-23',
     ],
     notes: ['[HTML]Rut[HTML] w.'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/22-niedziela-w-ciagu-roku-rok-b',
+      },
+    ],
   },
   {
     date: '2024-09-02',
@@ -57,7 +63,7 @@ export const September2024: CalendarType = [
     week: 2,
     season: 'ordinary',
     holidays: ['Narodzenie Bogurodzicy'],
-    passages: ['Mi 5, 1-4a', 'Rz 8, 28-30', 'Ps 13', 'Mt 1, 1-16.18-23'],
+    passages: ['Mi 5, 1-4a', 'Ps 13', 'Rz 8, 28-30', 'Mt 1, 1-16.18-23'],
     links: [
       {
         name: 'jutrznia',
@@ -132,6 +138,12 @@ export const September2024: CalendarType = [
     season: 'ordinary',
     passages: ['Iz 50, 4-9a', 'Ps 116', 'Jk 2, 14-18', 'Mk 8, 27-35'],
     notes: ['[HTML]Cypriana[HTML] bp. i m.'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/24-niedziela-w-ciagu-roku-rok-b',
+      },
+    ],
   },
   {
     date: '2024-09-16',
@@ -186,14 +198,24 @@ export const September2024: CalendarType = [
         name: 'nieszpory',
         slug: 'mateusza-nieszpory',
       },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/mateusza-apostola-i-ewangelisty',
+      },
     ],
   },
   {
     date: '2024-09-22',
     week: 2,
     season: 'ordinary',
-    holidays: ['18. Niedziela po Pięćdziesiątnicy'],
+    holidays: ['18. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: ['Mdr 2, 12, 17-20', 'Ps 54', 'Jk 3, 16-4, 3', 'Mk 9, 30-37'],
+    links: [
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/25-niedziela-w-ciagu-roku-rok-b',
+      },
+    ],
   },
   {
     date: '2024-09-23',
@@ -242,7 +264,7 @@ export const September2024: CalendarType = [
     week: 1,
     season: 'ordinary',
     holidays: ['Świętych Archaniołów i Aniołów Bożych'],
-    passages: ['Dn 7, 9-10, 13-14', 'Ap 12, 7-12a', 'Ps 138', 'J 1, 47-51'],
+    passages: ['Dn 7, 9-10, 13-14', 'Ps 138', 'Ap 12, 7-12a', 'J 1, 47-51'],
     links: [
       {
         name: 'jutrznia',
@@ -252,6 +274,10 @@ export const September2024: CalendarType = [
         name: 'nieszpory',
         slug: 'archaniolow-i-aniolow-nieszpory',
       },
+      {
+        name: 'Liturgia słowa',
+        slug: 'czytania/archaniolow-i-aniolow-bozych',
+      },
     ],
   },
   {
@@ -259,6 +285,6 @@ export const September2024: CalendarType = [
     week: 1,
     season: 'ordinary',
     passages: ['Hi 1, 6-22', 'Ps 17', 'Łk 9, 46-50'],
-    notes: ['[HTML]Hieronima[HTML] tłumacza Biblii'],
+    notes: ['[HTML]Hieronima[HTML] mn.', 'Dzień modlitwy za tłumaczy'],
   },
 ];
