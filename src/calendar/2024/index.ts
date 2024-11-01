@@ -21,5 +21,5 @@ export const Calendar2024 = [
   August2024,
   September2024,
   October2024,
-  November2024
+  November2024,
 ];
