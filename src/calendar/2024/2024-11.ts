@@ -33,7 +33,7 @@ export const November2024: CalendarType = [
     holidays: ['24. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
     passages: ['Mdr 6, 12-16', 'Ps 63', '1 Tes 4, 13-18', 'Mt 25, 1-13'],
   },
-    {
+  {
     date: '2023-11-06',
     week: 1,
     season: 'ordinary',
@@ -97,9 +97,8 @@ export const November2024: CalendarType = [
     season: 'ordinary',
     passages: ['Mdr 6, 12-16', 'Ps 63', '1 Tes 4, 13-18', 'Mt 25, 1-13'],
     notes: ['[HTML]Pierwszych pięciu męczenników polskich[HTML] mn. i misj.'],
-
   },
- {
+  {
     date: '2023-11-13',
     week: 2,
     season: 'ordinary',
