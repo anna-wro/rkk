@@ -104,7 +104,7 @@ export const November2024: CalendarType = [
     season: 'ordinary',
     passages: ['Mdr 1, 1-7', 'Ps 139', 'Łk 17, 1-6'],
   },
-   {
+  {
     date: '2024-11-14',
     week: 1,
     season: 'ordinary',
