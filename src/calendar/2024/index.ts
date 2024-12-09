@@ -10,6 +10,7 @@ import { September2024 } from './2024-09';
 import { October2024 } from './2024-10';
 import { November2024 } from './2024-11';
 import { December2024 } from './2024-12';
+import { January2025 } from './2025-01';
 
 export const Calendar2024 = [
   January2024,
@@ -24,4 +25,5 @@ export const Calendar2024 = [
   October2024,
   November2024,
   December2024,
+  January2025,
 ];
