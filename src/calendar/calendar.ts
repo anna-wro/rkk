@@ -16,7 +16,7 @@ export type CalendarDayType = Readonly<{
   linksTitle?: string;
   notes?: string[];
   isFastingDay?: boolean;
-  passages?: string[];
+  passages?: (string | string[])[];
   lauds?: {
     sigla?: string;
     passage?: string;
