@@ -6,7 +6,7 @@ export const January2025: CalendarType = [
     week: 1,
     season: 'christmas',
     holidays: ['NADANIE IMIENIA JEZUSOWI'],
-    passages: ['Iz 9, 1-3, 5-6', 'Ps 8', 'Flp 2, 1-11', 'Łk 2, 21-24'],
+    passages: ['Iz 9, 1-3.5-6', 'Ps 8', 'Flp 2, 1-11', 'Łk 2, 21-24'],
     links: [
       { name: 'jutrznia', slug: 'narodzenie-panskie-jutrznia' },
       { name: 'nieszpory', slug: 'narodzenie-panskie-nieszpory' },
@@ -52,7 +52,7 @@ export const January2025: CalendarType = [
     week: 1,
     season: 'christmas',
     holidays: ['EPIFANIA'],
-    passages: ['Iz 60, 1-6', 'Ps 72', 'Ef 3, 2-3a, 5-6', 'Mt 2, 1-12'],
+    passages: ['Iz 60, 1-6', 'Ps 72', 'Ef 3, 2-3a.5-6', 'Mt 2, 1-12'],
     links: [
       { name: 'jutrznia', slug: 'epifania-jutrznia' },
       { name: 'nieszpory', slug: 'epifania-nieszpory' },
@@ -68,7 +68,7 @@ export const January2025: CalendarType = [
     week: 1,
     season: 'christmas',
     holidays: ['OKTAWA EPIFANII'],
-    passages: ['1 J 3, 22-4, 6', 'Ps 2', 'Mt 4, 12-17, 23-25'],
+    passages: ['1 J 3, 22-4, 6', 'Ps 2', 'Mt 4, 12-17.23-25'],
     links: [
       { name: 'jutrznia', slug: 'epifania-jutrznia' },
       { name: 'nieszpory', slug: 'epifania-nieszpory' },
@@ -159,7 +159,7 @@ export const January2025: CalendarType = [
     season: 'christmas',
     holidays: ['EPIFANIA NAD JORDANEM'],
     notes: ['[HTML]Hilarego[HTML] bp. teo.'],
-    passages: ['Iz 42, 1-7', 'Ps 29', 'Dz 10, 34-38', 'Łk 3, 15-16, 21-22'],
+    passages: ['Iz 42, 1-7', 'Ps 29', 'Dz 10, 34-38', 'Łk 3, 15-16.21-22'],
     links: [
       { name: 'jutrznia', slug: 'epifania-jutrznia' },
       { name: 'nieszpory', slug: 'epifania-nieszpory' },
@@ -232,7 +232,7 @@ export const January2025: CalendarType = [
     date: '2025-01-22',
     week: 1,
     season: 'christmas',
-    passages: ['Hbr 7, 1-3, 15-17', 'Ps 110', 'Mk 3, 1-6'],
+    passages: ['Hbr 7, 1-3.15-17', 'Ps 110', 'Mk 3, 1-6'],
   },
   {
     date: '2025-01-23',
@@ -259,7 +259,7 @@ export const January2025: CalendarType = [
     season: 'christmas',
     holidays: ['3. NIEDZIELA PO EPIFANII'],
     passages: [
-      'Ne 8, 2-4a, 5-6, 8-10',
+      'Ne 8, 2-4a.5-6.8-10',
       'Ps 19',
       '1 Kor 12, 12-30',
       'Łk 1, 1-4; 4, 14-21',

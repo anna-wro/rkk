@@ -6,7 +6,7 @@ export const February2025: CalendarType = [
     week: 2,
     season: 'christmas',
     notes: ['[HTML]Brygidy z Kildare[HTML] mn.'],
-    passages: ['Hbr 11, 1-2, 8-19', 'Łk 1', 'Mk 4, 35-41'],
+    passages: ['Hbr 11, 1-2.8-19', 'Łk 1', 'Mk 4, 35-41'],
   },
   {
     date: '2025-02-02',
@@ -32,13 +32,13 @@ export const February2025: CalendarType = [
     date: '2025-02-05',
     week: 2,
     season: 'ordinary',
-    passages: ['Hbr 12, 4-7, 11-15', 'Ps 103', 'Mk 6, 1-6'],
+    passages: ['Hbr 12, 4-7.11-15', 'Ps 103', 'Mk 6, 1-6'],
   },
   {
     date: '2025-02-06',
     week: 2,
     season: 'ordinary',
-    passages: ['Hbr 12, 18-19, 21-24', 'Ps 48', 'Mk 6, 7-13'],
+    passages: ['Hbr 12, 18-19.21-24', 'Ps 48', 'Mk 6, 7-13'],
   },
   {
     date: '2025-02-07',
@@ -57,14 +57,14 @@ export const February2025: CalendarType = [
     week: 2,
     season: 'ordinary',
     notes: ['[HTML]Józefiny Bakhity[HTML] zak.'],
-    passages: ['Hbr 13, 15-17, 20-21', 'Ps 23', 'Mk 6, 30-34'],
+    passages: ['Hbr 13, 15-17.20-21', 'Ps 23', 'Mk 6, 30-34'],
   },
   {
     date: '2025-02-09',
     week: 1,
     season: 'ordinary',
     holidays: ['5. NIEDZIELA PO EPIFANII'],
-    passages: ['Iz 6, 1-2a, 3-8', 'Ps 138', '1 Kor 15, 1-11', 'Łk 5, 1-11'],
+    passages: ['Iz 6, 1-2a.3-8', 'Ps 138', '1 Kor 15, 1-11', 'Łk 5, 1-11'],
   },
   {
     date: '2025-02-10',

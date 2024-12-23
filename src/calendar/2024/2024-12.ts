@@ -209,7 +209,7 @@ export const December2024: CalendarType = [
     season: 'advent',
     holidays: ['WIGILIA NARODZENIA PAŃSKIEGO'],
     notes: ['[HTML]Adama i Ewy[HTML] prarodziców'],
-    passages: ['2 Sm 7, 1-5, 8b-12, 14a, 16', 'Ps 89', 'Łk 1, 67-79'],
+    passages: ['2 Sm 7, 1-5.8b-12.14a.16', 'Ps 89', 'Łk 1, 67-79'],
     links: [
       { name: 'wigilia - liturgia słowa', slug: 'narodzenie-panskie-wigilia' },
     ],
@@ -256,7 +256,7 @@ export const December2024: CalendarType = [
     week: 1,
     season: 'christmas',
     holidays: ['JANA'],
-    passages: ['1 J 1, 1-4', 'Ps 97', 'J 20, 1a, 2-8'],
+    passages: ['1 J 1, 1-4', 'Ps 97', 'J 20, 1a.2-8'],
     links: [
       { name: 'jutrznia', slug: 'narodzenie-panskie-jutrznia' },
       { name: 'nieszpory', slug: 'narodzenie-panskie-nieszpory' },
