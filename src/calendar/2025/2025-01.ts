@@ -44,7 +44,7 @@ export const January2025: CalendarType = [
     season: 'christmas',
     holidays: ['2. NIEDZIELA PO NARODZENIU PAŃSKIM'],
     notes: ['[HTML]Synkletyki[HTML] mn.'],
-    passages: ['Syr 24, 1-2, 8-12', 'Ps 147', 'Ef 1, 3-6, 15-18', 'J 1, 1-18'],
+    passages: ['1 J 3, 11-21', 'Ps 100', 'J 1, 43-51'],
     links: [{ name: 'wigilia - liturgia słowa', slug: 'epifania-wigilia' }],
   },
   {
@@ -251,7 +251,7 @@ export const January2025: CalendarType = [
     week: 1,
     season: 'christmas',
     holidays: ['NAWRÓCENIE ŚW. PAWŁA'],
-    passages: ['Dz 22, 3-16 albo Dz 9, 1-22', 'Ps 117', 'Mk 16, 15-18'],
+    passages: [['Dz 22, 3-16', 'Dz 9, 1-22'], 'Ps 117', 'Mk 16, 15-18'],
   },
   {
     date: '2025-01-26',
@@ -271,7 +271,7 @@ export const January2025: CalendarType = [
     season: 'christmas',
     holidays: ['TYMOTEUSZA I TYTUSA'],
     notes: ['[HTML]Jana Chryzostoma[HTML] bp.'],
-    passages: ['2 Tm 1, 1-8 albo Tt 1, 1-5', 'Ps 96', 'Łk 10, 1-9'],
+    passages: [['2 Tm 1, 1-8', 'Tt 1, 1-5'], 'Ps 96', 'Łk 10, 1-9'],
   },
   {
     date: '2025-01-28',

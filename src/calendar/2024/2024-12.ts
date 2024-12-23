@@ -22,7 +22,7 @@ export const December2024: CalendarType = [
     date: '2024-12-02',
     week: 1,
     season: 'advent',
-    passages: ['Iz 4, 2-6 albo Iz 2, 1-5', 'Ps 122', 'Mt 8, 5-11'],
+    passages: [['Iz 4, 2-6', 'Iz 2, 1-5'], 'Ps 122', 'Mt 8, 5-11'],
   },
   {
     date: '2024-12-03',
