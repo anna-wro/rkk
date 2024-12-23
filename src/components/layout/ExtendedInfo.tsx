@@ -60,11 +60,24 @@ export function ExtendedInfo({ data }: { data: CalendarDataType }) {
         <ul style={{ minWidth: 120 }}>
           {passages?.map((passage, index) => (
             <li key={index}>
-              <StyledLink
-                href={`https://wbiblii.pl/szukaj/${passage}`}
-                name={passage}
-                internal={false}
-              />
+              {Array.isArray(passage) ? (
+                passage.map((p, i) => (
+                  <span key={i}>
+                    <StyledLink
+                      href={`https://wbiblii.pl/szukaj/${p}`}
+                      name={p}
+                      internal={false}
+                    />
+                    {i < passage.length - 1 && ' albo '}
+                  </span>
+                ))
+              ) : (
+                <StyledLink
+                  href={`https://wbiblii.pl/szukaj/${passage}`}
+                  name={passage}
+                  internal={false}
+                />
+              )}
             </li>
           ))}
         </ul>

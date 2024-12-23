@@ -172,7 +172,7 @@ export const December2024: CalendarType = [
     date: '2024-12-21',
     week: 1,
     season: 'advent',
-    passages: ['Pnp 2, 8-14 albo So 3, 14-18a', 'Ps 33', 'Łk 1, 39-45'],
+    passages: [['Pnp 2, 8-14', 'So 3, 14-18a'], 'Ps 33', 'Łk 1, 39-45'],
     vespers: {
       antiphon:
         'O Wschodzie, / blasku Światła wiecznego i Słońce sprawiedliwości, / przyjdź i oświeć siedzących w mroku i cieniu śmierci.',
