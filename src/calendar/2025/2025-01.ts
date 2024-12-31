@@ -151,7 +151,7 @@ export const January2025: CalendarType = [
     season: 'christmas',
     holidays: ['NIEDZIELA W OKTAWIE EPIFANII'],
     notes: ['[HTML]Elreda z Rievaulx[HTML] mn.'],
-    passages: ['Iz 2, 1-5', 'Ps 98', 'Rz 10, 9-18', 'Mt 2, 13-23'],
+    passages: ['Iz 2, 1-5', 'Ps 98', 'Rz 10, 9-18', 'Mt 2, 13-15.19-23'],
   },
   {
     date: '2025-01-13',
