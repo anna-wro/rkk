@@ -19,21 +19,21 @@ export const January2025: CalendarType = [
   },
   {
     date: '2025-01-02',
-    week: 1,
+    week: 2,
     season: 'christmas',
     notes: ['[HTML]Bazylego Wielkiego[HTML] bp.'],
     passages: ['1 J 2, 22-28', 'Ps 98', 'J 1, 19-28'],
   },
   {
     date: '2025-01-03',
-    week: 1,
+    week: 2,
     season: 'christmas',
     notes: ['[HTML]Mariana Piątkowskiego[HTML] prezb.'],
     passages: ['1 J 2, 29-3, 6', 'Ps 98', 'J 1, 29-34'],
   },
   {
     date: '2025-01-04',
-    week: 1,
+    week: 2,
     season: 'christmas',
     notes: ['[HTML]Grzegorza z Langres[HTML] bp.'],
     passages: ['1 J 3, 7-10', 'Ps 98', 'J 1, 35-42'],
@@ -151,7 +151,7 @@ export const January2025: CalendarType = [
     season: 'christmas',
     holidays: ['NIEDZIELA W OKTAWIE EPIFANII'],
     notes: ['[HTML]Elreda z Rievaulx[HTML] mn.'],
-    passages: ['Iz 2, 1-5', 'Ps 98', 'Rz 10, 9-18', 'Mt 2, 13-23'],
+    passages: ['Iz 2, 1-5', 'Ps 98', 'Rz 10, 9-18', 'Mt 2, 13-15.19-23'],
   },
   {
     date: '2025-01-13',
