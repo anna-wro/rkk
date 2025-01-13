@@ -71,11 +71,7 @@ export const February2025: CalendarType = [
     week: 1,
     season: 'ordinary',
     holidays: ['SCHOLASTYKI'],
-    passages: [
-      'Tomek proszę',
-      'Ustal czytania na Scholastyki',
-      'Thanks from the mountain',
-    ],
+    passages: ['Pwt 6, 3-9', 'Ps 112', 'Ga 6, 14-16', 'Łk 12, 32-34'],
   },
   {
     date: '2025-02-11',
@@ -108,7 +104,7 @@ export const February2025: CalendarType = [
     week: 1,
     season: 'ordinary',
     holidays: ['FILEMONA I ONEZYMA'],
-    passages: ['Tomku', 'Daj', 'Czytania'],
+    passages: ['Iz 49, 1-6', 'Ps 19', 'Ef 2, 19-22', 'J 15, 9-17'],
   },
   {
     date: '2025-02-16',
@@ -153,7 +149,7 @@ export const February2025: CalendarType = [
     week: 2,
     season: 'ordinary',
     holidays: ['POLIKARPA'],
-    passages: ['Tomku', 'Tutaj też', 'Podaj'],
+    passages: ['Mdr 3, 1-9', 'Ps 126', 'Rz 8, 31b-39', 'Łk 9, 23-26'],
   },
   {
     date: '2025-02-23',

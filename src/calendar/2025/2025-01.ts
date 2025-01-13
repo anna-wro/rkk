@@ -44,7 +44,7 @@ export const January2025: CalendarType = [
     season: 'christmas',
     holidays: ['2. NIEDZIELA PO NARODZENIU PAŃSKIM'],
     notes: ['[HTML]Synkletyki[HTML] mn.'],
-    passages: ['1 J 3, 11-21', 'Ps 100', 'J 1, 43-51'],
+    passages: ['Syr 24, 1-2, 8-12', 'Ps 147', 'Ef 1, 3-6, 15-18', 'J 1, 1-18'],
     links: [{ name: 'wigilia - liturgia słowa', slug: 'epifania-wigilia' }],
   },
   {
