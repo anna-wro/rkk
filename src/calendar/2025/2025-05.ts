@@ -4,7 +4,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-01',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	holidays: ['FILIPA APOSTOŁA'],
 	passages: [
 		'Dz 1, 3-8',
@@ -16,7 +16,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-02',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	notes: [
 		'[HTML]Atanazego z Aleksandrii[HTML] bp. teo.',
 	],
@@ -29,7 +29,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-03',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	holidays: ['ŚWIĘTO POWSTANIA RKK'],
 	passages: [
 		'Iz 56, 1. 6-7',
@@ -41,7 +41,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-04',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	holidays: ['3. NIEDZIELA PASCHALNA'],
 	notes: [
 		'[HTML]Michała Giedroycia[HTML] zak.',
@@ -56,7 +56,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-05',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	notes: [
 		'[HTML]Pauli z Rzymu[HTML] w.',
 	],
@@ -69,7 +69,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-06',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	notes: [
 		'[HTML]Ewodiusza[HTML] bp.',
 	],
@@ -82,7 +82,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-07',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	passages: [
 		'Dz 8, 1b-8',
 		'Ps 66',
@@ -92,7 +92,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-08',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	notes: [
 		'[HTML]Julianny z Norwich[HTML] mis.',
 	],
@@ -105,7 +105,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-09',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	passages: [
 		'Dz 9, 1-20',
 		'Ps 117',
@@ -115,7 +115,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-10',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	notes: [
 		'[HTML]Józefa Padewskiego - Podeszwy[HTML] bp. m.',
 	],
@@ -128,7 +128,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-11',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	holidays: ['4. NIEDZIELA PASCHALNA'],
 	passages: [
 		'Dz 13, 14, 43-52',
@@ -140,7 +140,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-12',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	holidays: ['MARII, ŻONY KLEOFASA'],
 	passages: [
 		'Ap 19, 1. 5-9a',
@@ -152,7 +152,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-13',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	notes: [
 		'[HTML]Bede Griffithsa[HTML] mn.',
 	],
@@ -165,7 +165,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-14',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	holidays: ['MACIEJA APOSTOŁA'],
 	passages: [
 		'Dz 1, 15-17. 20-26',
@@ -176,7 +176,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-15',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	notes: [
 		'[HTML]Róży Marii Czackiej[HTML] zak.',
 	],
@@ -189,7 +189,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-16',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	passages: [
 		'Dz 13, 26-33',
 		'Ps 2',
@@ -199,7 +199,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-17',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	holidays: ['JUNII I ANDRONIKA APOSTOŁÓW'],
 	passages: [
 		'Iz 52, 7-10',
@@ -211,7 +211,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-18',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	holidays: ['5. NIEDZIELA PASCHALNA'],
 	passages: [
 		'Dz 14, 21-27',
@@ -223,7 +223,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-19',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	passages: [
 		'Dz 14, 5-18',
 		'Ps 115',
@@ -233,7 +233,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-20',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	holidays: ['ŚWIĘTO SYNODALNOŚCI KOŚCIOŁA'],
 	passages: [
 		'Iz 52, 7-10',
@@ -245,7 +245,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-21',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	passages: [
 		'Dz 15, 1-6',
 		'Ps 122',
@@ -255,7 +255,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-22',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	notes: [
 		'[HTML]Rity[HTML] zak. mis.',
 	],
@@ -268,7 +268,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-23',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	holidays: ['JOANNY, ŻONY CHUZY'],
 	passages: [
 		'Ap 21, 5-7',
@@ -280,7 +280,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-24',
 	week: 1,
-	season: 'pascha',
+	season: 'easter',
 	holidays: ['WINCENTEGO Z LERYNU'],
 	passages: [
 		'Syr 15, 1-6',
@@ -292,7 +292,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-25',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	holidays: ['6. NIEDZIELA PASCHALNA'],
 	passages: [
 		'Dz 15, 1-2, 22-29',
@@ -304,7 +304,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-26',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	notes: [
 		'[HTML]Kwadrata Apologety[HTML] bp.',
 		'[HTML]Augustyna z Canterbury[HTML] bp.',
@@ -319,7 +319,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-27',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	passages: [
 		'Dz 16, 22-34',
 		'Ps 138',
@@ -329,17 +329,20 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-28',
 	week: 2,
-	season: 'pascha',
+	season: 'easter',
 	passages: [
 		'Dz 17, 15, 22-18, 1',
 		'Ps 148',
 		'J 16, 12-15',
 	],
+	links: [
+		{ name: 'Wniebowstąpienie Pańskie - wigilia', slug: 'wniebowstapienie-panskie-wigilia' },
+	],
 },
 {
 	date: '2025-05-29',
 	week: 2,
-	season: 'pascha',
+	season: 'pentecost',
 	notes: [
 		'[HTML]Urszuli Ledóchowskiej[HTML] zak.',
 	],
@@ -353,7 +356,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-30',
 	week: 2,
-	season: 'pascha',
+	season: 'pentecost',
 	passages: [
 		'Dz 18, 9-18',
 		'Ps 47',
@@ -363,7 +366,7 @@ export const May2025: CalendarType = [
 {
 	date: '2025-05-31',
 	week: 2,
-	season: 'pascha',
+	season: 'pentecost',
 	holidays: ['SPOTKANIE MARII BOGURODZICY I ELŻBIETY'],
 	passages: [
 		['So 3, 14-18', 'Rz 12, 9-16b'],

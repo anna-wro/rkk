@@ -4,7 +4,7 @@ export const June2025: CalendarType = [
 {
 	date: '2025-06-01',
 	week: 1,
-	season: 'pascha',
+	season: 'pentecost',
 	holidays: ['7. NIEDZIELA PASCHALNA'],
 	notes: [
 		'[HTML]Justyna[HTML] m.',
@@ -19,7 +19,7 @@ export const June2025: CalendarType = [
 {
 	date: '2025-06-02',
 	week: 1,
-	season: 'pascha',
+	season: 'pentecost',
 	holidays: ['JORDANA Z POZNANIA'],
 	passages: [
 		'Iz 52, 7-10',
@@ -31,7 +31,7 @@ export const June2025: CalendarType = [
 {
 	date: '2025-06-03',
 	week: 1,
-	season: 'pascha',
+	season: 'pentecost',
 	passages: [
 		'Dz 20, 17-27',
 		'Ps 68',
@@ -41,7 +41,7 @@ export const June2025: CalendarType = [
 {
 	date: '2025-06-04',
 	week: 1,
-	season: 'pascha',
+	season: 'pentecost',
 	passages: [
 		'Dz 20, 28-38',
 		'Ps 68',
@@ -51,7 +51,7 @@ export const June2025: CalendarType = [
 {
 	date: '2025-06-05',
 	week: 1,
-	season: 'pascha',
+	season: 'pentecost',
 	notes: [
 		'[HTML]Bonifacego Winfryda bp. m.[HTML] bp. m.',
 	],
@@ -64,7 +64,7 @@ export const June2025: CalendarType = [
 {
 	date: '2025-06-06',
 	week: 1,
-	season: 'pascha',
+	season: 'pentecost',
 	notes: [
 		'[HTML]Marii Karłowskiej zak.[HTML] zak.',
 	],
@@ -77,7 +77,7 @@ export const June2025: CalendarType = [
 {
 	date: '2025-06-07',
 	week: 1,
-	season: 'pascha',
+	season: 'pentecost',
 	passages: [
 		'Dz 28, 16-20, 30-31',
 		'Ps 11',
