@@ -121,7 +121,12 @@ export const May2025: CalendarType = [
     week: 2,
     season: 'easter',
     holidays: ['JUNII I ANDRONIKA APOSTOŁÓW'],
-    passages: ['Iz 52, 7-10', 'Ps 96', '1 Kor 1, 18-25', 'Mt 28, 16-20'],
+    passages: [
+      'Iz 61, 1-3a',
+      'Ps 102 (101), 2-7. 13-14',
+      'Rz 16, 1-7',
+      'J 15, 1-8',
+    ],
   },
   {
     date: '2025-05-18',
@@ -175,6 +180,7 @@ export const May2025: CalendarType = [
     week: 2,
     season: 'easter',
     holidays: ['6. NIEDZIELA PASCHALNA'],
+    notes: ['[HTML]Bedy Czcigodnego[HTML] mn.'],
     passages: [
       'Dz 15, 1-2, 22-29',
       'Ps 67',
@@ -215,14 +221,23 @@ export const May2025: CalendarType = [
     date: '2025-05-29',
     week: 2,
     season: 'pentecost',
+    holidays: ['WNIEBOWSTĄPIENIE PAŃSKIE'],
     notes: ['[HTML]Urszuli Ledóchowskiej[HTML] zak.'],
     passages: ['Dz 1, 1-11', 'Ps 47', 'Ef 1, 17-23', 'Łk 24, 46-53'],
+    links: [
+      { name: 'jutrznia', slug: 'wniebowstapienie-panskie-jutrznia' },
+      { name: 'nieszpory', slug: 'wniebowstapienie-panskie-nieszpory' },
+    ],
   },
   {
     date: '2025-05-30',
     week: 2,
     season: 'pentecost',
     passages: ['Dz 18, 9-18', 'Ps 47', 'J 16, 20-23'],
+    links: [
+      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-1-jutrznia' },
+      { name: 'nieszpory', slug: 'wniebowstapienie-nowenna-1-nieszpory' },
+    ],
   },
   {
     date: '2025-05-31',
@@ -230,7 +245,8 @@ export const May2025: CalendarType = [
     season: 'pentecost',
     holidays: ['SPOTKANIE MARII BOGURODZICY I ELŻBIETY'],
     passages: [
-      ['So 3, 14-18', 'Rz 12, 9-16b'],
+      'So 3, 14-18',
+      'Rz 12, 9-16b',
       'Iz 12, 2-3. 4bcde. 5-6',
       'Łk 1, 39-56',
     ],

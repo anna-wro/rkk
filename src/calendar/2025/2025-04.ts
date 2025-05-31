@@ -315,7 +315,6 @@ export const April2025: CalendarType = [
     week: 2,
     season: 'easter',
     holidays: ['PIĄTEK PASCHALNY'],
-    notes: ['[HTML]Bedy Czcigodnego[HTML] mn.'],
     passages: ['Dz 4, 1-12', 'Ps 118', 'J 21, 1-14'],
     links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
