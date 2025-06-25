@@ -189,7 +189,7 @@ export const September2025: CalendarType = [
     week: 1,
     season: 'ordinary',
     notes: ['[HTML]Kosmy[HTML] m.', '[HTML]Damiana[HTML] m.'],
-    passages: ['Ag 1,15b - 2,9', 'Ps 43', 'Łk 9, 18-22'],
+    passages: ['Ag 1,15b–2,9', 'Ps 43', 'Łk 9, 18-22'],
   },
   {
     date: '2025-09-27',
