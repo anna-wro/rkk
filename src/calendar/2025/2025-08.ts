@@ -178,7 +178,7 @@ export const August2025: CalendarType = [
     week: 1,
     season: 'ordinary',
     holidays: ['BARTŁOMIEJA APOSTOŁA'],
-    passages: ['Iz 61, l-3a', 'Ps 126', 'Ap 21, 9-14', 'J 1, 45-51'],
+    passages: ['Iz 61, 1-3a', 'Ps 126', 'Ap 21, 9-14', 'J 1, 45-51'],
   },
   {
     date: '2025-08-25',
