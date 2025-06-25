@@ -19,7 +19,7 @@ export const July2025: CalendarType = [
     week: 1,
     season: 'ordinary',
     holidays: ['TOMASZA APOSTOŁA'],
-    passages: ['Ef 2, 19-22', 'Ps 117', 'J 20, 24-29'],
+    passages: ['Iz 52, 7-10', 'Ps 117', 'Ef 2, 19-22', 'J 20, 24-29'],
   },
   {
     date: '2025-07-04',
@@ -146,7 +146,12 @@ export const July2025: CalendarType = [
     week: 2,
     season: 'ordinary',
     holidays: ['ELIASZA I WSZYSTKICH PROROKÓW PIERWSZEGO PRZYMIERZA'],
-    passages: ['1 Krl 19, 16b. 19-21', 'Ps 16', 'Mt 16, 13-19'],
+    passages: [
+      '1 Krl 19, 16b. 19-21',
+      'Ps 16',
+      '2 Kor 4, 7-15',
+      'Mt 16, 13-19',
+    ],
   },
   {
     date: '2025-07-21',
@@ -217,7 +222,7 @@ export const July2025: CalendarType = [
     week: 1,
     season: 'ordinary',
     holidays: ['MARII, MARTY I ŁAZARZA Z BETANII'],
-    passages: ['Kol 3, 12-17', 'Ps 34', 'J 11, 32-45'],
+    passages: ['Syr 2, 7-11', 'Ps 112', 'Kol 3, 12-17', 'J 11, 32-45'],
   },
   {
     date: '2025-07-30',
