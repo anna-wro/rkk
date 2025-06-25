@@ -89,6 +89,7 @@ export const April2025: CalendarType = [
     date: '2025-04-13',
     week: 1,
     season: 'pascha',
+    holidays: ['NIEDZIELA PALMOWA'],
     passages: ['Iz 50, 4-7', 'Ps 22', 'Flp 2, 6-11', 'Łk 22, 14-23, 56'],
     links: [
       { name: 'jutrznia', slug: 'niedziela-palmowa-jutrznia' },

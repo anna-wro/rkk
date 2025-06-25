@@ -60,7 +60,7 @@ export const June2025: CalendarType = [
     date: '2025-06-06',
     week: 1,
     season: 'pentecost',
-    notes: ['[HTML]Marii Karłowskiej zak.[HTML] zak.'],
+    notes: ['[HTML]Marii Karłowskiej[HTML] zak.'],
     passages: ['Dz 25, 13b-21', 'Ps 103', 'J 21, 15-19'],
     links: [
       { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-8-jutrznia' },
@@ -71,9 +71,11 @@ export const June2025: CalendarType = [
     date: '2025-06-07',
     week: 1,
     season: 'pentecost',
-    holidays: ['WIGILIA PIĘĆDZIESIĄTNICY'],
     passages: ['Dz 28, 16-20, 30-31', 'Ps 11', 'J 21, 20-25'],
-    links: [{ name: 'jutrznia', slug: 'wniebowstapienie-nowenna-9-jutrznia' }],
+    links: [
+      { name: 'jutrznia', slug: 'wniebowstapienie-nowenna-9-jutrznia' },
+      { name: 'wigilia', slug: 'zeslanie-ducha-swietego-wigilia' },
+    ],
   },
   {
     date: '2025-06-08',
@@ -82,7 +84,6 @@ export const June2025: CalendarType = [
     holidays: ['PIĘĆDZIESIĄTNICA'],
     passages: ['Dz 2, 1-11', 'Ps 104', '1 Kor 12, 3b-7, 12-13', 'J 20, 19-23'],
     links: [
-      { name: 'wigilia', slug: 'zeslanie-ducha-swietego-wigilia' },
       { name: 'jutrznia', slug: 'zeslanie-ducha-swietego-jutrznia' },
       { name: 'nieszpory', slug: 'zeslanie-ducha-swietego-nieszpory' },
     ],

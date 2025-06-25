@@ -116,7 +116,7 @@ export const September2025: CalendarType = [
     date: '2025-09-17',
     week: 2,
     season: 'ordinary',
-    holidays: ['HILDEGARDY Z BINGENG'],
+    holidays: ['HILDEGARDY Z BINGEN'],
     passages: [
       '1 Krl 3, 11–14',
       'Ps 37 (36), 3–4. 5–6. 30–31',
@@ -189,7 +189,7 @@ export const September2025: CalendarType = [
     week: 1,
     season: 'ordinary',
     notes: ['[HTML]Kosmy[HTML] m.', '[HTML]Damiana[HTML] m.'],
-    passages: ['Ag 2, 1-9', 'Ps 43', 'Łk 9, 18-22'],
+    passages: ['Ag 1,15b–2,9', 'Ps 43', 'Łk 9, 18-22'],
   },
   {
     date: '2025-09-27',
@@ -210,7 +210,7 @@ export const September2025: CalendarType = [
     week: 2,
     season: 'ordinary',
     holidays: ['ŚWIĘTYCH ARCHANIOŁÓW I ANIOŁÓW BOŻYCH'],
-    passages: ['Dn 7, 9-10. 13-14 albo Ap 12, 7-12a', 'Ps 138', 'J 1, 47-51'],
+    passages: ['Dn 7, 9-10. 13-14', 'Ps 138', 'Ap 12, 7-12a', 'J 1, 47-51'],
   },
   {
     date: '2025-09-30',

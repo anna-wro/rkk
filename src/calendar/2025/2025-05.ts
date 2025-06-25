@@ -23,7 +23,7 @@ export const May2025: CalendarType = [
     passages: [
       'Iz 56, 1. 6-7',
       'Ps 84',
-      ['1 Kor 3, 9b-11. 16-17 albo 1 P 2, 4-9'],
+      ['1 Kor 3, 9b-11. 16-17', '1 P 2, 4-9'],
       'J 4, 19-24',
     ],
   },
