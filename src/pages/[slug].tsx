@@ -40,41 +40,15 @@ export const getStaticProps = async ({ params }) => {
 
   let source;
 
-  // Try custom prayers first, then current season, then fallback to any season
+  // Try custom prayers first, then current season
   try {
     source = fs.readFileSync(customPrayerFilePath);
   } catch {
     try {
       source = fs.readFileSync(seasonPrayerFilePath);
     } catch {
-      // If file doesn't exist in current season, try other seasons
-      // This handles cases where some prayers only exist in specific seasons
-      source = null;
-      for (const season of [
-        'ordinary',
-        'advent',
-        'lent',
-        'christmas',
-        'easter',
-        'pascha',
-        'pentecost',
-      ]) {
-        if (season === currentSeason) continue; // Already tried
-        const fallbackPath = path.join(
-          getPathForSeason(season),
-          `${params.slug}.mdx`,
-        );
-        try {
-          source = fs.readFileSync(fallbackPath);
-          break;
-        } catch {
-          continue;
-        }
-      }
-      if (!source) {
-        // This should not happen if getStaticPaths is correct, but handle it gracefully
-        return { notFound: true };
-      }
+      // If file doesn't exist in current season, return 404
+      return { notFound: true };
     }
   }
 
@@ -106,6 +80,6 @@ export const getStaticPaths = async () => {
 
   return {
     paths,
-    fallback: false,
+    fallback: 'blocking', // Allow runtime generation for paths not in build
   };
 };
