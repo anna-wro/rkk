@@ -3,6 +3,7 @@ import { Calendar2022 } from './2022';
 import { Calendar2023 } from './2023';
 import { Calendar2024 } from './2024';
 import { Calendar2025 } from './2025';
+import { Calendar2026 } from './2026';
 
 export type CalendarDayType = Readonly<{
   date: string;
@@ -53,4 +54,5 @@ export const calendar: CalendarType = [
   ...Calendar2023,
   ...Calendar2024,
   ...Calendar2025,
+  ...Calendar2026,
 ].flat();
