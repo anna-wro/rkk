@@ -11,6 +11,7 @@ function createCssClasses() {
     fontButton: `${button} ${primary}`,
     resetButton: `${button} ${warning} mb-20`,
     themeButton: `${button} ${primary}`,
+    clearCacheButton: `${button} bg-red-500 hover:bg-red-600 mb-6`,
   };
 }
 

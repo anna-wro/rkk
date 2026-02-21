@@ -13,6 +13,7 @@ import { OptionalContentControls } from './OptionalContentControls';
 import useOptionalContent from 'utils/useOptionalContent';
 import { useFlashMessage } from 'components/useFlashMessage';
 import { FlashMessage } from './FlashMessage';
+import ClearCacheControls from './ClearCacheControls';
 
 export default function SettingsPageFacade() {
   const { message, showFlashMessage } = useFlashMessage();
@@ -115,6 +116,9 @@ export default function SettingsPageFacade() {
           />
         </div>
         <ResetControls resetSettings={resetSettings} />
+        <ClearCacheControls
+          onCleared={() => showFlashMessage(copy.settings.cacheCleared)}
+        />
         <GoBackButton />
       </div>
     </div>
