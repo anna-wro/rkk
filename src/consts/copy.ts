@@ -40,6 +40,8 @@ export const copy = {
     displayExaminationOfConscience: 'Rachunek sumienia',
     preferencesSaved: ' Ustawienia zapisane',
     preferencesDefault: 'Przywrócono ustawienia domyślne',
+    clearCache: 'Wyczyść cache',
+    cacheCleared: 'Cache został wyczyszczony',
   },
 };
 
