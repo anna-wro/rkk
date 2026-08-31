@@ -1,15 +1,28 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import copy from 'consts/copy';
 import { styles } from './styles';
+
+const CACHE_CLEARED_FLAG = 'cacheClearedFlag';
 
 interface Props {
   onCleared?: () => void;
 }
 
 export const ClearCacheControls: React.FC<Props> = ({ onCleared }) => {
+  const onClearedRef = useRef(onCleared);
+
+  useEffect(() => {
+    if (
+      typeof window !== 'undefined' &&
+      sessionStorage.getItem(CACHE_CLEARED_FLAG)
+    ) {
+      sessionStorage.removeItem(CACHE_CLEARED_FLAG);
+      if (onClearedRef.current) onClearedRef.current();
+    }
+  }, []);
+
   const handleClearCache = () => {
     try {
-      // remove known app keys
       const keysToRemove = [
         'fontSize',
         'fontFamily',
@@ -17,19 +30,13 @@ export const ClearCacheControls: React.FC<Props> = ({ onCleared }) => {
         'optionalContent',
       ];
       keysToRemove.forEach(k => localStorage.removeItem(k));
-      // optionally, clear all localStorage entries related to the app prefix if used
-      // localStorage.clear(); // <-- avoid full clear to be less destructive
 
-      // Force a reload to fetch data again
-      // Use location.reload(true) is deprecated; use reload without cache by updating URL
-      // We'll reload normally which should re-run data fetching on start
       if (typeof window !== 'undefined') {
+        sessionStorage.setItem(CACHE_CLEARED_FLAG, '1');
         window.location.reload();
       }
     } catch (e) {
       /* Error clearing cache. Optionally, handle error reporting here. */
-    } finally {
-      if (onCleared) onCleared();
     }
   };
 
