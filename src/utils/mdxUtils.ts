@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { getCurrentSeason } from 'utils/date';
+import { ALL_SEASONS } from 'calendar/calendar';
 
 export const READINGS_PATH = path.join(process.cwd(), 'src/data/readings');
 
@@ -49,6 +50,26 @@ export const SEASON_PRAYERS_PATH = path.join(
 );
 
 export const CUSTOM_PRAYERS_PATH = path.join(process.cwd(), `src/data/custom`);
+
+// Get all unique prayer file names from all seasons
+export function getAllPrayerFilePaths() {
+  const allFilePaths = new Set<string>();
+
+  // Get files from all seasons
+  ALL_SEASONS.forEach(season => {
+    const seasonPath = getPathForSeason(season);
+    try {
+      const files = fs
+        .readdirSync(seasonPath)
+        .filter(path => /\.mdx?$/.test(path));
+      files.forEach(file => allFilePaths.add(file));
+    } catch (error) {
+      // Season directory might not exist, skip it
+    }
+  });
+
+  return Array.from(allFilePaths);
+}
 
 export const seasonPrayersFilePaths = fs
   .readdirSync(SEASON_PRAYERS_PATH)
