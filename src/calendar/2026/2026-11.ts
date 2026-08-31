@@ -197,6 +197,7 @@ export const November2026: CalendarType = [
     date: '2026-11-27',
     week: 2,
     season: 'ordinary',
+    notes: ['[HTML]Wandy Błeńskiej[HTML]'],
     passages: ['Ap 20, 1-4, 11-21, 2', 'Ps 84', 'Łk 21, 29-33'],
   },
   {

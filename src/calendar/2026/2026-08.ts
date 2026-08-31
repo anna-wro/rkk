@@ -122,6 +122,13 @@ export const August2026: CalendarType = [
     date: '2026-08-16',
     week: 2,
     season: 'ordinary',
+    holidays: ['12. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
+    passages: ['Iz 56, 1, 6-7', 'Ps 67', 'Rz 11, 13-15, 29-32', 'Mt 15, 21-28'],
+  },
+  {
+    date: '2026-08-17',
+    week: 2,
+    season: 'ordinary',
     holidays: ['ROGERA Z TAIZÉ'],
     passages: [
       'Iz 56, 1. 6–7',
@@ -131,15 +138,10 @@ export const August2026: CalendarType = [
     ],
   },
   {
-    date: '2026-08-17',
-    week: 2,
-    season: 'ordinary',
-    passages: ['Ez 24, 15-23', 'Pwt 32', 'Mt 19, 16-22'],
-  },
-  {
     date: '2026-08-18',
     week: 2,
     season: 'ordinary',
+    notes: ['[HTML]Felixa Marii Davídka[HTML] bp.'],
     passages: ['Ez 28, 1-10', 'Pwt 32', 'Mt 19, 23-30'],
   },
   {
@@ -226,6 +228,9 @@ export const August2026: CalendarType = [
     date: '2026-08-31',
     week: 2,
     season: 'ordinary',
-    passages: ['1 Kor 2, 1-5', 'Ps 119', 'Łk 4, 16-30'],
+    holidays: [
+      'RUT, NOEMI ORAZ WSZYSTKICH ŚWIĘTYCH KOBIET PIERWSZEGO PRZYMIERZA',
+    ],
+    passages: ['Rt 2, 1-12', 'Ps 19', 'Mk 3, 31-35'],
   },
 ];

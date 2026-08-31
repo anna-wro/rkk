@@ -5,10 +5,7 @@ export const September2026: CalendarType = [
     date: '2026-09-01',
     week: 2,
     season: 'ordinary',
-    holidays: [
-      'RUT, NOEMI ORAZ WSZYSTKICH ŚWIĘTYCH KOBIET PIERWSZEGO PRZYMIERZA',
-    ],
-    passages: ['Rt 2, 1-12', 'Ps 19', 'Mk 3, 31-35'],
+    passages: ['1 Kor 2, 10b-16', 'Ps 145', 'Łk 4, 31-37'],
   },
   {
     date: '2026-09-02',
@@ -45,8 +42,13 @@ export const September2026: CalendarType = [
     date: '2026-09-06',
     week: 1,
     season: 'ordinary',
-    holidays: ['15. NIEDZIELA PO PIĘĆDZIESIĄTNICY'],
-    passages: ['Ez 33, 7-9', 'Ps 95', 'Rz 13, 8-10', 'Mt 18, 15-20'],
+    holidays: ['STWORZENIA W CHRYSTUSIE'],
+    passages: [
+      'Rdz 2, 4-25',
+      'Ps 148, 1b-2. 11-12. 13-14c',
+      'Dz 17, 22a. 24-28',
+      'J 1, 1-4',
+    ],
   },
   {
     date: '2026-09-07',
@@ -130,6 +132,7 @@ export const September2026: CalendarType = [
     week: 2,
     season: 'ordinary',
     holidays: ['ELŻBIETY I ZACHARIASZA'],
+    notes: ['[HTML]Staisława Kostki[HTML]'],
     passages: [
       'Syr 2, 7–11',
       'Ps 112 (111), 1–2. 3–4. 5–6. 7 i 9',

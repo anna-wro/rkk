@@ -263,10 +263,18 @@ export const January2026: CalendarType = [
   },
   {
     date: '2026-01-18',
-    week: 1,
-    season: 'ordinary',
+    week: 2,
+    season: 'christmas',
     holidays: ['CUD W KANIE'],
     passages: ['Iz 62, 1-5', 'Ps 96', '1 Kor 12, 4-11', 'J 2, 1-12'],
+    vespers: {
+      antiphon:
+        'Kiedy zabrakło wina, * Jezus kazał napełnić stągwie wodą, / a ona stała się winem, / alleluja.',
+    },
+    lauds: {
+      antiphon:
+        'Pierwszy z cudownych znaków * uczynił Jezus w Kanie Galilejskiej. / Ukazał swą chwałę. / Jego uczniowie uwierzyli w Niego.',
+    },
   },
   {
     date: '2026-01-19',

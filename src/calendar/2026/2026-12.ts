@@ -208,7 +208,10 @@ export const December2026: CalendarType = [
     notes: ['[HTML]Adama i Ewy[HTML] prarodziców'],
     passages: ['2 Sm 7, 1-5.8b-12.14a.16', 'Ps 89', 'Łk 1, 67-79'],
     links: [
-      { name: 'wigilia - liturgia słowa', slug: 'narodzenie-panskie-wigilia' },
+      {
+        name: 'wigilia - liturgia słowa',
+        slug: 'narodzenie-panskie-wigilia',
+      },
     ],
   },
   {
@@ -352,7 +355,10 @@ export const December2026: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'narodzenie-panskie-jutrznia' },
       { name: 'nieszpory', slug: 'narodzenie-panskie-nieszpory' },
-      { name: 'liturgia słowa', slug: 'czytania/swietej-rodziny-rok-{letter}' },
+      {
+        name: 'liturgia słowa',
+        slug: 'czytania/swietej-rodziny-rok-{letter}',
+      },
     ],
     vespers: {
       sigla: 'Ga 4, 4-5',

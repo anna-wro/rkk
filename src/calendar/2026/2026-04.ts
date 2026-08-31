@@ -91,7 +91,10 @@ export const April2026: CalendarType = [
       'J 20, 1-9',
     ],
     links: [
-      { name: 'nieszpory Wielkiej Soboty', slug: 'wielka-sobota-nieszpory' },
+      {
+        name: 'nieszpory Wielkiej Soboty',
+        slug: 'wielka-sobota-nieszpory',
+      },
       { name: 'godzina czytań', slug: 'wielka-sobota-godzina-czytan' },
       { name: 'kompleta', slug: 'wielka-sobota-kompleta' },
       { name: 'jutrznia', slug: 'niedziela-zmartwychwstania-jutrznia' },
@@ -109,7 +112,10 @@ export const April2026: CalendarType = [
     links: [
       { name: 'jutrznia', slug: 'oktawa-paschalna-jutrznia' },
       { name: 'nieszpory', slug: 'oktawa-paschalna-nieszpory' },
-      { name: 'kompleta', slug: 'oktawa-paschalna-poniedzialek-kompleta' },
+      {
+        name: 'kompleta',
+        slug: 'oktawa-paschalna-poniedzialek-kompleta',
+      },
     ],
     vespers: {
       antiphon:

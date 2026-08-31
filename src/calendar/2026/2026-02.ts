@@ -99,7 +99,8 @@ export const February2026: CalendarType = [
     date: '2026-02-13',
     week: 1,
     season: 'ordinary',
-    passages: ['1 Krl 11, 29-32; 12, 19', 'Ps 81', 'Mk 7, 31-37'],
+    holidays: ['FILEMONA I ONEZYMA'],
+    passages: ['Iz 49, 1-6', 'Ps 19', 'Ef 2, 19-22', 'J 15, 9-17'],
   },
   {
     date: '2026-02-14',
@@ -112,8 +113,8 @@ export const February2026: CalendarType = [
     date: '2026-02-15',
     week: 2,
     season: 'ordinary',
-    holidays: ['FILEMONA I ONEZYMA'],
-    passages: ['Iz 49, 1-6', 'Ps 19', 'Ef 2, 19-22', 'J 15, 9-17'],
+    holidays: ['6. NIEDZIELA PO EPIFANII'],
+    passages: ['Syr 15, 15-20', 'Ps 119', '1 Kor 2, 6-10', 'Mt 5, 17-37'],
   },
   {
     date: '2026-02-16',

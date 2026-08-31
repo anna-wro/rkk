@@ -198,6 +198,7 @@ export const March2026: CalendarType = [
     date: '2026-03-28',
     week: 1,
     season: 'lent',
+    notes: ['[HTML]Jana Kaczkowskiego[HTML] prezb.'],
     passages: ['Ez 37, 21-28', 'Jr 31', 'J 11, 45-56'],
   },
   {
